@@ -1,0 +1,311 @@
+---
+permalink: help/reference_supported_workflows_in_clustered_data_ontap.html
+sidebar: sidebar
+keywords: 
+summary: 'You must be aware of the workflows that are supported when OnCommand Workflow Automation \(WFA\) is paired with different versions of the Unified Manager server.'
+---
+= Supported workflows in ONTAP
+:icons: font
+:imagesdir: ../media/
+
+You must be aware of the workflows that are supported when OnCommand Workflow Automation (WFA) is paired with different versions of the Unified Manager server.
+
+The following table lists the workflows that are supported for different Unified Manager server versions.
+
+|===
+| Workflow name| Supported in Unified Manager server 6.3 and higher| Supported in Unified Manager server 5.x
+a|
+Abort SnapMirror Relationship
+a|
+Yes
+a|
+No
+a|
+Add or expand capacity storage class to Infinite Volume
+a|
+Yes
+a|
+No
+a|
+Add or expand performance storage class to Infinite Volume
+a|
+Yes
+a|
+No
+a|
+Break SnapMirror Relationship
+a|
+Yes
+a|
+No
+a|
+CIFS/SMB Server Configuration
+a|
+Yes
+a|
+No
+a|
+Controller and shelf upgrade of an HA pair
+a|
+Yes
+a|
+YesSupported only for clusters running versions earlier than Data ONTAP 8.3.
+
+a|
+Create a basic Clustered Data ONTAP Volume
+a|
+Yes
+a|
+Yes
+a|
+Create a Clustered Data ONTAP NFS Volume
+a|
+Yes
+a|
+Yes
+a|
+Create a Clustered Data ONTAP Qtree CIFS Share
+a|
+Yes
+a|
+Yes
+a|
+Create a Clustered Data ONTAP Volume
+a|
+Yes
+a|
+Yes
+a|
+Create a Clustered Data ONTAP Volume CIFS Share
+a|
+Yes
+a|
+Yes
+a|
+Create a Clustered Data ONTAP Volume with QoS Policy Group
+a|
+Yes
+a|
+No
+a|
+Create a Cron Schedule
+a|
+Yes
+a|
+Yes
+a|
+Create and configure a Storage Virtual Machine with Infinite Volume
+a|
+Yes
+a|
+No
+a|
+Create and configure NAS Storage Virtual Machine
+a|
+Yes
+a|
+YesSupported only for clusters running versions earlier than Data ONTAP 8.3.
+
+a|
+Create and configure SAN Storage Virtual Machine
+a|
+Yes
+a|
+YesSupported only for clusters running versions earlier than Data ONTAP 8.3.
+
+a|
+Create Clustered Data ONTAP SnapMirror Relationship on 8.1.x
+a|
+Yes
+a|
+No
+a|
+Create Schedules and Policies
+a|
+Yes
+a|
+No
+a|
+Create SnapMirror Relationship
+a|
+Yes
+a|
+No
+a|
+Create Schedules and Policies
+a|
+Yes
+a|
+No
+a|
+Create SnapMirror then SnapMirror cascade
+a|
+Yes
+a|
+No
+a|
+Create SnapMirror then SnapVault cascade
+a|
+Yes
+a|
+No
+a|
+Create SnapVault Relationship
+a|
+Yes
+a|
+No
+a|
+Create SnapVault then SnapMirror cascade
+a|
+Yes
+a|
+No
+a|
+Create VMware NFS Datastore on Clustered Data ONTAP Storage
+a|
+Yes
+a|
+Yes
+a|
+Create, map, and protect Clustered Data ONTAP LUNs with SnapMirror Relationship
+a|
+Yes
+a|
+No
+a|
+Establish Cluster Peering
+a|
+Yes
+a|
+No
+a|
+Expand an Infinite Volume without storage classes
+a|
+Yes
+a|
+No
+a|
+Modify SnapMirror Relationship
+a|
+Yes
+a|
+No
+a|
+Move a Clustered Data ONTAP Volume
+a|
+Yes
+a|
+Yes
+a|
+Multiprotocol File Access
+a|
+Yes
+a|
+No
+a|
+Multiprotocol Server Configuration
+a|
+Yes
+a|
+No
+a|
+NFSv3 File Access
+a|
+Yes
+a|
+No
+a|
+NFSv3 Server Configuration
+a|
+Yes
+a|
+No
+a|
+Protect volume with SnapMirror Relationship
+a|
+Yes
+a|
+No
+a|
+Protect volume with SnapVault Relationship
+a|
+Yes
+a|
+No
+a|
+Quiesce SnapMirror Relationship
+a|
+Yes
+a|
+No
+a|
+Remove a Clustered Data ONTAP Volume
+a|
+Yes
+a|
+Yes
+a|
+Remove SnapMirror Relationship
+a|
+Yes
+a|
+No
+a|
+Resume SnapMirror Relationship
+a|
+Yes
+a|
+No
+a|
+Resync SnapMirror Relationship
+a|
+Yes
+a|
+No
+a|
+Reverse Resync SnapMirror Relationship
+a|
+Yes
+a|
+No
+a|
+Setup Data Protection for an Infinite Volume
+a|
+Yes
+a|
+No
+a|
+SMB File Access
+a|
+Yes
+a|
+No
+a|
+Storage Virtual Machine Peering
+a|
+Yes
+a|
+No
+a|
+Storage Virtual Machine Root Volume Promotion
+a|
+Yes
+a|
+No
+a|
+Storage Virtual Machine Root Volume Protection
+a|
+Yes
+a|
+No
+a|
+Transfer SnapMirror Relationship
+a|
+Yes
+a|
+No
+|===
+*Related information*
+
+http://mysupport.netapp.com/matrix[Interoperability Matrix Tool: mysupport.netapp.com/matrix]

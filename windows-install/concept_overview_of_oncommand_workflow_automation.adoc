@@ -1,0 +1,41 @@
+---
+permalink: windows-install/concept_overview_of_oncommand_workflow_automation.html
+sidebar: sidebar
+keywords: 
+summary: 'OnCommand Workflow Automation \(WFA\) is a software solution that helps to automate storage management tasks, such as provisioning, migration, decommissioning, data protection configurations, and cloning storage. You can use WFA to build workflows to complete tasks that are specified by your processes. WFA supports both ONTAP and Data ONTAP operating in 7-Mode.'
+---
+= Overview of OnCommand Workflow Automation
+:icons: font
+:imagesdir: ../media/
+
+OnCommand Workflow Automation (WFA) is a software solution that helps to automate storage management tasks, such as provisioning, migration, decommissioning, data protection configurations, and cloning storage. You can use WFA to build workflows to complete tasks that are specified by your processes. WFA supports both ONTAP and Data ONTAP operating in 7-Mode.
+
+A workflow is a repetitive and procedural task that consists of sequential steps, including the following types of tasks:
+
+* Provisioning, migrating, or decommissioning storage for databases or file systems
+* Setting up a new virtualization environment, including storage switches and datastores
+* Setting up storage for an application as part of an end-to-end orchestration process
+
+Storage architects can define workflows to follow best practices and meet organizational requirements, such as the following:
+
+* Using required naming conventions
+* Setting unique options for storage objects
+* Selecting resources
+* Integrating internal configuration management database (CMDB) and ticketing applications
+
+== WFA features
+
+* Designer portal to build workflows
++
+The designer portal includes several building blocks, such as commands, templates, finders, filters, and functions, that are used to create workflows. The designer enables you to include advanced capabilities to workflows such as automated resource selection, row repetition (looping), and approval points.
++
+The designer portal also includes building blocks, such as dictionary entries, cache queries, and data source types, for caching data from external systems.
+
+* Execution portal to execute workflows, verify status of workflow execution, and access logs
+* Administration/Settings option for tasks such as setting up WFA, connecting to data sources, and configuring user credentials
+* Web services interfaces to invoke workflows from external portals and data center orchestration software
+* Storage Automation Store to download WFA packs
+
+== WFA license information
+
+No license is required for using the OnCommand Workflow Automation server.

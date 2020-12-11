@@ -1,0 +1,56 @@
+---
+permalink: workflows/task_creating_a_cache_query.html
+sidebar: sidebar
+keywords: 
+summary: 'You can define a cache query when you want to cache information about a dictionary object in the WFA database from a data source type. You can create a cache query and associate it with a dictionary entry and one or more data source types, such as OnCommand Unified Manager 6.1.'
+---
+= Creating a cache query
+:icons: font
+:imagesdir: ../media/
+
+You can define a cache query when you want to cache information about a dictionary object in the WFA database from a data source type. You can create a cache query and associate it with a dictionary entry and one or more data source types, such as OnCommand Unified Manager 6.1.
+
+You must know the appropriate SQL syntaxes to create a cache query.
+
+. Click *Designer* > *Cache Queries*.
+. Click image:../media/new_wfa_icon.gif[New icon] on the toolbar.
+. In the Add Cache Query dialog box, select the required dictionary entry and data source type.
+. In the "`SQL select query`" section, enter the appropriate SQL query.
++
+The following SQL query caches information about the disk dictionary object from the OnCommand Unified Manager 6.1 data source type:
++
+----
+SELECT
+    disk.objId AS id,
+    disk.name AS NAME,
+    disk.uid AS uid,
+    disk.effectiveInterfaceType AS TYPE,
+    disk.rpm AS rpm,
+    disk.homeNodeId AS home_node_id,
+    disk.ownerNodeId AS owner_node_id,
+    disk.model AS model,
+    disk.serialNumber AS serial_number,
+    disk.totalBytes/1024/1024 AS size_mb,
+    disk.shelf AS shelf,
+    disk.shelfBay AS shelf_bay,
+    disk.pool AS pool,
+    disk.vendor AS vendor,
+    LOWER(disk.raidPosition) AS raid_position,
+    disk.containerTypeRaw AS container_type,
+    disk.clusterId AS cluster_id
+FROM
+    netapp_model_view.disk disk
+----
+
+. If you want to test the SQL query, click *Test*.
++
+If you have selected more than one data source type, the Test Cache Query dialog box opens and enables you to select the required data source type.
++
+The test result is displayed.
+
+. Close the dialog box.
+. Click *Save*.
+
+*Related information*
+
+xref:reference_references_to_learning_material.adoc[References to learning material]

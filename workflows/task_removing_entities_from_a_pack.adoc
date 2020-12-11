@@ -1,0 +1,42 @@
+---
+permalink: workflows/task_removing_entities_from_a_pack.html
+sidebar: sidebar
+keywords: OnCommand Workflow Automation
+summary: 'You can remove a pack from the entities in OnCommand Workflow Automation \(WFA\) and check in the updated pack to the Source Control Management \(SCM\) server.'
+---
+= Removing WFA workflow packs from entities
+:icons: font
+:imagesdir: ../media/
+
+You can remove a pack from the entities in OnCommand Workflow Automation (WFA) and check in the updated pack to the Source Control Management (SCM) server.
+
+The SCM must be set up and you must have admin or architect credentials.
+
+You can remove a pack from the following entities:
+
+* Workflow
+* Finders
+* Filters
+* Commands
+* Functions
+* Templates
+* Schemes
+* Dictionary
+* Data Sources Types
+* Remote System Types
+* Cache Queries
+* Categories
+
+. Log in to the WFA window through a web browser.
+. Click *Designer* > *<Entity>*.
+. Click the *Remove From Pack* icon.
+. In the Remove From Pack <Entity> dialog box, select the pack you want to delete from that entity.
+. Click *OK*.
+. Click the *Packs* tab.
+. Click the *Export To Server* icon.
+. In the Export To Server Folder dialog box, in the *Folder location at server system* field, enter the server folder location where the pack is saved in the server.
++
+This exports the pack in exploded form in the file system where the SCM client is created.
+
+. In the SCM client location, check in the pack content to the SCM server.
+. Use the SCM-provided diff tools to verify the changes against the SCM version of the pack.

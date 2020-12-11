@@ -1,0 +1,51 @@
+---
+permalink: workflows/concept_what_return_parameters_are.html
+sidebar: sidebar
+keywords: 
+summary: 'Return parameters are parameters that are available after the planning phase of a workflow. The values returned by these parameters are useful in debugging a workflow. You should understand how return parameters work and what parameters can be used as return parameters to debug workflows.'
+---
+= How return parameters work
+:icons: font
+:imagesdir: ../media/
+
+Return parameters are parameters that are available after the planning phase of a workflow. The values returned by these parameters are useful in debugging a workflow. You should understand how return parameters work and what parameters can be used as return parameters to debug workflows.
+
+You can designate a set of parameters, such as variable attributes, expressions, and user input values, in a workflow as return parameters. During workflow execution, the values of the designated parameters are populated in the planning phase and execution of the workflow starts. The values of these parameters are then returned the way they were calculated in that specific execution of the workflow. If you want to debug the workflow, you can refer to the values that were returned by the parameters.
+
+You can specify the required return parameters in a workflow when you want to see what are the calculated or selected values for those parameters. For example, when using resource selection logic to select an aggregate in a workflow, you can specify aggregate as the return parameter so that you can see which aggregate was selected during the planning of the workflow.
+
+Before referring to the values of the return parameters for debugging your workflow, you should confirm that the execution of the workflow is complete. The return parameter values are set for each workflow execution. If you have added a return parameter after several executions of a workflow, the value of that parameter is available only for executions after the addition of the parameter.
+
+== Parameters that can be used as return parameters
+
+|===
+| Return parameters| Example
+a|
+Variable attributes that are scalar
+a|
+volume1.name, which is an attribute of the "`volume name`" variable
+a|
+Constants
+a|
+MAX_VOLUME_SIZE
+a|
+User inputs
+a|
+$clusterName
+a|
+MVEL expressions that involve variable attributes, constants, and user inputs
+a|
+volume1.name+'-'+$clusterName
+a|
+The return parameter that a command adds during execution
+a|
+The $volumeUUID parameter is added as a return parameter when you use the following line in a PowerShell command: Add-WfaWorkflowParameter -Name "VolumeUUID" -Value "`12345`" -AddAsReturnParameter $true.
+|===
+
+== Examples of return parameters in predefined workflows
+
+If you want to understand how return parameters are specified, you can open the following predefined workflows in the Designer and review the specified return parameters:
+
+* Create an NFS Volume in a vFiler
+* Create a Qtree CIFS Share in a vFiler
+* Create a Clustered Data ONTAP Volume CIFS Share

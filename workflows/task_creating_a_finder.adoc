@@ -1,0 +1,39 @@
+---
+permalink: workflows/task_creating_a_finder.html
+sidebar: sidebar
+keywords: 
+summary: 'You can create a WFA finder that can search for resources if there is no predefined WFA finder that is suitable for searching the required resources.'
+---
+= Creating a finder
+:icons: font
+:imagesdir: ../media/
+
+You can create a WFA finder that can search for resources if there is no predefined WFA finder that is suitable for searching the required resources.
+
+You must have created the required filters that are used in the finder.
+
+. Click *Designer* > *Finders*.
+. Click image:../media/new_wfa_icon.gif[New icon] on the toolbar.
+. In the Properties tab of the New Finder dialog box, enter or select the required details in the *Name*, *Type*, and *Description* fields.
+. In the Filters tab, select the required filters from the *Available Filters* list and click image:../media/right_arrow_button.gif[Right arrow button].
++
+You can add or remove filters based on your requirement.
+
+. In the Returned Attributes tab, select the required attributes for the filter from the *Available* list and click image:../media/right_arrow_button.gif[Right arrow button].
+. Click *Test* to test the finder.
+ .. In the Test Finder <FinderName> dialog box, enter the required test parameters.
+ .. Clear the *Use reservation data in test* check box if you do not want to use the reservation data for testing the finder.
+ .. Click *Test*.
++
+The result of the test is displayed.
+
+ .. Close the dialog box.
+. Click *Save*.
+
+*Related information*
+
+xref:task_creating_a_filter.adoc[Creating a filter]
+
+xref:concept_what_filters_are.adoc[What filters are]
+
+xref:concept_what_finders_are.adoc[What finders are]

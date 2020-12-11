@@ -1,0 +1,22 @@
+---
+permalink: help/task_editing_a_scheme.html
+sidebar: sidebar
+keywords: 
+summary: 'You can edit the display name, description, and entity version of a scheme that you created.'
+---
+= Editing a scheme
+:icons: font
+:imagesdir: ../media/
+
+You can edit the display name, description, and entity version of a scheme that you created.
+
+* You must have installed WFA.
+* You must have administrator privileges or architect credentials for WFA.
+
+You cannot modify predefined schemes.
+
+. Log in to WFA through a web browser as an administrator or architect.
+. Click *Designer* > *Schemes*.
+. Select the scheme that you want to modify and then click image:../media/edit_wfa_icon.gif[Edit icon] on the toolbar.
+. Modify the required information in the Schemes <SchemeName> dialog box.
+. Click *Save*.

@@ -1,0 +1,41 @@
+---
+permalink: help/reference_new_template_dialog_box.html
+sidebar: sidebar
+keywords: 
+summary: 'The New Template dialog box enables you to create a new template.'
+---
+= New Template dialog box
+:icons: font
+:imagesdir: ../media/
+
+The New Template dialog box enables you to create a new template.
+
+* *Name*
++
+Enables you to enter a name for the template.
+
+* *Type*
++
+Enables you to select a dictionary object from the list.
+
+* *Entity Version*
++
+Enables you to enter the version number for the template in major.minor.revision format--for example, 1.0.0.
+
+* *Description*
++
+Enables you to enter a description for the template.
+
+* *Attributes*
++
+Displays the attributes for the selected dictionary object and enables you to enter a value for each attribute, such as enum and function.
+
+== Command buttons
+
+* *Save*
++
+Saves the template and closes the dialog box.
+
+* *Cancel*
++
+Does not save the template and closes the dialog box.

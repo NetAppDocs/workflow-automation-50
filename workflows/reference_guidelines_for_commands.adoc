@@ -1,0 +1,111 @@
+---
+permalink: workflows/reference_guidelines_for_commands.html
+sidebar: sidebar
+keywords: 
+summary: 'You must be aware of the guidelines for creating commands in OnCommand Workflow Automation \(WFA\).'
+---
+= Guidelines for commands
+:icons: font
+:imagesdir: ../media/
+
+You must be aware of the guidelines for creating commands in OnCommand Workflow Automation (WFA).
+
+|===
+| Guidelines| Example
+a|
+Use an easily identifiable name for commands.
+a|
+Create Qtree
+a|
+Use spaces to delimit words and each word must start with an uppercase character.
+a|
+Create Volume
+a|
+Provide a description to explain the functionality of the command, including the expected outcome of the optional parameters.
+a|
+None
+a|
+By default, the timeout for standard commands is 600 seconds. The default timeout is set while creating the command. Change the default value only if the command might take a longer time to complete.
+a|
+Create Volumecommand
+a|
+In case of long-running operations, create two commands--one to invoke the long-running operation and another to report the progress of the operation periodically. The first command should be a Standard Execution command type and the second should be Wait for Condition command type.
+a|
+Create VSM and Wait for VSM commands
+a|
+Prefix the Wait for condition command names with "`Wait`" for easy identification.
+a|
+Wait for CM Volume Move
+a|
+Use an appropriate waiting interval for the "`Wait for condition`" commands. The specified value governs the interval at which the polling command gets executed to check if the long-running operation is complete.
+a|
+60s sampling interval for the Wait for VSM command
+a|
+For the Wait for condition commands, use an appropriate timeout based on the expected time for the long-running operation to complete. The expected time might be considerably longer if the operation involves data transfer over a network.
+a|
+A VSM baseline transfer can take many days to complete. Therefore, the specified timeout is 6 days.
+|===
+
+== String representation
+
+The string representation for a command displays the details of a command in a workflow design during planning and execution. Only the command parameters can be used in the string representation for a command.
+
+|===
+| Guidelines| Example
+a|
+Avoid using attributes that do not have any value. An attribute without a value is displayed as NA.
+a|
+VolName 10.68.66.212[NA]aggr1/testVol7
+a|
+Separate different entries in the string representation using the following delimiters: [ ] , / :
+a|
+ArrayName[ArrayIp]
+a|
+Provide meaningful labels to every value in string representation.
+a|
+Volume name=VoumeName
+|===
+
+== Command definition language
+
+Commands can be written using the following supported scripting languages:
+
+* PowerShell
+* Perl
+
+== Command parameter definition
+
+The command parameters are described by Name, Description, Type, a default value for the parameter, and whether the parameter is mandatory. The parameter type can be String, Boolean, Integer, Long, Double, Enum, DateTime, Capacity, Array, Hashtable, Password, or an XmlDocument. While the values for most of the types are intuitive, the values for Array and Hashtable should be in a particular format as described in the following table:
+
+|===
+| Guidelines| Example
+a|
+Ensure that the value for an Array input type is a list of values, separated by comma.
+a|
+
+----
+[parameter(Mandatory=$false,
+HelpMessage="Months in which the schedule executes.")]
+[array]$CronMonths
+----
+
+Input is passed as following: 0,3,6,9
+
+a|
+Ensure that the value for a Hashtable input type is a list of key=value pairs, separated by semicolon.
+a|
+
+----
+[parameter(Mandatory=$false,
+HelpMessage="Volume names and size (in MB)")]
+[hashtable]$VolumeNamesAndSize
+----
+
+Input is passed as following: Volume1=100;Volume2=250;Volume3=50
+
+|===
+*Related information*
+
+xref:concept_how_you_map_command_parameters.adoc[How you map command parameters]
+
+xref:reference_references_to_learning_material.adoc[References to learning material]

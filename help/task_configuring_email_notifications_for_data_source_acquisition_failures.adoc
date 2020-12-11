@@ -1,0 +1,40 @@
+---
+permalink: help/task_configuring_email_notifications_for_data_source_acquisition_failures.html
+sidebar: sidebar
+keywords: 
+summary: 'You can control the notifications that are generated in OnCommand Workflow Automation \(WFA\) when a data source acquisition fails. You can configure the threshold and interval factor for the notifications.'
+---
+= Configuring email notifications for data source acquisition failures
+:icons: font
+:imagesdir: ../media/
+
+You can control the notifications that are generated in OnCommand Workflow Automation (WFA) when a data source acquisition fails. You can configure the threshold and interval factor for the notifications.
+
+You must have configured email notifications in OnCommand Workflow Automation (WFA).
+
+. Log in to WFA through a web browser as an administrator.
+. Configure the notification threshold:
+ .. Click *Settings*, and under *Setup* click *Workflow Settings*.
+ .. Scroll down to the *Advanced* section.
+ .. In the *Acquisition notification threshold* field, enter the required value.
++
+The default value is 2.
++
+If the value specified is 2, then WFA waits for two consecutive data source acquisition failures before sending an email notification.
+. Click *Save*.
+. Configure the notification interval factor:
+ .. Click *Settings*, and under *Setup* click *Data Sources*.
+ .. Note the interval specified for the required data source.
++
+The default value is 30. You can edit the data source to modify the interval time.
+
+ .. Click *Settings*, and under *Setup* click *Workflow Settings*.
+ .. Scroll down to the *Advanced* section.
+ .. In the *Acquisition notification interval factor* field, enter the required value.
++
+The default value is 6.
++
+If the interval specified for a data source is 30 minutes and the multiplication factor is 6, then an email notification is sent when data source acquisition for the data source does not occur for 180 minutes.
++
+NOTE: If you specify 12 hours or more as the acquisition interval for a data source, WFA considers the interval factor as 1 and sends a notification after the specified acquisition interval for the data source.
+. Click *Save*.

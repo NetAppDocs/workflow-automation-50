@@ -1,0 +1,19 @@
+---
+permalink: rhel-install/concept_wfa_data_sources.html
+sidebar: sidebar
+keywords: 
+summary: 'OnCommand Workflow Automation \(WFA\) operates on data that is acquired from data sources. Various versions of Active IQ Data Center Manager and VMware vCenter Server are provided as predefined WFA data source types. You must be aware of the predefined data source types before you set up the data sources for data acquisition.'
+---
+= OnCommand Workflow Automation data sources
+:icons: font
+:imagesdir: ../media/
+
+OnCommand Workflow Automation (WFA) operates on data that is acquired from data sources. Various versions of Active IQ Data Center Manager and VMware vCenter Server are provided as predefined WFA data source types. You must be aware of the predefined data source types before you set up the data sources for data acquisition.
+
+A data source is a read-only data structure that serves as a connection to the data source object of a specific data source type. For example, a data source can be a connection to an Active IQ Data Center Manager database of an Active IQ Data Center Manager 6.3 data source type. You can add a custom data source to WFA after defining the required data source type.
+
+For more information about the predefined data source types, see the Interoperability Matrix.
+
+*Related information*
+
+http://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool]

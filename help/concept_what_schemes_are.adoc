@@ -1,0 +1,43 @@
+---
+permalink: help/concept_what_schemes_are.html
+sidebar: sidebar
+keywords: 
+summary: 'A scheme represents the data model for a system. A data model is a collection of dictionary entries. You can define a scheme and then define a data source type. The data source defines how the data is acquired and the scheme is populated. For example, a vc scheme acquires data about your virtual environment, such as virtual machines, hosts, and datastores.'
+---
+= What schemes are
+:icons: font
+:imagesdir: ../media/
+
+A scheme represents the data model for a system. A data model is a collection of dictionary entries. You can define a scheme and then define a data source type. The data source defines how the data is acquired and the scheme is populated. For example, a vc scheme acquires data about your virtual environment, such as virtual machines, hosts, and datastores.
+
+Schemes can also be populated directly with data through workflows that are customized to solve specific problems.
+
+Dictionary entries are associated with an existing scheme when the dictionary entries are created. Dictionary entries are also associated with cache queries, and cache queries include SQL queries.
+
+Schemes can acquire data using either script based data source type or SQL data source type. The scripts are defined while creating the data source type and SQL queries are defined in the cache queries.
+
+The following schemes are included in WFA:
+
+* *7-Mode (storage)*
++
+Scheme to acquire data through OnCommand Unified Manager from Data ONTAP operating in 7-Mode.
+
+* *Clustered Data ONTAP (cm_storage)*
++
+Scheme to acquire data through OnCommand Unified Manager from clustered Data ONTAP.
+
+* *7-Mode Performance (performance)*
++
+Scheme to acquire performance data of Data ONTAP operating in 7-Mode through Performance Advisor.
+
+* *Clustered Data ONTAP Performance (cm_performance)*
++
+Scheme to acquire performance data of clustered Data ONTAP through Performance Advisor.
+
+* *VMware vCenter (vc)*
++
+Scheme to acquire data from VMware vCenter.
+
+* *Playground (playground)*
++
+Scheme that can you can directly populate with data.

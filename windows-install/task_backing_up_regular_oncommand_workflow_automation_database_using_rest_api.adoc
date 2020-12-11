@@ -1,0 +1,17 @@
+---
+permalink: windows-install/task_backing_up_regular_oncommand_workflow_automation_database_using_rest_api.html
+sidebar: sidebar
+keywords: OnCommand Workflow Automation
+summary: 'You can perform a regular backup of the OnCommand Workflow Automation \(WFA\) database by using the REST APIs. In a regular backup, only the WFA database is backed up.'
+---
+= Performing a regular backup of the WFA database using REST APIs
+:icons: font
+:imagesdir: ../media/
+
+You can perform a regular backup of the OnCommand Workflow Automation (WFA) database by using the REST APIs. In a regular backup, only the WFA database is backed up.
+
+You must have admin, architect, or backup credentials.
+
+. Enter the following URL in your web browser: https://IP address of the WFA server/rest/backups
++
+For more information, see the REST documentation.

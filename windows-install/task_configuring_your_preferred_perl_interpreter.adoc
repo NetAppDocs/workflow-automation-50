@@ -1,0 +1,26 @@
+---
+permalink: windows-install/task_configuring_your_preferred_perl_interpreter.html
+sidebar: sidebar
+keywords: 
+summary: 'By default, ActivePerl is installed with OnCommand Workflow Automation \(WFA\). If you want to use another Perl distribution, you can configure your preferred Perl distribution to work with WFA.'
+---
+= Configuring your preferred Perl distribution
+:icons: font
+:imagesdir: ../media/
+
+By default, ActivePerl is installed with OnCommand Workflow Automation (WFA). If you want to use another Perl distribution, you can configure your preferred Perl distribution to work with WFA.
+
+You must have installed the required Perl distribution on the WFA server.
+
+You must not uninstall or overwrite the default ActivePerl installation. You must install your preferred Perl distribution at a separate location.
+
+. Open Windows Explorer and navigate to the following directory: WFA_install_location\WFA\bin\
+. Double-click the ps.cmd file.
++
+A PowerShell command-line interface (CLI) prompt opens with ONTAP and WFA modules loaded in it.
+
+. At the prompt, enter the following: Set-WfaConfig -Name CustomPerl -PerlPath CustomPerlPath
++
+Set-WfaConfig -Name CustomPerl -PerlPath C:\myperl\perl.exe
+
+. When prompted, restart the WFA services.

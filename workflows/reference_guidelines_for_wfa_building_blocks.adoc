@@ -1,0 +1,11 @@
+---
+permalink: workflows/reference_guidelines_for_wfa_building_blocks.html
+sidebar: sidebar
+keywords: 
+summary: 'You must be aware of the guidelines for using Workflow Automation building blocks.'
+---
+= Guidelines for WFA building blocks
+:icons: font
+:imagesdir: ../media/
+
+You must be aware of the guidelines for using Workflow Automation building blocks.

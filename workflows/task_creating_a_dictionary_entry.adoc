@@ -1,0 +1,35 @@
+---
+permalink: workflows/task_creating_a_dictionary_entry.html
+sidebar: sidebar
+keywords: 
+summary: 'You can create a WFA dictionary entry when you want to define a new object type and its relationship in your storage environment.'
+---
+= Creating a dictionary entry
+:icons: font
+:imagesdir: ../media/
+
+You can create a WFA dictionary entry when you want to define a new object type and its relationship in your storage environment.
+
+. Click *Designer* > *Dictionary*.
+. Click image:../media/new_wfa_icon.gif[New icon] on the toolbar.
+. In the New Dictionary Entry dialog box, enter the required details in the *Name of object type* and the *Description* fields.
+. For the *Scheme* field, perform one of the following actions:
+ ** Select one of the available scheme from the list.
+ ** Click *Add New Scheme*, enter the required *Scheme Name* in the New Scheme dialog box, and then click *Add*.
+. Click *Add row*, and perform the following steps to describe the attribute:
+ .. Click the Name column and enter the name of the attribute.
+ .. From the Type column, select the required type.
++
+The String Length column is populated and is editable if you selected string as the type. Also, the Values column is editable if you selected *enum* as the type.
+
+ .. Select the appropriate check boxes for the attribute from the Natural Key, To be Cached, and Can be Null columns.
++
+If you have selected the *Natural Key* check box, you cannot select the *Can be Null* check box.
+
+ .. Add the required attributes for the dictionary object.
+ .. Select the *Values in natural key columns are case sensitive* check box if you want the natural keys to be case-sensitive.
+. Click *Save*.
+
+*Related information*
+
+xref:concept_what_dictionary_entries_are.adoc[What dictionary entries are]

@@ -1,0 +1,58 @@
+---
+permalink: workflows/concept_how_commands_work.html
+sidebar: sidebar
+keywords: 
+summary: 'OnCommand Workflow Automation commands are the execution blocks for workflows. You can use a command for each step in your workflow.'
+---
+= How commands work
+:icons: font
+:imagesdir: ../media/
+
+OnCommand Workflow Automation commands are the execution blocks for workflows. You can use a command for each step in your workflow.
+
+WFA commands are written using PowerShell and Perl scripts. PowerShell commands use the Data ONTAP PowerShell toolkit and VMware PowerCLI, if the package is installed. Perl commands use the Perl distribution and Perl modules installed on the WFA server. If you include multiple scripting languages in a command, such as PowerShell and Perl, the appropriate script is chosen by WFA based on the operating system on which it is installed and the preferred order of language you have specified in the WFA configuration menu.
+
+The scripts for the WFA commands include several parameters. These parameters might be mapped to dictionary entry attributes.
+
+Note that each WFA command can include several Data ONTAP commands.
+
+Some of the WFA commands are known as wait commands because they can wait for long-running operations and poll periodically--for example, the *Wait for multiple volume moves* command. The waiting interval at which the polling command is executed can be configured to check if the operation has been completed.
+
+A WFA command is initiated by WFA while the workflow is in its execution phase. WFA executes the commands serially, in left-to-right and top-to-bottom order. The planning of the workflow confirms the availability and validity of the parameters that are supplied to the command. The WFA server supplies all the parameters required for the commands before the commands are executed.
+
+Parameters to commands are finalized during workflow planning. The workflow then passes these parameters to the commands during execution time. The commands cannot pass parameters back to the workflow. However, if you want to exchange information that is obtained during execution time between commands in a workflow, you can use the designated WFA PowerShell cmdlets or Perl functions.
+
+WFA PowerShell commands do not use the -ErrorAction stop flag for the PowerShell cmdlets; therefore, workflow executions continue even when the cmdlets fail because of an error. If you want the -ErrorAction stop flag to be included in a specific command, you can clone the command and modify the PowerShell script to add the flag.
+
+The following are the PowerShell cmdlets and Perl functions that are included in WFA to enable exchange of information between commands:
+
+|===
+| PowerShell cmdlets| Perl functions
+a|
+Add-WfaWorkflowParameter
+a|
+addWfaWorkflowParameter
+a|
+Get-WfaWorkflowParameter
+a|
+getWfaWorkflowParameter
+|===
+Parameters added by the "`add`" cmdlets or functions to a command can be retrieved by a command that is executed subsequently and uses the "`get`" cmdlets or functions. For example, in a PowerShell WFA command, you can use the following in the code to add a parameter named volumeId: `Add-WfaWorkflowParameter -Name "VolumeUUID" -Value “12345” -AddAsReturnParameter $true`. Then, you can use the following in a subsequent command to retrieve the value of volumeId: `$volumeId = Get-WfaWorkflowParameter -Name volumeId`.
+
+WFA commands can query the WFA database and obtain the required result. This enables you to construct a command without using filters and finders. You can use the following functions to query the database:
+
+|===
+| PowerShell cmdlet| Perl function
+a|
+Invoke-MySqlQuery For example: Invoke-MySqlQuery -Query "SELECT cluster.name AS 'Cluster Name' FROM cm_storage.cluster"
+
+a|
+invokeMySqlQuery
+|===
+*Related information*
+
+xref:task_creating_a_filter.adoc[Creating a filter]
+
+xref:task_creating_a_finder.adoc[Creating a finder]
+
+xref:task_creating_a_command.adoc[Creating a command]

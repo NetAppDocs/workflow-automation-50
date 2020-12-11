@@ -1,0 +1,38 @@
+---
+permalink: workflows/reference_guidelines_for_wfa_functions.html
+sidebar: sidebar
+keywords: 
+summary: 'You can create functions to encapsulate commonly used and more complex logic in a named function, and then reuse the function as command parameter values or filter parameters values in OnCommand Workflow Automation \(WFA\).'
+---
+= Guidelines for WFA functions
+:icons: font
+:imagesdir: ../media/
+
+You can create functions to encapsulate commonly used and more complex logic in a named function, and then reuse the function as command parameter values or filter parameters values in OnCommand Workflow Automation (WFA).
+
+|===
+| Guidelines| Example
+a|
+Use Camel case for a function name.
+a|
+calculateVolumeSize
+a|
+Variable names should be in plain English and related to the functionality of the function.
+a|
+splitByDelimiter
+a|
+Do not use abbreviations.
+a|
+calculateVolumeSize, _not_ calcVolSize
+a|
+Functions are defined using MVFLEX Expression Language (MVEL).
+a|
+None
+a|
+The function definition should be specified according to the official Java Programming Language guidelines.
+a|
+None
+|===
+*Related information*
+
+xref:reference_references_to_learning_material.adoc[References to learning material]

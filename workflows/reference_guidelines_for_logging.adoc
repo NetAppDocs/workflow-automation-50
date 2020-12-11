@@ -1,0 +1,91 @@
+---
+permalink: workflows/reference_guidelines_for_logging.html
+sidebar: sidebar
+keywords: 
+summary: 'You must be aware of the guidelines for logging when writing a PowerShell or Perl script for OnCommand Workflow Automation \(WFA\).'
+---
+= Guidelines for logging
+:icons: font
+:imagesdir: ../media/
+
+You must be aware of the guidelines for logging when writing a PowerShell or Perl script for OnCommand Workflow Automation (WFA).
+
+== PowerShell logging
+
+|===
+| Guidelines| Example
+a|
+Use the Get-WFALogger cmdlet for logging.
+a|
+
+----
+Get-WFALogger -Info -message “Creating volume”
+----
+
+a|
+Log every action that requires interaction with internal packages such as Data ONTAP, VMware, and PowerCLI.All the log messages are available in Execution Logs in the execution status history of workflows.
+
+a|
+None
+a|
+Log every relevant argument that is passed to internal packages.
+a|
+None
+a|
+Use appropriate log levels when using the Get-WFALogger cmdlet, depending on the usage context. -Info, -Error, -Warn, and -Debug are the various available log levels. If a log level is not specified, then the default log level is Debug.
+
+a|
+None
+|===
+
+== Perl logging
+
+|===
+| Guidelines| Example
+a|
+Use the WFAUtil sendLog for logging.
+a|
+
+----
+my wfa_util = WFAUtil->new();
+eval {
+$wfa_util->sendLog('INFO', "Connecting to the
+cluster: $DestinationCluster");
+}
+----
+
+a|
+Log every action that requires interaction with anything external to the command such as Data ONTAP, VMware, and WFA. All the log messages that you create using the WFAUtil sendLog routine are stored in the WFA database. These log messages are available for the executed workflow and command.
+
+a|
+None
+a|
+Log every relevant argument passed to the routine that was called.
+a|
+None
+a|
+Use appropriate log levels.-Info, -Error, -Warn, and -Debug are the various available log levels.
+
+a|
+None
+a|
+When logging at the -Info level, be precise and concise. Do not specify implementation details such as class name and function name in log messages. Describe the exact step or the exact error in plain English.
+a|
+The following code snippet shows an example of a good message and a bad message:
+
+----
+$wfa_util->sendLog('WARN', "Removing volume:
+'.$VolumeName);
+# Good Message
+----
+
+----
+$wfa_util->sendLog('WARN', 'Invoking volume-
+destroy ZAPI: '.$VolumeName);
+# Bad message
+----
+
+|===
+*Related information*
+
+xref:reference_references_to_learning_material.adoc[References to learning material]

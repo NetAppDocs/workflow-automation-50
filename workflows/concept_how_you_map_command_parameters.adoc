@@ -1,0 +1,100 @@
+---
+permalink: workflows/concept_how_you_map_command_parameters.html
+sidebar: sidebar
+keywords: 
+summary: 'The parameters in Workflow Automation \(WFA\) commands are mapped to specific attributes and dictionary entry references based on certain rules. You must be aware of the rules to map command parameters when you create or edit a WFA command.'
+---
+= How you map command parameters
+:icons: font
+:imagesdir: ../media/
+
+The parameters in Workflow Automation (WFA) commands are mapped to specific attributes and dictionary entry references based on certain rules. You must be aware of the rules to map command parameters when you create or edit a WFA command.
+
+Command parameter mapping defines how command details are defined in the workflows. Mapped command parameters of a command are displayed in tabs when you are specifying the command details for commands in workflows. The tabs are named based on the group name specified in the Object Name column of the Parameters Mapping tab. The parameters that are not mapped are displayed in the Other Parameters tab when you are specifying the command details in workflows.
+
+The rules for command parameter mapping are applicable based on the command category and how the commands are represented in the workflow editor.
+
+The following are the command categories:
+
+* Commands that create objects
+* Commands that update objects
+* Commands that remove objects
+* Commands that deal with optional parent and child objects
+* Commands that update associations between objects
+
+The rules are listed below for each category:
+
+== All command categories
+
+When mapping a command parameter, you should use the natural path based on how the command is used in workflows.
+
+The following examples show how you can define a natural path:
+
+* For the ArrayIP parameter, depending on the command, you should use the aggregate.array.ip attribute of the Volume dictionary entry and not the array.ip attribute.
++
+This is important when a workflow creates a volume and then performs an additional step with the created volume by referring to it. The following are similar examples:
+
+ ** volume.aggregate.array.ip of the Qtree dictionary entry
+ ** volume.aggregate.array.ip of the LUN dictionary entry
+
+* For Cluster used in commands, you should use one of the following:
+ ** vserver.cluster.primary_address of the Volume dictionary entry
+ ** volume.vserver.cluster.primary_address of the Qtree dictionary entry
+
+== Commands that create objects
+
+This category of commands is used for one of the following:
+
+* Finding a parent object and defining new objects
+* Searching for an object and creating the object if the object does not exist
+
+You should use the following parameter mapping rules for this category of commands:
+
+* Map the relevant parameters of the object that is created to the object's dictionary entry.
+* Map the parent object through the references of the dictionary entry that is created.
+* Ensure that the relevant attribute is present in the dictionary entry when adding a new parameter.
++
+The following are the exception scenarios for this rule:
+
+ ** Some objects that are created do not have a corresponding dictionary entry and only the parent object is mapped to the relevant parent dictionary entry--for example, the *Create VIF* command--in which only an array can be mapped to array dictionary entry.
+ ** Parameter mapping is not required
++
+For example, the ExecutionTimeout parameter in the *Create or resize aggregate* command is an unmapped parameter.
+
+The following certified commands are examples for this category:
+
+* Create Volume
+* Create LUN
+
+== Commands that update objects
+
+This category of commands is used to find an object and update the attributes.
+
+You should use the following parameter mapping rules for this category of commands:
+
+* Map the objects that are updated to the dictionary entry.
+* Do not map the parameters that are updated for the object.
++
+For example, in the *Set Volume State* command, the Volume parameter is mapped but the new State is unmapped.
+
+== Commands that remove objects
+
+This category of commands is used to find an object and delete it.
+
+You should map the object that is deleted by the command to its dictionary entry. For example, in the *Remove Volume* command, the Volume to be deleted is mapped to the relevant attributes and references of the Volume dictionary entry.
+
+== Commands that deal with optional parent and child objects
+
+You should use the following parameter mapping rules for this category of commands:
+
+* Do not map any mandatory parameter of a command as a reference from an optional parameter of the command.
++
+This rule is more relevant when a command deals with optional child objects of a specific parent object. In this case, the child and parent object should be mapped explicitly. For example, in the *Stop Deduplication Jobs* command, the command stops a running deduplication job on a specific volume when specified along with Array or on all volumes of the given Array. In this case, the array parameter should be mapped directly to the array dictionary entry and not to Volume.Array because Volume is an optional parameter in this command.
+
+* If a parent and child relationship exists between dictionary entries at the logical level but not between the actual instances in a specific command, then those objects should be mapped separately.
++
+For example, in the *Move Volume* command, Volume is moved from its current parent aggregate to a new destination aggregate. Therefore, Volume parameters are mapped to a Volume dictionary entry and the destination aggregate parameters are mapped separately to the Aggregate dictionary entry but not as volume.aggregate.name.
+
+== Commands that update associations between objects
+
+For this category of commands, you should map both the association and the objects to relevant dictionary entries. For example, in the Add Volume to vFiler command, the Volume and vFiler parameters are mapped to the relevant attributes of the Volume and vFiler dictionary entries.

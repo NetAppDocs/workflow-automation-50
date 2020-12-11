@@ -1,0 +1,98 @@
+---
+permalink: help/reference_edit_variable_dialog_box.html
+sidebar: sidebar
+keywords: Workflow Automation
+summary: 'The Edit Variable: <UserInputName\> dialog box enables you to edit the user input attributes of a workflow.'
+---
+= Edit Variable dialog box
+:icons: font
+:imagesdir: ../media/
+
+The Edit Variable: <UserInputName> dialog box enables you to edit the user input attributes of a workflow.
+
+== Properties
+
+* *Variable Name*
++
+Enables you to edit the name of the user input. Renaming the user input updates all the references to the user input in the workflow.
+
+* *Display Name*
++
+Enables you to specify or edit the display name for the user input. You can specify a unique display name if you have created user input attributes with a similar name.
+
+* *Description*
++
+Enables you to specify or edit a description for the user input. The description appears as a tooltip when you execute or preview the workflow.
+
+* *Type*
++
+Enables you to select the type of user input. Fields or a link to a dialog box is displayed based on the selected options. Available options include the following:
+
+ ** String: Enables you to enter a regular expression for valid values in the RegEx field--for example, a*.
+ ** Number: Enables you to enter a numerical range in the Range field--for example, 1 to 15.
+ ** Enum: Enables you to enter a closed list of values in the Enum Values field.
+ ** Query: Enables you to enter a simple SQL query to obtain the result.
++
+Users can select only the values from the first column of the result.
+
+ ** Query (Multi-select): Enables you to enter an SQL query that obtains a list of values.
++
+Users can select a single value or multiple values while executing the workflow--for example, you can select a single volume, multiple volumes, or volumes with their shares and exports.
++
+You can select values from any column displayed in the result. Selecting a row selects the values from all the columns of the selected row.
+
+ ** Boolean: Enables you to display a check box in the User Inputs dialog box.
+ ** Table: Enables you to specify the column headers of the table that can be used to enter multiple values during the execution of the workflow--for example, a table that can be used to specify a list of node names and port names.
++
+You can also configure the type of column user input and the properties associated with the column user input. A dialog box is displayed based on the selected user input type. Available options include the following:
+
+  *** String: Enables you to enter a regular expression for valid values in the RegEx field--for example, a*.
+  *** Number: Enables you to enter a numerical range in the Range field--for example, 1 to 15.
+  *** Enum: Enables you to enter a closed list of values in the Enum Values field.
+  *** Query: Enables you to enter a simple SQL query to obtain the result.
++
+Users can select only the values from the first column of the result. A query within the column of the table user input cannot reference other user inputs within the query.
+
+  *** Boolean: Enables you to select "`true`" or "`false`" as the boolean value from the drop-down list.
+
+ ** Password: Enables you to encrypt a password that is provided as an input by the user.
++
+When encrypted, the password is displayed as a sequence of asterisk characters across the WFA application and in the log files.
+
+ ** Dictionary: Enables you to add the table data for the selected dictionary entry.
++
+The dictionary entry attribute selects the attribute that is to be returned. You can select a single value or multiple values while executing the workflow. For example, you can select a single volume, multiple volumes, or volumes with their shares and exports. By default, single values are selected. You can also select Rules for filtering. A rule consists of a dictionary entry attribute, an operator, and a value. The attribute can also include attributes of its references. For example, you can specify a rule for aggregates by listing all aggregates with name starting with the string "`aggr`" and have an available size greater than 5 GB. The first rule in the group is the attribute `name`, with the operator `starts-with`, and the value kaggr. The second rule for the same group is the attribute `available_size_mb`, with the operator `>` and the value 5000.
+
+* *Lock Values*
++
+Enables you to specify whether the user is allowed to input a value other than the query-returned values. Selecting the check box does not allow the user to provide a value; only the query-returned values can be selected. This option is used with the Enum and Query type options.
+
+* *Default Value*
++
+Enables you to set the default value of the user input.
+
+* *Mandatory*
++
+Enables you to specify whether user input is mandatory for the execution of the workflow.
+
+== Group
+
+* *Group Name*
++
+Enables you to group the related user input attributes together. The user input attributes are displayed in groups that you have defined when previewing or executing the workflow. For example, you can group the user input attributes related to Volume Details together.
+
+* *Expand group by default*
++
+Enables you to display all the user input attributes specified in a group as an expanded list. If the check box is not selected, the user input group appears collapsed.
+
+== Dependency
+
+Enables you to enable a user input based on the value entered for another user input. For example, in a workflow that configures the NAS protocol, you can specify the required user input for protocol as "`NFS`" to enable the "`read-write host lists`" user input or "`CIFS`" to enable "`CIFS ACL configuration`".
+
+* *Choose user input to depend on*
++
+Enables you to select the user input required to enable the user input displayed in the Variable Name field.
+
+* *Applicable values (comma separated)*
++
+Enables you to specify the value of the conditional user input that enables the user input displayed in the Variable Name field.

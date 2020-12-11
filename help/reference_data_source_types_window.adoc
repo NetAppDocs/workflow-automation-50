@@ -1,0 +1,134 @@
+---
+permalink: help/reference_data_source_types_window.html
+sidebar: sidebar
+keywords: 
+summary: 'The Data Source Types window displays the available data source types. You can manage the data source types from this window.'
+---
+= Data Source Types window
+:icons: font
+:imagesdir: ../media/
+
+The Data Source Types window displays the available data source types. You can manage the data source types from this window.
+
+A data source type is used to define a data source, which contains information about where the data in a specific database originates from and the method used to acquire data from the data source. For example, a data source can be either an OnCommand Unified Manager database that contains information about a storage environment or a VMware database with information about a data center.
+
+== Data Source Types table
+
+The Data Source Types table lists the available data source types. Each entry is identified as one of the following:
+
+* No icon - content created by users
+* image:../media/ps_certified_icon_wfa.gif[] - content developed by Professional Services (PS), which is available only on custom installations made by PS
+* image:../media/community_certification.gif[] - packs developed by users
+* image:../media/lock_icon_wfa.gif[] - content created by users that is locked
+* image:../media/netapp_certified.gif[] - NetApp-certified content
+
+You can customize the table display by using the filtering and sorting features available for each column, as well as by rearranging the column order.
+
+* image:../media/filter_icon_wfa.gif[Filter icon] enables or disables filtering for the entire table. A red "x" appears over the icon if filtering is disabled.
+* Double-clicking image:../media/filter_icon_wfa.gif[Filter icon] clears and resets the filtering selections.
+* image:../media/wfa_filter_icon.gif[Filter icon] on each column header enables you to filter based on the content of the columns. Clicking image:../media/wfa_filter_icon.gif[Filter icon] in a column allows you to filter on a specific item from the drop-down list or on all available items.
+* Clicking the column header toggles between ascending and descending order of sorting. You can identify the applied sort order by the sort arrows (image:../media/wfa_sortarrow_up_icon.gif[Sort up icon] for ascending and image:../media/wfa_sortarrow_down_icon.gif[Sort down icon] for descending).
+* To rearrange the location of columns, you can drag and drop columns to place them in any required order. However, you cannot hide or delete any of these columns.
+* Clicking the *Search* filter text box allows you to search for specific content. In addition, you can search using supported operators for the applicable column type, Alphabetic or Numeric.
+
+The Data Source Types table contains the following columns:
+
+* *Certification*
++
+Indicates whether the data source type is user-created (no icon, empty cell), PS (image:../media/ps_certified_icon_wfa.gif[]), community (image:../media/community_certification.gif[]), user-locked (image:../media/lock_icon_wfa.gif[]), or NetApp-certified (image:../media/netapp_certified.gif[]).
+
+* *Data Source*
++
+Displays the name of the data source type.
+
+* *Scheme*
++
+Displays the scheme associated with the data source type. A scheme represents the data model for a system. For example, a vc scheme contains data relevant to your virtual environment, such as virtual machines, hosts, and datastores.
++
+The following are the default schemes that are selected by default:
+
+ ** cm_performance
+ ** cm_storage
+ ** performance
+ ** storage
+ ** vc
+
+* *Entity Version*
++
+Displays the version number of the object in major.minor.revision format--for example, 1.0.0.
+
+* *OS Compatibility*
++
+Indicates whether the data source type is compatible with the host operating system.
+
+* *Last Updated On*
++
+Displays the date and time when the data source type was last updated.
+
+* *Updated By*
++
+Displays the user who updated the data source type.
+
+* *Data Source Version*
++
+Displays the version of the data source that is associated with the data source type.
+
+* *Data Source Driver*
++
+Displays the driver type that is used to acquire data from the data source.
+
+* *Method*
++
+Displays the method that is used to acquire data from the data source, such as SQL and script.
+
+* *Script Language*
++
+Displays the scripting language that is used by the data source type.
+
+== Toolbar
+
+The toolbar is located above the column header. You can use the icons in the toolbar to perform various actions. These actions can also be accessed from the right-click menu in the window.
+
+* *image:../media/new_wfa_icon.gif[New icon] (New)*
++
+Opens the New Data Source Type window, which enables you to create a new data source type.
+
+* *image:../media/edit_wfa_icon.gif[Edit icon] (Edit)*
++
+Opens the Data Source Type <EntryName> window for the selected data source type, which enables you to edit the data source type.
+
+* *image:../media/clone_wfa_icon.gif[Clone icon] (Clone)*
++
+Opens the New Data Source Type <EntryName> window, which enables you to create a copy of the selected data source type.
+
+* *image:../media/lock_wfa_icon.gif[Lock icon] (Lock)*
++
+Opens the Lock the Data Source Type confirmation dialog box, which enables you to lock the selected user-created source data type.
+
+* *image:../media/unlock_wfa_icon.gif[Unlock icon] (Unlock)*
++
+Opens the Unlock the Data Source Type confirmation dialog box, which enables you to unlock the selected data source type. This option is enabled only for the data source types that you locked. Administrators can unlock data source types that are locked by other users.
+
+* *image:../media/delete_wfa_icon.gif[Delete icon] (Delete)*
++
+Opens the Delete Data Source Type confirmation dialog box, which enables you to delete the selected user-created data source type.
++
+NOTE: You cannot delete a WFA or PS data source type.
+
+* *image:../media/export_wfa_icon.gif[Export icon] (Export)*
++
+Enables you to export the selected user-created data source type.
++
+NOTE: You cannot export a WFA or PS data source type.
+
+* *image:../media/add_to_pack.png[add to pack icon] (Add To Pack)*
++
+Opens the Add To Pack Data Source Type dialog box, which enables you to add the data source type and its dependable entities to a pack, which is editable.
++
+NOTE: The Add To Pack feature is enabled only for data source types for which the certification is set to None.
+
+* *image:../media/remove_from_pack.png[remove from pack icon] (Remove From Pack)*
++
+Opens the Remove From Pack Data Source dialog box for the selected data source type, which enables you to delete or remove the data source type from the pack.
++
+NOTE: The Remove From Pack feature is enabled only for data sources types for which the certification is set to None.

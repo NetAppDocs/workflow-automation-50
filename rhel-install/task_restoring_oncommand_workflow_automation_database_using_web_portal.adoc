@@ -1,0 +1,34 @@
+---
+permalink: rhel-install/task_restoring_oncommand_workflow_automation_database_using_web_portal.html
+sidebar: sidebar
+keywords: OnCommand Workflow Automation
+summary: 'You can restore the OnCommand Workflow Automation \(WFA\) database that you backed up previously.'
+---
+= Restoring the WFA database
+:icons: font
+:imagesdir: ../media/
+
+You can restore the OnCommand Workflow Automation (WFA) database that you backed up previously.
+
+* You must have created a backup of the WFA database.
+* You must have admin or architect credentials.
+* Restoring a WFA database erases the current database.
+* You can restore a WFA database backup only to a system running the same or a later version of OnCommand Workflow Automation.
++
+For example, if you created a backup on a system running OnCommand Workflow Automation 4.2, the backup can be restored only to systems running OnCommand Workflow Automation 4.2 or later.
+
+. Log in to the WFA web GUI as an admin.
+. Click *Settings* and under *Maintenance*, click *Backup & Restore*.
+. Click *Choose file*.
+. In the dialog box that opens, select the WFA backup file, and click *Open*.
+. Click *Restore*.
+
+You can review the restored content for completeness in functionality--for example, the functioning of your custom workflows.
+
+*Related information*
+
+xref:reference_backing_up_of_the_oncommand_workflow_automation_database.adoc[Backing up the OnCommand Workflow Automation database]
+
+xref:task_migrating_the_oncommand_workflow_automation_installation_linux.adoc[Migrating the OnCommand Workflow Automation installation]
+
+xref:task_modifying_the_transaction_timeout_setting_of_oncommand_workflow_automation_linux.adoc[Modifying the transaction timeout setting of OnCommand Workflow Automation]

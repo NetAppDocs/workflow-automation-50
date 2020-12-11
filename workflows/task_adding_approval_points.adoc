@@ -1,0 +1,21 @@
+---
+permalink: workflows/task_adding_approval_points.html
+sidebar: sidebar
+keywords: 
+summary: 'You can add an approval point as a checkpoint in a workflow to pause the workflow execution and resume it based on your approval. You can use approval points for incremental execution of a workflow, where sections of the workflow are executed only after a certain condition is met—for example, when the next section has to be approved or when successful execution of the first section is validated.'
+---
+= Adding approval points
+:icons: font
+:imagesdir: ../media/
+
+You can add an approval point as a checkpoint in a workflow to pause the workflow execution and resume it based on your approval. You can use approval points for incremental execution of a workflow, where sections of the workflow are executed only after a certain condition is met--for example, when the next section has to be approved or when successful execution of the first section is validated.
+
+. Log in to WFA through a web browser as an architect or an admin.
+. Click *Designer* > *Workflows*.
+. In the Workflows window, double-click the workflow that you want to modify.
+. In the Workflow <workflow name> window, click the image:../media/approval_point_disabled.gif[Image for approval point] icon to the left of the step for which you want to add the approval point.
++
+You can add approval points for one or more steps.
+
+. In the New Approval Point dialog box, provide the comment and condition details.
+. Click *OK*.

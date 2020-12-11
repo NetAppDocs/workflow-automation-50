@@ -1,0 +1,28 @@
+---
+permalink: windows-install/task_upgrading_active_state_perl_on_windows.html
+sidebar: sidebar
+keywords: OnCommand Workflow Automation
+summary: 'OnCommand Workflow Automation \(WFA\) works with the Enterprise edition of ActiveState Perl on Windows. You can upgrade to a newer version of ActiveState Perl to get fixes for security vulnerabilities on the Windows server.'
+---
+= Upgrading ActiveState Perl
+:icons: font
+:imagesdir: ../media/
+
+OnCommand Workflow Automation (WFA) works with the Enterprise edition of ActiveState Perl on Windows. You can upgrade to a newer version of ActiveState Perl to get fixes for security vulnerabilities on the Windows server.
+
+You must have Windows admin privileges on the WFA server. ActiveState Perl does not support "`in-place`" upgrades.
+
+WFA 5.0 uses the Enterprise edition of ActiveState Perl.
+
+You can upgrade from ActiveState Perl 5.16.3 build 1603.14 to later builds. You cannot upgrade to a major release of ActiveState Perl.
+
+. Log in as the admin user on the WFA host machine.
+. Download the latest version of 64-bit ActiveState Enterprise Edition 5.16.3 to the target system.
+. Use the Windows Services console to stop the following WFA services:
+ ** WFA Database or MYSQL57
+ ** WFA Server
+. Uninstall the current version of ActiveState Perl on the target system from the control panel.
+. Perform a backup of the C:\Perl64\site\lib folder.
+. Install the new ActiveState Enterprise Edition on the target machine.
+. Restore the \site\lib folder of ActiveState Enterprise Edition whose backup you created in step 5.
+. Restart the WFA services by using the Windows Services console.

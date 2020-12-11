@@ -1,0 +1,48 @@
+---
+permalink: windows-install/task_migrating_oncommand_workflow_automation.html
+sidebar: sidebar
+keywords: 
+summary: 'You can migrate an OnCommand Workflow Automation \(WFA\) installation to maintain the unique WFA database key that is installed during the WFA installation. For example, you can migrate the WFA installation from a Windows 2008 server to a Windows 2012 server.'
+---
+= Migrating the OnCommand Workflow Automation installation
+:icons: font
+:imagesdir: ../media/
+
+You can migrate an OnCommand Workflow Automation (WFA) installation to maintain the unique WFA database key that is installed during the WFA installation. For example, you can migrate the WFA installation from a Windows 2008 server to a Windows 2012 server.
+
+* You must perform this procedure only when you want to migrate a WFA installation that includes the WFA database key to a different server.
+* A WFA database restore does not migrate the WFA key.
+* Migrating a WFA installation does not migrate the SSL certificates.
+* The default WFA installation path is used in this procedure.
++
+If you changed the default location during installation, you must use the changed WFA installation path.
+
+. Access WFA through a web browser as an admin.
+. Back up the WFA database.
+. Open a command prompt on the WFA server and change directories to the following location: c:\Program Files\NetApp\WFA\bin
+. Enter the following at the command prompt to obtain the database key: wfa.cmd -key
+. Note the database key that is displayed.
+. Uninstall WFA.
+. Install WFA on the required system.
+. Open the command prompt on the new WFA server and change directories to the following location: c:\Program Files\NetApp\WFA\bin
+. Enter the following at the command prompt to install the database key: wfa.cmd -key=yourdatabasekey
++
+yourdatabasekey is the key that you noted from the previous WFA installation.
+
+. Restore the WFA database from the backup that you created.
+
+*Related information*
+
+xref:reference_backing_up_of_the_oncommand_workflow_automation_database.adoc[Backing up the OnCommand Workflow Automation database]
+
+xref:task_backing_up_oncommand_workflow_automation_database_using_the_web_portal.adoc[Backing up the WFA database from the web portal]
+
+xref:task_backing_up_oncommand_workflow_automation_using_powershell_script.adoc[Backing up the WFA database using the PowerShell script]
+
+xref:task_uninstalling_oncommand_workflow_automation.adoc[Uninstalling OnCommand Workflow Automation]
+
+xref:task_installing_workflow_automation_on_windows.adoc[Installing OnCommand Workflow Automation on Windows]
+
+xref:concept_restoring_the_wfa_database.adoc[Restoring the OnCommand Workflow Automation database]
+
+xref:task_importing_oncommand_workflow_automation_content.adoc[Importing OnCommand Workflow Automation content]
