@@ -8,6 +8,7 @@ summary: 'The Data Source Types window displays the available data source types.
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Data Source Types window displays the available data source types. You can manage the data source types from this window.
 
 A data source type is used to define a data source, which contains information about where the data in a specific database originates from and the method used to acquire data from the data source. For example, a data source can be either an OnCommand Unified Manager database that contains information about a storage environment or a VMware database with information about a data center.

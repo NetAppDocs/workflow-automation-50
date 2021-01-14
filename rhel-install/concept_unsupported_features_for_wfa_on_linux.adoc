@@ -8,6 +8,7 @@ summary: 'OnCommand Workflow Automation \(WFA\) 5.0 includes some limitations an
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 OnCommand Workflow Automation (WFA) 5.0 includes some limitations and unsupported features that you should be aware of before you install and configure WFA.
 
 * *LDAP authentication*

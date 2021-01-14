@@ -8,6 +8,7 @@ summary: 'The New Finder dialog box enables you to create new finders.'
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The New Finder dialog box enables you to create new finders.
 
 * <<GUID-D6561A31-8337-48C7-B20C-A3F542E78D8F,Properties tab>>

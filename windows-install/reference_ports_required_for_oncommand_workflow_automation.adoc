@@ -8,6 +8,7 @@ summary: 'If you are using a firewall, you must be aware of the required ports f
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 If you are using a firewall, you must be aware of the required ports for Workflow Automation (WFA).
 
 The default port numbers are listed in this section. If you want to use a non-default port number, you must open that port for communication. For more details, see the documentation on your firewall.

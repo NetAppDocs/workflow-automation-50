@@ -8,6 +8,7 @@ summary: 'You can add a new remote system type to OnCommand Workflow Automation 
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can add a new remote system type to OnCommand Workflow Automation (WFA) if a predefined system type does not meet your requirement or if you want to change the configuration of a predefined system type.
 
 * You must have installed WFA.

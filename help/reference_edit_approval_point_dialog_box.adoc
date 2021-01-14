@@ -8,6 +8,7 @@ summary: 'The Edit Approval Point dialog box enables you to modify an approval p
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Edit Approval Point dialog box enables you to modify an approval point that was added as a check point in a workflow to pause the workflow execution and resume it based on your approval.
 
 * *Enter comment (optional)*

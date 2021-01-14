@@ -8,6 +8,7 @@ summary: 'The Edit Category dialog box enables you to edit a workflow category.'
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Edit Category dialog box enables you to edit a workflow category.
 
 * *Name*

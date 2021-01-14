@@ -8,6 +8,7 @@ summary: 'The Users window enables you to view, create, edit, and delete the OnC
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Users window enables you to view, create, edit, and delete the OnCommand Workflow Automation (WFA) users. You can access this window by selecting *Settings*, and under *Management* click *Users*.
 
 NOTE: Depending on your role and account privileges, this window might not be displayed.

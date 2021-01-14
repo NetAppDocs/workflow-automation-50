@@ -8,6 +8,7 @@ summary: 'You can use Workflow Automation \(WFA\) to create workflows for tasks 
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can use Workflow Automation (WFA) to create workflows for tasks such as provisioning, migrating, and decommissioning storage for databases or file systems. You should create workflows when the predefined WFA workflows do not match your requirements.
 
 * You must have understood the concepts for WFA building blocks.

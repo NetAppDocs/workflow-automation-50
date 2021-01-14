@@ -8,6 +8,7 @@ summary: 'You can control the notifications that are generated in OnCommand Work
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can control the notifications that are generated in OnCommand Workflow Automation (WFA) when a data source acquisition fails. You can configure the threshold and interval factor for the notifications.
 
 You must have configured email notifications in OnCommand Workflow Automation (WFA).

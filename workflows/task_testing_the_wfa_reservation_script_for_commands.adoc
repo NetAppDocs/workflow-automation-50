@@ -8,18 +8,19 @@ summary: 'You can test the reservation scripts you have written for OnCommand Wo
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can test the reservation scripts you have written for OnCommand Workflow Automation (WFA) commands on the playground database to ensure that the scripts are working fine and not affecting the WFA database tables.
 
 The default WFA installation path is used in this procedure. If you changed the default location during installation, you must use the changed WFA installation path.
 
 . Open a command prompt on the WFA server and change directories to the following location: c:\Program Files\NetApp\WFA\mysql\bin
-. Create a dump of the WFA database using the following command: mysqldump -u wfa -pWfa123 --single-transaction --skip-add-drop-table database_tables> dump_location
+. Create a dump of the WFA database using the following command: `mysqldump -u wfa -pWfa123 --single-transaction --skip-add-drop-table database_tables> dump_location`
 +
-Command to create a dump of the cm_storage database tables: mysqldump -u wfa -pWfa123 --single-transaction --skip-add-drop-table cm_storage> c:\tmp\cmSt2.sql
+Command to create a dump of the cm_storage database tables: `mysqldump -u wfa -pWfa123 --single-transaction --skip-add-drop-table cm_storage> c:\tmp\cmSt2.sql`
 
-. Restore the dump you have created on to the WFA playground database using the following command: mysql -u wfa -pWfa123 playground < dump_location
+. Restore the dump you have created on to the WFA playground database using the following command: `mysql -u wfa -pWfa123 playground < dump_location`
 +
-mysql -u wfa -pWfa123 playground < c:\tmp\cmSt2.sql
+`mysql -u wfa -pWfa123 playground < c:\tmp\cmSt2.sql`
 
 . Create or edit a WFA command and write the reservation script in the *Reservation* tab.
 +

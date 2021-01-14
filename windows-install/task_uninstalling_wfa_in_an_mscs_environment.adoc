@@ -8,6 +8,7 @@ summary: 'You can uninstall Workflow Automation \(WFA\) from a cluster by deleti
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can uninstall Workflow Automation (WFA) from a cluster by deleting all the WFA services from the cluster nodes.
 
 This task applies to Windows Server 2012.

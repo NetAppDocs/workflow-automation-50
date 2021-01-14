@@ -8,6 +8,7 @@ summary: 'The New Active Directory Group dialog box enables you to create a new 
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The New Active Directory Group dialog box enables you to create a new OnCommand Workflow Automation Active Directory group.
 
 * *Group Name*

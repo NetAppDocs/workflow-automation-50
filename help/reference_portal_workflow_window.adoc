@@ -8,6 +8,7 @@ summary: 'The Portal window displays the workflows that are marked ready for pro
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Portal window displays the workflows that are marked ready for production. You can edit or execute the workflows for which you have authorization. You can access this window by clicking the Portal tab.
 
 == Category pane

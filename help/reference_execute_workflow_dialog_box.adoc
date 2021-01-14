@@ -8,6 +8,7 @@ summary: 'The Execute Workflow dialog box enables you to specify the required us
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Execute Workflow dialog box enables you to specify the required user inputs, time for execution, and execution comment for a workflow.
 
 == User Inputs

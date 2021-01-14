@@ -8,6 +8,7 @@ summary: 'The About dialog box displays details about the current version of the
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The About dialog box displays details about the current version of the installed WFA application.
 
 == WFA version information

@@ -8,6 +8,7 @@ summary: 'Before installing OnCommand Workflow Automation \(WFA\), you must ensu
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 Before installing OnCommand Workflow Automation (WFA), you must ensure that you have the required information and you have completed certain tasks.
 
 Before you install WFA on a system, you must have completed the following tasks:

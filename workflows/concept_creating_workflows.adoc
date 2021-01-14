@@ -8,6 +8,7 @@ summary: 'If the predefined workflows do not match your requirements, you can cr
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 If the predefined workflows do not match your requirements, you can create the required workflow. Before you create your workflows, you should understand the capabilities available in the WFA designer and create a workflow checklist.
 
 *Related information*

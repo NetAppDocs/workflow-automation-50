@@ -8,6 +8,7 @@ summary: 'You must be aware of the guidelines for PowerShell and Perl comments i
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You must be aware of the guidelines for PowerShell and Perl comments in your scripts for OnCommand Workflow Automation (WFA).
 
 == PowerShell comments

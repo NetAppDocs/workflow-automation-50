@@ -8,6 +8,7 @@ summary: 'Several fields in OnCommand Workflow Automation \(WFA\) are enabled fo
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 Several fields in OnCommand Workflow Automation (WFA) are enabled for MVFLEX Expression Language (MVEL). You can use MVEL syntaxes in these fields while designing workflows.
 
 The following table explains when and where you can use MVEL syntaxes in the WFA interface:

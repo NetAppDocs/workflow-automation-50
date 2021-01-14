@@ -8,6 +8,7 @@ summary: 'OnCommand Workflow Automation resource reservation capability reserves
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 OnCommand Workflow Automation resource reservation capability reserves the required resources to ensure that the resources are available for successful execution of workflows.
 
 WFA commands can reserve the required resources and remove the reservation after the resource is available in the WFA cache database, typically after a cache acquisition. The reservation capability ensures that the reserved resources are available for the workflow until the reservation expiration period that you have configured in the WFA configuration settings.

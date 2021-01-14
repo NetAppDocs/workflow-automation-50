@@ -8,6 +8,7 @@ summary: 'A finder is a combination of one or more filters that are used togethe
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 A finder is a combination of one or more filters that are used together to identify common results. You can use a finder in your workflows to select the required resources for workflow execution.
 
 Finders might apply a sorting order to differentiate the applicable results. Finders return the best resource based on the selection criteria and sorting.

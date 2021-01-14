@@ -8,6 +8,7 @@ summary: 'The Log Viewer window lists all of the logs available in OnCommand Wor
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Log Viewer window lists all of the logs available in OnCommand Workflow Automation. You can access this window by selecting *Settings*, and under *Maintenance* click *Log Viewer*.
 
 The Log Viewer window lists the log files (in alphabetical order) and includes the file size and date when each file was generated.

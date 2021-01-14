@@ -8,6 +8,7 @@ summary: 'You must be aware of the guidelines for creating or modifying a predef
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You must be aware of the guidelines for creating or modifying a predefined workflow for OnCommand Workflow Automation (WFA).
 
 == General guidelines

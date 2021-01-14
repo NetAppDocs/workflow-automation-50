@@ -8,6 +8,7 @@ summary: 'The Edit Cache Query dialog box enables you to edit a cache query asso
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Edit Cache Query dialog box enables you to edit a cache query associated with a dictionary entry.
 
 * *Dictionary Entry*

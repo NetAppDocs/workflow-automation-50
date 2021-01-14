@@ -8,6 +8,7 @@ summary: 'You can save user-created OnCommand Workflow Automation \(WFA\) conten
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can save user-created OnCommand Workflow Automation (WFA) content as a .dar file and share the content with other users. The WFA content can include the entire user-created content or specific items such as workflows, finders, commands, and dictionary terms.
 
 * You must have access to the WFA content that you want to export.

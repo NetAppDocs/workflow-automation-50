@@ -8,6 +8,7 @@ summary: 'OnCommand Workflow Automation \(WFA\) communicates with remote system 
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 OnCommand Workflow Automation (WFA) communicates with remote system types. A remote system type specifies the type of remote systems with which WFA can communicate. You can configure remote system types in WFA. For example, Data ONTAP system can be configured as a remote system type.
 
 A remote system type has the following attributes:

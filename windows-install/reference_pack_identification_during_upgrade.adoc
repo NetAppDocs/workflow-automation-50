@@ -8,6 +8,7 @@ summary: 'During the upgrade process, OnCommand Workflow Automation \(WFA\) iden
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 During the upgrade process, OnCommand Workflow Automation (WFA) identifies and classifies the entities into a pack. If you had deleted any entity of a pack before the upgrade, the pack will not be identified during the upgrade.
 
 During the upgrade process, WFA compares the packs in the database with the list of packs that were released in the Storage Automation Store to identify the packs that were installed before the upgrade. Pack identification thus classifies existing packs in the database.

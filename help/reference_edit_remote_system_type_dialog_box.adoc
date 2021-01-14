@@ -8,6 +8,7 @@ summary: 'The Edit Remote System Type dialog box enables you to modify the name,
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Edit Remote System Type dialog box enables you to modify the name, description, version, protocol, default port, and default timeout of an existing remote system type. You cannot modify a NetApp-certified remote system type.
 
 * <<GUID-5F9A31AD-BB92-479A-8CD9-78BAB5480463,Details tab>>

@@ -8,6 +8,7 @@ summary: 'You must be aware of the guidelines for error handling when writing a 
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You must be aware of the guidelines for error handling when writing a PowerShell or Perl script for OnCommand Workflow Automation (WFA).
 
 == PowerShell error handling

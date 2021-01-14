@@ -8,6 +8,7 @@ summary: 'The Recurring Executionswindow enables you to suspend, resume, or dele
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Recurring Executionswindow enables you to suspend, resume, or delete a recurring execution that is associated with a workflow. A workflow that has a recurring execution is executed on a recurring basis at a specified frequency. You can access this window by selecting *Execution* > *Recurring Executions*.
 
 * <<GUID-1E417C67-1F31-4FA5-AAA7-2D5BB298C6AB,Recurring Executions table>>

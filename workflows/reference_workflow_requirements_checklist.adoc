@@ -8,6 +8,7 @@ summary: 'A workflow requirements checklist includes detailed requirements—suc
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 A workflow requirements checklist includes detailed requirements--such as commands, user input, and resources--for a planned workflow. You can use the checklist to plan your workflows and identify the gaps in the requirements.
 
 == Requirements checklist example

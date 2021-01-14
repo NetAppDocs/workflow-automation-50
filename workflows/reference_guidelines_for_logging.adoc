@@ -8,6 +8,7 @@ summary: 'You must be aware of the guidelines for logging when writing a PowerSh
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You must be aware of the guidelines for logging when writing a PowerShell or Perl script for OnCommand Workflow Automation (WFA).
 
 == PowerShell logging

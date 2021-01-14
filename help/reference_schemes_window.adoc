@@ -8,6 +8,7 @@ summary: 'The Schemes window displays the available schemes and enables you to m
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Schemes window displays the available schemes and enables you to manage the schemes. OnCommand Workflow Automation (WFA) uses schemes to acquire data relevant to an environment.
 
 A scheme represents the data model for a system. The data model is a collection of dictionary entries. You can define a scheme and then define a data source type. The data source defines how the data is acquired and the scheme is populated. For example, a vc scheme contains data relevant to your virtual environment, such as virtual machines, hosts, and datastores.

@@ -8,6 +8,7 @@ summary: 'By default, ActivePerl is installed with OnCommand Workflow Automation
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 By default, ActivePerl is installed with OnCommand Workflow Automation (WFA). If you want to use another Perl distribution, you can configure your preferred Perl distribution to work with WFA.
 
 You must have installed the required Perl distribution on the WFA server.
@@ -19,8 +20,8 @@ You must not uninstall or overwrite the default ActivePerl installation. You mus
 +
 A PowerShell command-line interface (CLI) prompt opens with ONTAP and WFA modules loaded in it.
 
-. At the prompt, enter the following: Set-WfaConfig -Name CustomPerl -PerlPath CustomPerlPath
+. At the prompt, enter the following: `Set-WfaConfig -Name CustomPerl -PerlPath CustomPerlPath`
 +
-Set-WfaConfig -Name CustomPerl -PerlPath C:\myperl\perl.exe
+`Set-WfaConfig -Name CustomPerl -PerlPath C:\myperl\perl.exe`
 
 . When prompted, restart the WFA services.

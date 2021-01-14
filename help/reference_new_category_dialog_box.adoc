@@ -8,6 +8,7 @@ summary: 'The New Category dialog box enables you to create a new workflow categ
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The New Category dialog box enables you to create a new workflow category.
 
 * *Name*

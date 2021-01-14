@@ -8,6 +8,7 @@ summary: 'You can configure the resource reservation capability for OnCommand Wo
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can configure the resource reservation capability for OnCommand Workflow Automation (WFA) workflows to ensure that the required resources are available for successful execution of workflows.
 
 . Log in to WFA through a web browser as an administrator.

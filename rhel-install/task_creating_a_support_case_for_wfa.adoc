@@ -8,6 +8,7 @@ summary: 'You can create support cases for OnCommand Workflow Automation \(WFA\)
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can create support cases for OnCommand Workflow Automation (WFA) issues that require assistance from technical support. You must use the technical triage template for creating a support case.
 
 The technical triage template for WFA provides all the required information for creating a support case. You must use the questions and information in the technical triage template to construct your issue, which helps in improving the time required for the resolution of your case.

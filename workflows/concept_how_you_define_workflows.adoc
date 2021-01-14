@@ -8,6 +8,7 @@ summary: 'You must break down the goal of a workflow into the steps that should 
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You must break down the goal of a workflow into the steps that should be executed by the workflow. You can then arrange the steps to complete your workflow.
 
 A workflow is an algorithm that includes a series of steps that are required to complete an end-to-end process. The scope of the process might vary, depending on the goal of the workflow. The goal of a workflow might be defined to handle only storage operations or more complex processes such as handling networking, virtualization, IT systems, and other applications as part of a single process. OnCommand Workflow Automation (WFA) workflows are designed by storage architects and are executed by storage operators.

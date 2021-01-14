@@ -8,6 +8,7 @@ summary: 'The Data Sources window enables you to view, edit, and delete existing
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Data Sources window enables you to view, edit, and delete existing data sources, create new data sources, and acquire a data source. You can access this window by selecting *Settings*, and under *Setup* click *Data Sources*.
 
 A data source is a read-only data structure that contains information about where the data in a specific database originates from. Data sources must be defined before environments can be polled. For example, a data source can be either an OnCommand Unified Manager database that contains information about a storage environment or a VMware database with information about a data center.

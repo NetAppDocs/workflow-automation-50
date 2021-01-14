@@ -8,6 +8,7 @@ summary: 'You must create a data source type to enable data acquisition from a d
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You must create a data source type to enable data acquisition from a data source, which is not predefined in OnCommand Workflow Automation (WFA).
 
 * You must have created the required dictionary entry and scheme if you are creating a custom data source type that is not predefined in WFA.
@@ -18,7 +19,7 @@ You must create a data source type to enable data acquisition from a data source
 . In the New Data Source Type dialog box, enter or select the required details in the *Data source*, *Data source version*, and *Scheme* fields.
 . In the *Default port* field, enter the port number.
 +
-2638
+`2638`
 +
 The port number you have entered is populated when you add this data source type for data acquisition. By default, the port is used by WFA to communicate with the data source and the port should be open on the data source server.
 

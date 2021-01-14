@@ -8,6 +8,7 @@ summary: 'The Templates window displays the available templates in alphabetical 
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Templates window displays the available templates in alphabetical order. A template is a collection of settings that can be used when creating workflows. You can use templates to create workflows quickly.
 
 NOTE: Depending on your role and account privileges, this window might not be displayed.

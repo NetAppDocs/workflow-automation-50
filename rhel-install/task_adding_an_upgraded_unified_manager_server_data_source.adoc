@@ -8,6 +8,7 @@ summary: 'If Data Center Manager server \(5.x or 6.x\) is added as a data source
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 If Data Center Manager server (5.x or 6.x) is added as a data source to WFA and then the Data Center Manager server is upgraded, you must add the upgraded Data Center Manager server as a data source because the data that is associated with the upgraded version is not populated in WFA unless it is manually added as a data source.
 
 . Log into the WFA web GUI as an admin.

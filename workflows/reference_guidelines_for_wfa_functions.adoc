@@ -8,6 +8,7 @@ summary: 'You can create functions to encapsulate commonly used and more complex
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can create functions to encapsulate commonly used and more complex logic in a named function, and then reuse the function as command parameter values or filter parameters values in OnCommand Workflow Automation (WFA).
 
 |===

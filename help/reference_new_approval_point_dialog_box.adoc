@@ -8,6 +8,7 @@ summary: 'The New Approval Point dialog box enables you to add an approval point
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The New Approval Point dialog box enables you to add an approval point as a checkpoint in a workflow to pause the workflow execution and resume it based on your approval.
 
 * *Enter comment (optional)*

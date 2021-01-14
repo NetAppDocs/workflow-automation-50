@@ -8,6 +8,7 @@ summary: 'OnCommand Workflow Automation \(WFA\) is a software solution that help
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 OnCommand Workflow Automation (WFA) is a software solution that helps to automate storage management tasks, such as provisioning, migration, decommissioning, data protection configurations, and cloning storage. You can use WFA to build workflows to complete tasks that are specified by your processes.
 
 A workflow is a repetitive and procedural task that consists of sequential steps, including the following types of tasks:

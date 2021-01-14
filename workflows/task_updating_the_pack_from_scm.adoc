@@ -8,6 +8,7 @@ summary: 'You can update a pack in the Source Control Management \(SCM\) server,
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can update a pack in the Source Control Management (SCM) server, and then import the updated pack to OnCommand Workflow Automation (WFA).
 
 The SCM must be set up and you must have admin or architect credentials

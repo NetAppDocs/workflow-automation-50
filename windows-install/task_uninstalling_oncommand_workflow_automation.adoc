@@ -8,6 +8,7 @@ summary: 'You can uninstall OnCommand Workflow Automation \(WFA\) using Microsof
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can uninstall OnCommand Workflow Automation (WFA) using Microsoft Windows Programs and Features.
 
 . Log in to Windows using an account with admin privileges.

@@ -8,6 +8,7 @@ summary: 'OnCommand Workflow Automation \(WFA\) includes some reserved words. Yo
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 OnCommand Workflow Automation (WFA) includes some reserved words. You must not use the reserved words in workflows for any attribute or parameters such as variable names, user input, constants, and return parameters.
 
 The following is a list of the reserved words in WFA:

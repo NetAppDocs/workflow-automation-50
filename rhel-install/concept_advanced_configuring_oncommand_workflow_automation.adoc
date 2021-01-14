@@ -8,6 +8,7 @@ summary: 'OnCommand Workflow Automation \(WFA\) enables you to configure various
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 OnCommand Workflow Automation (WFA) enables you to configure various settings--for example, AutoSupport and notifications.
 
 When configuring WFA, you can set up one or more of the following, as required:

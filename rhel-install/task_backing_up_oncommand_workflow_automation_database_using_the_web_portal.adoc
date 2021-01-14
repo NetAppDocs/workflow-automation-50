@@ -8,6 +8,7 @@ summary: 'You can back up the OnCommand Workflow Automation \(WFA\) database fro
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can back up the OnCommand Workflow Automation (WFA) database from the web portal and use the backup file for data recovery purposes. You cannot perform a full backup from the web portal.
 
 You must have admin or architect credentials to perform this task.

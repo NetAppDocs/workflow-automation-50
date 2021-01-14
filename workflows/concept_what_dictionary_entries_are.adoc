@@ -8,6 +8,7 @@ summary: 'Dictionary entries are one of the OnCommand Workflow Automation \(WFA\
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 Dictionary entries are one of the OnCommand Workflow Automation (WFA) building blocks. You can use dictionary entries to represent object types and their relationships in your storage and storage-related environments. You can then use filters in workflows to return the value of the natural keys of the dictionary entries.
 
 A dictionary entry is the definition of an object type that is supported by WFA. Each dictionary entry represents an object type and its relationship in the supported storage and storage-related environments. A dictionary object consists of a list of attributes, which might be type checked. A dictionary object with complete values describes an object instance of a type. In addition, the reference attributes describe the relationship of the object with the environment; for example, a volume dictionary object has many attributes, such as name, size_mb, and volume_guarantee. In addition, the volume dictionary object includes references to the aggregate and the array containing the volume in the form of array_id and aggregate_id.

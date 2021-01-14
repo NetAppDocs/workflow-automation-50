@@ -8,6 +8,7 @@ summary: 'You can perform a full backup of the OnCommand Workflow Automation \(W
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can perform a full backup of the OnCommand Workflow Automation (WFA) database by using the WFA command-line interface (CLI). In a full backup, the WFA database, WFA configuration, and key are backed up.
 
 You must have admin user credentials or architect credentials.
@@ -20,7 +21,7 @@ For more information, see the REST documentation.
 +
 WFA_install_location is the WFA installation directory.
 
-. Back up the WFA database: .\wfa --backup --user=USER [--password=PASS] [--location=PATH] [--full]
+. Back up the WFA database: `.\wfa --backup --user=USER [--password=PASS] [--location=PATH] [--full]`
  ** user is the user name of the backup user.
  ** password is the password of the backup user.
 +

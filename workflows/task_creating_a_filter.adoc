@@ -8,6 +8,7 @@ summary: 'You can create a WFA filter that can search for resources if there is 
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can create a WFA filter that can search for resources if there is no predefined WFA filter that is suitable for the task.
 
 You must know the appropriate SQL syntaxes to create the filter.
@@ -17,7 +18,7 @@ You must know the appropriate SQL syntaxes to create the filter.
 . In the Properties tab of the New Filter dialog box, enter or select the required details in the *Name*, *Dictionary type*, and *Description* fields.
 . In the Query tab, enter the appropriate SQL query for the filter.
 +
-You must enter a single SQL query and optionally use input parameters. You should use the following syntax to use an input parameter: $\{ParameterName}.
+You must enter a single SQL query and optionally use input parameters. You should use the following syntax to use an input parameter: `+${ParameterName}+`.
 +
 ----
 SELECT

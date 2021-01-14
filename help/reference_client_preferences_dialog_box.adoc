@@ -8,6 +8,7 @@ summary: 'The Preferences window enables you to view and modify the refresh and 
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Preferences window enables you to view and modify the refresh and logging options for all of the clients associated with the specific Workflow Automation (WFA) server. You can access this window by selecting *Settings*, and under *Setup* click *Preferences*.
 
 * *Enable Auto Refresh*

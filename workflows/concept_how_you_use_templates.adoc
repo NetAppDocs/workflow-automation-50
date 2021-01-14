@@ -8,6 +8,7 @@ summary: 'You can use WFA templates in your workflows as a reference or for adhe
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can use WFA templates in your workflows as a reference or for adhering to usage policies.
 
 A WFA template acts as a blueprint of an object definition. You can define a template by including the properties of an object and the values for the object's properties. Then, you can use the template for populating the properties of an object definition in your workflows.

@@ -8,6 +8,7 @@ summary: 'OnCommand Workflow Automation \(WFA\) admins and architects who design
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 OnCommand Workflow Automation (WFA) admins and architects who design workflows can create help content for the workflows and include it in the workflow.
 
 You must be aware of how to create web pages using HTML.

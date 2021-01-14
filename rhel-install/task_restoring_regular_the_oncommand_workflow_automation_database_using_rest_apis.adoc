@@ -8,13 +8,14 @@ summary: 'You can do a regular restore of the OnCommand Workflow Automation \(WF
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can do a regular restore of the OnCommand Workflow Automation (WFA) database by using REST APIs. In a regular restore, you can only restore the WFA database.
 
 * You must have created a .zip backup of the WFA database.
 * You must have admin or architect credentials.
 * If you are restoring the database as a part of the migration procedure, you must do a full restore.
 
-. Enter the following URL in the REST client browser: https://IP address of WFA server/rest/backups
+. Enter the following URL in the REST client browser: `+https://IP address of WFA server/rest/backups+`
 . In the Backup window, select the *POST* method.
 . In the *Part* drop-down list, select *Multipart Body*.
 . In the *File* field, enter the following information:

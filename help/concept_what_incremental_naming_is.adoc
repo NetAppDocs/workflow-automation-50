@@ -8,6 +8,7 @@ summary: 'Incremental naming is an algorithm that enables you to name the attrib
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 Incremental naming is an algorithm that enables you to name the attributes in a workflow based on the search results for a parameter. You can name the attributes based on an incremental value or a custom expression. The incremental naming functionality helps you implement a naming convention based on your requirement.
 
 You can use the incremental naming functionality when designing workflows to dynamically name the objects created by the workflow. The functionality enables you to specify a search criteria for an object using the resource selection feature and the value returned by the search criteria is used for the object's attribute. In addition, you can specify a value for the attribute if no object was found with the specified search criteria.

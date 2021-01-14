@@ -8,6 +8,7 @@ summary: 'You can migrate an OnCommand Workflow Automation \(WFA\) installation 
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can migrate an OnCommand Workflow Automation (WFA) installation to maintain the unique WFA database key that is installed during the WFA installation.
 
 * You must perform this procedure only when you want to migrate a WFA installation that includes the WFA database key to a different server.
@@ -20,12 +21,12 @@ If you changed the default location during installation, you must use the change
 . Access WFA through a web browser as an admin.
 . Back up the WFA database.
 . Open a shell prompt on the WFA server and change directories to the following location: WFA_install_location/wfa/bin/
-. Enter the following at the shell prompt to obtain the database key: ./wfa -key
+. Enter the following at the shell prompt to obtain the database key: `./wfa -key`
 . Note the database key that is displayed.
 . Uninstall WFA.
 . Install WFA on the required system.
 . Open a shell prompt on the WFA server and change the directories to the following location: WFA_install_location/wfa/bin/
-. At the shell prompt, install the database key by entering the following command: ./wfa -key=yourdatabasekey
+. At the shell prompt, install the database key by entering the following command: `./wfa -key=yourdatabasekey`
 +
 yourdatabasekey is the key that you noted from the previous WFA installation.
 

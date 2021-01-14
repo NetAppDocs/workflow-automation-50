@@ -8,6 +8,7 @@ summary: 'The Categories window enables you to manage the workflow categories.'
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Categories window enables you to manage the workflow categories.
 
 NOTE: Depending on your role and account privileges, this window might not be displayed.

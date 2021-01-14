@@ -8,6 +8,7 @@ summary: 'The Dictionary window displays the available dictionary entries in alp
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Dictionary window displays the available dictionary entries in alphabetical order.
 
 A dictionary entry is the definition of an object type that is supported by OnCommand Workflow Automation (WFA). Each dictionary entry represents an object type and its relationships in the storage and storage-related environments. Dictionary entries are converted to tables in the databases.

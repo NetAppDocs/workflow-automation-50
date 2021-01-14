@@ -8,6 +8,7 @@ summary: 'The Edit Pack dialog box enables you to edit the pack.'
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Edit Pack dialog box enables you to edit the pack.
 
 * <<SECTION_C2EE96889E4E41608A7DB372804AAC96,Details tab>>

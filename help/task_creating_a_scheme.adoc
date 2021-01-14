@@ -8,6 +8,7 @@ summary: 'You must create a scheme when data has to be cached from a new data so
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You must create a scheme when data has to be cached from a new data source type or when data has to be stored by workflows directly in the database.
 
 * You must have installed WFA.

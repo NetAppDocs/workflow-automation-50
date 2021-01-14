@@ -8,6 +8,7 @@ summary: 'The playground database is a MySQL database, which is included in the 
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The playground database is a MySQL database, which is included in the Workflow Automation (WFA) server installation. You can add tables to the playground database to include information, which can be used by filters and SQL queries for user inputs.
 
 The playground database is a schema that cannot be accessed through the WFA web portal. You can use a MySQL client, such as SQLyog, Toad for MySQL, and MySQL Workbench or a command-line interface (CLI), to access the database.

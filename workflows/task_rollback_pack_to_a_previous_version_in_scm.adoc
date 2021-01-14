@@ -8,6 +8,7 @@ summary: 'You can roll back a pack to the previous version in Source Control Man
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can roll back a pack to the previous version in Source Control Management (SCM) and import it to OnCommand Workflow Automation (WFA).
 
 The SCM must be set up and you must have admin or architect credentials.

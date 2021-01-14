@@ -8,6 +8,7 @@ summary: 'Creating storage automation workflows in OnCommand Workflow Automation
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 Creating storage automation workflows in OnCommand Workflow Automation (WFA) includes defining the steps to be performed by a workflow and creating the workflow using the WFA building blocks, such as commands, finders, filters, and dictionary entries.
 
 The following flowchart illustrates the workflow creation process:

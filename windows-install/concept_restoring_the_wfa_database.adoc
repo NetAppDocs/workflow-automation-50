@@ -8,6 +8,7 @@ summary: 'Restoring the OnCommand Workflow Automation \(WFA\) database includes 
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 Restoring the OnCommand Workflow Automation (WFA) database includes restoring the system configuration settings and cache information, including the playground database.
 
 * Restoring a WFA database erases the current WFA database.

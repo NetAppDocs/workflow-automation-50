@@ -8,6 +8,7 @@ summary: 'You must be aware of the guidelines for PowerShell and Perl variables 
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You must be aware of the guidelines for PowerShell and Perl variables in OnCommand Workflow Automation (WFA) when you create a command or a data source type.
 
 == PowerShell variables

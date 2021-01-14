@@ -8,6 +8,7 @@ summary: 'Before you install OnCommand Workflow Automation \(WFA\) in Veritas Cl
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 Before you install OnCommand Workflow Automation (WFA) in Veritas Cluster Server (VCS), you must ensure that the cluster nodes are properly configured to support WFA.
 
 * VCS must be installed on both nodes of the cluster according to the instructions in the _Veritas Cluster Server 6.1.1 Installation Guide_.
@@ -31,7 +32,7 @@ You can use SnapDrive for UNIX to create the shared location.
 +
 You can also manage the LUNs using SnapDrive or the storage system command-line interface. See the SnapDrive for UNIX compatibility matrix for more information.
 
-. Verify that VCS is installed correctly: hastatus --summary
+. Verify that VCS is installed correctly: `hastatus –summary`
 +
 Both the nodes must be online, and the VCS service must be running on both the nodes.
 
@@ -40,5 +41,5 @@ Both the nodes must be online, and the VCS service must be running on both the n
  ** Use SnapDrive for UNIX:
   ... Install SnapDrive for UNIX on both the nodes.
   ... Configure SnapDrive for UNIX on both nodes.
-  ... From the first node, run the snapdrive storage create command to create a LUN.
-  ... Verify that the LUN created on the first node is visible on the second node by running the snapdrive storage show --all command.
+  ... From the first node, run the `snapdrive storage create` command to create a LUN.
+  ... Verify that the LUN created on the first node is visible on the second node by running the `snapdrive storage show –all` command.

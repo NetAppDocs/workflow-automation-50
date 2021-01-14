@@ -8,6 +8,7 @@ summary: 'The Preview Workflow dialog box enables you to specify values for user
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Preview Workflow dialog box enables you to specify values for user inputs associated with a workflow and then to preview the execution of that workflow with the specified values.
 
 == User Inputs values

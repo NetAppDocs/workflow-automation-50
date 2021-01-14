@@ -8,6 +8,9 @@ summary: 'You can upgrade third-party products on Workflow Automation \(WFA\) su
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
+You can upgrade third-party products on Workflow Automation (WFA) such as JRE and MySQL in Linux.
+
 *Related information*
 
 link:task_upgrading_openjdk_on_linux_ocum.md#[Upgrading JRE]

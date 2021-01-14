@@ -8,6 +8,7 @@ summary: 'You can delete a scheme that you created from OnCommand Workflow Autom
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can delete a scheme that you created from OnCommand Workflow Automation (WFA) if you no longer require it.
 
 * You must have installed WFA.

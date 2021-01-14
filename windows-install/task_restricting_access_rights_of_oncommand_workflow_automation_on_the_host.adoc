@@ -8,6 +8,7 @@ summary: 'By default, OnCommand Workflow Automation \(WFA\) executes the workflo
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 By default, OnCommand Workflow Automation (WFA) executes the workflows as the admin of the host system. You can restrict WFA rights on the host system by changing the default settings.
 
 You must have logged in to the WFA host system as an admin.

@@ -8,6 +8,7 @@ summary: 'You must be aware of the OnCommand Workflow Automation \(WFA\) hardwar
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You must be aware of the OnCommand Workflow Automation (WFA) hardware and software requirements before installing WFA.
 
 == Hardware requirements for installing WFA

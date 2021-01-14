@@ -8,6 +8,7 @@ summary: 'OnCommand Workflow Automation \(WFA\) provides several PowerShell cmdl
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 OnCommand Workflow Automation (WFA) provides several PowerShell cmdlets as well as PowerShell and Perl functions that you can use in your WFA commands.
 
 You can view all the PowerShell cmdlets and functions provided by the WFA server using the following PowerShell commands:

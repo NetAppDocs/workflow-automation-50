@@ -8,6 +8,7 @@ summary: 'Before you install Workflow Automation \(WFA\) in Microsoft Cluster Se
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 Before you install Workflow Automation (WFA) in Microsoft Cluster Server (MSCS), you must configure your MSCS environment.
 
 * MSCS must be installed from the server manager.

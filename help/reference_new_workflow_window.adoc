@@ -8,6 +8,7 @@ summary: 'The New Workflow window displays a newly created workflow and its asso
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The New Workflow window displays a newly created workflow and its associated commands.
 
 == New Workflow

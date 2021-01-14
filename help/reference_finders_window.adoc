@@ -8,6 +8,7 @@ summary: 'The Finders window displays the available finders in alphabetical orde
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Finders window displays the available finders in alphabetical order. You can access this window by selecting *Designer* > *Finders*.
 
 NOTE: Depending on your role and account privileges, this window might not be displayed.

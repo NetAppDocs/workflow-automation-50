@@ -8,6 +8,7 @@ summary: 'You can remove a pack from the entities in OnCommand Workflow Automati
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can remove a pack from the entities in OnCommand Workflow Automation (WFA) and check in the updated pack to the Source Control Management (SCM) server.
 
 The SCM must be set up and you must have admin or architect credentials.

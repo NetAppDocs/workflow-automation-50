@@ -8,6 +8,7 @@ summary: 'You should be aware of certain scripting and programming practices to 
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You should be aware of certain scripting and programming practices to create advanced Workflow Automation (WFA) workflows. You can use reference material to learn about the required options before creating WFA building blocks or workflows.
 
 == Windows PowerShell

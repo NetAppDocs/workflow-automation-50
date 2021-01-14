@@ -8,6 +8,7 @@ summary: 'OnCommand Workflow Automation \(WFA\) server is installed to orchestra
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 OnCommand Workflow Automation (WFA) server is installed to orchestrate the workflow operations across several datacenters.
 
 You can centrally manage your automation environment by connecting your WFA server to several Active IQ Data Center Manager deployments and VMware vCenters.

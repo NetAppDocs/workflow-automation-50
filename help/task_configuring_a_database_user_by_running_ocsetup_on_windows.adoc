@@ -8,6 +8,7 @@ summary: 'You can run the ocsetup file on the OnCommand Unified Manager server t
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can run the ocsetup file on the OnCommand Unified Manager server to configure read-only access of the OnCommand Unified Manager database to OnCommand Workflow Automation.
 
 . Download the wfa_ocsetup.exe file to a directory in the OnCommand Unified Manager server from the following location: https://WFA_Server_IP/download/wfa_ocsetup.exe.

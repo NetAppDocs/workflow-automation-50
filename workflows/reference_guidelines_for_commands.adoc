@@ -8,6 +8,7 @@ summary: 'You must be aware of the guidelines for creating commands in OnCommand
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You must be aware of the guidelines for creating commands in OnCommand Workflow Automation (WFA).
 
 |===

@@ -8,6 +8,7 @@ summary: 'A data source is a method for establishing a connection to other syste
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 A data source is a method for establishing a connection to other systems, files and databases in order to extract data. For example, a data source can be a connection to an OnCommand Unified Manager database of OnCommand Unified Manager 9.4 data source type.
 
 You can add a custom data source to OnCommand Workflow Automation (WFA) for data acquisition after defining the required data source type by associating the caching scheme, the required port, and the acquisition method with the data source type.

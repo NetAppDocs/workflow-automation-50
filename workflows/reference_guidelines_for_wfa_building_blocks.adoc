@@ -8,4 +8,5 @@ summary: 'You must be aware of the guidelines for using Workflow Automation buil
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You must be aware of the guidelines for using Workflow Automation building blocks.

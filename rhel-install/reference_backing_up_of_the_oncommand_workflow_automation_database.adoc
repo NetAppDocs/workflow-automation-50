@@ -8,6 +8,7 @@ summary: 'A backup of the OnCommand Workflow Automation \(WFA\) database include
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 A backup of the OnCommand Workflow Automation (WFA) database includes the system configuration settings and cache information, including the playground database. You can use the backup for restoration purposes on the same system or on a different system.
 
 An automatic backup of the database is created daily at 2 a.m. and is saved as a .zip file in the following location: wfa_install_location/WFA-Backups.

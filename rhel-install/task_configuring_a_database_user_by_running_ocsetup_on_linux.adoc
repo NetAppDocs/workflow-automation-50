@@ -8,20 +8,21 @@ summary: 'You can run the ocsetup file on the Active IQ Data Center Manager serv
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can run the ocsetup file on the Active IQ Data Center Manager server to configure read-only access of the Active IQ Data Center Manager database to OnCommand Workflow Automation.
 
-. Download the wfa_ocsetup.sh file to your home directory on the Active IQ Data Center Manager server using the following command in the terminal: wget https://WFA_Server_IP/download/wfa_ocsetup.sh
+. Download the wfa_ocsetup.sh file to your home directory on the Active IQ Data Center Manager server using the following command in the terminal: `+wget https://WFA_Server_IP/download/wfa_ocsetup.sh+`
 +
 WFA_Server_IP is the IP address (IPv4 or IPv6 address) of your WFA server.
 +
-If you have specified a non-default port for WFA, you must include the port number as follows: wget https://wfa_server_ip:port/download/wfa_ocsetup.sh
+If you have specified a non-default port for WFA, you must include the port number as follows: `+wget https://wfa_server_ip:port/download/wfa_ocsetup.sh+`
 +
 port is the TCP port number that you have used for the WFA server during installation.
 +
 If you are specifying an IPv6 address, you must enclose it with square brackets.
 
-. Use the following command in the terminal to change the wfa_ocsetup.sh file to an executable: chmod +x wfa_ocsetup.sh
-. Run the script by entering the following in the terminal: ./wfa_ocsetup.sh JRE_path
+. Use the following command in the terminal to change the wfa_ocsetup.sh file to an executable: `chmod +x wfa_ocsetup.sh`
+. Run the script by entering the following in the terminal: `./wfa_ocsetup.sh JRE_path`
 +
 JRE_path is the path to the JRE.
 +

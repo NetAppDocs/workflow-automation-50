@@ -8,6 +8,7 @@ summary: 'OnCommand Workflow Automation commands are the execution blocks for wo
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 OnCommand Workflow Automation commands are the execution blocks for workflows. You can use a command for each step in your workflow.
 
 WFA commands are written using PowerShell and Perl scripts. PowerShell commands use the Data ONTAP PowerShell toolkit and VMware PowerCLI, if the package is installed. Perl commands use the Perl distribution and Perl modules installed on the WFA server. If you include multiple scripting languages in a command, such as PowerShell and Perl, the appropriate script is chosen by WFA based on the operating system on which it is installed and the preferred order of language you have specified in the WFA configuration menu.
@@ -44,7 +45,7 @@ WFA commands can query the WFA database and obtain the required result. This ena
 |===
 | PowerShell cmdlet| Perl function
 a|
-Invoke-MySqlQuery For example: Invoke-MySqlQuery -Query "SELECT cluster.name AS 'Cluster Name' FROM cm_storage.cluster"
+Invoke-MySqlQuery For example: `Invoke-MySqlQuery -Query "SELECT cluster.name AS 'Cluster Name' FROM cm_storage.cluster"`
 
 a|
 invokeMySqlQuery

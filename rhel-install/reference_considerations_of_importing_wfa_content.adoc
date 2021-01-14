@@ -8,6 +8,7 @@ summary: 'You must be aware of certain considerations when you import user-creat
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You must be aware of certain considerations when you import user-created content, content that is exported from another OnCommand Workflow Automation (WFA) installation, or content that is downloaded from the Storage Automation Store or the WFA community.
 
 * WFA content is saved as a .dar file and can include the entire user-created content from another system or specific items such as workflows, finders, commands, and dictionary terms.

@@ -8,6 +8,7 @@ summary: 'You can create a template that can be used as a blueprint for filling 
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can create a template that can be used as a blueprint for filling up attributes in command details.
 
 . Click *Designer* > *Templates*.
@@ -18,5 +19,5 @@ The Attributes table is populated based on the dictionary object you have select
 
 . Click the value column of each attribute and perform one of the following:
  ** Enter or select the required value from the list.
- ** Enter a user input entry--for example, $size for size user input.
+ ** Enter a user input entry--for example, `$size` for size user input.
 . Click *Save*.

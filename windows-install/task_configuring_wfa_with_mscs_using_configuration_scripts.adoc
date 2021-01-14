@@ -8,6 +8,7 @@ summary: 'After you install Workflow Automation \(WFA\) in Microsoft Cluster Ser
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 After you install Workflow Automation (WFA) in Microsoft Cluster Server (MSCS), you must configure WFA for high availability in MSCS using configuration scripts.
 
 You must have created a backup of WFA.
@@ -41,11 +42,11 @@ a|
 +
 |===
 
-. At the command prompt, run the ha_setup.pl script to move the WFA data to the shared location and to configure WFA with MSCS for failover: perl ha_setup.pl --first [-t type_of_cluster_vcs] [-g cluster_group_name] [-i IP_address_resource_name] [-n cluster_name] [-k shared_disk_resource_name] [-f shared_drive_path]
+. At the command prompt, run the ha_setup.pl script to move the WFA data to the shared location and to configure WFA with MSCS for failover: `perl ha_setup.pl --first [-t type_of_cluster_vcs] [-g cluster_group_name] [-i IP_address_resource_name] [-n cluster_name] [-k shared_disk_resource_name] [-f shared_drive_path]`
 +
 The script is available at WFA_install_location\WFA\bin\ha\.
 +
-perl ha_setup.pl --first -t mscs -g WFA -i "Cluster IP Address" -n wfa_cluster -k "Cluster Disk 2" -f E:\
+`perl ha_setup.pl --first -t mscs -g WFA -i "Cluster IP Address" -n wfa_cluster -k "Cluster Disk 2" -f E:\`
 
 . Verify that the MSCS resources are created.
 . Stop the WFA services from the Failover Cluster Manager:
@@ -74,11 +75,11 @@ The WFA database service and the WFA server service must be taken offline. The W
 
 . Manually move the WFA resources to the secondary node.
 . Verify that the shared disk is accessible from the second node.
-. At the command prompt, run the ha_setup.pl script on the secondary node of the cluster to configure WFA for using the data from the shared location: perl ha_setup.pl --join [-t type_of_cluster_mscs] [-f shared_drive_path]
+. At the command prompt, run the ha_setup.pl script on the secondary node of the cluster to configure WFA for using the data from the shared location: `perl ha_setup.pl --join [-t type_of_cluster_mscs] [-f shared_drive_path]`
 +
 The ha_setup.pl script is available at WFA_install_location\WFA\bin\ha\.
 +
-perl ha_setup.pl --join -t mscs -f E:\
+`perl ha_setup.pl --join -t mscs -f E:\`
 
 . From the Failover Cluster Manager, bring the WFA resources online:
 +

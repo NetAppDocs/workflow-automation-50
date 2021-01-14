@@ -8,6 +8,7 @@ summary: 'By default, the OnCommand Workflow Automation \(WFA\) database can be 
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 By default, the OnCommand Workflow Automation (WFA) database can be accessed only by clients running on the WFA host system. You can change the default settings if you want to enable access to the WFA database from a remote system.
 
 * You must have logged in to the WFA host system as a root user.
@@ -23,11 +24,11 @@ The default WFA installation path is used in this procedure. If you changed the 
 a|
 Enable remote access
 a|
-./wfa --db-access=public --restart
+`./wfa --db-access=public --restart`
 a|
 Disable remote access
 a|
-./wfa --db-access=default --restart
+`./wfa --db-access=default --restart`
 |===
 
 *Related information*

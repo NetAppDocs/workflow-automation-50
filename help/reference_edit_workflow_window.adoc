@@ -8,6 +8,7 @@ summary: 'The Workflow <workflow name\> window displays the selected workflow an
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Workflow <workflow name> window displays the selected workflow and its associated commands and parameters. The commands associated with the workflow are displayed as blue boxes in columns that are arranged in the sequential order of execution--left to right. The variables and objects for each command are displayed as gray boxes below the command.
 
 == Workflow tab

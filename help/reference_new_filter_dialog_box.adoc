@@ -8,6 +8,7 @@ summary: 'You can use the New Filter dialog box to create a new filter. You can 
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can use the New Filter dialog box to create a new filter. You can use the filter to develop finders.
 
 * <<GUID-D6561A31-8337-48C7-B20C-A3F542E78D8F,Properties tab>>

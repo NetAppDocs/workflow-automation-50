@@ -8,6 +8,7 @@ summary: 'The New Dictionary Entry <EntryName_copy\> dialog box enables you to c
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The New Dictionary Entry <EntryName_copy> dialog box enables you to copy a dictionary object and edit the definition of the cloned dictionary object.
 
 * *Name of object type*

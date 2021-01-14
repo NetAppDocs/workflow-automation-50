@@ -8,6 +8,7 @@ summary: 'The Functions window displays the available OnCommand Workflow Automat
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Functions window displays the available OnCommand Workflow Automation (WFA) functions and enables you to manage these functions.
 
 Functions are complementary tools for performing significant or black-boxed operations that are required for planning workflow executions. Functions are processed during the planning phase. Functions can be used to complete repetitive and complex tasks, such as defining a complex naming convention. Functions run in their own sandbox and might use other functions during execution. Functions are written in MVFLEX Expression Language (MVEL).

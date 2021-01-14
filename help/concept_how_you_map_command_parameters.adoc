@@ -8,6 +8,7 @@ summary: 'The parameters in Workflow Automation \(WFA\) commands are mapped to s
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The parameters in Workflow Automation (WFA) commands are mapped to specific attributes and dictionary entry references based on certain rules. You must be aware of the rules to map command parameters when you create or edit a WFA command.
 
 Command parameter mapping defines how command details are defined in the workflows. Mapped command parameters of a command are displayed in tabs when you are specifying the command details for commands in workflows. The tabs are named based on the group name specified in the Object Name column of the Parameters Mapping tab. The parameters that are not mapped are displayed in the Other Parameters tab when you are specifying the command details in workflows.

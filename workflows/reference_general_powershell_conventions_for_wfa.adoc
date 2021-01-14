@@ -8,6 +8,7 @@ summary: 'You must understand certain PowerShell and Perl conventions that are u
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You must understand certain PowerShell and Perl conventions that are used in WFA to create scripts that are consistent with existing scripts.
 
 * Use variables that help to clarify what you want the script to do.

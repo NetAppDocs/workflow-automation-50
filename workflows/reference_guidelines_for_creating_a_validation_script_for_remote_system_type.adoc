@@ -8,6 +8,7 @@ summary: 'You must be aware of the guidelines for creating validation scripts th
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You must be aware of the guidelines for creating validation scripts that are used to test the remote system types that you define in OnCommand Workflow Automation (WFA).
 
 * The Perl script that you create must be similar to the sample script provided in the Validation Script window.

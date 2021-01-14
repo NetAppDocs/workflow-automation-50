@@ -8,10 +8,11 @@ summary: 'You can perform a regular backup of the OnCommand Workflow Automation 
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can perform a regular backup of the OnCommand Workflow Automation (WFA) database by using the REST APIs. In a regular backup, only the WFA database is backed up.
 
 You must have admin, architect, or backup credentials.
 
-. Enter the following URL in your web browser: https://IP address of the WFA server/rest/backups
+. Enter the following URL in your web browser: `+https://IP address of the WFA server/rest/backups+`
 +
 For more information, see the REST documentation.

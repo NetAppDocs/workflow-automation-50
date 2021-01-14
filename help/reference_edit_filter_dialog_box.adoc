@@ -8,6 +8,7 @@ summary: 'The Edit Filter dialog box enables you to edit a filter.'
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Edit Filter dialog box enables you to edit a filter.
 
 * <<GUID-D6561A31-8337-48C7-B20C-A3F542E78D8F,Properties tab>>

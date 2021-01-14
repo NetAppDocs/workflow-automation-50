@@ -8,6 +8,7 @@ summary: 'You can do a full restore of the OnCommand Workflow Automation \(WFA\)
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can do a full restore of the OnCommand Workflow Automation (WFA) database by using the command-line interface (CLI). In a full restore, you can restore the WFA database, WFA configuration, and key.
 
 * You must have created a backup of the WFA database.
@@ -17,7 +18,7 @@ You can do a full restore of the OnCommand Workflow Automation (WFA) database by
 +
 wfa_install_location is the WFA installation directory.
 
-. Perform the restore operation: wfa.cmd --restore --full --user=user_name [--password=password] [--location=path] --restart
+. Perform the restore operation: `wfa.cmd --restore --full --user=user_name [--password=password] [--location=path] --restart`
  ** user_name is the user name of the admin or architect user.
  ** password is the password of the user.
 +

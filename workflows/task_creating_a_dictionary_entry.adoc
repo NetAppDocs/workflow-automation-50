@@ -8,6 +8,7 @@ summary: 'You can create a WFA dictionary entry when you want to define a new ob
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can create a WFA dictionary entry when you want to define a new object type and its relationship in your storage environment.
 
 . Click *Designer* > *Dictionary*.

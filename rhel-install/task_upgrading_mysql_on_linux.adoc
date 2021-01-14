@@ -8,6 +8,7 @@ summary: 'You can upgrade to a newer version of MySQL on the Linux server on whi
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can upgrade to a newer version of MySQL on the Linux server on which OnCommand Workflow Automation is installed to obtain fixes for security vulnerabilities.
 
 You must have root privileges for the Linux system on which WFA is installed.
@@ -26,9 +27,9 @@ You can only upgrade to minor updates of MySQL 5.7, for example, 5.7.1 to 5.7.2 
  ** mysql-community-common-5.7.x
  ** mysql-community-libs-compat-5.7.x
 Delete all other .rpm packages. Installing all packages in an rpm bundle will not cause any problems.
-. At the shell prompt, stop the WFA database and server services: service wfa-db stopservice wfa-server stop
-. Invoke the upgrade of MySQL by using the following command: rpm -uvh *.rpm
+. At the shell prompt, stop the WFA database and server services: `service wfa-db stop``service wfa-server stop`
+. Invoke the upgrade of MySQL by using the following command: `rpm -uvh *.rpm`
 +
 *.rpm refers to the .rpm packages in the directory where you downloaded the newer version of MySQL.
 
-. Start the WFA services: service wfa-db startservice wfa-server start
+. Start the WFA services: `service wfa-db start``service wfa-server start`

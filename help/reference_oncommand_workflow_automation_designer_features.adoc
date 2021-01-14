@@ -8,6 +8,7 @@ summary: 'OnCommand Workflow Automation includes various features to help you de
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 OnCommand Workflow Automation includes various features to help you design storage workflows.
 
 For more information about the features, see the next topics.

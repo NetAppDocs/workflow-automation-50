@@ -8,6 +8,7 @@ summary: 'You can run the ocsetup file on the Active IQ Data Center Manager serv
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can run the ocsetup file on the Active IQ Data Center Manager server to configure read-only access of the Active IQ Data Center Manager database to OnCommand Workflow Automation.
 
 . Download the wfa_ocsetup.exe file to a directory in the Active IQ Data Center Manager server from the following location: https://WFA_Server_IP/download/wfa_ocsetup.exe.

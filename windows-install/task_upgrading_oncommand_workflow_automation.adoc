@@ -8,6 +8,7 @@ summary: 'If you have installed a previous version of OnCommand Workflow Automat
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 If you have installed a previous version of OnCommand Workflow Automation (WFA), you can upgrade to the latest version of WFA to use the new features and enhancements.
 
 * You can upgrade to WFA 5.0 from either WFA 4.2 or 4.1 only.

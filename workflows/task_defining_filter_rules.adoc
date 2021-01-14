@@ -8,6 +8,7 @@ summary: 'You can define a set of rules for filtering dictionary entry resources
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can define a set of rules for filtering dictionary entry resources such as vFiler units, aggregates, and virtual machines. You can customize the rules for existing workflows and for new workflows while you are creating them.
 
 . Log in to WFA through a web browser as an admin.

@@ -8,6 +8,7 @@ summary: 'You can create a WFA finder that can search for resources if there is 
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can create a WFA finder that can search for resources if there is no predefined WFA finder that is suitable for searching the required resources.
 
 You must have created the required filters that are used in the finder.

@@ -8,6 +8,7 @@ summary: 'You can add Active Directory groups in OnCommand Workflow Automation \
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can add Active Directory groups in OnCommand Workflow Automation (WFA).
 
 . Log in to WFA through a web browser as an admin.

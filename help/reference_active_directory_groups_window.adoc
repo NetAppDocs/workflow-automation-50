@@ -8,6 +8,7 @@ summary: 'The Active Directory Groups window enables you to view, create, edit, 
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Active Directory Groups window enables you to view, create, edit, and delete the OnCommand Workflow Automation (WFA) Active Directory groups. You can access this window by selecting *Settings*, and under *Management* click *Active Directory Groups*.
 
 NOTE: Depending on your role and account privileges, this window might not be displayed.

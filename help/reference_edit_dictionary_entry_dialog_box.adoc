@@ -8,6 +8,7 @@ summary: 'The Dictionary Entry <EntryName\> dialog box enables you to edit a dic
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Dictionary Entry <EntryName> dialog box enables you to edit a dictionary object and its definition.
 
 * *Name of object type*

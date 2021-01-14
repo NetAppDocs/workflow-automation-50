@@ -8,6 +8,7 @@ summary: 'There are additional documents and tools to help you learn to perform 
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 There are additional documents and tools to help you learn to perform more advanced configuration of your OnCommand Workflow Automation (WFA) server.
 
 == Other references

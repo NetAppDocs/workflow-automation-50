@@ -8,6 +8,7 @@ summary: 'You can upgrade new versions of Java Runtime Environment \(JRE\) to On
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can upgrade new versions of Java Runtime Environment (JRE) to OnCommand Workflow Automation (WFA) on the Windows server. You can upgrade to a newer version of JRE to get fixes for security vulnerabilities on the Windows server.
 
 You must have Windows admin privileges on the WFA server.

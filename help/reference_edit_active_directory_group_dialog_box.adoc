@@ -8,6 +8,7 @@ summary: 'The Edit Active Directory Group dialog box enables you to view and mod
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Edit Active Directory Group dialog box enables you to view and modify the OnCommand Workflow Automation Active Directory group settings.
 
 Depending on your Active Directory group privileges and role, you might not have access to the Active Directory Groups window. However, you can edit the settings for your Active Directory group by selecting *Settings*, and under *Management* click *Active Directory Groups*.

@@ -8,6 +8,7 @@ summary: 'You can migrate an OnCommand Workflow Automation \(WFA\) installation 
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can migrate an OnCommand Workflow Automation (WFA) installation to maintain the unique WFA database key that is installed during the WFA installation. For example, you can migrate the WFA installation from a Windows 2008 server to a Windows 2012 server.
 
 * You must perform this procedure only when you want to migrate a WFA installation that includes the WFA database key to a different server.
@@ -19,13 +20,13 @@ If you changed the default location during installation, you must use the change
 
 . Access WFA through a web browser as an admin.
 . Back up the WFA database.
-. Open a command prompt on the WFA server and change directories to the following location: c:\Program Files\NetApp\WFA\bin
-. Enter the following at the command prompt to obtain the database key: wfa.cmd -key
+. Open a command prompt on the WFA server and change directories to the following location: `c:\Program Files\NetApp\WFA\bin`
+. Enter the following at the command prompt to obtain the database key: `wfa.cmd -key`
 . Note the database key that is displayed.
 . Uninstall WFA.
 . Install WFA on the required system.
-. Open the command prompt on the new WFA server and change directories to the following location: c:\Program Files\NetApp\WFA\bin
-. Enter the following at the command prompt to install the database key: wfa.cmd -key=yourdatabasekey
+. Open the command prompt on the new WFA server and change directories to the following location: `c:\Program Files\NetApp\WFA\bin`
+. Enter the following at the command prompt to install the database key: `wfa.cmd -key=yourdatabasekey`
 +
 yourdatabasekey is the key that you noted from the previous WFA installation.
 

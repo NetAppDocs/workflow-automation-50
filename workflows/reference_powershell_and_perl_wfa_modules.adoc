@@ -8,6 +8,7 @@ summary: 'You must be aware of the PowerShell or Perl modules for OnCommand Work
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You must be aware of the PowerShell or Perl modules for OnCommand Workflow Automation (WFA) to write scripts for your workflows.
 
 == PowerShell modules

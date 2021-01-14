@@ -8,6 +8,9 @@ summary: 'You can upgrade third-party products on OnCommand Workflow Automation 
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
+You can upgrade third-party products on OnCommand Workflow Automation (WFA) such as JRE, MySQL, and ActiveState Perl in Windows. Third-party products like JRE, MYSQL, and so on, report security vulnerabilities. Starting from this release of WFA, you can now upgrade third-party products on your own.
+
 *Related information*
 
 link:task_upgrading_jre_on_windows_wfa.md#[Upgrading JRE]

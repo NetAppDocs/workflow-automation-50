@@ -8,6 +8,7 @@ summary: 'The Commands window displays the available commands, in alphabetical o
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Commands window displays the available commands, in alphabetical order. You can access this window by selecting *Designer* > *Commands*.
 
 NOTE: Depending on your role and account privileges, this window might not be displayed.

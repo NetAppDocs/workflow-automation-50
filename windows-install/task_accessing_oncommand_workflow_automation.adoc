@@ -8,19 +8,20 @@ summary: 'You can access OnCommand Workflow Automation \(WFA\) through a web bro
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can access OnCommand Workflow Automation (WFA) through a web browser from any system that has access to the WFA server.
 
 You must have installed Adobe Flash Player for your web browser.
 
 . Open a web browser and enter one of the following in the address bar:
- ** https://wfa_server_ip
+ ** `+https://wfa_server_ip+`
 +
 wfa_server_ip is the IP address (IPv4 or IPv6 address) or the fully qualified domain name (FQDN) of the WFA server.
 
- ** If you are accessing WFA on the WFA server: https://localhost/wfa
+ ** If you are accessing WFA on the WFA server: `+https://localhost/wfa+`
 If you have specified a non-default port for WFA, you must include the port number as follows:
- ** https://wfa_server_ip:port
- ** https://localhost:port
+ ** `+https://wfa_server_ip:port+`
+ ** `+https://localhost:port+`
 port is the TCP port number you have used for the WFA server during installation.
 . In the Sign in section, enter the credentials of the admin user that you have entered during installation.
 . In the *Settings* > *Setup* menu, set up the credentials and a data source.

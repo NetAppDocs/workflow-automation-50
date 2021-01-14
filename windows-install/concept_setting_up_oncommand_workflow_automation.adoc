@@ -8,6 +8,9 @@ summary: 'After you complete installing OnCommand Workflow Automation \(WFA\), y
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
+After you complete installing OnCommand Workflow Automation (WFA), you must complete several configuration settings. You have to access WFA, configure users, set up data sources, configure credentials, and configure WFA.
+
 *Related information*
 
 xref:task_setting_up_a_data_source.adoc[Setting up a data source]

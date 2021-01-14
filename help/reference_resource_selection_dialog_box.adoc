@@ -8,6 +8,7 @@ summary: 'The Resource Selection dialog box enables you to search for resources 
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Resource Selection dialog box enables you to search for resources and map the resources to a command.
 
 * <<GUID-6A290AD4-917D-448C-AC0E-495E38B2B77F,Select <dictionary object> by tab>>

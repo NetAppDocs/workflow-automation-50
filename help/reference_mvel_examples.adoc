@@ -8,6 +8,7 @@ summary: 'MVFLEX Expression Language \(MVEL\) syntaxes are used in several OnCom
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 MVFLEX Expression Language (MVEL) syntaxes are used in several OnCommand Workflow Automation (WFA) sample workflows. You should review some sample MVEL syntaxes to learn how to use MVEL in WFA.
 
 The following sections provide some examples of MVEL syntaxes used in WFA.

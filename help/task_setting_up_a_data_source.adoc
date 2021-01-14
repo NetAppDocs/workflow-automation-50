@@ -8,6 +8,7 @@ summary: 'You must set up a connection with a data source in OnCommand Workflow 
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You must set up a connection with a data source in OnCommand Workflow Automation (WFA) to acquire data from the data source.
 
 * For OnCommand Unified Manager versions earlier than 6.0, you must have run the latest version of the ocsetup tool on the Unified Manager server to enable and configure remote read-only access to the database.

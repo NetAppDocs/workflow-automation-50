@@ -8,6 +8,7 @@ summary: 'You can create a WFA function that can be used as a utility, if there 
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can create a WFA function that can be used as a utility, if there is no predefined WFA function that is suitable for your task.
 
 You must know MVFLEX Expression Language (MVEL) syntaxes to create a function.
@@ -43,7 +44,7 @@ The *Function name* field is populated from the data that is used in the MVEL sy
 . Click *Test* to test the function:
  .. In the *Expression* section of the *Test* dialog box, enter the required expression of function.
 +
-actualVolumeSize(600, 1)
+`actualVolumeSize(600, 1)`
 
  .. Click *Test*.
 +

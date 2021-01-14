@@ -8,6 +8,7 @@ summary: 'You can edit the display name, description, and entity version of a sc
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can edit the display name, description, and entity version of a scheme that you created.
 
 * You must have installed WFA.

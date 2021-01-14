@@ -8,6 +8,7 @@ summary: 'You can create and use constants to define a value, which can be used 
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can create and use constants to define a value, which can be used across a single workflow. Constants are defined at a workflow level.
 
 The constants used in the workflow and their value are displayed in the monitoring window of the workflow during planning and execution. You must use unique names for constants.

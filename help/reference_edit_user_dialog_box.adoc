@@ -8,6 +8,7 @@ summary: 'The Edit User dialog box enables you to view and modify user account s
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Edit User dialog box enables you to view and modify user account settings.
 
 Depending on your account privileges and role, you might not have access to the Users window. However, you can edit the settings for your account by selecting *Settings*, and under *Management* click *Account Settings*.

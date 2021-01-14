@@ -8,6 +8,7 @@ summary: 'You can integrate the OnCommand Workflow Automation \(WFA\) pack with 
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can integrate the OnCommand Workflow Automation (WFA) pack with the Source Control Management (SCM) repository.
 
 You must have admin or architect credentials.

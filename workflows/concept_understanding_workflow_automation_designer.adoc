@@ -8,4 +8,5 @@ summary: 'You create workflows in the Workflow Automation \(WFA\) designer using
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You create workflows in the Workflow Automation (WFA) designer using the building blocks such as finders, filters, and commands. Understanding the building blocks and the workflow creation process is important before you start creating your workflows.

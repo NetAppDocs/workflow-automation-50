@@ -8,6 +8,7 @@ summary: 'The Clone Command Definition dialog box enables you to copy a command 
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Clone Command Definition dialog box enables you to copy a command and edit the cloned command.
 
 * <<GUID-D4ADB7AB-318A-48E6-90C6-FDB9B771F359,Properties tab>>

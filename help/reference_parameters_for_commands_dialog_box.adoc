@@ -8,6 +8,7 @@ summary: 'You can specify parameters and other settings for the execution of com
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can specify parameters and other settings for the execution of commands through the Parameters for commands dialog box.
 
 The dialog box displays one or more dictionary object tabs and the following tabs:

@@ -8,6 +8,7 @@ summary: 'OnCommand Workflow Automation \(WFA\) works with the Enterprise editio
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 OnCommand Workflow Automation (WFA) works with the Enterprise edition of ActiveState Perl on Windows. You can upgrade to a newer version of ActiveState Perl to get fixes for security vulnerabilities on the Windows server.
 
 You must have Windows admin privileges on the WFA server. ActiveState Perl does not support "`in-place`" upgrades.

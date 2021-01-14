@@ -8,6 +8,7 @@ summary: 'Approval points are check points used in a workflow to pause the workf
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 Approval points are check points used in a workflow to pause the workflow execution and resume it based on a user approval.
 
 The blue vertical bar shown in the following illustration is an approval point:

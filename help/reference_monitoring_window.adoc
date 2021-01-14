@@ -8,6 +8,7 @@ summary: 'The Monitoring window displays details about results of the planning o
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Monitoring window displays details about results of the planning or execution phase of the workflow. The tabs in the window display read-only content. You can access this window from various areas of the WFA application when selecting the *Details*, *Preview*, or *Execute* options.
 
 * <<GUID-0B74D434-2D35-42DE-9196-470701E1736F,Status area>>

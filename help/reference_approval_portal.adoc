@@ -8,6 +8,7 @@ summary: 'The Approval Portal window enables you to approve or reject a workflow
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Approval Portal window enables you to approve or reject a workflow.
 
 You can log in to the Approval Portal window from the link provided in the email notification for the approval of the workflow.

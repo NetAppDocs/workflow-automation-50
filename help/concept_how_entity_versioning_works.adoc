@@ -8,6 +8,7 @@ summary: 'The OnCommand Workflow Automation \(WFA\) entities, such as commands a
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The OnCommand Workflow Automation (WFA) entities, such as commands and workflows, are versioned. You can use the version numbers to easily manage changes to the WFA entities.
 
 Each WFA entity includes a version number in the major.minor.revision format--for example, 1.1.20. You can include up to three digits in each part of the version number.

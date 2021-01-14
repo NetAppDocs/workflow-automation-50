@@ -8,6 +8,7 @@ summary: 'A workflow contains commands and command details arranged in rows. You
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 A workflow contains commands and command details arranged in rows. You can specify the commands in a row to be repeated for a fixed number of iterations or dynamic number of iterations based on the results of a search criteria.
 
 The command details in a row can be specified to repeat a certain number of times or when the workflow is designed. The workflow can also be designed such that the number of times the row must repeat can be specified when the workflow is executed or scheduled for an execution. You can specify a search criteria for an object and the commands in a row can be set to repeat as many times as the objects are returned by the search criteria. Rows can also be set to repeat when certain conditions are met.

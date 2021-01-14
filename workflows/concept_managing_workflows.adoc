@@ -8,6 +8,7 @@ summary: 'You can customize predefined workflows or create new workflows as part
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can customize predefined workflows or create new workflows as part of managing your workflows. You must also understand the relevant concepts before you start managing your workflows.
 
 *Related information*

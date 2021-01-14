@@ -8,6 +8,7 @@ summary: 'You can configure several AutoSupport settings such as the schedule, c
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can configure several AutoSupport settings such as the schedule, content of the AutoSupport messages, and the proxy server. AutoSupport sends weekly logs of the content that you selected to technical support for archiving and issue analysis.
 
 . Log in to WFA through a web browser as an admin.

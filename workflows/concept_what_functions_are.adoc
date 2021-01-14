@@ -8,6 +8,7 @@ summary: 'You can use a function in your workflows for a complex task that has t
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can use a function in your workflows for a complex task that has to be completed during the planning phase of the workflow.
 
 You can write functions by using the MVFLEX Expression Language (MVEL). You can use functions to put together commonly used logic as well as more complex logic in a named function and reuse it as values for command parameters or filter parameters. You can write a function once and use it across workflows. You can use functions to handle repetitive tasks and tasks that might be complex, such as defining a complex naming convention.

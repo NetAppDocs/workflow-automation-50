@@ -8,6 +8,7 @@ summary: 'The Edit Command Definition dialog box enables you to edit the selecte
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 TheEdit Command Definition dialog box enables you to edit the selected command.
 
 * <<GUID-D4ADB7AB-318A-48E6-90C6-FDB9B771F359,Properties tab>>

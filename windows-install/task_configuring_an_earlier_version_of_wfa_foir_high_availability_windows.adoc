@@ -8,6 +8,7 @@ summary: 'You can configure OnCommand Workflow Automation \(WFA\) versions earli
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can configure OnCommand Workflow Automation (WFA) versions earlier than 3.1 for high availability.
 
 . Upgrade the existing version of WFA to the latest available version of WFA.

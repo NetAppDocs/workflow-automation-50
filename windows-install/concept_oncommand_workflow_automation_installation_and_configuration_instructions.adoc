@@ -8,6 +8,7 @@ summary: 'Installing OnCommand Workflow Automation \(WFA\) includes performing t
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 Installing OnCommand Workflow Automation (WFA) includes performing tasks such as preparing for the installation, downloading the WFA installer, and running the installer. After the installation is complete, you can configure WFA to meet your requirements.
 
 The following flowchart illustrates the installation and configuration tasks:

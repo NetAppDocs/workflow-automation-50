@@ -8,6 +8,7 @@ summary: 'You can use REST APIs provided by Workflow Automation \(WFA\) to invok
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can use REST APIs provided by Workflow Automation (WFA) to invoke workflows from external portals and the data center orchestration software. WFA supports XML and JSON content types for all REST APIs.
 
 WFA allows external services to access various resource collections, such as workflows, users, filters, and finders, through URI paths. The external services can use HTTP methods, such as GET, PUT, POST, and DELETE, on these URIs to perform CRUD operations on the resources.

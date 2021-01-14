@@ -8,6 +8,7 @@ summary: 'If you want to back up the OnCommand Workflow Automation \(WFA\) datab
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 If you want to back up the OnCommand Workflow Automation (WFA) database frequently, you can use the WFA command-line interface (CLI) provided with the WFA installation package.
 
 The following are the two backup types:

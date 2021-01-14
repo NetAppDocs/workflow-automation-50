@@ -8,6 +8,7 @@ summary: 'You can customize your workflows based on your requirements. For examp
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can customize your workflows based on your requirements. For example, you can modify the predefined _Create a Volume and a CIFS Share_ workflow to include deduplication and compression.
 
 The customization and illustrations in this task are examples; you can modify the WFA workflows based on your requirements.
@@ -27,7 +28,7 @@ image::../media/modify_workflow_add_command.gif[]
 . Click the *Other Parameters* tab and perform the following steps:
  .. Select *true* in the *StartNow* field.
  .. Select *Inline* in the *Compression* field.
- .. Enter 'sun-sat@1' expression in the *Schedule* field, which schedules deduplication and compression on all days of the week at 1 a.m.
+ .. Enter `'sun-sat@1'` expression in the *Schedule* field, which schedules deduplication and compression on all days of the week at 1 a.m.
 +
 image::../media/modify_workflow_modify_othrpar.gif[]
 . Click *OK*.

@@ -8,6 +8,7 @@ summary: 'The Edit Variable: <UserInputName\> dialog box enables you to edit the
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Edit Variable: <UserInputName> dialog box enables you to edit the user input attributes of a workflow.
 
 == Properties

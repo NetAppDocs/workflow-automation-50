@@ -8,6 +8,7 @@ summary: 'The New Command Definition dialog box enables you to define a new comm
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The New Command Definition dialog box enables you to define a new command. You can create new commands for your workflows if the predefined commands do not meet your requirements.
 
 * <<GUID-D4ADB7AB-318A-48E6-90C6-FDB9B771F359,Properties tab>>

@@ -8,6 +8,7 @@ summary: 'You must be aware of the guidelines for using SQL in OnCommand Workflo
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You must be aware of the guidelines for using SQL in OnCommand Workflow Automation (WFA) to write SQL queries for WFA.
 
 SQL is used in the following places in WFA:

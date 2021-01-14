@@ -8,6 +8,7 @@ summary: 'The Test Connectivity dialog box enables you to test the connection to
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Test Connectivity dialog box enables you to test the connection to the system associated with a credential. The test connectivity operation triggers the search path and first looks for an exact match, then for a pattern match, and finally for LDAP service authentication.
 
 == Test Connectivity parameters

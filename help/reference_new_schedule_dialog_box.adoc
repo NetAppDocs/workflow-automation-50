@@ -8,6 +8,7 @@ summary: 'You can use the New Schedule dialog box to create a new schedule for a
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can use the New Schedule dialog box to create a new schedule for any workflow so that the workflow is executed on a specified frequency. For example, you can schedule a workflow to be executed every Monday.
 
 == New Schedule Configuration properties

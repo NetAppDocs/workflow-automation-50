@@ -8,6 +8,7 @@ summary: 'You must be aware of certain important considerations when you convert
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You must be aware of certain important considerations when you convert PowerShell commands to Perl because PowerShell and Perl have different capabilities.
 
 == Command input types

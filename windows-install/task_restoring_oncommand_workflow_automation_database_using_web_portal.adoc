@@ -8,6 +8,7 @@ summary: 'You can restore the OnCommand Workflow Automation \(WFA\) database tha
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can restore the OnCommand Workflow Automation (WFA) database that you backed up previously.
 
 * You must have created a backup of the WFA database.

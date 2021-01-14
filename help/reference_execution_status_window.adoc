@@ -8,6 +8,7 @@ summary: 'The Executions window displays the status of the execution process for
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Executions window displays the status of the execution process for each workflow that has been submitted for execution. The window enables you to view details of the execution process and control the execution of a workflow. You can access this window by selecting *Execution* > *Executions*.
 
 * <<GUID-8FE47E3E-84F8-41AA-A2B6-ABA117178EE3,Workflow table>>

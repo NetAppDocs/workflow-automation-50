@@ -8,6 +8,7 @@ summary: 'The Reservations window displays each workflow that is marked for rese
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Reservations window displays each workflow that is marked for reservation, and enables you to manage the reservations. You can access this window by selecting *Execution* > *Reservations*.
 
 A reservation helps ensure that a selected resource is available for a specific scheduled workflow when that workflow is executed.

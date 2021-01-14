@@ -8,6 +8,7 @@ summary: 'Some Perl modules are not included by default with the Perl package fo
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 Some Perl modules are not included by default with the Perl package for Linux.
 
 During WFA installation, the WFA installer verifies that all of the Perl modules are available in the system, and then proceeds when this requirement is met. You must install the Perl modules before installing OnCommand Workflow Automation (WFA).
@@ -87,12 +88,12 @@ perl-Date-CalcXML
 |===
 
 . Log in to the Linux server as a `root` user.
-. Verify that all of the Perl modules required for WFA are installed on the system: ./WFA-4.2.0.0.0.bin -l
-. If any Perl modules are not detected, check whether they are available in the configured repository: yum search Perl-module-name
+. Verify that all of the Perl modules required for WFA are installed on the system: `./WFA-4.2.0.0.0.bin -l`
+. If any Perl modules are not detected, check whether they are available in the configured repository: `yum search Perl-module-name`
 +
-If the DBD::mysql module is not detected: yum search perl-DBD-MySQL
+If the DBD::mysql module is not detected: `yum search perl-DBD-MySQL`
 
 . If any Perl modules are not in the repository, configure the repository that contains the Perl module, or download the Perl module from the Internet.
-. Install any missing Perl modules from the configured repository: yum -y install Perl-module-name
+. Install any missing Perl modules from the configured repository: `yum -y install Perl-module-name`
 +
-Install the DBD::mysql module from the configured repository: yum -y install perl-DBD-MySQL
+Install the DBD::mysql module from the configured repository: `yum -y install perl-DBD-MySQL`

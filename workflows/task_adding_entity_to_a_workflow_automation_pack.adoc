@@ -8,6 +8,7 @@ summary: 'You can add one or more entities to a workflow pack in OnCommand Workf
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can add one or more entities to a workflow pack in OnCommand Workflow Automation (WFA) for your storage automation and integration requirements.
 
 You can remove a pack from the following entities:

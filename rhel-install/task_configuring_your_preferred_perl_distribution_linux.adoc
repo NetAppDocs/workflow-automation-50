@@ -8,11 +8,12 @@ summary: 'The Perl package installed on your system is used by OnCommand Workflo
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Perl package installed on your system is used by OnCommand Workflow Automation. If you want to use another Perl distribution, you can configure your preferred Perl distribution to work with WFA.
 
 You must have installed the required Perl distribution on the WFA server.
 
 . At the shell prompt, navigate to the following directory on the WFA server: WFA_install_location/wfa/bin/
-. Enter the following command: /wfa --custom-perl[=PERL_PATH] --restart=WFA
+. Enter the following command: `/wfa --custom-perl[=PERL_PATH] --restart=WFA`
 +
-/wfa --custom-perl=/usr/local/perl5-11/bin/perl --restart=WFA
+`/wfa --custom-perl=/usr/local/perl5-11/bin/perl --restart=WFA`

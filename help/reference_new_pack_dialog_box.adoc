@@ -8,6 +8,7 @@ summary: 'The New Pack dialog box enables you to create a new pack.'
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The New Pack dialog box enables you to create a new pack.
 
 * *Name*

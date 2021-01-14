@@ -8,6 +8,7 @@ summary: 'The Row Repetition Details dialog box enables you to specify how the p
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Row Repetition Details dialog box enables you to specify how the parameters in the row should be repeated.
 
 == Repeats

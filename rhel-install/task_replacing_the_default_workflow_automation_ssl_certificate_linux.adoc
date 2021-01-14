@@ -8,6 +8,7 @@ summary: 'You can replace the default Workflow Automation \(WFA\) SSL certificat
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can replace the default Workflow Automation (WFA) SSL certificate if the certificate has expired or if you want to increase the validity period of the certificate.
 
 You must have root privileges for the Linux system on which you have installed WFA.
@@ -16,10 +17,10 @@ The default WFA installation path is used in this procedure. If you changed the 
 
 . Log in as a root user on the WFA host machine.
 . At the shell prompt, navigate to the following directory on the WFA server: WFA_install_location/wfa/bin
-. Stop the WFA database and server services: ./wfa --stop=WFA./wfa --stop=DB
+. Stop the WFA database and server services: `./wfa --stop=WFA``./wfa --stop=DB`
 . Delete the wfa.keystore file from the following location: WFA_install_location/wfa/jboss/standalone/configuration/keystore.
 . Open a shell prompt on the WFA server, and then change directories to the following location: WFA_install_location/wfa/jre/bin
-. Obtain the database key: keytool -keysize 2048 -genkey -alias "ssl keystore" -keyalg RSA -keystore "WFA_install_location/wfa/jboss/standalone/configuration/keystore/wfa.keystore" -validity xxxx
+. Obtain the database key: `keytool -keysize 2048 -genkey -alias "ssl keystore" -keyalg RSA -keystore "WFA_install_location/wfa/jboss/standalone/configuration/keystore/wfa.keystore" -validity xxxx`
 +
 xxxx is the number of days for the validity of the new certificate.
 
@@ -32,9 +33,9 @@ changeit is the default password. If you do not want to use the default password
 ----
 
 . Enter the required details for the certificate.
-. Review the displayed information, and then enter Yes.
+. Review the displayed information, and then enter `Yes`.
 . Press *Enter* when prompted by the following message: Enter key password for <SSL keystore> <RETURN if same as keystore password>.
-. Restart the WFA services: ./wfa --start=DB./wfa --start=WFA
+. Restart the WFA services: `./wfa --start=DB``./wfa --start=WFA`
 
 *Related information*
 

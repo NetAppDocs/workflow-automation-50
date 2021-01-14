@@ -8,6 +8,7 @@ summary: 'You can import workflow packs from the server to OnCommand Workflow Au
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can import workflow packs from the server to OnCommand Workflow Automation (WFA) for your storage automation and integration requirements.
 
 You must have access to the WFA content in the server that you want to import.

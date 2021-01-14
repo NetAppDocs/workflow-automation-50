@@ -8,6 +8,7 @@ summary: 'You can create a WFA command to complete a specific task in your workf
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can create a WFA command to complete a specific task in your workflow if there is no predefined WFA command that is suitable for the task.
 
 You must know how to write the required code for the command using either PowerShell or Perl.
@@ -61,7 +62,7 @@ You cannot edit any other field in this tab.
 +
 After entering an attribute, you can enter a period (.) and include another attribute of that object.
 +
-Enter cm_storage.volume as type and aggregate.name as the attribute for the AggregateName parameter.
+Enter `cm_storage.volume` as type and `aggregate.name` as the attribute for the AggregateName parameter.
 
  .. In the *Object Name* column, enter an object name.
 +

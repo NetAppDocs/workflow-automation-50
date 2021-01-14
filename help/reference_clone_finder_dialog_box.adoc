@@ -8,6 +8,7 @@ summary: 'The Clone Finder dialog box enables you to create a copy of the finder
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Clone Finder dialog box enables you to create a copy of the finder and edit the cloned finder.
 
 * <<GUID-D6561A31-8337-48C7-B20C-A3F542E78D8F,Properties tab>>

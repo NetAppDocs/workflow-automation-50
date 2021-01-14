@@ -8,6 +8,7 @@ summary: 'The Filters window displays the available filters in alphabetical orde
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Filters window displays the available filters in alphabetical order. You can access this window by selecting *Designer* > *Filters*.
 
 NOTE: Depending on your role and account privileges, this window might not be displayed.

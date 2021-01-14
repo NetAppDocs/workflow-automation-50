@@ -8,6 +8,7 @@ summary: 'You can configure OnCommand Workflow Automation \(WFA\) to use a Micro
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can configure OnCommand Workflow Automation (WFA) to use a Microsoft Active Directory (AD) Lightweight Directory Access Protocol (LDAP) server for authentication and authorization.
 
 You must have configured a Microsoft AD LDAP server in your environment.
@@ -22,11 +23,11 @@ NOTE: During communication, LDAP sends the user name and password in plain text.
 . Enter the required information in the fields:
  .. If you want to use the user@domain format for domain users, replace sAMAccountName with userPrincipalName in the *User name attribute* field.
  .. If unique values are required for your environment, edit the required fields.
- .. Enter the AD server URI as follows: ldap://active_directory_server_address[:port]
+ .. Enter the AD server URI as follows: `ldap://active_directory_server_address\[:port\]`
 +
 ldap://NB-T01.example.com[:389]
 +
-If you have enabled LDAP over SSL, you can use the following URI format: ldaps://active_directory_server_address[:port]
+If you have enabled LDAP over SSL, you can use the following URI format: `ldaps://active_directory_server_address\[:port\]`
 
  .. Add a list of AD group names the required roles.
 +

@@ -8,6 +8,7 @@ summary: 'You can customize a predefined Workflow Automation \(WFA\) workflow if
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can customize a predefined Workflow Automation (WFA) workflow if there is no predefined workflow that is suitable for your requirement.
 
 You must have identified the required modifications for the predefined workflow.

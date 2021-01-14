@@ -8,6 +8,7 @@ summary: 'You must be aware of the guidelines for creating data source types tha
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You must be aware of the guidelines for creating data source types that are used to define custom data sources for OnCommand Workflow Automation (WFA).
 
 You can define a data source type by using one of the following methods:

@@ -8,10 +8,11 @@ summary: 'You can perform a full back up of the OnCommand Workflow Automation \(
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can perform a full back up of the OnCommand Workflow Automation (WFA) database by using the REST APIs. In a full backup, the WFA database, WFA configuration, and key are backed up.
 
 You must have admin or architect credentials.
 
-. Enter the following URL in your web browser: https://IP address of the WFA server/rest/backups?full=true
+. Enter the following URL in your web browser: `+https://IP address of the WFA server/rest/backups?full=true+`
 +
 For more information, see the REST documentation.

@@ -8,6 +8,7 @@ summary: 'The OnCommand Workflow Automation \(WFA\) user inputs are data input o
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The OnCommand Workflow Automation (WFA) user inputs are data input options that are available during the execution of workflows. You must define the user input parameters for your workflows to enhance the flexibility and usability of your workflows.
 
 User inputs are shown as input fields, which can be filled out with relevant data when previewing or executing workflows. You can create a user input field when specifying the command details in a workflow by prefixing a label or variable with the dollar sign ($). For example, $VolumeName creates a Volume Name user input field. WFA automatically populates the User Inputs tab in the Workflow <workflow name> window with the user input labels that you have created. You can also define the type of the user input and customize the input fields by modifying the user input attributes, such as type, display name, default values, and validation values.
@@ -18,7 +19,7 @@ User inputs are shown as input fields, which can be filled out with relevant dat
 +
 You can use a regular expression for valid values--for example, a*.
 +
-Strings, such as 0d and 0f, are evaluated as numbers similar to 0d evaluated as 0 of type double.
+Strings, such as `0d` and `0f`, are evaluated as numbers similar to `0d` evaluated as 0 of type double.
 
 * *Number*
 +

@@ -8,6 +8,7 @@ summary: 'The Incremental Naming Wizard enables you to define the value of an at
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 The Incremental Naming Wizard enables you to define the value of an attribute based on a search for an existing parameter.
 
 * *Search criteria for existing <dictionary object>*

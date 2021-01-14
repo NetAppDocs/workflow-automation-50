@@ -8,6 +8,7 @@ summary: 'You can restore the OnCommand Workflow Automation \(WFA\) database by 
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 You can restore the OnCommand Workflow Automation (WFA) database by using REST APIs. You cannot use the command-line interface (CLI) to restore the WFA database during a failover.
 
 The following are the two types of restore:

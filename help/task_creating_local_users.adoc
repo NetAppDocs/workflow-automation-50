@@ -8,6 +8,7 @@ summary: 'OnCommand Workflow Automation \(WFA\) enables you to create and manage
 :icons: font
 :imagesdir: ../media/
 
+[.lead]
 OnCommand Workflow Automation (WFA) enables you to create and manage local WFA users with specific permissions for various roles, such as guest, operator, approver, architect, admin, and backup.
 
 You must have installed WFA and logged in as an admin.
