@@ -54,7 +54,7 @@ summary: ''
   *** xref:reference_pack_identification_during_upgrade.adoc[Pack identification during upgrade]
  ** xref:concept_integrating_the_wfa_pack_with_scm_repository.adoc[Integrating WFA workflow packs with the SCM repository]
   *** xref:task_checking_in_a_new_pack_to_scm.adoc[Checking in a new workflow pack to SCM]
-  *** xref:task_checking_in-new_version_of_a_pack_to_a_new_location_in_scm.adoc[Checking in a new version of a WFA workflow pack]
+  *** xref:task_checking_in_a_new_version_of_a_pack_to_a_new_location_in_scm.adoc[Checking in a new version of a WFA workflow pack]
   *** xref:task_updating_the_pack_from_scm.adoc[Updating WFA workflow packs from the SCM server]
   *** xref:task_checking_in_an_already_existing_pack_into_scm.adoc[Checking in existing WFA workflow packs to the SCM server]
   *** xref:task_removing_entities_from_a_pack.adoc[Removing WFA workflow packs from entities]

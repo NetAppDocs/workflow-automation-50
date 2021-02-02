@@ -772,7 +772,7 @@ entries:
       - title: Checking in a new workflow pack to SCM
         url: "/workflows/task_checking_in_a_new_pack_to_scm.html"
       - title: Checking in a new version of a WFA workflow pack
-        url: "/workflows/task_checking_in-new_version_of_a_pack_to_a_new_location_in_scm.html"
+        url: "/workflows/task_checking_in_a_new_version_of_a_pack_to_a_new_location_in_scm.html"
       - title: Updating WFA workflow packs from the SCM server
         url: "/workflows/task_updating_the_pack_from_scm.html"
       - title: Checking in existing WFA workflow packs to the SCM server
