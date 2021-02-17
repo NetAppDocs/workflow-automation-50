@@ -1,0 +1,246 @@
+---
+permalink: workflows/reference_guidelines_for_variables.html
+sidebar: sidebar
+keywords: 
+summary: 'You must be aware of the guidelines for PowerShell and Perl variables in OnCommand Workflow Automation \(WFA\) when you create a command or a data source type.'
+---
+= Guidelines for variables
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You must be aware of the guidelines for PowerShell and Perl variables in OnCommand Workflow Automation (WFA) when you create a command or a data source type.
+
+== PowerShell variables
+
+|===
+| Guidelines| Example
+a|
+For script input parameters:
+
+* Use Pascal case.
+* Do not use underscores.
+* Do not use abbreviations.
+
+a|
+$VolumeName
+
+$AutoDeleteOptions
+
+$Size
+
+a|
+For script internal variables:
+
+* Use Camel case.
+* Do not use underscores.
+* Do not use abbreviations.
+
+a|
+$newVolume
+
+$qtreeName
+
+$time
+
+a|
+For functions:
+
+* Use Pascal case.
+* Do not use underscores.
+* Do not use abbreviations.
+
+a|
+GetVolumeSize
+a|
+Variable names are not case-sensitive. However, to improve readability, you should not use different capitalization for the same name.
+a|
+$variable is the same as $Variable.
+a|
+Variable names should be in plain English and should be related to the functionality of the script.
+a|
+Use $name and not $a.
+a|
+Declare the data type for each variable, explicitly.
+a|
+[string]name
+
+[int]size
+
+a|
+Do not use special characters (! @ # & % , .) and spaces.
+a|
+None
+a|
+Do not use PowerShell reserved keywords.
+a|
+None
+a|
+Group the input parameters by placing the mandatory parameters first followed by the optional parameters.
+a|
+
+----
+param(
+[parameter(Mandatory=$true)]
+[string]$Type,
+	
+[parameter(Mandatory=$true)]
+[string]$Ip,
+
+[parameter(Mandatory=$false)]
+[string]$VolumeName
+)
+----
+
+a|
+Comment all input variables using HelpMessage annotation with a meaningful help message.
+a|
+
+----
+[parameter(Mandatory=$false,HelpMessage="LUN to map")]
+[string]$LUNName
+----
+
+a|
+Do not use "`Filer`" as a variable name; use "`Array`" instead.
+a|
+None
+a|
+Use ValidateSet annotation in cases where the argument gets enumerated values. This automatically translates to Enum data type for the parameter.
+a|
+
+----
+[parameter(Mandatory=$false,HelpMessage="Volume state")]
+[ValidateSet("online","offline","restricted")]
+[string]$State
+----
+
+a|
+Add an alias to a parameter that ends with "`_Capacity`" to indicate that the parameter is of capacity type.
+a|
+The "`Create Volume`" command uses aliases as follows:
+
+----
+[parameter(Mandatory=$false,HelpMessage="Volume increment size in MB")]
+[Alias("AutosizeIncrementSize_Capacity")]
+[int]$AutosizeIncrementSize
+----
+
+a|
+Add an alias to a parameter that ends with "`_Password`" to indicate that the parameter is of password type.
+a|
+
+----
+param (
+  [parameter(Mandatory=$false, HelpMessage="In order to create an Active Directory machine account for the CIFS server or setup CIFS service for Storage Virtual Machine, you must supply the password of a Windows account with sufficient privileges")]  [Alias("Pwd_Password")]  [string]$ADAdminPassword
+)
+----
+
+|===
+
+== Perl variables
+
+|===
+| Guidelines| Example
+a|
+For script input parameters:
+
+* Use Pascal case.
+* Do not use underscores.
+* Do not use abbreviations.
+
+a|
+$VolumeName
+
+$AutoDeleteOptions
+
+$Size
+
+a|
+Do not use abbreviations for script internal variables.
+a|
+$new_volume
+
+$qtree_name
+
+$time
+
+a|
+Do not use abbreviations for functions.
+a|
+get_volume_size
+a|
+Variable names are case-sensitive. To improve readability, you should not use different capitalization for the same name.
+
+a|
+$variable is not the same as $Variable.
+a|
+Variable names should be in plain English and should be related to the functionality of the script.
+a|
+Use $name and not $a.
+a|
+Group the input parameters by placing the mandatory parameters first, followed by the optional parameters.
+a|
+None
+a|
+In GetOptions function, explicitly declare the data type of each variable for input parameters.
+a|
+
+----
+GetOptions(
+	"Name=s"=>\$Name,
+	"Size=i"=>\$Size
+)
+----
+
+a|
+Do not use "`Filer`" as a variable name; use "`Array`" instead.
+a|
+None
+a|
+Perl does not include the ValidateSet annotation for enumerated values. Use explicit "`if`" statements for cases where argument gets enumerated values.
+a|
+
+----
+if
+(defined$SpaceGuarantee&&!($SpaceGuaranteeeq'none'||$SpaceGuaranteeeq'volume'||$SpaceGuaranteeeq'file'))
+{
+	die'Illegal SpaceGuarantee argument: \''.$SpaceGuarantee.'\'';
+}
+----
+
+a|
+All Perl WFA commands must use the "`strict`" pragma to discourage the use of unsafe constructs for variables, references, and subroutines.
+a|
+
+----
+use strict;
+# the above is equivalent to
+use strictvars;
+use strictsubs;
+use strictrefs;
+----
+
+a|
+All Perl WFA commands must use the following Perl modules:
+
+* Getopt
++
+This is used for specifying input parameters.
+
+* WFAUtil
++
+This is used for utility functions that are provided for command logging, reporting command progress, connecting to array controllers, and so on.
+
+a|
+
+----
+use Getopt::Long;
+use NaServer;
+use WFAUtil;
+----
+
+|===
+*Related information*
+
+xref:reference_references_to_learning_material.adoc[References to learning material]

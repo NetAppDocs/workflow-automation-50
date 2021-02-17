@@ -1,0 +1,112 @@
+---
+permalink: help/reference_packs_window.html
+sidebar: sidebar
+keywords: 
+summary: 'The Packs window displays the OnCommand Workflow Automation WFA packs that are imported and available in the WFA server. Each pack contains the pack information file and WFA content, such as workflows, commands, filters, functions, finders, and templates.'
+---
+= Packs window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Packs window displays the OnCommand Workflow Automation WFA packs that are imported and available in the WFA server. Each pack contains the pack information file and WFA content, such as workflows, commands, filters, functions, finders, and templates.
+
+* <<GUID-1E417C67-1F31-4FA5-AAA7-2D5BB298C6AB,Packs table>>
+* <<SECTION_819274C0AB2341B0915167A78A41F1D8,Toolbar>>
+
+== Packs table
+
+The packs table lists in tabular format the WFA packs that are available in the WFA server. You can customize the table display by using the filtering and sorting features available for each column, as well as by rearranging the column order.
+
+* image:../media/filter_icon_wfa.gif[Filter icon] enables or disables filtering for the entire table. A red "x" appears over the icon if filtering is disabled.
+* Double-clicking image:../media/filter_icon_wfa.gif[Filter icon] clears and resets the filtering selections.
+* image:../media/wfa_filter_icon.gif[Filter icon] on each column header enables you to filter based on the content of the columns. Clicking image:../media/wfa_filter_icon.gif[Filter icon] in a column allows you to filter on a specific item from the drop-down list or on all available items.
+* Clicking the column header toggles between ascending and descending order of sorting. You can identify the applied sort order by the sort arrows (image:../media/wfa_sortarrow_up_icon.gif[Sort up icon] for ascending and image:../media/wfa_sortarrow_down_icon.gif[Sort down icon] for descending).
+* To rearrange the location of columns, you can drag and drop columns to place them in any required order. However, you cannot hide or delete any of these columns.
+* Clicking the *Search* filter text box allows you to search for specific content. In addition, you can search using supported operators for the applicable column type, Alphabetic or Numeric.
+
+The packs table contains the following columns:
+
+* *Certification*
++
+Indicates whether the pack is user-created (no icon, empty cell), PS (image:../media/ps_certified_icon_wfa.gif[]), community (image:../media/community_certification.gif[]), user-locked (image:../media/lock_icon_wfa.gif[]), or NetApp-certified (image:../media/netapp_certified.gif[])
++
+You can search for packs by selecting the required option check boxes from the filter list.
+
+* *Name*
++
+Displays the name of the pack.
++
+You can search for a pack by entering its name in the *Search* filter text box.
+
+* *Description*
++
+Displays the description of the pack.
++
+You can search for a pack by entering its description in the *Search* filter text box.
+
+* *Entity Version*
++
+Displays the version number of the pack in major.minor.revision format--for example, 1.0.0.
+
+* *Last Updated On*
++
+Displays the date and time when the pack was updated.
++
+You can search for packs by selecting the required time category from the filter drop-down list.
+
+* *Updated By*
++
+Displays the name of the user who updated the pack.
++
+You can search for a pack by entering the user name in the *Search* filter text box.
+
+* *Details*
++
+Displays the details of the pack in the Storage Automation Store website.
+
+== Toolbar
+
+The toolbar is located above the column header. You can use the icons in the toolbar to perform various actions. These actions can also be accessed from the right-click menu in the window.
+
+* *image:../media/new_pack.png[](New)*
++
+Opens the New Pack dialog box, which enables you to create a new pack.
+
+* *image:../media/details_wfa_icon.gif[Details icon] (Edit)*
++
+Opens the Pack Contents dialog box, which contains the following tabs for detailed information about the contents of the packs:
+
+ ** Workflows
+ ** Finders
+ ** Filters
+ ** Commands
+ ** Functions
+ ** Templates
+ ** Dictionary
+ ** Schemes
+ ** Cache Queries
+ ** SQL Data Source Types
+ ** Script Data Source Types
+ ** Remote System Types
+ ** Categories
+
+* *image:../media/delete_wfa_icon.gif[Delete icon] (Delete)*
++
+Opens the Delete Pack confirmation dialog box, which enables you to delete the selected pack.
+
+* *image:../media/unlock_wfa_icon.gif[Unlock icon] (Unlock)*
++
+Opens the Unlock Pack confirmation dialog box, which enables you to unlock the selected pack. This option is enabled only for the packs locked by you. However, administrators can unlock packs locked by other users.
+
+* *image:../media/export_wfa_icon.gif[Export icon] (Export)*
++
+Opens the Export dialog box, which enables you to export the selected pack.
+
+* *image:../media/import_from_server_folder.png[] (Import From Server Folder)*
++
+Opens the Import From Server Folder dialog box, which enables you to import the pack from the selected folder location in the server system.
+
+* *image:../media/export_to_server_folder.png[] (Export To Server Folder)*
++
+Opens the Export To Server Folder dialog box, which enables you to export the pack to the selected folder location in the server system.

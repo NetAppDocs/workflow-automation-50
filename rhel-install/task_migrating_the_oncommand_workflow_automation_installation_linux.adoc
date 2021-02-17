@@ -1,0 +1,49 @@
+---
+permalink: rhel-install/task_migrating_the_oncommand_workflow_automation_installation_linux.html
+sidebar: sidebar
+keywords: 
+summary: 'You can migrate an OnCommand Workflow Automation \(WFA\) installation to maintain the unique WFA database key that is installed during the WFA installation.'
+---
+= Migrating the OnCommand Workflow Automation installation
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can migrate an OnCommand Workflow Automation (WFA) installation to maintain the unique WFA database key that is installed during the WFA installation.
+
+* You must perform this procedure only when you want to migrate a WFA installation that includes the WFA database key to a different server.
+* A WFA database restore does not migrate the WFA key.
+* Migrating a WFA installation does not migrate the SSL certificates.
+* The default WFA installation path is used in this procedure.
++
+If you changed the default location during installation, you must use the changed WFA installation path.
+
+. Access WFA through a web browser as an admin.
+. Back up the WFA database.
+. Open a shell prompt on the WFA server and change directories to the following location: WFA_install_location/wfa/bin/
+. Enter the following at the shell prompt to obtain the database key: `./wfa -key`
+. Note the database key that is displayed.
+. Uninstall WFA.
+. Install WFA on the required system.
+. Open a shell prompt on the WFA server and change the directories to the following location: WFA_install_location/wfa/bin/
+. At the shell prompt, install the database key by entering the following command: `./wfa -key=yourdatabasekey`
++
+yourdatabasekey is the key that you noted from the previous WFA installation.
+
+. Restore the WFA database from the backup that you created.
+
+*Related information*
+
+xref:reference_backing_up_of_the_oncommand_workflow_automation_database.adoc[Backing up the OnCommand Workflow Automation database]
+
+xref:task_backing_up_oncommand_workflow_automation_database_using_the_web_portal.adoc[Backing up the WFA database from the web portal]
+
+xref:task_backing_up_full_the_wfa_database_using_perl_script_linux.adoc[Backing up (full) the WFA database using the CLI]
+
+xref:task_uninstalling_oncommand_workflow_automation_linux.adoc[Uninstalling OnCommand Workflow Automation]
+
+xref:task_installing_oncommand_workflow_automation.adoc[Installing OnCommand Workflow Automation on Linux]
+
+xref:task_restoring_oncommand_workflow_automation_database_using_web_portal.adoc[Restoring the WFA database]
+
+xref:task_importing_oncommand_workflow_automation_content.adoc[Importing OnCommand Workflow Automation content]

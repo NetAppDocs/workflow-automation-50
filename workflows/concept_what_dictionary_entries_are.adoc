@@ -1,0 +1,20 @@
+---
+permalink: workflows/concept_what_dictionary_entries_are.html
+sidebar: sidebar
+keywords: 
+summary: 'Dictionary entries are one of the OnCommand Workflow Automation \(WFA\) building blocks. You can use dictionary entries to represent object types and their relationships in your storage and storage-related environments. You can then use filters in workflows to return the value of the natural keys of the dictionary entries.'
+---
+= What dictionary entries are
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Dictionary entries are one of the OnCommand Workflow Automation (WFA) building blocks. You can use dictionary entries to represent object types and their relationships in your storage and storage-related environments. You can then use filters in workflows to return the value of the natural keys of the dictionary entries.
+
+A dictionary entry is the definition of an object type that is supported by WFA. Each dictionary entry represents an object type and its relationship in the supported storage and storage-related environments. A dictionary object consists of a list of attributes, which might be type checked. A dictionary object with complete values describes an object instance of a type. In addition, the reference attributes describe the relationship of the object with the environment; for example, a volume dictionary object has many attributes, such as name, size_mb, and volume_guarantee. In addition, the volume dictionary object includes references to the aggregate and the array containing the volume in the form of array_id and aggregate_id.
+
+The cache table of an object is a database containing a few or all of the dictionary entry's attributes that are marked for caching. For a dictionary entry to include a cache table, at least one of the dictionary entry's attributes must be marked for caching. Dictionary entries include natural keys, which are unique identifiers for the objects; for example, 7-Mode volumes are identified uniquely by their name and the IP address of the array containing them. Qtrees are identified by the qtree name, the volume name, and the array IP address. You must identify the dictionary attributes that are part of the dictionary entry's natural keys when creating dictionary entries.
+
+*Related information*
+
+xref:task_creating_a_dictionary_entry.adoc[Creating a dictionary entry]

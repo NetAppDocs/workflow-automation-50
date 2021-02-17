@@ -1,0 +1,221 @@
+---
+permalink: help/reference_data_sources_window.html
+sidebar: sidebar
+keywords: 
+summary: 'The Data Sources window enables you to view, edit, and delete existing data sources, create new data sources, and acquire a data source. You can access this window by selecting Settings, and under Setup click Data Sources.'
+---
+= Data Sources window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Data Sources window enables you to view, edit, and delete existing data sources, create new data sources, and acquire a data source. You can access this window by selecting *Settings*, and under *Setup* click *Data Sources*.
+
+A data source is a read-only data structure that contains information about where the data in a specific database originates from. Data sources must be defined before environments can be polled. For example, a data source can be either an OnCommand Unified Manager database that contains information about a storage environment or a VMware database with information about a data center.
+
+* <<GUID-65BFF234-5FF3-498A-8597-787005532741,Data Sources table>>
+* <<GUID-E9AADB76-2F48-41F0-843C-38E4652240B7,History table>>
+* <<GUID-F54D39AA-60D5-4218-B0B9-A04A6C196BFD,Toolbar>>
+
+== Data Sources table
+
+The Data Sources table lists the existing data sources. You can customize the table display by using the filtering and sorting features available for each column, as well as by rearranging the column order.
+
+* image:../media/filter_icon_wfa.gif[Filter icon] enables or disables filtering for the entire table. A red "x" appears over the icon if filtering is disabled.
+* Double-clicking image:../media/filter_icon_wfa.gif[Filter icon] clears and resets the filtering selections.
+* image:../media/wfa_filter_icon.gif[Filter icon] on each column header enables you to filter based on the content of the columns. Clicking image:../media/wfa_filter_icon.gif[Filter icon] in a column allows you to filter on a specific item from the drop-down list or on all available items.
+* Clicking the column header toggles between ascending and descending order of sorting. You can identify the applied sort order by the sort arrows (image:../media/wfa_sortarrow_up_icon.gif[Sort up icon] for ascending and image:../media/wfa_sortarrow_down_icon.gif[Sort down icon] for descending).
+* To rearrange the location of columns, you can drag and drop columns to place them in any required order. However, you cannot hide or delete any of these columns.
+* Clicking the *Search* filter text box allows you to search for specific content. In addition, you can search using supported operators for the applicable column type, Alphabetic or Numeric.
+
+The following table lists the supported operators for alphabetic and numeric columns in the Data Sources table, available from the *Search* filter text box.
+
+|===
+| Alphabetic| Numeric
+a|
+
+* Contains
+* Does not contain
+* Starts with
+* Ends with
+* Equals
+* Does not equal
+* Reset
+
+a|
+
+* Equals
+* Does not equal
+* Less than
+* Greater than
+* Less than or equal to
+* Greater than or equal to
+* Between
+* Reset
+
+|===
+The Data Sources table contains the following columns:
+
+* *Name*
++
+Displays the name of the data source.
+
+* *Data Source Type*
++
+Displays the data source type.
+
+* *Host Name*
++
+Displays the host name or IP address of the data source.
+
+* *Scheme*
++
+Displays the caching scheme associated with the data source. For example, a VM caching scheme contains data that is relevant to your virtual environment such as virtual machines, hosts, and datastores. The relevant scheme information is obtained from the data source.
+
+* *Interval (minutes)*
++
+Displays the interval (in minutes) between two consecutive acquisitions of a data source.
+
+* *Start Time*
++
+Displays the date and time when the data acquisition process was started.
++
+Click the calendar icon in the *Search* filter text box to search for data sources with a specific start date.
+
+* *Duration (seconds)*
++
+Displays the time (in seconds) that it takes to process the last data acquisition from the data source.
+
+* *Status*
++
+Displays the status of the current data acquisition process (if any) or the last data acquisition process. The status options include the following:
+
+ ** All
+ ** Aborting
+ ** Canceled
+ ** Completed
+ ** Failed
+ ** NoAcquisition
+ ** Obsolete
+ ** Pending
+ ** Executing
+ ** Scheduled
+
+* *Message*
++
+Displays an error message when the data acquisition process encounters and error and stops.
+
+== History table
+
+The History table displays in the header the name of the data source that was selected in the Data Source table, and lists the details of each data acquisition process for the selected data source. The list of processes is updated dynamically, as the data acquisition processes occur. You can customize the table display by using the filtering and sorting features available for each column, as well as by rearranging the column order.
+
+* image:../media/filter_icon_wfa.gif[Filter icon] enables or disables filtering for the entire table. A red "x" appears over the icon if filtering is disabled.
+* Double-clicking image:../media/filter_icon_wfa.gif[Filter icon] clears and resets the filtering selections.
+* image:../media/wfa_filter_icon.gif[Filter icon] on each column header enables you to filter based on the content of the columns. Clicking image:../media/wfa_filter_icon.gif[Filter icon] in a column allows you to filter on a specific item from the drop-down list or on all available items.
+* Clicking the column header toggles between ascending and descending order of sorting. You can identify the applied sort order by the sort arrows (image:../media/wfa_sortarrow_up_icon.gif[Sort up icon] for ascending and image:../media/wfa_sortarrow_down_icon.gif[Sort down icon] for descending).
+* To rearrange the location of columns, you can drag and drop columns to place them in any required order. However, you cannot hide or delete any of these columns.
+* Clicking the *Search* filter text box allows you to search for specific content. In addition, you can search using supported operators for the applicable column type, Alphabetic or Numeric.
+
+The following table lists the supported operators for alphabetic and numeric columns in the History table, available from the *Search* filter text box.
+
+|===
+| Alphabetic| Numeric
+a|
+
+* Contains
+* Does not contain
+* Starts with
+* Ends with
+* Equals
+* Does not equal
+* Reset
+
+a|
+
+* Equals
+* Does not equal
+* Less than
+* Greater than
+* Less than or equal to
+* Greater than or equal to
+* Between
+* Reset
+
+|===
+The History table contains the following columns:
+
+* *ID*
++
+Displays the identification number of the data acquisition process.
++
+The identification number is unique and is assigned by the server when it starts the data acquisition process.
+
+* *Start Time*
++
+Displays the date and time when the data acquisition process was started.
++
+Click the calendar icon in the *Search* filter text box to search for data acquisition processes started on a specific date.
+
+* *Duration (seconds)*
++
+Displays the length of time (in seconds) of the last acquisition process from the data source.
+
+* *Planned Acquisition*
++
+Displays the scheduled date and time for the data acquisition process.
++
+Click the calendar icon in the *Search* filter text box to search for data acquisitions scheduled for a specific date.
+
+* *Scheduling Type*
++
+Displays the type of schedule. The schedule types include the following:
+
+ ** All
+ ** Immediate
+ ** Recurring
+ ** Unknown
+
+* *Status*
++
+Displays the status of the current data acquisition process (if any) or the last data acquisition process. The status options include the following:
+
+ ** All
+ ** Aborting
+ ** Canceled
+ ** Completed
+ ** Failed
+ ** Obsolete
+ ** Pending
+ ** Executing
+ ** Scheduled
+ ** NoAcquisition
+
+* *Message*
++
+Displays a message about the error that was encountered during the data acquisition process, when the process stopped and could not continue.
+
+== Toolbar
+
+The toolbar is located above the column headers of the Data Sources table. You can use the icons in the toolbar to perform various actions. You can also perform these actions by using the right-click menu in the window.
+
+* *image:../media/new_wfa_icon.gif[New icon] (New)*
++
+Opens the New Data Source dialog box, which enables you to add a new data source.
+
+* *image:../media/edit_wfa_icon.gif[Edit icon] (Edit)*
++
+Opens the Edit Data Source dialog box, which enables you to edit the selected data source.
+
+* *image:../media/delete_wfa_icon.gif[Delete icon] (Delete)*
++
+Opens the Delete Data Source confirmation dialog box, which enables you to delete the selected data source.
+
+* *image:../media/acquire_now_wfa_icon.gif[Acquire now icon] (Acquire Now)*
++
+Initiates the acquisition process for the selected data source.
+
+* *image:../media/reset_scheme_wfa_icon.gif[Reset scheme icon] (Reset Scheme)*
++
+Opens the Reset Scheme confirmation dialog box. This dialog box enables you to reset the cache storage for the selected scheme. The cache is reset during the next data acquisition process.
++
+IMPORTANT: The reset process deletes all the cached data, including all the tables. The entire cache is built from start during the next data acquisition process.

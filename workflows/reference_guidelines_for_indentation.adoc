@@ -1,0 +1,59 @@
+---
+permalink: workflows/reference_guidelines_for_indentation.html
+sidebar: sidebar
+keywords: 
+summary: 'You must be aware of the guidelines for indentation when writing a PowerShell or Perl script for OnCommand Workflow Automation \(WFA\).'
+---
+= Guidelines for indentation
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You must be aware of the guidelines for indentation when writing a PowerShell or Perl script for OnCommand Workflow Automation (WFA).
+
+|===
+| Guidelines| Example
+a|
+A tab is equal to four empty spaces.
+a|
+ 
+a|
+Use tabs and braces to show the beginning and end of a block.
+a|
+PowerShell script
+
+----
+if
+($pair.length-ne 2)
+{
+throw "Got wrong input data"
+}
+----
+
+Perl script
+
+----
+if
+(defined $MaxDirectorySize)
+{
+# convert from MBytes to Bytes
+my $MaxDirectorySizeBytes = $MaxDirectorySize *
+1024 * 1024;
+}
+----
+
+a|
+Add blank lines between sets of operations or chunks of code.
+a|
+
+----
+$options=$option.trim();
+$pair=$option.split(" ");
+Get-WFAlogger -Info -messages $("split options: "+
+$Pair)
+----
+
+|===
+*Related information*
+
+xref:reference_references_to_learning_material.adoc[References to learning material]

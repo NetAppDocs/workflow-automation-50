@@ -1,0 +1,34 @@
+---
+permalink: help/task_configuring_a_database_user_by_running_ocsetup_on_windows.html
+sidebar: sidebar
+keywords: 
+summary: 'You can run the ocsetup file on the OnCommand Unified Manager server to configure read-only access of the OnCommand Unified Manager database to OnCommand Workflow Automation.'
+---
+= Configuring a database user by running ocsetup on Windows
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can run the ocsetup file on the OnCommand Unified Manager server to configure read-only access of the OnCommand Unified Manager database to OnCommand Workflow Automation.
+
+. Download the wfa_ocsetup.exe file to a directory in the OnCommand Unified Manager server from the following location: https://WFA_Server_IP/download/wfa_ocsetup.exe.
++
+WFA_Server_IP is the IP address (IPv4 or IPv6 address) of your WFA server.
++
+If you have specified a non-default port for WFA, you must include the port number as follows: https://wfa_server_ip:port/download/wfa_ocsetup.exe.
++
+port is the TCP port number that you have used for the WFA server during installation.
++
+If you are specifying an IPv6 address, you must enclose it with square brackets.
+
+. Double-click the wfa_ocsetup.exe file.
+. Read the information in the setup wizard and click *Next*.
+. Browse or type the JRE location and click *Next*.
+. Enter a user name and password to override the default credentials.
++
+A new database user account is created with access to the OnCommand Unified Manager database.
++
+NOTE: If you do not create a user account, the default credentials are used. You must create a user account for security purposes.
+
+. Click *Next* and review the results.
+. Click *Next*, and then click *Finish* to complete the wizard.

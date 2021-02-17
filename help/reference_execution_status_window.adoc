@@ -1,0 +1,213 @@
+---
+permalink: help/reference_execution_status_window.html
+sidebar: sidebar
+keywords: 
+summary: 'The Executions window displays the status of the execution process for each workflow that has been submitted for execution. The window enables you to view details of the execution process and control the execution of a workflow. You can access this window by selecting Execution \> Executions.'
+---
+= Executions window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Executions window displays the status of the execution process for each workflow that has been submitted for execution. The window enables you to view details of the execution process and control the execution of a workflow. You can access this window by selecting *Execution* > *Executions*.
+
+* <<GUID-8FE47E3E-84F8-41AA-A2B6-ABA117178EE3,Workflow table>>
+* <<GUID-47F26249-8C14-410F-9CA8-19377388B7A1,Toolbar>>
+
+== Workflow table
+
+The Workflow table lists the workflows submitted for execution. You can customize the table display by using the filtering and sorting features available for each column, as well as by rearranging the column order.
+
+* image:../media/filter_icon_wfa.gif[Filter icon] enables or disables filtering for the entire table. A red "x" appears over the icon if filtering is disabled.
+* Double-clicking image:../media/filter_icon_wfa.gif[Filter icon] clears and resets the filtering selections.
+* image:../media/wfa_filter_icon.gif[Filter icon] on each column header enables you to filter based on the content of the columns. Clicking image:../media/wfa_filter_icon.gif[Filter icon] in a column allows you to filter on a specific item from the drop-down list or on all available items.
+* Clicking the column header toggles between ascending and descending order of sorting. You can identify the applied sort order by the sort arrows (image:../media/wfa_sortarrow_up_icon.gif[Sort up icon] for ascending and image:../media/wfa_sortarrow_down_icon.gif[Sort down icon] for descending).
+* To rearrange the location of columns, you can drag and drop columns to place them in any required order. However, you cannot hide or delete any of these columns.
+* Clicking the *Search* filter text box allows you to search for specific content. In addition, you can search using supported operators for the applicable column type, Alphabetic or Numeric.
+
+The following table outlines the supported operators for alphabetic and numeric columns in the Workflow table, available in the *Search* filter text box.
+
+|===
+| Alphabetic| Numeric
+a|
+
+* Contains
+* Does not contain
+* Starts with
+* Ends with
+* Equals
+* Does not equal
+* Reset
+
+a|
+
+* Equals
+* Does not equal
+* Less than
+* Greater than
+* Less than or equal to
+* Greater than or equal to
+* Between
+* Reset
+
+|===
+The Workflow table contains the following columns:
+
+* *Job #*
++
+Displays the identification number of the job.
++
+The job identification number is unique and is assigned by the server when it starts the job.
+
+* *Name*
++
+Displays the name of the workflow.
+
+* *Start Time*
++
+Displays the date and time when the workflow was started.
++
+Click the calendar icon in the Search filter text box to search for workflows with a specific start date.
+
+* *End Time*
++
+Displays the date and time when the workflow ended.
++
+Click the calendar icon in the Search filter text box to search for workflows with a specific end date.
+
+* *Status*
++
+Displays the running status of the job. The status can be one of the following:
+
+ ** Failed
++
+Indicates that the workflow failed during execution. Based on the time that has elapsed since the execution of the workflow, you can resume the workflow from the failed command.
+
+ ** Executing
++
+Indicates that the workflow is being executed. The workflow executes the plan that was created in the planning phase, which precedes any other execution.
+
+ ** Successful
++
+Indicates that the workflow has been successfully executed.
+
+ ** Canceled
++
+Indicates that the workflow has been canceled by a user.
+
+ ** Waiting for Approval
++
+Indicates that an approval point is part of the workflow. The workflow remains in this state until the specified user approves the workflow execution.
+
+ ** Scheduled
++
+Indicates that the planning of the workflow is complete and the workflow is scheduled for execution.
+
+ ** Aborting
++
+Indicates that the workflow is being aborted. An aborted workflow does not continue with the execution; any previously completed part of the workflow remains completed.
+
+ ** Obsolete
++
+Indicates that the scheduled workflow has not been executed within the specified time per the schedule.
+
+ ** Planning
++
+Indicates the resolution of the workflow design, location of all resources, verification of design viability, and formulation of the execution plan. Planning can be a stand-alone action, part of the design verification, or part of execution because every execution starts with a fresh planning.
+
+ ** Pending
++
+Indicates that the workflow is in the planning queue. This is an internal status. The workflow is retrieved for planning from this status.
+
+ ** Partially Successful
++
+Indicates that although the workflow has been successfully executed, there are one or more steps that have failed. The execution is completed because the failed steps have been configured such that the workflow execution continues even when the step has failed.
+
+* *Completed*
++
+Displays the number of steps that are completed of the total number of steps for the selected workflow.
+
+* *Submitted By*
++
+Displays the user name of the user who submitted the workflow.
+
+* *Submitted At*
++
+Displays the date and time that the workflow was submitted.
++
+Click the calendar icon in the Search filter text box to search for workflows with a specific submitted at date.
+
+* *Execution Comment*
++
+Displays the comment specified for the workflow execution.
+
+* *Scheduled For*
++
+Displays the scheduled date and time for the execution of the workflow.
++
+Click the calendar icon in the Search filter text box to search for workflows with a specific scheduled for date.When a filter to view the jobs at a later date is applied on the column, jobs with "`Job # zero`" might be displayed. This indicates that the job is not yet created and will be created at the scheduled time.
+
+* *Recurring ID*
++
+Displays the identifier of the recurring schedule.
+
+* *Schedule Name*
++
+Displays the name of the schedule.
+
+* *Last Status Change*
++
+Displays the time when a status was changed.
++
+Click the calendar icon in the Search filter text box to search for workflows with a specific last status change date.
+
+* *Approval Point Comment*
++
+Indicates the message that is displayed to the user at the last approval point, if applicable, during the execution of the workflow.
+
+== Toolbar
+
+The toolbar is located above the column header. You can use the icons in the toolbar to perform various actions. These actions can also be accessed from the right-click menu in the window.
+
+* *image:../media/details_wfa_icon.gif[Details icon] (Details)*
++
+Opens the Monitoring window for the selected workflow, which contains the following tabs for detailed information about the workflow:
+
+ ** Flow
+ ** Execution Plan
+ ** User Inputs
+ ** Return Parameters
+ ** History
+You can also double-click an entry in the table to open the Monitoring window to view detailed information.
+
+* *image:../media/abort_wfa_icon.gif[Abort icon] (Abort)*
++
+Stops the execution process from continuing. This option is enabled for workflows that are in execution mode.
+
+* *image:../media/reschedule_wfa_icon.gif[Reschecule icon] (Reschedule)*
++
+Opens a Reschedule Workflow dialog box, which enables you to change the time of execution for the workflow. The option is enabled for workflows that are in the Scheduled state.
+
+* *image:../media/resume_wfa_icon.gif[Resume icon] (Resume)*
++
+Opens a Resume Workflow dialog box, which enables you to resume the execution of the workflow after modifying environment issues (for example, wrong credentials to an array, missing licenses, or array is down). The option is enabled for workflows that are in the Failed state.
+
+* *image:../media/approve_resume_wfa_icon.gif[Approve and resume icon] (Approve & Resume)*
++
+Enables you to approve the execution of the workflow and continue the execution process. This option is enabled for workflows that are in the Waiting For Approval state.
+
+* *image:../media/reject_abort_wfa_icon.gif[Reject and abort icon] (Reject & Abort)*
++
+Enables you to reject the execution of the workflow and stop the execution process. This option is enabled for workflows that are in the Waiting For Approval state.
+
+* *image:../media/clean_reservation_wfa_icon.gif[Clean reservation icon] (Clean Reservation)*
++
+Enables you to clean the resource reservation made for a workflow from the local cache. Clean reservation is available only for scheduled, failed, and partially successful workflows. You cannot resume reservation after it is cleaned.
+
+* *image:../media/refresh_wfa_icon.gif[Refrech icon] (Refresh)*
++
+Refreshes the list of workflows. The view refreshes automatically. You can toggle auto refresh on and off by clicking image:../media/refresh_icon_wfa.gif[] in the status bar.
+
+*Related information*
+
+xref:reference_monitoring_window.adoc[Monitoring window]

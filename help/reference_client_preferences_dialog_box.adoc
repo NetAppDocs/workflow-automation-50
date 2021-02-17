@@ -1,0 +1,44 @@
+---
+permalink: help/reference_client_preferences_dialog_box.html
+sidebar: sidebar
+keywords: Workflow Automation
+summary: 'The Preferences window enables you to view and modify the refresh and logging options for all of the clients associated with the specific Workflow Automation \(WFA\) server. You can access this window by selecting Settings, and under Setup click Preferences.'
+---
+= Preferences window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Preferences window enables you to view and modify the refresh and logging options for all of the clients associated with the specific Workflow Automation (WFA) server. You can access this window by selecting *Settings*, and under *Setup* click *Preferences*.
+
+* *Enable Auto Refresh*
++
+Enables you to choose the automatic refresh of the client, which is triggered by the server. This option is selected by default. When selected, the following WFA tables are refreshed automatically:
+
+ ** Execution Status
+ ** Data Sources
+ ** Reservations
+If not selected, the tables are not updated until you click *Refresh*. This check box is selected by default.
+
+* *Refresh Interval (seconds)*
++
+Enables you to select the refresh interval. The default value is 3 seconds.
+
+* *Max number of rows to display*
++
+Enables you to click the value in the *Max Size* column and modify the number of rows that the server retrieves and displays to the user per list type.
++
+For example, the *Workflow Execution* setting displays the number of past history executions to the user. The following are the default values:
+
+ ** Workflow Execution: 100
+ ** Acquisition History: 30
+ ** Reservations: 100
+ ** Add inventory rows: 1000
++
+Enables you to specify the maximum number of results that should be obtained by inventory. The default value is 1000.
+
+== Command button
+
+* *Save*
++
+Saves the configuration settings.

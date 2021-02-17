@@ -1,0 +1,39 @@
+---
+permalink: windows-install/task_replacing_the_default_workflow_automation_ssl_certificate.html
+sidebar: sidebar
+keywords: 
+summary: 'You can replace the default Workflow Automation \(WFA\) SSL certificate if the certificate has expired or if you want to increase the validity period of the certificate.'
+---
+= Replacing the default Workflow Automation SSL certificate
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can replace the default Workflow Automation (WFA) SSL certificate if the certificate has expired or if you want to increase the validity period of the certificate.
+
+You must have Windows admin privileges on the WFA server.
+
+The default WFA installation path is used in this procedure. If you changed the default location during installation, you must use the custom WFA installation path.
+
+. Log in as the admin user on the WFA host machine.
+. Use the Windows Services console to stop the following WFA services:
+ ** NetApp WFA Database
+ ** NetApp WFA Server
+. Delete the wfa.keystore file from the following location:<WFA_install_location>\WFA\jboss\standalone\configuration\keystore
+. Open a command prompt on the WFA server, and change directories to the following location: <WFA_install_location>\WFA\jre\bin
+. Obtain the database key: `keytool -keysize 2048 -genkey -alias "ssl keystore" -keyalg RSA -keystore "<WFA_install_location>\WFA\jboss\standalone\configuration\keystore\wfa.keystore" -validity xxxx`
++
+xxxx is the number of days for the new certificate's validity.
+
+. When prompted, provide the password (default or new).
++
+changeit is the default password. If you do not want to use the default password, you must change the password attribute of the SSL element in the standalone-full.xml file from the following location: <WFA_install_location>\WFA\jboss\standalone\configuration\
++
+----
+<ssl name="ssl" password="new_password" certificate-key-file="${jboss.server.config.dir}/keystore/wfa.keystore"
+----
+
+. Enter the required details for the certificate.
+. Review the displayed information, and enter `Yes`.
+. Press *Enter* when prompted by the following message: Enter key password for <SSL keystore> <RETURN if same as keystore password>.
+. Restart the WFA services by using the Windows Services console.

@@ -1,0 +1,68 @@
+---
+permalink: help/task_defining_filter_rules.html
+sidebar: sidebar
+keywords: 
+summary: 'You can define a set of rules for filtering dictionary entry resources such as vFiler units, aggregates, and virtual machines. You can customize the rules for existing workflows and for new workflows while you are creating them.'
+---
+= Defining filter rules
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can define a set of rules for filtering dictionary entry resources such as vFiler units, aggregates, and virtual machines. You can customize the rules for existing workflows and for new workflows while you are creating them.
+
+. Log in to WFA through a web browser as an admin.
+. Click *Designer* > *Workflows*.
+. In the Workflows window, double-click the workflow that you want to modify.
++
+The Workflow <workflow name> window is displayed.
+
+. Define a set of rules by choosing one of the following options:
++
+|===
+| If you want to...| Then do this...
+a|
+Search for resources when the commands in a row are repeated
+a|
+
+ .. Click a row number and select *Repeat row*.
+ .. In the Row Repetitions dialog box, select the *For every resource in the group* option from the *Repeats* drop-down list.
+ .. Select a resource type.
+ .. Click the *Enter search criteria* link.
+
+a|
+Search for resources required in command inputs
+a|
+
+ .. Click image:../media/add_object_wfa_icon.gif[Icon for adding a command].
+ .. In the Parameters for <command_name> dialog box, select the *by searching for an existing <dictionary object>* option from the *Define <dictionary object>* drop-down list.
+ .. Click the *Enter search criteria* link.
+
+a|
+Search for resources referenced by variables in command inputs
+a|
+
+ .. Click image:../media/add_object_wfa_icon.gif[Icon for adding a command].
+ .. In the Parameters for <command_name> dialog box, select the *by filling in attributes* option from the *Define <dictionary object>* drop-down list.
+ .. Click image:../media/ellipses.gif[] for a field marked with image:../media/resource_selection_icon_wfa.gif[Icon for reference objects].
+
+a|
+Name command inputs of String type
+a|
+
+ .. Click image:../media/add_object_wfa_icon.gif[Icon for adding a command].
+ .. In the Parameters for <command_name> dialog box, select the *by filling in attributes* option from the *Define <dictionary object>* drop-down list.
+ .. Click image:../media/ellipses.gif[Icon for ellipses] for a string field.
+
++
+|===
+
+. In the Resource Selection dialog box, select the *Define filter rules* check box.
++
+If you have selected one of the options from the Finder drop-down of Resource Selection dialog box, the Define filter rules check box is disabled. The value for the finder must be set to "`None`" for the Define filter rules to be enabled.
+
+. Enter the attribute, operator, and value for the rule.
++
+The value must be provided within single quotation marks. The filter rules can contain one or more groups.
+
+. Click *OK*.

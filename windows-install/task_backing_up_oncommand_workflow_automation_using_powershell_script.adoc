@@ -1,0 +1,35 @@
+---
+permalink: windows-install/task_backing_up_oncommand_workflow_automation_using_powershell_script.html
+sidebar: sidebar
+keywords: 
+summary: 'If you want to back up the OnCommand Workflow Automation \(WFA\) database frequently, you can use the PowerShell script that is provided with the WFA installation package.'
+---
+= Backing up the WFA database using the PowerShell script
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you want to back up the OnCommand Workflow Automation (WFA) database frequently, you can use the PowerShell script that is provided with the WFA installation package.
+
+You must have admin user credentials, architect credentials, or backup user credentials.
+
+For more information, see the REST documentation.
+
+. Open Windows PowerShell as an admin user, and then back up the WFA database: `<WFA_install_location\WFA\bin\Backup.ps1> -User user_name -Password password -Path backup_file_path`
+ ** WFA_install_location is the WFA installation directory.
+ ** user_name is the user name of the admin user, architect, or backup user.
+ ** password is the password of the admin user, architect, or backup user.
+ ** backup_file_path is the complete directory path for the backup file.
+*Note:* The backup file is a zip file with the name in the following format: wfa_backup_servername_.zip
+ ** wfa_backup_ is a fixed portion of the file name, which is the name of the backup server.
+ ** servername is extracted from the environment of the Windows server.
+ ** _.zip is a fixed portion of the file name.
+`C:\Program Files\NetApp\WFA\bin\Backup.ps1 -User backup -Password MyPassword123 -Path C:\WFA_backups\backup_10_08_12`
+
++
+After the backup is complete, the following output is displayed: C:\WFA_backups\backup_10__08_12\wfa_backup_myserver__.zip
+. Verify that the backup file was created at the specified location.
+
+*Related information*
+
+xref:task_upgrading_oncommand_workflow_automation.adoc[Upgrading OnCommand Workflow Automation]

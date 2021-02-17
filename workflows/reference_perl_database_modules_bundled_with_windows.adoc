@@ -1,0 +1,34 @@
+---
+permalink: workflows/reference_perl_database_modules_bundled_with_windows.html
+sidebar: sidebar
+keywords: 
+summary: 'Some Perl modules are bundled with the Windows Active state Perl distribution for OnCommand Workflow Automation \(WFA\). You can use these Perl modules in your Perl code for writing commands, only if they are bundled with Windows.'
+---
+= Perl modules bundled with Windows
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Some Perl modules are bundled with the Windows Active state Perl distribution for OnCommand Workflow Automation (WFA). You can use these Perl modules in your Perl code for writing commands, only if they are bundled with Windows.
+
+The following table lists the Perl database modules that are bundled with Windows for WFA.
+
+|===
+| Database module| Description
+a|
+DBD::mysql
+a|
+Perl5 database interface driver that enables you to connect to the MySQL database.
+a|
+Try::Tiny
+a|
+Minimizes common mistakes with evaluation blocks.
+a|
+XML::LibXML
+a|
+Interface to libxml2 that provides XML and HTML parsers with DOM, SAX, and XMLReader interfaces.
+a|
+DBD::Cassandra
+a|
+Perl5 database interface driver for Cassandra that uses the CQL3 query language.
+|===
