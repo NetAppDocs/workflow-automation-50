@@ -1,0 +1,41 @@
+---
+permalink: workflows/concept_working_with_the_building_blocks_in_oncommand_workflow_automation.html
+sidebar: sidebar
+keywords: 
+summary: 'The Workflow Automation \(WFA\) workflows consist of several building blocks and WFA includes a library of the predefined building blocks. You can use the building blocks that WFA provides to create workflows that match the requirements of your organization.'
+---
+= Working with the building blocks in OnCommand Workflow Automation
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Workflow Automation (WFA) workflows consist of several building blocks and WFA includes a library of the predefined building blocks. You can use the building blocks that WFA provides to create workflows that match the requirements of your organization.
+
+WFA provides the structure for storage automation processes. WFA's flexibility is based on how the workflows are constructed by using the workflow building blocks.
+
+The WFA building blocks are as follows:
+
+* Dictionary entries
+* Commands
+* Filters
+* Finders
+* Functions
+* Templates
+
+You should understand how the building blocks are used in WFA to help you in creating the workflows.
+
+*Related information*
+
+xref:concept_what_data_sources_are.adoc[What data sources are]
+
+xref:concept_what_dictionary_entries_are.adoc[What dictionary entries are]
+
+xref:concept_how_commands_work.adoc[How commands work]
+
+xref:concept_what_filters_are.adoc[What filters are]
+
+xref:concept_what_finders_are.adoc[What finders are]
+
+xref:concept_what_functions_are.adoc[What functions are]
+
+xref:concept_how_you_use_templates.adoc[How you use templates]

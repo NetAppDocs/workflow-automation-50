@@ -1,0 +1,41 @@
+---
+permalink: help/task_configuring_autosupport.html
+sidebar: sidebar
+keywords: 
+summary: 'You can configure several AutoSupport settings such as the schedule, content of the AutoSupport messages, and the proxy server. AutoSupport sends weekly logs of the content that you selected to technical support for archiving and issue analysis.'
+---
+= Configuring AutoSupport
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can configure several AutoSupport settings such as the schedule, content of the AutoSupport messages, and the proxy server. AutoSupport sends weekly logs of the content that you selected to technical support for archiving and issue analysis.
+
+. Log in to WFA through a web browser as an admin.
+. Click *Settings*, and under *Setup* click *AutoSupport*.
+. Ensure that the *Enable AutoSupport* box is selected.
+. Enter the required information.
+. Select one of the following from the *Content* list:
++
+|===
+| If you want to include...| Then choose this option...
+a|
+Only configuration details such as users, workflows, and commands of your WFA installation
+a|
+send only configuration data
+a|
+WFA configuration details and data in WFA cache tables such as the scheme
+a|
+send configuration and cache data (default)
+a|
+WFA configuration details, data in WFA cache tables, and data in the installation directory
+a|
+send configuration and cache extended data
+|===
+*Note:* The password of any WFA user is _not_ included in the AutoSupport data.
+
+. Test that you can download an AutoSupport message:
+ .. Click *Download*.
+ .. In the dialog box that opens, select the location to save the .7z file.
+. Test the sending of an AutoSupport message to the specified destination by clicking *Send Now*.
+. Click *Save*.

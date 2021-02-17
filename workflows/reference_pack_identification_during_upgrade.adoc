@@ -1,0 +1,24 @@
+---
+permalink: workflows/reference_pack_identification_during_upgrade.html
+sidebar: sidebar
+keywords: 
+summary: 'During the upgrade process, OnCommand Workflow Automation \(WFA\) identifies and classifies the entities into a pack. If you had deleted any entity of a pack before the upgrade, the pack will not be identified during the upgrade.'
+---
+= Pack identification during upgrade
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+During the upgrade process, OnCommand Workflow Automation (WFA) identifies and classifies the entities into a pack. If you had deleted any entity of a pack before the upgrade, the pack will not be identified during the upgrade.
+
+During the upgrade process, WFA compares the packs in the database with the list of packs that were released in the Storage Automation Store to identify the packs that were installed before the upgrade. Pack identification thus classifies existing packs in the database.
+
+WFA performs the following processes to identify and classify packs:
+
+* Maintains a list of packs released in the Storage Automation Store to compare and identify the packs that were installed before the upgrade.
+* Classifies the entities in a pack as part of the Storage Automation Store synchronization, if Storage Automation Store is enabled.
+* Classifies the entities into packs using the updated list.
+
+Pack identification is applicable only to NetApp-certified packs that were downloaded from the Storage Automation Store.
+
+If a pack is not identified during upgrade, you can re-import the pack to get it identified in WFA. The wfa.log files provide details about the entities that were not identified as a pack during the upgrade.

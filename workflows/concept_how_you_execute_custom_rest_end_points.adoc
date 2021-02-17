@@ -1,0 +1,25 @@
+---
+permalink: workflows/concept_how_you_execute_custom_rest_end_points.html
+sidebar: sidebar
+keywords: OnCommand Workflow Automation
+summary: 'OnCommand Workflow Automation \(WFA\) provides a mechanism to configure the custom REST end points to execute the workflows. Custom REST end points help an architect to configure easy-to-understand, intuitive, and uniform resource identifiers \(URIs\) to execute workflows, which follow the REST conventions of POST, PUT, or DELETE based on the workflow semantics. These URIs ease the client code development for client developers.'
+---
+= How you execute custom REST end points
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+OnCommand Workflow Automation (WFA) provides a mechanism to configure the custom REST end points to execute the workflows. Custom REST end points help an architect to configure easy-to-understand, intuitive, and uniform resource identifiers (URIs) to execute workflows, which follow the REST conventions of POST, PUT, or DELETE based on the workflow semantics. These URIs ease the client code development for client developers.
+
+WFA enables you to configure a custom URI path for workflow execution through the API calls. Each segment in the URI path can be a string or a valid name of the user input of the workflow in brackets, for example, /devops/\{ProjectName}/clone. The workflow can be invoked as a call to https://WFAServer: HTTPS_PORT/rest/devops/Project1/clone/jobs.
+
+Validation for the URI path is as follows:
+
+* The REST path must start with "`/`".
+* The characters allowed are alphabets, digits, and underscore.
+* The user input name must be surrounded by "`{}`".
++
+NOTE: You must check that the value surrounded by "`{}`" is a valid user input name.
+
+* There should be no empty path segments, for example, //, /{}/, and so on.
+* The HTTP method configuration and custom URI path configuration should either both be configured or neither configured.

@@ -1,0 +1,26 @@
+---
+permalink: rhel-install/concept_restoring_the_wfa_database.html
+sidebar: sidebar
+keywords: 
+summary: 'Restoring the OnCommand Workflow Automation \(WFA\) database includes restoring the system configuration settings and cache information, including the playground database.'
+---
+= Restoring the OnCommand Workflow Automation database
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Restoring the OnCommand Workflow Automation (WFA) database includes restoring the system configuration settings and cache information, including the playground database.
+
+* Restoring a WFA database erases the current WFA database.
+* You can restore a WFA database backup only to a system that is running the same version or a later version of WFA.
++
+For example, if you created a backup on a system that is running WFA 4.2, the backup can be restored only to systems that are running WFA 4.2 or later.
+
+* After the restore operation is complete, the WFA SSL certificate is replaced with the SSL certificate in the backup file.
+
+NOTE:
+
+* A comprehensive restore operation of WFA databases and configurations is required during disaster recovery, and can be used in both standalone and high-availability environments.
+* A comprehensive backup cannot be created by using the web UI.
++
+You can use only the CLI commands or REST APIs to backup and restore the WFA database comprehensively during disaster recovery.

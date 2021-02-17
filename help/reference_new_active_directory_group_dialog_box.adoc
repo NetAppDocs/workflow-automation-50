@@ -1,0 +1,70 @@
+---
+permalink: help/reference_new_active_directory_group_dialog_box.html
+sidebar: sidebar
+keywords: 
+summary: 'The New Active Directory Group dialog box enables you to create a new OnCommand Workflow Automation Active Directory group.'
+---
+= New Active Directory Group dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The New Active Directory Group dialog box enables you to create a new OnCommand Workflow Automation Active Directory group.
+
+* *Group Name*
++
+Specifies the group name.
+
+* *Role*
++
+Enables you to select one of the following group roles:
+
+ ** *Guest*
++
+This group can only view the status of a workflow execution or be notified about a change in the status of a workflow execution.
+
+ ** *Operator*
++
+This group is allowed to preview and execute workflows for which the group is provided access.
+
+ ** *Approver*
++
+This group is allowed to preview, execute, approve, and reject workflows for which the group is provided access.
++
+NOTE: You must provide the email ID of the approver and the status of the workflow that is to be notified to the approver. If there are multiple approvers, you can provide a group email ID in the *E-mail* field.
+
+ ** *Architect*
++
+This group has full access to create workflows, but is restricted from modifying global WFA server settings.
+
+ ** *Admin*
++
+This group has complete access to the WFA server.
++
+NOTE: You must configure at least one admin group.
+
+* *E-mail*
++
+Enables you to specify the group's email address to which notifications are sent if the *Notify On* option is selected.
+
+* *Notify On*
++
+Enables you to select when the active directory group should be notified by email. The workflow execution status notifications are specific to the workflows executed by the group. You can select any combination of the following options:
+
+ ** Workflow execution started: Notifies the group when the workflow execution begins.
+ ** Workflow execution failed/partially successful: Notifies the group if the workflow execution fails or if the workflow was successfully executed even though one or more steps failed.
++
+The execution is completed because the failed steps were configured to allow the workflow execution to continue even when the step fails.
+
+ ** Workflow execution completed successfully: Notifies the group when the workflow execution is completed successfully.
+ ** Workflow execution waiting for approval: Notifies the group if the workflow execution is waiting for approval from the Approver, Architect, or Operator group, depending on the WFA configuration setting.
+
+== Command buttons
+
+* *Save*
++
+Saves the configuration settings and closes the dialog box.
+
+* *Cancel*
++
+Cancels changes, if any, and closes the dialog box.

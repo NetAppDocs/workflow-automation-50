@@ -1,0 +1,34 @@
+---
+permalink: rhel-install/reference_considerations_of_importing_wfa_content.html
+sidebar: sidebar
+keywords: 
+summary: 'You must be aware of certain considerations when you import user-created content, content that is exported from another OnCommand Workflow Automation \(WFA\) installation, or content that is downloaded from the Storage Automation Store or the WFA community.'
+---
+= Considerations while importing OnCommand Workflow Automation content
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You must be aware of certain considerations when you import user-created content, content that is exported from another OnCommand Workflow Automation (WFA) installation, or content that is downloaded from the Storage Automation Store or the WFA community.
+
+* WFA content is saved as a .dar file and can include the entire user-created content from another system or specific items such as workflows, finders, commands, and dictionary terms.
+* When an existing category is imported from a .dar file, the imported content is merged with the existing content in the category.
++
+For example, consider there are two workflows WF1 and WF2 in category A in the WFA server. If workflows WF3 and WF4 in category A are imported to the WFA server, category A will contain workflows WF1, WF2, WF3, and WF4 after the import.
+
+* If the .dar file contains dictionary entries, then the cache tables corresponding to the dictionary entries are automatically updated.
++
+If the cache tables are not updated automatically, an error message is logged in the wfa.log file.
+
+* When importing a .dar file that has a dependency on a pack that is not present in the WFA server, WFA tries to identify whether all the dependencies on the entities are met.
+ ** If one or more entities are missing or if a lower version of an entity is found, the import fails and an error message is displayed.
++
+The error message provides details of the packs that should be installed in order to meet the dependencies.
+
+ ** If a higher version of an entity is found or if the certification has changed, a generic dialog box about the version mismatch is displayed, and the import is completed.
++
+The version mismatch details are logged in a wfa.log file.
+* Questions and support requests for the following must be directed to the WFA community:
+ ** Any content downloaded from the WFA community
+ ** Custom WFA content that you have created
+ ** WFA content that you have modified

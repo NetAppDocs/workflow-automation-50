@@ -1,0 +1,159 @@
+---
+permalink: help/reference_new_command_definition_dialog_box.html
+sidebar: sidebar
+keywords: 
+summary: 'The New Command Definition dialog box enables you to define a new command. You can create new commands for your workflows if the predefined commands do not meet your requirements.'
+---
+= New Command Definition dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The New Command Definition dialog box enables you to define a new command. You can create new commands for your workflows if the predefined commands do not meet your requirements.
+
+* <<GUID-D4ADB7AB-318A-48E6-90C6-FDB9B771F359,Properties tab>>
+* <<SECTION_ACD7BE38CFDC4752B9DA88A5921794C8,Code tab>>
+* <<SECTION_C931C8EAABD840DCAE72C0E7F473A5F6,Parameters Definition tab>>
+* <<SECTION_51EE316C2F274742981C90EBF79DCE0F,Parameters Mapping tab>>
+* <<SECTION_5E0602B158B94A1884220CC8670159F3,Reservation tab>>
+* <<SECTION_61DA824C41374A0CB37A1663C397184F,Verification tab>>
+
+== Properties tab
+
+Enables you to specify the properties of the command, such as the name, description, and entity version.
+
+* *Name*
++
+Enables you to specify a name for the command. You must specify a name in order to save the command.
+
+* *Entity Version*
++
+Enables you to specify the version number for the command in major.minor.revision format--for example, 1.0.0.
+
+* *Description*
++
+Enables you to enter a description for the command.
+
+* *String Representation*
++
+Enables you to specify a string representation for the command using MVFLEX Expression Language (MVEL) syntax.
++
+You must specify the string representation in order to save the command. The string representation is used to display the details of the command in the workflow design during planning and execution. You must use only the parameters of a command in the string representation for that command.
+
+* *Timeout (s)*
++
+Enables you to specify the timeout value (in seconds) for the command. The default value is 600 seconds.
+
+* *Command Type*
++
+Enables you to specify the type of execution for the command.
+
+ ** *Standard execution*
++
+Enables the command to be executed without any waiting period. Standard execution is selected by default.
+
+ ** *Wait for condition*
++
+Enables you to specify the time (in seconds) for which the command has to wait before execution. The default value is 60 seconds.
+
+* *Minimum Software Versions*
++
+Specifies the minimum versions of the software that are required for the command to operate. For example, the software can be clustered Data ONTAP 8.2.0 and vCenter 6.0. The versions are displayed as comma-separated values.
+
+== Code tab
+
+Enables you to enter the code for the command in the selected scripting language. You can add a new scripting language by clicking image:../media/add_lang_icon.gif[] and then selecting the required language from the Script language drop-down list.
+
+* *Discover Parameters*
++
+Copies the parameters defined in the PowerShell code to the Parameters Definition table and the Parameters Mapping table.
+
+== Parameters Definition tab
+
+Displays the parameters defined in the code that you entered in the Code tab.
+
+* *Name*
++
+Displays the name of the parameter.
+
+* *Description*
++
+Displays the description of the parameter.
+
+* *Mandatory*
++
+Displays a selected check box for the mandatory parameters.
+
+* *Type*
++
+Displays the type of the parameter, such as string, enum, array, or password.
+
+* *Values*
++
+Displays the value that is set for the parameter.
+
+* *Add Parameter*
++
+Enables you to add a parameter to the command if the selected scripting language is Perl.
+
+* *Remove Parameter*
++
+Enables you to remove a parameter from the command if the selected scripting language is Perl.
+
+== Parameters Mapping tab
+
+Enables you to map the parameters to dictionary objects and to specify the attribute and object name.
+
+* *Name*
++
+Displays the name of the parameter.
+
+* *Type*
++
+Enables you to select a dictionary object for the parameter.
+
+* *Attribute*
++
+Enables you to specify the required attribute. You can either select the attribute (if available), or enter the attribute.
+
+* *Object Name*
++
+Enables you to specify a name for the dictionary object.
+
+== Reservation tab
+
+Enables you to reserve the resources that are required by the command.
+
+* *Reservation Script*
++
+Enables you to enter an SQL query to reserve the resources that are required by the command. This helps ensure that the resources are available during a scheduled workflow execution.
+
+* *Reservation Representation*
++
+Enables you to specify a string representation for the reservation using MVEL syntax. The string representation is used to display the details of the reservation in the Reservations window.
+
+== Verification tab
+
+Enables you to verify a reservation and remove the reservation after the command is executed.
+
+* *Verification Script*
++
+Enables you to enter an SQL query to verify the usage of the resources that were reserved by the reservation script. The verification script also verifies whether the WFA cache is updated, and removes the reservation after a cache acquisition.
+
+* *Test Verification*
++
+Opens the Verification dialog box, which enables you to test the parameters of the verification script.
+
+== Command buttons
+
+* *Test*
++
+Opens the Testing Command <CommandName> in <ScriptLanguage> dialog box, which enables you to test the command.
+
+* *Save*
++
+Saves the command and closes the dialog box.
+
+* *Cancel*
++
+Cancels changes, if any, and closes the dialog box.

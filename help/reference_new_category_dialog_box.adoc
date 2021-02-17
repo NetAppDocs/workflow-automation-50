@@ -1,0 +1,66 @@
+---
+permalink: help/reference_new_category_dialog_box.html
+sidebar: sidebar
+keywords: 
+summary: 'The New Category dialog box enables you to create a new workflow category.'
+---
+= New Category dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The New Category dialog box enables you to create a new workflow category.
+
+* *Name*
++
+Enables you to enter a name for the category. You must enter a name to save the category.
+
+* *Description*
++
+Enables you to enter a description for the category.
+
+* *Available Workflows*
++
+Displays all the available workflows that are not moved to the *Selected Workflows* box.
+
+* *Selected Workflows*
++
+Displays all the workflows that are selected for the category.
+
+* *Category Used for Workflow Authorization*
++
+Enables you to select users with operator role who can execute the category. By default, the check box is not selected and the category is available for all users.
+
+* *Restrict access to workflows in this category to the following users and Active Directory groups*
++
+Enables you to restrict access to workflows in the selected category to selected users and Active Directory groups.
+
+* *Available Approvers and Operators*
++
+Displays all users with approver and operator roles.
+
+* *Selected Approvers and Operators*
++
+Displays the users who are allowed to execute the category.
+
+* *Available Approver and Operator Groups*
++
+Displays all groups with approver and operator roles.
+
+* *Selected Approver and Operator Groups*
++
+Displays the groups that are allowed to execute the category.
+
+== Command buttons
+
+* *Selection buttons*
++
+Enables you to move the selected entry from one box to another.
+
+* *Save*
++
+Saves the category and closes the dialog box.
+
+* *Cancel*
++
+Does not save the category and closes the dialog box.
