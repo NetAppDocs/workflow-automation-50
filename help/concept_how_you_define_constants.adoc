@@ -1,0 +1,35 @@
+---
+permalink: help/concept_how_you_define_constants.html
+sidebar: sidebar
+keywords: 
+summary: 'You can create and use constants to define a value, which can be used across a single workflow. Constants are defined at a workflow level.'
+---
+= How you define constants
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create and use constants to define a value, which can be used across a single workflow. Constants are defined at a workflow level.
+
+The constants used in the workflow and their value are displayed in the monitoring window of the workflow during planning and execution. You must use unique names for constants.
+
+You can use the following naming conventions to define constants:
+
+* Uppercase for the first letter of each word, without underscores or spaces between words
++
+All terms and abbreviations should use upper case--for example, `ActualVolumeSizeInMB`.
+
+* Uppercase for all letters
++
+You can use underscores to separate words--for example, `AGGREGATE_USED_SPACE_THRESHOLD`.
+
+You can include the following as values for workflow constants:
+
+* Numbers
+* Strings
+* MVEL expressions
++
+Expressions are evaluated during the planning and execution phases of the workflows. In the expressions, you must not reference variables that are defined in a loop.
+
+* User inputs
+* Variables

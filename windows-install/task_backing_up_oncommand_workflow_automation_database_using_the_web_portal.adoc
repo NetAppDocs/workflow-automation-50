@@ -1,0 +1,25 @@
+---
+permalink: windows-install/task_backing_up_oncommand_workflow_automation_database_using_the_web_portal.html
+sidebar: sidebar
+keywords: OnCommand Workflow Automation
+summary: 'You can back up the OnCommand Workflow Automation \(WFA\) database from the web portal and use the backup file for data recovery purposes. You cannot perform a full backup from the web portal.'
+---
+= Backing up the WFA database from the web portal
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can back up the OnCommand Workflow Automation (WFA) database from the web portal and use the backup file for data recovery purposes. You cannot perform a full backup from the web portal.
+
+You must have admin or architect credentials to perform this task.
+
+A WFA user with backup role cannot log in to the web portal to perform a backup. The WFA users with backup role can only perform remote or scripted backups.
+
+. Log in to the WFA web GUI as an admin.
+. Click *Settings* and under *Maintenance*, click *Backup & Restore*.
+. Click *Backup*.
+. In the dialog box that opens, select a location, and then save the file.
+
+*Related information*
+
+xref:task_upgrading_oncommand_workflow_automation.adoc[Upgrading OnCommand Workflow Automation]

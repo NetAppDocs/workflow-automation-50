@@ -1,0 +1,12 @@
+---
+permalink: windows-install/concept_managing_high_availability.html
+sidebar: sidebar
+keywords: 
+summary: 'You can configure a high-availability setup to provide constant support for network operations. If one of the components fail, the mirrored component in the setup takes over the operation and provides uninterrupted network resources. You can also back up the WFA database and supported configurations so that you can recover the data in case of a disaster.'
+---
+= Managing high availability
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can configure a high-availability setup to provide constant support for network operations. If one of the components fail, the mirrored component in the setup takes over the operation and provides uninterrupted network resources. You can also back up the WFA database and supported configurations so that you can recover the data in case of a disaster.

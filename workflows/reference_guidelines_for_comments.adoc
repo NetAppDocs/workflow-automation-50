@@ -1,0 +1,107 @@
+---
+permalink: workflows/reference_guidelines_for_comments.html
+sidebar: sidebar
+keywords: 
+summary: 'You must be aware of the guidelines for PowerShell and Perl comments in your scripts for OnCommand Workflow Automation \(WFA\).'
+---
+= Guidelines for comments
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You must be aware of the guidelines for PowerShell and Perl comments in your scripts for OnCommand Workflow Automation (WFA).
+
+== PowerShell comments
+
+|===
+| Guidelines| Example
+a|
+Use the # character for a single line comment.
+a|
+
+----
+# Single line comment
+$options=$option.trim();
+----
+
+a|
+Use the # character for an end of line comment.
+a|
+
+----
+$options=$option.trim(); # End of line
+comment
+----
+
+a|
+Use the <# and #> characters for a block comment.
+a|
+
+----
+<#
+This is
+a
+block comment
+#>
+$options=$option.trim();
+----
+
+|===
+
+== Perl comments
+
+|===
+| Guidelines| Example
+a|
+Use the # character for single line comment.
+a|
+
+----
+# convert from MBytes to Bytes
+my $MaxDirectorySizeBytes = $MaxDirectorySize *
+1024 * 1024;
+----
+
+a|
+Use the # character for end of line comment.
+a|
+
+----
+my $MaxDirectorySizeBytes = $MaxDirect
+orySiZe * 1024 * 1024; # convert to Bytes
+----
+
+a|
+Use the # character in every line with an empty # at the beginning and end to create a comment border for multi-line comments.
+a|
+
+----
+#
+# This is a multi-line comment. Perl 5, unlike
+# Powershell, does not have direct support for
+# multi-line comments. Please use a '#'in every line
+# with an empty '#' at the beginning and end to create
+# a comment border
+#
+----
+
+a|
+Do not include commented and dead code in WFA commands. However, for testing purposes, you can use the Plain Old Documentation (POD) mechanism to comment out the code.
+
+a|
+
+----
+=begin comment
+	# Set deduplication
+	if(defined $Deduplication && $Deduplication eq "enabled")
+	{
+		$wfaUtil->sendLog("Enabling Deduplication");
+	}
+=end comment
+=cut
+----
+
+|===
+*Related information*
+
+xref:reference_references_to_learning_material.adoc[References to learning material]

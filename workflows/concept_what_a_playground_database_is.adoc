@@ -1,0 +1,74 @@
+---
+permalink: workflows/concept_what_a_playground_database_is.html
+sidebar: sidebar
+keywords: 
+summary: 'The playground database is a MySQL database, which is included in the Workflow Automation \(WFA\) server installation. You can add tables to the playground database to include information, which can be used by filters and SQL queries for user inputs.'
+---
+= What a playground database is
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The playground database is a MySQL database, which is included in the Workflow Automation (WFA) server installation. You can add tables to the playground database to include information, which can be used by filters and SQL queries for user inputs.
+
+The playground database is a schema that cannot be accessed through the WFA web portal. You can use a MySQL client, such as SQLyog, Toad for MySQL, and MySQL Workbench or a command-line interface (CLI), to access the database.
+
+You must use the following credentials to access the playground database:
+
+* User name: wfa
+* Password: Wfa123
+
+The credentials provide complete access to the playground database and read-only access to other schemas defined in the WFA MySQL database. You can create the required tables in the playground database.
+
+You can add the tags or metadata that you are using for storage objects in your environment to a table in the playground database. The tags or metadata can then be used along with the information in other WFA cache tables by WFA filters and user input queries.
+
+For example, you can use the playground database for the following use cases:
+
+* Tagging aggregates with business unit (BU) name and allocating volumes to the BUs based on these tags
+* Tagging vFiler units with BU names
+* Adding geography or location details to storage objects
+* Defining access of database admins to databases
+
+For example, if you are using the name of the BU as a tag for the storage objects, such as aggregates and vFiler units, you can create a table in the playground database that includes the name of the BU. The BU name can then be used by filters and user input queries for your workflows.
+
+The following is an example playground database table (playground.volume_bu):
+
+|===
+| array_ip| volume_name| BU
+a|
+10.225.126.23
+a|
+data_11
+a|
+Marketing
+a|
+10.225.126.28
+a|
+arch_11
+a|
+HR
+|===
+The following is an example SQL query that you can use to filter volumes by BU:
+
+----
+SELECT
+    vol.name,
+    array.ip AS 'array.ip'
+FROM
+    storage.volume AS vol,
+    storage.array AS array,
+    playground.volume_bu AS vol_bu
+WHERE
+    vol.array_id = array.id
+    AND array.ip = vol_bu.array_ip
+    AND vol.name = vol_bu.volume_name
+    AND vol_bu.bu = '{$bu}'
+----
+
+*Related information*
+
+https://www.webyog.com/[SQLyog: www.webyog.com]
+
+http://www.mysql.com/products/workbench/[MySQL Workbench: www.mysql.com/products/workbench]
+
+http://www.quest.com/toad-for-mysql/[Toad for MySQL: www.quest.com/toad-for-mysql]

@@ -1,0 +1,28 @@
+---
+permalink: workflows/concept_tasks_involved_in_creating_workflows.html
+sidebar: sidebar
+keywords: 
+summary: 'Creating storage automation workflows in OnCommand Workflow Automation \(WFA\) includes defining the steps to be performed by a workflow and creating the workflow using the WFA building blocks, such as commands, finders, filters, and dictionary entries.'
+---
+= Tasks involved in creating workflows
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Creating storage automation workflows in OnCommand Workflow Automation (WFA) includes defining the steps to be performed by a workflow and creating the workflow using the WFA building blocks, such as commands, finders, filters, and dictionary entries.
+
+The following flowchart illustrates the workflow creation process:
+
+image::../media/designing_wfa_workflows_flowchart.gif[]
+
+*Related information*
+
+xref:concept_how_you_define_workflows.adoc[How you define workflows]
+
+xref:concept_how_you_define_user_input.adoc[How user inputs are defined]
+
+xref:concept_how_you_map_command_parameters.adoc[How you map command parameters]
+
+xref:task_creating_a_workflow.adoc[Creating a workflow]
+
+xref:reference_workflow_requirements_checklist.adoc[Sample workflow requirements checklist]

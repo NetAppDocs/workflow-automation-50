@@ -1,0 +1,122 @@
+---
+permalink: workflows/reference_guidelines_for_other_programming_aspects.html
+sidebar: sidebar
+keywords: 
+summary: 'You must be aware of certain important considerations when you convert PowerShell commands to Perl because PowerShell and Perl have different capabilities.'
+---
+= Considerations while converting PowerShell commands to Perl
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You must be aware of certain important considerations when you convert PowerShell commands to Perl because PowerShell and Perl have different capabilities.
+
+== Command input types
+
+OnCommand Workflow Automation (WFA) allows workflow designers to use arrays and hash as input for the command when defining a command. These input types cannot be used when the command is defined using Perl. If you want a Perl command to accept array and hash inputs, you can define the input as a string in the designer. The command definition can then parse the input, which is passed to create an array or hash as required. The description for the input describes the format in which the input is expected.
+
+----
+my @input_as_array  = split(',', $InputString); #Parse the input string of format val1,val2 into an array
+
+my %input_as_hash = split /[;=]/, $InputString; #Parse the input string of format key1=val1;key2=val2 into a hash.
+----
+
+== PowerShell statement
+
+The following examples show how an array input can be passed into PowerShell and Perl. The examples describe the input CronMonth, which specifies the month when the cron job is scheduled to run. The valid values are integers -1 to 11. A value of -1 indicates that the schedule executes every month. Any other value denotes a specific month, with 0 being January and 11 being December.
+
+----
+[parameter(Mandatory=$false, HelpMessage="Months in which the schedule executes. This is a comma separated list of values from 0 through 11. Value -1 means all months.")]
+  [ValidateRange(-1, 11)]
+  [array]$CronMonths,
+----
+
+== Perl statement
+
+----
+GetOptions(
+    "Cluster=s"         => \$Cluster,
+    "ScheduleName=s"    => \$ScheduleName,
+    "Type=s"            => \$Type,
+    "CronMonths=s"      => \$CronMonths,
+) or die 'Illegal command parameters\n';
+
+sub get_cron_months {
+    return get_cron_input_hash('CronMonths', $CronMonths, 'cron-month', -1,
+        11);
+}
+
+sub get_cron_input_hash {
+    my $input_name   = shift;
+    my $input_value  = shift;
+    my $zapi_element = shift;
+    my $low          = shift;
+    my $high         = shift;
+    my $exclude      = shift;
+
+    if (!defined $input_value) {
+        return undef;
+    }
+
+    my @values = split(',', $input_value);
+
+    foreach my $val (@values) {
+        if ($val !~ /^[+-]?\d+$/) {
+            die
+                "Invalid value '$input_value' for $input_name: $val must be an integer.\n";
+        }
+        if ($val < $low || $val > $high) {
+            die
+                "Invalid value '$input_value' for $input_name: $val must be from $low to $high.\n";
+        }
+        if (defined $exclude && $val == $exclude) {
+            die
+                "Invalid value '$input_value' for $input_name: $val is not valid.\n";
+        }
+    }
+    # do something
+}
+----
+
+== Command definition
+
+A one-line expression in PowerShell using a pipe operator might have to be expanded into multiple blocks of statements in Perl in order to achieve the same functionality. An example from one of the wait commands is shown in the following table.
+
+|===
+| PowerShell statement| Perl statement
+a|
+
+----
+# Get the latest job which moves the specified volume to the specified
+ aggregate.
+$job = Get-NcJob -Query $query | where
+{$_.JobDescription -eq "Split" + $VolumeCloneName} | Select-Object -First 1
+----
+
+a|
+
+----
+my $result = $server->job_get_iter(
+	'query' => {'job-type' => 'VOL_CLONE_SPLIT'},
+	'desired-attributes' => {
+		'job-type' => '',
+		'job-description' => '',
+		'job-progress' => '',
+		'job-state' => ''
+	}
+);
+my @jobarray;
+for my $job (@{ $result->{'attributes-list'}})
+{
+	my $description = $job->{'job-description'};
+	if($description =~ /$VolumeCloneName/)
+	{
+		push(@jobarray, $job)
+	}
+}
+----
+
+|===
+*Related information*
+
+xref:reference_references_to_learning_material.adoc[References to learning material]

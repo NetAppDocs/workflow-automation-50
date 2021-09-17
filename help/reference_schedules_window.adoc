@@ -1,0 +1,96 @@
+---
+permalink: help/reference_schedules_window.html
+sidebar: sidebar
+keywords: 
+summary: 'The Schedules window enables you to create, edit, and delete the schedule of a workflow. You can schedule a workflow to be executed at a particular date and time. You can access this window by selecting Execution \> Schedules.'
+---
+= Schedules window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Schedules window enables you to create, edit, and delete the schedule of a workflow. You can schedule a workflow to be executed at a particular date and time. You can access this window by selecting *Execution* > *Schedules*.
+
+* <<GUID-1E417C67-1F31-4FA5-AAA7-2D5BB298C6AB,Schedules table>>
+* <<SECTION_819274C0AB2341B0915167A78A41F1D8,Toolbar>>
+
+== Schedules table
+
+The Schedules table lists the existing schedules for workflow execution in a table format. You can customize the table display by using the filtering and sorting features available for each column, as well as by rearranging the column order.
+
+* image:../media/filter_icon_wfa.gif[Filter icon] enables or disables filtering for the entire table. A red "x" appears over the icon if filtering is disabled.
+* Double-clicking image:../media/filter_icon_wfa.gif[Filter icon] clears and resets the filtering selections.
+* image:../media/wfa_filter_icon.gif[Filter icon] on each column header enables you to filter based on the content of the columns. Clicking image:../media/wfa_filter_icon.gif[Filter icon] in a column allows you to filter on a specific item from the drop-down list or on all available items.
+* Clicking the column header toggles between ascending and descending order of sorting. You can identify the applied sort order by the sort arrows (image:../media/wfa_sortarrow_up_icon.gif[Sort up icon] for ascending and image:../media/wfa_sortarrow_down_icon.gif[Sort down icon] for descending).
+* To rearrange the location of columns, you can drag and drop columns to place them in any required order. However, you cannot hide or delete any of these columns.
+* Clicking the *Search* filter text box allows you to search for specific content. In addition, you can search using supported operators for the applicable column type, Alphabetic or Numeric.
+
+The following table lists the supported operators for alphabetic and numeric columns in the Schedules table, available from the *Search* filter text box.
+
+|===
+| Alphabetic| Numeric
+a|
+
+* Contains
+* Does not contain
+* Starts with
+* Ends with
+* Equals
+* Does not equal
+* Reset
+
+a|
+
+* Equals
+* Does not equal
+* Less than
+* Greater than
+* Less than or equal to
+* Greater than or equal to
+* Between
+* Reset
+
+|===
+The Schedules table contains the following columns:
+
+* *ID*
++
+Displays the identifier of the schedule.
+
+* *Name*
++
+Displays the name of the schedule.
+
+* *Description*
++
+Displays the description of the schedule.
+
+* *Association Count*
++
+Displays the number of workflows that are associated with the schedule.
+
+* *Updated At*
++
+Displays the date and time at which the schedule was modified.
++
+Click the calendar icon in the *Search* filter text box to search for schedules updated on a specific date.
+
+* *Updated By*
++
+Displays the name of the user who modified the schedule.
+
+== Toolbar
+
+The toolbar is located above the column header. You can use the icons in the toolbar to perform various actions. These actions can also be accessed from the right-click menu in the window.
+
+* *image:../media/new_wfa_icon.gif[New icon] (New)*
++
+Opens the New Schedule dialog box, which enables you to add a new schedule.
+
+* *image:../media/edit_wfa_icon.gif[Edit icon] (Edit)*
++
+Opens the Edit Schedule dialog box, which enables you to edit the selected schedule.
+
+* *image:../media/delete_wfa_icon.gif[Delete icon] (Delete)*
++
+Opens the Delete Schedule confirmation dialog box, which enables you to delete the selected schedule.

@@ -1,0 +1,37 @@
+---
+permalink: workflows/task_adding_entity_to_a_workflow_automation_pack.html
+sidebar: sidebar
+keywords: OnCommand Workflow Automation
+summary: 'You can add one or more entities to a workflow pack in OnCommand Workflow Automation \(WFA\) for your storage automation and integration requirements.'
+---
+= Adding entities to WFA workflow packs
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can add one or more entities to a workflow pack in OnCommand Workflow Automation (WFA) for your storage automation and integration requirements.
+
+You can remove a pack from the following entities:
+
+* Workflow
+* Finders
+* Filters
+* Commands
+* Functions
+* Templates
+* Schemes
+* Dictionary
+* Data Sources Types
+* Remote System Types
+* Cache Queries
+* Categories
+
+. Log in to the WFA window through a web browser.
+. Click *Designer* > *<Entities>*.
+. In the Entity window, select the entity you want to add to the pack.
+. Click the *Add To Pack* icon.
++
+"`Add To Pack`" is enabled only for entities for which the certification is set to None.
+
+. In the Add To Pack <Entity> dialog box, from the *Available Packs* drop-down list, select the pack to which you want to add the entity.
+. Click *OK*.

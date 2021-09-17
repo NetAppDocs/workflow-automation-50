@@ -1,0 +1,96 @@
+---
+permalink: help/reference_new_data_source_dialog_box.html
+sidebar: sidebar
+keywords: 
+summary: 'The New Data Source dialog box enables you to add a new data source.'
+---
+= New Data Source dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The New Data Source dialog box enables you to add a new data source.
+
+== Data Source Configuration properties
+
+* *Name*
++
+Enables you to specify a name for the data source.
+
+* *Data source type*
++
+Enables you to select the data source type--for example, OnCommand Unified Manager - 6.0 (MYSQL).
++
+When you select a data source type, the port, scheme, user name, password, interval (minutes), and timeout (sec) fields are populated with data.
++
+NOTE: If you want to execute OnCommand Workflow Automation (WFA) data protection workflows from an OnCommand Unified Manager server, you must set up WFA in the OnCommand Unified Manager server.
++
+For more information, see the _OnCommand Unified Manager Online Help_.
+
+* *Host name*
++
+Enables you to specify the host name or IP address (IPv4 or IPv6) for the data source.
++
+NOTE: The OnCommand Unified Manager data source type does not support IPv6 addresses.
+
+* *Port*
++
+Displays the associated port number, if any, for the selected data source type.
++
+You can change the default port and specify a different port for the data source.
+
+* *Scheme*
++
+Displays the scheme associated with the selected data source type--for example cm_storage for OnCommand Unified Manager - 6.0 (MYSQL).
++
+This property cannot be modified.
+
+* *User name*
++
+Displays the associated user name, if any, for the selected data source type.
++
+You must specify the appropriate user name for this data source to override the default user name:
+
+ ** For OnCommand Unified Manager versions earlier than 6.0, you must enter the user name that you used for overriding the default credentials while running ocsetup.
+ ** For OnCommand Unified Manager 6.0 and later, you must enter the user name of the database user account that you created on the OnCommand Unified Manager server.
+ ** For Performance Advisor, you must enter the user name of an OnCommand Unified Manager user with a minimum role of GlobalRead.
+
+* *Password*
++
+Enables you to specify a password for the selected data source type.
++
+You must specify a password to override the default password for the user name of this data source:
+
+ ** For OnCommand Unified Manager versions earlier than 6.0, you must enter the password that you used for overriding the default credentials while running ocsetup.
+ ** For OnCommand Unified Manager 6.0 and later, you must enter the password of the database user account that you created on the OnCommand Unified Manager server.
+ ** For Performance Advisor, you must enter the password of an OnCommand Unified Manager user with a minimum role of GlobalRead.
+
+* *Database*
+* *Interval (minutes)*
++
+Enables you to click the value and select an interval (in minutes) using the up and down arrows.
++
+NOTE: If the interval is set to zero (0), automatic sampling is disabled.
++
+The default interval for data sampling is:
+
+ ** Script-based data source type: 1440 (performance and vc)
+ ** SQL-based data source type: 30 (cm_storage, storage, and cm_performance)
+
+* *See Setup Instruction Guide*
++
+Opens the Setup Instruction Guide dialog box, which enables you to specify the instructions for setting up the data source.
+
+== Command buttons
+
+* *Save*
++
+Saves the configurations settings and closes the dialog box.
+
+* *Cancel*
++
+Cancels changes, if any, and closes the dialog box.
+
+*Related information*
+
+xref:reference_data_sources_window.adoc[Data Sources window]

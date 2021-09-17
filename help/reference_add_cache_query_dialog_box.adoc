@@ -1,0 +1,52 @@
+---
+permalink: help/reference_add_cache_query_dialog_box.html
+sidebar: sidebar
+keywords: 
+summary: 'The Add Cache Query dialog box enables you to create a new cache query for a dictionary entry and associate the query with a data provide type, such as a specific OnCommand Unified Manager version.'
+---
+= Add Cache Query dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Add Cache Query dialog box enables you to create a new cache query for a dictionary entry and associate the query with a data provide type, such as a specific OnCommand Unified Manager version.
+
+* *Dictionary Entry*
++
+Enables you to select a dictionary entry for which you want to create a cache query.
+
+* *Entity Version*
++
+Enables you to enter the version number for the cache query in major.minor.revision format--for example, 1.0.0.
+
+* *Data Source Types*
++
+Enables you to select the data source types you want to associate with the cache query--for example, OnCommand Unified Manager_6.0.
+
+== Table Structure
+
+* *Attributes tab*
++
+Displays the attributes associated with the dictionary entry.
+
+* *Create Table SQL tab*
++
+Displays the Create Table script for that dictionary entry.
+
+== SQL select query
+
+Enables you to enter the SQL select query that retrieves data from the table of the specified data provider.
+
+== Command buttons
+
+* *Test*
++
+Enables you to test the SQL query entered in the *SQL select query* field.
+
+* *Save*
++
+Saves the cache query and closes the dialog box.
+
+* *Cancel*
++
+Cancels changes, if any, and closes the dialog box.

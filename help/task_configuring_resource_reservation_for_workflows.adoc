@@ -1,0 +1,27 @@
+---
+permalink: help/task_configuring_resource_reservation_for_workflows.html
+sidebar: sidebar
+keywords: 
+summary: 'You can configure the resource reservation capability for OnCommand Workflow Automation \(WFA\) workflows to ensure that the required resources are available for successful execution of workflows.'
+---
+= Configuring resource reservation for workflows
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can configure the resource reservation capability for OnCommand Workflow Automation (WFA) workflows to ensure that the required resources are available for successful execution of workflows.
+
+. Log in to WFA through a web browser as an administrator.
+. Click *Settings*, and under *Setup* click *Workflow Settings*.
+. Ensure that the *Enable reservation for commands* check box is selected.
+. In the *Reservation expiration (H)* field, enter the required value.
++
+The default is 4.
+
+. Click *Save*.
+. Enable resource reservation in each required workflow:
+ .. Click *Workflow* > *Details* of the required workflow.
++
+Workflow is the workflow that requires resource reservation.
+
+ .. Select *Consider Reserved Elements*.

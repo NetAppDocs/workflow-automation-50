@@ -1,0 +1,14 @@
+---
+permalink: windows-install/reference_managing_perl_and_perl_modules.html
+sidebar: sidebar
+keywords: 
+summary: 'OnCommand Workflow Automation \(WFA\) supports Perl commands for workflow operations. ActivePerl 5.16 is installed and configured on the WFA server when you install WFA. You can install and configure your preferred Perl distribution and Perl modules.'
+---
+= Managing Perl and Perl modules
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+OnCommand Workflow Automation (WFA) supports Perl commands for workflow operations. ActivePerl 5.16 is installed and configured on the WFA server when you install WFA. You can install and configure your preferred Perl distribution and Perl modules.
+
+In addition to ActivePerl, the required Perl modules from the NetApp Manageability SDK are also installed when you install WFA. The NetApp Manageability SDK Perl modules are required for successful execution of Perl commands.

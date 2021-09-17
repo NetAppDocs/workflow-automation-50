@@ -1,0 +1,16 @@
+---
+permalink: workflows/concept_how_you_use_categories.html
+sidebar: sidebar
+keywords: OnCommand Workflow Automation
+summary: 'You can categorize your workflows to better organize the workflows and to apply access control capability on the workflows.'
+---
+= How you use categories
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can categorize your workflows to better organize the workflows and to apply access control capability on the workflows.
+
+You can categorize workflows such that they appear in specific groups on the WFA portal. You can also apply access control capability on workflow categories. For example, you can allow only certain storage operators or approvers to view certain categories of workflows. Storage operators or approvers can execute only the workflows within the category for which they have been granted access rights.
+
+Active Directory groups also can be used for access control to categories.

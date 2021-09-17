@@ -1,0 +1,39 @@
+---
+permalink: workflows/task_creating_workflow_help_content.html
+sidebar: sidebar
+keywords: 
+summary: 'OnCommand Workflow Automation \(WFA\) admins and architects who design workflows can create help content for the workflows and include it in the workflow.'
+---
+= Creating workflow help content
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+OnCommand Workflow Automation (WFA) admins and architects who design workflows can create help content for the workflows and include it in the workflow.
+
+You must be aware of how to create web pages using HTML.
+
+The help should provide information about the workflow and the user inputs for the workflow to the storage operator who executes the workflow.
+
+. Create a folder with the following name: workflow-help.
+. Author the help content using an HTML editor or a text editor and save it as an index.htm file in the workflow-help folder.
++
+You must not include JavaScript files as part of the help content. The following are the supported file extensions:
+
+ ** .jpg
+ ** .jpeg
+ ** .gif
+ ** .png
+ ** .xml
+ ** .thmx
+ ** .htm
+ ** .html
+ ** .css
+You can also include the Thumbs.db file, which is created by Windows.
+
+. Verify that the index.htm file and other files associated with the help content, such as images, are available in the workflow-help folder.
+. Create a .zip file of the folder and ensure that the size of the .zip file is not more than 2 MB.
++
+Create an NFS volume-help.zip
+
+. Edit the workflow for which you have created the help content, and then click *Setup* > *Help Content* > *Browse* to upload the .zip file.

@@ -1,0 +1,124 @@
+---
+permalink: workflows/reference_guidelines_for_sql_in_wfa.html
+sidebar: sidebar
+keywords: 
+summary: 'You must be aware of the guidelines for using SQL in OnCommand Workflow Automation \(WFA\) to write SQL queries for WFA.'
+---
+= Guidelines for SQL in WFA
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You must be aware of the guidelines for using SQL in OnCommand Workflow Automation (WFA) to write SQL queries for WFA.
+
+SQL is used in the following places in WFA:
+
+* SQL queries to populate user inputs for selection
+* SQL queries for creating filters to filter objects of a specific dictionary entry type
+* Static data in tables in the playground database
+* A custom data source type of SQL type where the data has to be extracted from an external data source such as a custom configuration management database (CMDB).
+* SQL queries for reservation and verification scripts
+
+|===
+| Guidelines| Example
+a|
+SQL reserved keywords must be in uppercase characters.
+a|
+
+----
+SELECT
+    vserver.name
+FROM
+    cm_storage.vserver vserver
+----
+
+a|
+Table and column names must be in lowercase characters.
+a|
+Table: aggregate
+
+Column: used_space_mb
+
+a|
+Separate words with an underscore (_) character. Spaces are not allowed.
+a|
+array_performance
+a|
+Table name is defined in singular. A table is a collection of one or more entries.
+
+a|
+"`function`", not "`functions`"
+a|
+Use table aliases with meaningful names in SELECT queries.
+a|
+
+----
+SELECT
+	vserver.name
+FROM
+	cm_storage.cluster cluster,
+	cm_storage.vserver vserver
+WHERE
+	vserver.cluster_id = cluster.id
+	AND cluster.name = '${ClusterName}'
+	AND vserver.type = 'cluster'
+ORDER BY
+	vserver.name ASC
+----
+
+a|
+If you have to refer to a filter input parameter or user input parameter in a filter query or user query, use the syntax as '$\{inputVariableName}.You can also use the syntax to refer to a command definition parameter in reservation scripts and verification scripts.
+
+a|
+
+----
+SELECT
+	volume.name AS Name,
+	aggregate.name as Aggregate,
+	volume.size_mb AS 'Total Size (MB)',
+	voulme.used_size_mb AS 'Used Size (MB)',
+	volume.space_guarantee AS 'Space Guarantee'
+FROM
+	cm_storage.cluster,
+	cm_storage.aggregate,
+	cm_storage.vserver,
+	cm_storage.volume
+WHERE
+	cluster.id = vserver.cluster_id
+	AND aggregate.id = volume.aggregate_id
+	AND vserver.id = voulme.vserver_id
+	AND vserver.name = '${VserverName}'
+	AND cluster.name = '${ClusterName}'
+ORDER BY
+	volume.name ASC
+----
+
+a|
+Use comments for complex queries. Some of the supported comment styles in queries are as follows:
+
+* "`--`" until the end of the line
++
+A space is mandatory after the second hyphen in this comment style.
+
+* From a "`#`" character until the end of the line
+* From a "`/*`" to the following "`*/`"sequence
+
+a|
+
+----
+/*
+multi-line
+comment
+*/
+--line comment
+SELECT
+	ip as ip, # comment till end of this line
+	NAME as name
+FROM --end of line comment
+	storage.array
+----
+
+|===
+*Related information*
+
+xref:reference_references_to_learning_material.adoc[References to learning material]

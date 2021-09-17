@@ -1,0 +1,23 @@
+---
+permalink: workflows/task_creating_a_template.html
+sidebar: sidebar
+keywords: 
+summary: 'You can create a template that can be used as a blueprint for filling up attributes in command details.'
+---
+= Creating a template
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create a template that can be used as a blueprint for filling up attributes in command details.
+
+. Click *Designer* > *Templates*.
+. Click image:../media/new_wfa_icon.gif[New icon] on the toolbar.
+. In the New Template dialog box, enter or select the required details in the *Name*, *Type*, and *Description* fields.
++
+The Attributes table is populated based on the dictionary object you have selected in the *Type* field.
+
+. Click the value column of each attribute and perform one of the following:
+ ** Enter or select the required value from the list.
+ ** Enter a user input entry--for example, `$size` for size user input.
+. Click *Save*.
