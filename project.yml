@@ -1,3 +1,10 @@
+---
+settings:
+  name: Workflow Automation 5.0.1
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
 sidebar:
   
   entries:
