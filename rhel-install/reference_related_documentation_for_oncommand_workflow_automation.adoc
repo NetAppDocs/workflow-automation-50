@@ -1,8 +1,8 @@
 ---
 permalink: rhel-install/reference_related_documentation_for_oncommand_workflow_automation.html
 sidebar: sidebar
-keywords: 
-summary: 'There are additional documents and tools to help you learn to perform more advanced configuration of your OnCommand Workflow Automation \(WFA\) server.'
+keywords: related, documentation, oncommand workflow automation
+summary: "There are additional documents and tools to help you learn to perform more advanced configuration of your OnCommand Workflow Automation (WFA) server."
 ---
 = Related documentation for OnCommand Workflow Automation
 :icons: font
