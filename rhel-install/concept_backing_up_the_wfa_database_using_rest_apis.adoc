@@ -1,8 +1,8 @@
 ---
 permalink: rhel-install/concept_backing_up_the_wfa_database_using_rest_apis.html
 sidebar: sidebar
-keywords: OnCommand Workflow Automation
-summary: 'You can back up the OnCommand Workflow Automation \(WFA\) database by using the REST APIs. If WFA is in the failover mode in a high-availability environment, you can use the REST APIs to create scheduled backups. You cannot use the command-line interface \(CLI\) to create backups during a failover.'
+keywords: oncommand workflow, automation
+summary: "You can back up the OnCommand Workflow Automation (WFA) database by using the REST APIs. If WFA is in the failover mode in a high-availability environment, you can use the REST APIs to create scheduled backups. You cannot use the command-line interface (CLI) to create backups during a failover."
 ---
 = Backing up the WFA database using REST APIs
 :icons: font
