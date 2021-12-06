@@ -1,8 +1,8 @@
 ---
 permalink: rhel-install/task_configuring_snmp.html
 sidebar: sidebar
-keywords: 
-summary: 'You can configure OnCommand Workflow Automation \(WFA\) to send Simple Network Management Protocol \(SNMP\) traps about the status of workflow operations.'
+keywords: configuring, snmp
+summary: "You can configure OnCommand Workflow Automation (WFA) to send Simple Network Management Protocol (SNMP) traps about the status of workflow operations."
 ---
 = Configuring SNMP
 :icons: font
@@ -11,12 +11,13 @@ summary: 'You can configure OnCommand Workflow Automation \(WFA\) to send Simple
 [.lead]
 You can configure OnCommand Workflow Automation (WFA) to send Simple Network Management Protocol (SNMP) traps about the status of workflow operations.
 
-The WFA .mib file provides information about the traps that are sent by the WFA server. The .mib file is located in the <WFA_install_location>\wfa\bin\wfa.mib directory on the WFA server.
+The WFA .mib file provides information about the traps that are sent by the WFA server. The .mib file is located in the `<WFA_install_location>\wfa\bin\wfa.mib` directory on the WFA server.
 
 NOTE: The WFA server sends all the trap notifications with a generic object identifier (1.3.6.1.4.1.789.1.1.12.0).
 
-You cannot use SNMP community strings such as community_string@SNMP_host for SNMP configuration.
+You cannot use SNMP community strings such as _community_string@SNMP_host_ for SNMP configuration.
 
+.Steps
 . Log in to WFA through a web browser as an admin user, and then access the WFA server.
 . Click *Settings*, and under *Setup* click *SNMP*.
 . Select the *Enable SNMP* check box.
@@ -24,7 +25,7 @@ You cannot use SNMP community strings such as community_string@SNMP_host for SNM
 +
 WFA sends SNMP traps to the specified port number. The default port number is 162.
 
-. In the Notify On section, select one or more of the following check boxes:
+. In the *Notify On* section, select one or more of the following check boxes:
  ** Workflow execution started
  ** Workflow execution completed successfully
  ** Workflow execution failed/partially successful

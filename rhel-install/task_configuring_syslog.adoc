@@ -1,8 +1,8 @@
 ---
 permalink: rhel-install/task_configuring_syslog.html
 sidebar: sidebar
-keywords: 
-summary: 'You can configure OnCommand Workflow Automation \(WFA\) to send log data to a specific Syslog server for purposes such as event logging and log information analysis.'
+keywords: configuring, syslog
+summary: "You can configure OnCommand Workflow Automation (WFA) to send log data to a specific Syslog server for purposes such as event logging and log information analysis."
 ---
 = Configuring Syslog
 :icons: font
@@ -11,8 +11,11 @@ summary: 'You can configure OnCommand Workflow Automation \(WFA\) to send log da
 [.lead]
 You can configure OnCommand Workflow Automation (WFA) to send log data to a specific Syslog server for purposes such as event logging and log information analysis.
 
+*What you'll need*
+
 You must have configured the Syslog server to accept data from the WFA server.
 
+.Steps
 . Log in to WFA through a web browser as an admin.
 . Click *Settings*, and under *Maintenance* click *Syslog*.
 . Select the *Enable Syslog* check box.

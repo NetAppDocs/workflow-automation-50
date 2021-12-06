@@ -1,8 +1,8 @@
 ---
 permalink: rhel-install/task_configuring_vcs_to_install_wfa.html
 sidebar: sidebar
-keywords: 
-summary: 'Before you install OnCommand Workflow Automation \(WFA\) in Veritas Cluster Server \(VCS\), you must ensure that the cluster nodes are properly configured to support WFA.'
+keywords: configuring, vcs, install, oncommand workflow automation
+summary: "Before you install OnCommand Workflow Automation (WFA) in Veritas Cluster Server (VCS), you must ensure that the cluster nodes are properly configured to support WFA."
 ---
 = Configuring VCS to install OnCommand Workflow Automation
 :icons: font
@@ -10,6 +10,8 @@ summary: 'Before you install OnCommand Workflow Automation \(WFA\) in Veritas Cl
 
 [.lead]
 Before you install OnCommand Workflow Automation (WFA) in Veritas Cluster Server (VCS), you must ensure that the cluster nodes are properly configured to support WFA.
+
+*What you'll need*
 
 * VCS must be installed on both nodes of the cluster according to the instructions in the _Veritas Cluster Server 6.1.1 Installation Guide_.
 * To receive notifications about cluster events, VCS software must be configured for SNMP and SMTP according to the instructions in the _Veritas Cluster Server Administrator's Guide_.
@@ -32,14 +34,17 @@ You can use SnapDrive for UNIX to create the shared location.
 +
 You can also manage the LUNs using SnapDrive or the storage system command-line interface. See the SnapDrive for UNIX compatibility matrix for more information.
 
-. Verify that VCS is installed correctly: `hastatus –summary`
+.Steps
+. Verify that VCS is installed correctly:
++
+`hastatus –summary`
 +
 Both the nodes must be online, and the VCS service must be running on both the nodes.
 
 . Verify that the LUNs are accessible to both the nodes by using one of the following options:
  ** Manage the LUNs natively.
  ** Use SnapDrive for UNIX:
-  ... Install SnapDrive for UNIX on both the nodes.
-  ... Configure SnapDrive for UNIX on both nodes.
-  ... From the first node, run the `snapdrive storage create` command to create a LUN.
-  ... Verify that the LUN created on the first node is visible on the second node by running the `snapdrive storage show –all` command.
+  .. Install SnapDrive for UNIX on both the nodes.
+  .. Configure SnapDrive for UNIX on both nodes.
+  .. From the first node, run the `snapdrive storage create` command to create a LUN.
+  .. Verify that the LUN created on the first node is visible on the second node by running the `snapdrive storage show –all` command.
