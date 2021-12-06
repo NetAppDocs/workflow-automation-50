@@ -1,8 +1,8 @@
 ---
 permalink: rhel-install/task_creating_local_users.html
 sidebar: sidebar
-keywords: OnCommand Workflow Automation
-summary: 'OnCommand Workflow Automation \(WFA\) enables you to create and manage local WFA users with specific permissions for various roles, such as guest, operator, approver, architect, admin, and backup.'
+keywords: oncommand workflow automation, creating, local, users
+summary: "OnCommand Workflow Automation (WFA) enables you to create and manage local WFA users with specific permissions for various roles, such as guest, operator, approver, architect, admin, and backup."
 ---
 = Creating local users
 :icons: font
@@ -11,7 +11,11 @@ summary: 'OnCommand Workflow Automation \(WFA\) enables you to create and manage
 [.lead]
 OnCommand Workflow Automation (WFA) enables you to create and manage local WFA users with specific permissions for various roles, such as guest, operator, approver, architect, admin, and backup.
 
+*What you'll need*
+
 You must have installed WFA and logged in as an admin.
+
+*About this task*
 
 WFA enables you to create users for the following roles:
 
@@ -41,13 +45,8 @@ This user has complete access to the WFA server.
 +
 This is the only user who can remotely generate backups of the WFA server. However, the user is restricted from all other access.
 
+.Steps
 . Click *Settings*, and under *Management* click *Users*.
 . Create a new user by clicking image:../media/new_wfa_icon.gif[New icon] on the toolbar.
-. Enter the required information in the New User dialog box.
+. Enter the required information in the *New User* dialog box.
 . Click *Save*.
-
-*Related information*
-
-xref:task_configuring_the_credentials_of_a_target_system.adoc[Configuring the credentials of a target system]
-
-xref:task_configuring_authentication_settings.adoc[Configuring authentication settings]
