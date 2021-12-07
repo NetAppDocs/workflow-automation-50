@@ -1,8 +1,8 @@
 ---
 permalink: rhel-install/task_upgrading_mysql_on_linux.html
 sidebar: sidebar
-keywords: OnCommand Workflow Automation
-summary: 'You can upgrade to a newer version of MySQL on the Linux server on which OnCommand Workflow Automation is installed to obtain fixes for security vulnerabilities.'
+keywords: oncommand workflow automation, upgrading, mysql, linux
+summary: "You can upgrade to a newer version of MySQL on the Linux server on which OnCommand Workflow Automation is installed to obtain fixes for security vulnerabilities."
 ---
 = Upgrading MySQL on Linux
 :icons: font
@@ -11,25 +11,41 @@ summary: 'You can upgrade to a newer version of MySQL on the Linux server on whi
 [.lead]
 You can upgrade to a newer version of MySQL on the Linux server on which OnCommand Workflow Automation is installed to obtain fixes for security vulnerabilities.
 
+*What you'll need*
+
 You must have root privileges for the Linux system on which WFA is installed.
 
 NOTE: Before you reinstall WFA 4.2, you must delete the MySQL data directory if you have uninstalled MySQL.
 
+*About this task*
+
 You can only upgrade to minor updates of MySQL 5.7, for example, 5.7.1 to 5.7.2 . You cannot upgrade to major versions of MySQL, for example, version 5.8.
 
+.Steps
 . Log in as a root user on the WFA host machine.
-. Download the latest MySQL Community Server .rpm bundle on the target system.
+. Download the latest MySQL Community Server `.rpm` bundle on the target system.
 . Untar the bundle to a directory on the target system.
-. You will get multiple .rpm packages in the directory after untarring the bundle, but WFA only needs the following rpm packages:
+. You will get multiple `.rpm` packages in the directory after untarring the bundle, but WFA only needs the following rpm packages:
  ** mysql-community-client-5.7.x
  ** mysql-community-libs-5.7.x
  ** mysql-community-server-5.7.x
  ** mysql-community-common-5.7.x
  ** mysql-community-libs-compat-5.7.x
-Delete all other .rpm packages. Installing all packages in an rpm bundle will not cause any problems.
-. At the shell prompt, stop the WFA database and server services: `service wfa-db stop``service wfa-server stop`
-. Invoke the upgrade of MySQL by using the following command: `rpm -uvh *.rpm`
 +
-*.rpm refers to the .rpm packages in the directory where you downloaded the newer version of MySQL.
+Delete all other `.rpm` packages. Installing all packages in an rpm bundle will not cause any problems.
+. At the shell prompt, stop the WFA database and server services:
++
+`service wfa-db stop`
++
+`service wfa-server stop`
+. Invoke the upgrade of MySQL by using the following command:
++
+`rpm -uvh *.rpm`
++
+*.rpm refers to the `.rpm` packages in the directory where you downloaded the newer version of MySQL.
 
-. Start the WFA services: `service wfa-db start``service wfa-server start`
+. Start the WFA services:
++
+`service wfa-db start`
++
+`service wfa-server start`

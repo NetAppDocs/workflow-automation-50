@@ -1,8 +1,8 @@
 ---
 permalink: rhel-install/task_upgrading_openjdk_on_linux_ocum.html
 sidebar: sidebar
-keywords: OnCommand Workflow Automation
-summary: 'You can upgrade to a newer version of Java Runtime Environment \(JRE\) on the Linux server on which OnCommand Workflow Automation is installed to obtain fixes for security vulnerabilities.'
+keywords: oncommand, workflow, automation
+summary: "You can upgrade to a newer version of Java Runtime Environment (JRE) on the Linux server on which OnCommand Workflow Automation is installed to obtain fixes for security vulnerabilities."
 ---
 = Upgrading JRE on Linux
 :icons: font
@@ -11,17 +11,40 @@ summary: 'You can upgrade to a newer version of Java Runtime Environment \(JRE\)
 [.lead]
 You can upgrade to a newer version of Java Runtime Environment (JRE) on the Linux server on which OnCommand Workflow Automation is installed to obtain fixes for security vulnerabilities.
 
+*What you'll need*
+
 You must have root privileges for the Linux system on which WFA is installed.
 
 NOTE: You can upgrade from one update of JRE 1.8 to a later update of JRE 1.8. You cannot upgrade to a later major release of JRE such as Java 9. For example, you cannot update from Java 8 update 144 (64 bit) to Java 8 update 151 (64 bit), or from Java 8 to Java 9.
 
+.Steps
 . Log in as a root user on the WFA host machine.
 . Download the appropriate version of Java (64-bit) to the target system.
-. Before upgrading the JRE, execute the following commands to list the encryption and license keys for WFA:``/opt/netapp/wfa/bin/wfa -K`` This returns the encryption key, for example: `Key: oidMG6GbIuHjdZG30JgFng==``/opt/netapp/wfa/bin/wfa --license` This returns the license key, for example: `Key: MS8xLzIwOTkgMTE6NTkgUE0=`
+. Before upgrading the JRE, execute the following commands to list the encryption and license keys for WFA:
++
+`/opt/netapp/wfa/bin/wfa -K`
++
+This returns the encryption key, for example:
++
+`Key: oidMG6GbIuHjdZG30JgFng==`
++
+`/opt/netapp/wfa/bin/wfa --license`
++
+This returns the license key, for example:
++
+`Key: MS8xLzIwOTkgMTE6NTkgUE0=`
 +
 Save these keys as they are required for key reconfiguration during the JRE upgrade.
 
-. Stop the WFA services: `service wfa-server stop`
+. Stop the WFA services:
++
+`service wfa-server stop`
 . Install the latest JRE on the system.
-. To upgrade the JRE, reconfigure the keys saved in Step 3 using the following commands: `/opt/netapp/wfa/bin/wfa --license=MS8xLzIwOTkgMTE6NTkgUE0=``/opt/netapp/wfa/bin/wfa -K=oidMG6GbIuHjdZG30JgFng==`
-. Start the WFA services: `service wfa-server start`
+. To upgrade the JRE, reconfigure the keys saved in Step 3 using the following commands:
++
+`/opt/netapp/wfa/bin/wfa --license=MS8xLzIwOTkgMTE6NTkgUE0=`
++
+`/opt/netapp/wfa/bin/wfa -K=oidMG6GbIuHjdZG30JgFng==`
+. Start the WFA services:
++
+`service wfa-server start`
