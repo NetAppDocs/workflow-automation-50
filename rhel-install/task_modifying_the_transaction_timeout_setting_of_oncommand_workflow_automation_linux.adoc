@@ -22,7 +22,7 @@ The default WFA installation path is used in this procedure. If you changed the 
 .Steps
 . At the shell prompt, navigate to the following directory on the WFA server:
 +
-`WFA_install_location/wfa/bin/``
+`WFA_install_location/wfa/bin/`
 . Enter the following command:
 +
 `./wfa --txn-timeout[=TIMEOUT] --restart=WFA`

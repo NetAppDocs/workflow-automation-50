@@ -1,8 +1,8 @@
 ---
 permalink: windows-install/concept_restoring_the_wfa_database.html
 sidebar: sidebar
-keywords: 
-summary: 'Restoring the OnCommand Workflow Automation \(WFA\) database includes restoring the system configuration settings and cache information, including the playground database.'
+keywords:  oncommand workflow automation, database, restoring
+summary: "Restoring the OnCommand Workflow Automation (WFA) database includes restoring the system configuration settings and cache information, including the playground database."
 ---
 = Restoring the OnCommand Workflow Automation database
 :icons: font
@@ -18,19 +18,10 @@ For example, if you created a backup on a system that is running WFA 4.2, the ba
 
 * After the restore operation is complete, the WFA SSL certificate is replaced with the SSL certificate in the backup file.
 
-NOTE:
-
+[NOTE]
+====
 * A comprehensive restore operation of WFA databases and configurations is required during disaster recovery, and can be used in both standalone and high-availability environments.
 * A comprehensive backup cannot be created by using the web UI.
 +
 You can use only the CLI commands or REST APIs to backup and restore the WFA database comprehensively during disaster recovery.
-
-*Related information*
-
-xref:reference_backing_up_of_the_oncommand_workflow_automation_database.adoc[Backing up the OnCommand Workflow Automation database]
-
-xref:task_upgrading_oncommand_workflow_automation.adoc[Upgrading OnCommand Workflow Automation]
-
-xref:task_migrating_oncommand_workflow_automation.adoc[Migrating the OnCommand Workflow Automation installation]
-
-xref:task_modifying_the_transaction_timeout_setting_of_oncommand_workflow_automation.adoc[Modifying the transaction timeout setting of OnCommand Workflow Automation]
+====
