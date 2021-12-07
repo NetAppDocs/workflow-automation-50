@@ -22,7 +22,9 @@ In a high-availability environment, you should create scheduled backups by using
 For more information, see the REST documentation.
 
 .Steps
-. At the shell prompt, navigate to the following directory on the WFA server: `WFA_install_location/wfa/bin/.`
+. At the shell prompt, navigate to the following directory on the WFA server:
++
+`WFA_install_location/wfa/bin/.`
 +
 `WFA_install_location` is the WFA installation directory.
 

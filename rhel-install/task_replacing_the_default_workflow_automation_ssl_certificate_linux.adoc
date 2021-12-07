@@ -29,7 +29,7 @@ The default WFA installation path is used in this procedure. If you changed the 
 `./wfa --stop=WFA`
 +
 `./wfa --stop=DB`
-. Delete the `wfa.keystore` file from the following location: `WFA_install_location/wfa/jboss/standalone/configuration/keystore.``
+. Delete the `wfa.keystore` file from the following location: `WFA_install_location/wfa/jboss/standalone/configuration/keystore.`
 . Open a shell prompt on the WFA server, and then change directories to the following location:
 +
 `WFA_install_location/wfa/jre/bin`
@@ -37,7 +37,7 @@ The default WFA installation path is used in this procedure. If you changed the 
 +
 `keytool -keysize 2048 -genkey -alias "ssl keystore" -keyalg RSA -keystore "WFA_install_location/wfa/jboss/standalone/configuration/keystore/wfa.keystore" -validity xxxx`
 +
-xxxx is the number of days for the validity of the new certificate.
+`xxxx` is the number of days for the validity of the new certificate.
 
 . When prompted, provide the password (default or new).
 +
@@ -51,7 +51,7 @@ xxxx is the number of days for the validity of the new certificate.
 
 . Enter the required details for the certificate.
 . Review the displayed information, and then enter `Yes`.
-. Press *Enter* when prompted by the following message: `Enter key password for <SSL keystore> <RETURN if same as keystore password>.``
+. Press *Enter* when prompted by the following message: `Enter key password for <SSL keystore> <RETURN if same as keystore password>.`
 . Restart the WFA services:
 +
 `./wfa --start=DB`

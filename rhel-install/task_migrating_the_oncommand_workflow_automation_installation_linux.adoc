@@ -23,13 +23,19 @@ If you changed the default location during installation, you must use the change
 .Steps
 . Access WFA through a web browser as an admin.
 . Back up the WFA database.
-. Open a shell prompt on the WFA server and change directories to the following location: `WFA_install_location/wfa/bin/``
+. Open a shell prompt on the WFA server and change directories to the following location:
++
+`WFA_install_location/wfa/bin/`
 . Enter the following at the shell prompt to obtain the database key: `./wfa -key`
 . Note the database key that is displayed.
 . Uninstall WFA.
 . Install WFA on the required system.
-. Open a shell prompt on the WFA server and change the directories to the following location: `WFA_install_location/wfa/bin/``
-. At the shell prompt, install the database key by entering the following command: `./wfa -key=yourdatabasekey`
+. Open a shell prompt on the WFA server and change the directories to the following location:
++
+`WFA_install_location/wfa/bin/`
+. At the shell prompt, install the database key by entering the following command:
++
+`./wfa -key=yourdatabasekey`
 +
 `yourdatabasekey` is the key that you noted from the previous WFA installation.
 

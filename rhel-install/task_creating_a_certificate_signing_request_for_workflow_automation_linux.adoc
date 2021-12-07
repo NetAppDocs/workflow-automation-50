@@ -22,7 +22,9 @@ The default WFA installation path is used in this procedure. If you have changed
 
 .Steps
 . Log in as a root user on the WFA host machine.
-. Open a shell prompt on the WFA server, and then change directories to the following location: WFA_install_location/wfa/jre/bin
+. Open a shell prompt on the WFA server, and then change directories to the following location:
++
+`WFA_install_location/wfa/jre/bin`
 . Create a CSR file:
 +
 `keytool -certreq -keystore WFA_install_location/wfa/jboss/standalone/configuration/keystore/wfa.keystore -alias "ssl keystore" -file /root/file_name.csr`

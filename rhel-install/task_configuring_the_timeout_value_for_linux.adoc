@@ -18,4 +18,6 @@ The timeout value that you set is an absolute timeout rather than a timeout rela
 .Steps
 
 . Log in as a root user on the WFA host machine.
-. Set the timeout value: `installdir bin/wfa -S=timeout value in minutes`
+. Set the timeout value:
++
+`installdir bin/wfa -S=timeout value in minutes`

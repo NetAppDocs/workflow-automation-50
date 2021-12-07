@@ -11,7 +11,9 @@ summary: "You can configure OnCommand Workflow Automation (WFA) to send Simple N
 [.lead]
 You can configure OnCommand Workflow Automation (WFA) to send Simple Network Management Protocol (SNMP) traps about the status of workflow operations.
 
-The WFA .mib file provides information about the traps that are sent by the WFA server. The .mib file is located in the `<WFA_install_location>\wfa\bin\wfa.mib` directory on the WFA server.
+*About this task*
+
+The WFA `.mib` file provides information about the traps that are sent by the WFA server. The `.mib` file is located in the `<WFA_install_location>\wfa\bin\wfa.mib` directory on the WFA server.
 
 NOTE: The WFA server sends all the trap notifications with a generic object identifier (1.3.6.1.4.1.789.1.1.12.0).
 

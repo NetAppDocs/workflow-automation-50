@@ -95,7 +95,9 @@ perl-Date-CalcXML
 . Verify that all of the Perl modules required for WFA are installed on the system:
 +
 `./WFA-4.2.0.0.0.bin -l`
-. If any Perl modules are not detected, check whether they are available in the configured repository: `yum search Perl-module-name`
+. If any Perl modules are not detected, check whether they are available in the configured repository:
++
+`yum search Perl-module-name`
 +
 *Example*
 +

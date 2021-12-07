@@ -30,5 +30,7 @@ You can do a full restore of the OnCommand Workflow Automation (WFA) database by
  .. Click *Browse*.
  .. Select the location of the `.zip` backup file.
 . Navigate to the `/opt/netapp/wfa/bin directory` and restart the WFA services:
-. Restart the *NetApp WFA Database* and *NetApp WFA Server* service: `wfa --restart`
+. Restart the *NetApp WFA Database* and *NetApp WFA Server* service:
++
+`wfa --restart`
 . Verify that the restore operation is successful and WFA is accessible.
