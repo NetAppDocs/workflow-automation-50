@@ -1,8 +1,8 @@
 ---
 permalink: windows-install/task_configuring_protocols_for_connecting_to_remote_systems.html
 sidebar: sidebar
-keywords: 
-summary: 'You can configure the protocol used by OnCommand Workflow Automation \(WFA\) to connect to remote systems. You can configure the protocol based on your organization’s security requirements and the protocol supported by the remote system.'
+keywords: configuring, protocols, connecting, remote, systems
+summary: "You can configure the protocol used by OnCommand Workflow Automation (WFA) to connect to remote systems. You can configure the protocol based on your organization’s security requirements and the protocol supported by the remote system."
 ---
 = Configuring protocols for connecting to remote systems
 :icons: font
@@ -11,10 +11,12 @@ summary: 'You can configure the protocol used by OnCommand Workflow Automation \
 [.lead]
 You can configure the protocol used by OnCommand Workflow Automation (WFA) to connect to remote systems. You can configure the protocol based on your organization's security requirements and the protocol supported by the remote system.
 
+.Steps
 . Log in to WFA through a web browser as an admin.
 . Click *Designer* > *Remote System Types*.
 . Perform one of the following actions:
 +
+[cols="2*",options="header"]
 |===
 | If you want to...| Do this...
 a|
@@ -34,7 +36,7 @@ a|
 +
 |===
 
-. From the Connection Protocol list, select one of the following:
+. From the *Connection Protocol* list, select one of the following:
  ** HTTPS with fallback to HTTP (default)
  ** HTTPS only
  ** HTTP only

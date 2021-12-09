@@ -1,8 +1,8 @@
 ---
 permalink: windows-install/task_configuring_the_timeout_value_for_windows.html
 sidebar: sidebar
-keywords: OnCommand Workflow Automation
-summary: 'You can configure the timeout value for the Workflow Automation \(WFA\) web GUI, instead of using the default timeout value.'
+keywords: oncommand workflow automation, configuring, timeout value
+summary: "You can configure the timeout value for the Workflow Automation (WFA) web GUI, instead of using the default timeout value."
 ---
 = Configuring the timeout value for Workflow Automation
 :icons: font
@@ -11,9 +11,14 @@ summary: 'You can configure the timeout value for the Workflow Automation \(WFA\
 [.lead]
 You can configure the timeout value for the Workflow Automation (WFA) web GUI, instead of using the default timeout value.
 
+*About this task*
+
 The default timeout value for WFA web GUI is 180 minutes. You can configure the timeout value to meet your requirements through CLI. You cannot set the timeout value from the WFA web GUI.
 
 NOTE: The timeout value that you set is an absolute timeout rather than a timeout related to inactivity. For example, if you set this value to 30 minutes, then you are logged out after 30 minutes, even if you are active at the end of this time.
 
+.Steps
 . Log in as the administrator on the WFA host machine.
-. Set the timeout value: `installdir bin/wfa -S=timeout value in minutes`
+. Set the timeout value:
++
+`installdir bin/wfa -S=timeout value in minutes`

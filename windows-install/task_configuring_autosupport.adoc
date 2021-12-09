@@ -1,8 +1,8 @@
 ---
 permalink: windows-install/task_configuring_autosupport.html
 sidebar: sidebar
-keywords: 
-summary: 'You can configure several AutoSupport settings such as the schedule, content of the AutoSupport messages, and the proxy server. AutoSupport sends weekly logs of the content that you selected to technical support for archiving and issue analysis.'
+keywords: configuring autoSupport
+summary: "You can configure several AutoSupport settings such as the schedule, content of the AutoSupport messages, and the proxy server. AutoSupport sends weekly logs of the content that you selected to technical support for archiving and issue analysis."
 ---
 = Configuring AutoSupport
 :icons: font
@@ -11,12 +11,14 @@ summary: 'You can configure several AutoSupport settings such as the schedule, c
 [.lead]
 You can configure several AutoSupport settings such as the schedule, content of the AutoSupport messages, and the proxy server. AutoSupport sends weekly logs of the content that you selected to technical support for archiving and issue analysis.
 
+.Steps
 . Log in to WFA through a web browser as an admin.
 . Click *Settings*, and under *Setup* click *AutoSupport*.
 . Ensure that the *Enable AutoSupport* box is selected.
 . Enter the required information.
 . Select one of the following from the *Content* list:
 +
+[cols="2*",options="header"]
 |===
 | If you want to include...| Then choose this option...
 a|
@@ -36,6 +38,6 @@ send configuration and cache extended data
 
 . Test that you can download an AutoSupport message:
  .. Click *Download*.
- .. In the dialog box that opens, select the location to save the .7z file.
+ .. In the dialog box that opens, select the location to save the `.7z` file.
 . Test the sending of an AutoSupport message to the specified destination by clicking *Send Now*.
 . Click *Save*.
