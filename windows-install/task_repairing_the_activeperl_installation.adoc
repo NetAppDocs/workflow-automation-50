@@ -1,8 +1,8 @@
 ---
 permalink: windows-install/task_repairing_the_activeperl_installation.html
 sidebar: sidebar
-keywords: 
-summary: 'ActiveState ActivePerl is installed on your OnCommand Workflow Automation \(WFA\) server when you install WFA. ActivePerl is required for the execution of Perl commands. If you inadvertently uninstall ActivePerl from the WFA server or if the ActivePerl installation is corrupted, you can manually repair the ActivePerl installation.'
+keywords: repairing, activeperl, installation
+summary: "ActiveState ActivePerl is installed on your OnCommand Workflow Automation (WFA) server when you install WFA. ActivePerl is required for the execution of Perl commands. If you inadvertently uninstall ActivePerl from the WFA server or if the ActivePerl installation is corrupted, you can manually repair the ActivePerl installation."
 ---
 = Repairing the ActivePerl installation
 :icons: font
@@ -11,6 +11,7 @@ summary: 'ActiveState ActivePerl is installed on your OnCommand Workflow Automat
 [.lead]
 ActiveState ActivePerl is installed on your OnCommand Workflow Automation (WFA) server when you install WFA. ActivePerl is required for the execution of Perl commands. If you inadvertently uninstall ActivePerl from the WFA server or if the ActivePerl installation is corrupted, you can manually repair the ActivePerl installation.
 
+.Steps
 . Back up the WFA database using one of the following options:
  ** WFA web portal
  ** PowerShell script
@@ -21,16 +22,6 @@ ActivePerl is installed when you install WFA.
 
 . Restore the WFA database.
 
+*After you finish*
+
 You can review the restored content for completeness in functionality--for example, the functioning of your custom workflows.
-
-*Related information*
-
-xref:task_backing_up_oncommand_workflow_automation_database_using_the_web_portal.adoc[Backing up the WFA database from the web portal]
-
-xref:task_backing_up_oncommand_workflow_automation_using_powershell_script.adoc[Backing up the WFA database using the PowerShell script]
-
-xref:task_uninstalling_oncommand_workflow_automation.adoc[Uninstalling OnCommand Workflow Automation]
-
-xref:task_installing_workflow_automation_on_windows.adoc[Installing OnCommand Workflow Automation on Windows]
-
-xref:concept_restoring_the_wfa_database.adoc[Restoring the OnCommand Workflow Automation database]

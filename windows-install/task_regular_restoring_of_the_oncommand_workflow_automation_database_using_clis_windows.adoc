@@ -1,8 +1,8 @@
 ---
 permalink: windows-install/task_regular_restoring_of_the_oncommand_workflow_automation_database_using_clis_windows.html
 sidebar: sidebar
-keywords: OnCommand Workflow Automation
-summary: 'You can do regular restore of the OnCommand Workflow Automation \(WFA\) database by using the REST APIs. In a regular restore, you can only backup the WFA database.'
+keywords: oncommand workflow automation, restoring, regular, wfa, database, cli
+summary: "You can do regular restore of the OnCommand Workflow Automation (WFA) database by using the REST APIs. In a regular restore, you can only backup the WFA database."
 ---
 = Restoring (regular) WFA database using the CLI
 :icons: font
@@ -11,18 +11,26 @@ summary: 'You can do regular restore of the OnCommand Workflow Automation \(WFA\
 [.lead]
 You can do regular restore of the OnCommand Workflow Automation (WFA) database by using the REST APIs. In a regular restore, you can only backup the WFA database.
 
+*What you'll need*
+
 * You must have created a backup of the WFA database.
 * You must have admin credentials, architect credentials, or backup user credentials.
 
-. At the shell prompt, navigate to the following directory on the WFA server: WFA_install_location\WFA\bin
+.Steps
+. At the shell prompt, navigate to the following directory on the WFA server:
 +
-wfa_install_location is the WFA installation directory.
+`WFA_install_location\WFA\bin`
++
+`wfa_install_location` is the WFA installation directory.
 
-. Perform the restore operation: `wfa.cmd --restore --user=user_name [--password=password] [--location=path]`
- ** user_name is the user name of the admin or architect user.
- ** password is the password of the user.
+. Perform the restore operation:
++
+`wfa.cmd --restore --user=user_name [--password=password] [--location=path]`
+
+ ** _user_name_ is the user name of the admin or architect user.
+ ** _password_ is the password of the user.
 +
 If you have not provided the password, you must enter the password when prompted.
 
- ** path is the complete directory path to the restore file.
+ ** _path_ is the complete directory path to the restore file.
 . Verify that the restore operation is successful and WFA is accessible.
