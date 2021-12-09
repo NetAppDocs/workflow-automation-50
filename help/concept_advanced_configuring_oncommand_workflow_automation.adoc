@@ -1,8 +1,8 @@
 ---
 permalink: help/concept_advanced_configuring_oncommand_workflow_automation.html
 sidebar: sidebar
-keywords: 
-summary: 'OnCommand Workflow Automation \(WFA\) enables you to configure various settings—for example, AutoSupport and notifications.'
+keywords: configure, oncommand workflow automation, wfa, autosupport
+summary: "OnCommand Workflow Automation (WFA) enables you to configure various settings—for example, AutoSupport and notifications."
 ---
 = Configuring OnCommand Workflow Automation
 :icons: font
