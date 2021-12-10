@@ -1,8 +1,8 @@
 ---
 permalink: windows-install/task_upgrading_oncommand_workflow_automation.html
 sidebar: sidebar
-keywords: 
-summary: 'If you have installed a previous version of OnCommand Workflow Automation \(WFA\), you can upgrade to the latest version of WFA to use the new features and enhancements.'
+keywords: upgrading, oncommand, workflow, automation
+summary: "If you have installed a previous version of OnCommand Workflow Automation (WFA), you can upgrade to the latest version of WFA to use the new features and enhancements."
 ---
 = Upgrading OnCommand Workflow Automation
 :icons: font
@@ -10,6 +10,8 @@ summary: 'If you have installed a previous version of OnCommand Workflow Automat
 
 [.lead]
 If you have installed a previous version of OnCommand Workflow Automation (WFA), you can upgrade to the latest version of WFA to use the new features and enhancements.
+
+*About this task*
 
 * You can upgrade to WFA 5.0 from either WFA 4.2 or 4.1 only.
 +
@@ -26,6 +28,7 @@ However, you can install MySQL on your own:
  ** During a fresh installation of WFA 4.2 and later or
  ** When you are upgrading from WFA 4.2 to later versions of WFA.
 
+.Steps
 . Back up the WFA database by using one of the following options:
  ** WFA web portal
  ** PowerShell script
@@ -34,20 +37,6 @@ If you want to revert to the same version of WFA, you can use the backup that yo
 . Install the latest version of WFA.
 . Restore the WFA database.
 
+*After you finish*
+
 You can review the restored content for completeness in functionality--for example, you can check the functioning of your custom workflows.
-
-*Related information*
-
-xref:reference_backing_up_of_the_oncommand_workflow_automation_database.adoc[Backing up the OnCommand Workflow Automation database]
-
-xref:task_backing_up_oncommand_workflow_automation_using_powershell_script.adoc[Backing up the WFA database using the PowerShell script]
-
-xref:task_backing_up_oncommand_workflow_automation_database_using_the_web_portal.adoc[Backing up the WFA database from the web portal]
-
-xref:task_uninstalling_oncommand_workflow_automation.adoc[Uninstalling OnCommand Workflow Automation]
-
-xref:task_installing_workflow_automation_on_windows.adoc[Installing OnCommand Workflow Automation on Windows]
-
-xref:concept_restoring_the_wfa_database.adoc[Restoring the OnCommand Workflow Automation database]
-
-xref:task_modifying_the_transaction_timeout_setting_of_oncommand_workflow_automation.adoc[Modifying the transaction timeout setting of OnCommand Workflow Automation]

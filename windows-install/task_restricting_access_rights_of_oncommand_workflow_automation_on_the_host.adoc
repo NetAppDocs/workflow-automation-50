@@ -1,8 +1,8 @@
 ---
 permalink: windows-install/task_restricting_access_rights_of_oncommand_workflow_automation_on_the_host.html
 sidebar: sidebar
-keywords: 
-summary: 'By default, OnCommand Workflow Automation \(WFA\) executes the workflows as the admin of the host system. You can restrict WFA rights on the host system by changing the default settings.'
+keywords: restricting, access, rights, oncommand, workflow automation, host
+summary: "By default, OnCommand Workflow Automation (WFA) executes the workflows as the admin of the host system. You can restrict WFA rights on the host system by changing the default settings."
 ---
 = Restricting access rights of OnCommand Workflow Automation on the host
 :icons: font
@@ -11,10 +11,13 @@ summary: 'By default, OnCommand Workflow Automation \(WFA\) executes the workflo
 [.lead]
 By default, OnCommand Workflow Automation (WFA) executes the workflows as the admin of the host system. You can restrict WFA rights on the host system by changing the default settings.
 
+*What you'll need*
+
 You must have logged in to the WFA host system as an admin.
 
+.Steps
 . Create a new Windows user account with permissions to open sockets and to write to the WFA home directory.
-. Open the Windows services console by using services.msc and double-click *NetApp WFA Database*.
+. Open the Windows services console by using `services.msc` and double-click *NetApp WFA Database*.
 . Click the *Log On* tab.
 . Select *This account* and enter the credentials of the new user you have created, and then click *OK*.
 . Double-click *NetApp WFA Server*.
