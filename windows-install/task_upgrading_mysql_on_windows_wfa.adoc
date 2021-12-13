@@ -35,4 +35,4 @@ For example, you can upgrade from MySQL 5.7.1 to MySQL 5.7.2.
  ** NetApp WFA Server
 . Click on the MYSQL msi package to invoke the upgrade of MySQL.
 . Follow the instructions on the screen to complete MySQL installation.
-. Start the WFA services by using the Windows Services console.
+. Start the WFA services by using the Windows *Services* console.

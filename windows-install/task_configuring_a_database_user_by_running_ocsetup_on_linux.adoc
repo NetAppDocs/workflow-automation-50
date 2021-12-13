@@ -24,7 +24,9 @@ _port_ is the TCP port number that you have used for the WFA server during insta
 +
 If you are specifying an IPv6 address, you must enclose it with square brackets.
 
-. Use the following command in the terminal to change the wfa_ocsetup.sh file to an executable: `chmod +x wfa_ocsetup.sh`
+. Use the following command in the terminal to change the wfa_ocsetup.sh file to an executable:
++
+`chmod +x wfa_ocsetup.sh`
 . Run the script by entering the following in the terminal:
 +
 `./wfa_ocsetup.sh JRE_path`

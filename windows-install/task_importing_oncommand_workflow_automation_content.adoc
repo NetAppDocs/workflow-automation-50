@@ -27,7 +27,7 @@ The NetApp-certified content packs can be downloaded from the Storage Automation
 . Log in to WFA through a web browser.
 . Click *Settings*, and under *Maintenance* click *Import Workflows*.
 . Click *Choose File* to select the `.dar` file that you want to import, and then click *Import*.
-. In the Import Success dialog box, click *OK*.
+. In the *Import Success* dialog box, click *OK*.
 
 *Related information*
 

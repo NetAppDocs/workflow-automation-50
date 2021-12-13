@@ -29,14 +29,14 @@ xref:reference_prerequisites_for_installing_workflow_automation.adoc[Prerequisit
 This installation does not affect any other instances of ActivePerl that you have installed on your WFA server.
 
 * Before you reinstall WFA 4.2 or later, you must delete MySQL data directory if you have uninstalled MySQL.
-* If you install MySQL on your own, WFA sets the secure-file-privilege and the sql-mode properties in MySQL my.ini file to blank.
+* If you install MySQL on your own, WFA sets the `secure-file-privilege` and the `sql-mode` properties in MySQL `my.ini` file to blank.
 
 .Steps
 . Log in to Windows using an account with administrative permissions.
 . Open Windows Explorer, and then navigate to the directory where the installation file is located.
 . Install WFA:
  ** Interactive installation
-  ... Right-click and run the WFA installer executable (.exe) file as an admin user.
+  ... Right-click and run the WFA installer executable (`.exe`) file as an admin user.
   ... Click *Next*.
   ... Enter the credentials for the default admin user, and then click *Next*.
 +

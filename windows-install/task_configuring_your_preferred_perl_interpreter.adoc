@@ -25,7 +25,9 @@ You must not uninstall or overwrite the default ActivePerl installation. You mus
 +
 A PowerShell command-line interface (CLI) prompt opens with ONTAP and WFA modules loaded in it.
 
-. At the prompt, enter the following: `Set-WfaConfig -Name CustomPerl -PerlPath CustomPerlPath`
+. At the prompt, enter the following:
++
+`Set-WfaConfig -Name CustomPerl -PerlPath CustomPerlPath`
 +
 *Example*
 +

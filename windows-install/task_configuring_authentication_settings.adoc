@@ -27,11 +27,11 @@ NOTE: During communication, LDAP sends the user name and password in plain text.
 . Click *Settings*, and under *Setup* click *Authentication*.
 . Select the *Enable Active Directory* check box.
 . Enter the required information in the fields:
- .. *Optional:* If you want to use the user@domain format for domain users, replace `sAMAccountName` with `userPrincipalName` in the *User name attribute* field.
+ .. *Optional:* If you want to use the _user@domain_ format for domain users, replace `sAMAccountName` with `userPrincipalName` in the *User name attribute* field.
  .. *Optional:* If unique values are required for your environment, edit the required fields.
  .. Enter the AD server URI as follows:
  +
- `ldap://active_directory_server_address[:port]`
+`ldap://active_directory_server_address[:port]`
 +
 *Example*
 +

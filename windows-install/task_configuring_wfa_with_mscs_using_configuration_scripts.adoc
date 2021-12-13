@@ -81,7 +81,7 @@ The WFA database service and the WFA server service must be taken offline. The W
 
 . Manually move the WFA resources to the secondary node.
 . Verify that the shared disk is accessible from the second node.
-. At the command prompt, run the ha_setup.pl script on the secondary node of the cluster to configure WFA for using the data from the shared location: `perl ha_setup.pl --join [-t type_of_cluster_mscs] [-f shared_drive_path]`
+. At the command prompt, run the `ha_setup.pl` script on the secondary node of the cluster to configure WFA for using the data from the shared location: `perl ha_setup.pl --join [-t type_of_cluster_mscs] [-f shared_drive_path]`
 +
 The `ha_setup.pl` script is available at `WFA_install_location\WFA\bin\ha\.`
 +

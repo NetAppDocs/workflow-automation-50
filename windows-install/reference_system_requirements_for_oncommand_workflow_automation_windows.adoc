@@ -44,6 +44,8 @@ WFA runs on a 64-bit Windows operating system, and should be installed on dedica
 
 WFA runs from Microsoft Windows Server 2012 Enterprise Edition to Microsoft Windows Server 2016 (all editions). Enterprise Edition is the recommended Windows operating system.
 
+*Other minimum required software*
+
 * One of the following supported browsers:
  ** Mozilla Firefox
  ** Microsoft Internet Explorer
