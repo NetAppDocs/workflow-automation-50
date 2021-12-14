@@ -1,8 +1,8 @@
 ---
 permalink: workflows/concept_what_remote_system_types_are.html
 sidebar: sidebar
-keywords: 
-summary: 'OnCommand Workflow Automation \(WFA\) communicates with remote system types. A remote system type specifies the type of remote systems with which WFA can communicate. You can configure remote system types in WFA. For example, Data ONTAP system can be configured as a remote system type.'
+keywords: remote, system, types
+summary: "OnCommand Workflow Automation (WFA) communicates with remote system types. A remote system type specifies the type of remote systems with which WFA can communicate. You can configure remote system types in WFA. For example, Data ONTAP system can be configured as a remote system type."
 ---
 = What remote system types are
 :icons: font
@@ -21,7 +21,3 @@ A remote system type has the following attributes:
 * Timeout
 
 You can have a Perl script for each remote system type to validate the credentials of the remote system. You can store the credentials for the remote systems configured on WFA. You can add or edit a new custom remote system type. You can also clone an existing remote system type. You can delete a remote system type only if no systems are associated with it.
-
-*Related information*
-
-xref:reference_guidelines_for_creating_a_validation_script_for_remote_system_type.adoc[Guidelines for creating validation scripts for remote system types]
