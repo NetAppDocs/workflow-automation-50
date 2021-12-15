@@ -1,8 +1,8 @@
 ---
 permalink: workflows/reference_guidelines_for_variables.html
 sidebar: sidebar
-keywords: 
-summary: 'You must be aware of the guidelines for PowerShell and Perl variables in OnCommand Workflow Automation \(WFA\) when you create a command or a data source type.'
+keywords: guidelines, variables, powershell, perl
+summary: "You must be aware of the guidelines for PowerShell and Perl variables in OnCommand Workflow Automation (WFA) when you create a command or a data source type."
 ---
 = Guidelines for variables
 :icons: font
@@ -12,7 +12,7 @@ summary: 'You must be aware of the guidelines for PowerShell and Perl variables 
 You must be aware of the guidelines for PowerShell and Perl variables in OnCommand Workflow Automation (WFA) when you create a command or a data source type.
 
 == PowerShell variables
-
+[cols="2*",options="header"]
 |===
 | Guidelines| Example
 a|
@@ -23,11 +23,11 @@ For script input parameters:
 * Do not use abbreviations.
 
 a|
-$VolumeName
+`$VolumeName`
 
-$AutoDeleteOptions
+`$AutoDeleteOptions`
 
-$Size
+`$Size`
 
 a|
 For script internal variables:
@@ -37,11 +37,11 @@ For script internal variables:
 * Do not use abbreviations.
 
 a|
-$newVolume
+`$newVolume`
 
-$qtreeName
+`$qtreeName`
 
-$time
+`$time`
 
 a|
 For functions:
@@ -51,15 +51,15 @@ For functions:
 * Do not use abbreviations.
 
 a|
-GetVolumeSize
+`GetVolumeSize`
 a|
 Variable names are not case-sensitive. However, to improve readability, you should not use different capitalization for the same name.
 a|
-$variable is the same as $Variable.
+`$variable` is the same as `$Variable`.
 a|
 Variable names should be in plain English and should be related to the functionality of the script.
 a|
-Use $name and not $a.
+Use `$name` and not `$a`.
 a|
 Declare the data type for each variable, explicitly.
 a|
@@ -83,7 +83,7 @@ a|
 param(
 [parameter(Mandatory=$true)]
 [string]$Type,
-	
+
 [parameter(Mandatory=$true)]
 [string]$Ip,
 
@@ -139,7 +139,7 @@ param (
 |===
 
 == Perl variables
-
+[cols="2*",options="header"]
 |===
 | Guidelines| Example
 a|
@@ -150,34 +150,34 @@ For script input parameters:
 * Do not use abbreviations.
 
 a|
-$VolumeName
+`$VolumeName`
 
-$AutoDeleteOptions
+`$AutoDeleteOptions`
 
-$Size
+`$Size`
 
 a|
 Do not use abbreviations for script internal variables.
 a|
-$new_volume
+`$new_volume`
 
-$qtree_name
+`$qtree_name`
 
-$time
+`$time`
 
 a|
 Do not use abbreviations for functions.
 a|
-get_volume_size
+`get_volume_size`
 a|
 Variable names are case-sensitive. To improve readability, you should not use different capitalization for the same name.
 
 a|
-$variable is not the same as $Variable.
+`$variable` is not the same as `$Variable`.
 a|
 Variable names should be in plain English and should be related to the functionality of the script.
 a|
-Use $name and not $a.
+Use `$name` and not `$a`.
 a|
 Group the input parameters by placing the mandatory parameters first, followed by the optional parameters.
 a|
@@ -198,7 +198,7 @@ Do not use "`Filer`" as a variable name; use "`Array`" instead.
 a|
 None
 a|
-Perl does not include the ValidateSet annotation for enumerated values. Use explicit "`if`" statements for cases where argument gets enumerated values.
+Perl does not include the `ValidateSet` annotation for enumerated values. Use explicit "`if`" statements for cases where argument gets enumerated values.
 a|
 
 ----
@@ -241,6 +241,3 @@ use WFAUtil;
 ----
 
 |===
-*Related information*
-
-xref:reference_references_to_learning_material.adoc[References to learning material]

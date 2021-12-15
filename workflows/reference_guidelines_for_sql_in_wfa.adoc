@@ -1,8 +1,8 @@
 ---
 permalink: workflows/reference_guidelines_for_sql_in_wfa.html
 sidebar: sidebar
-keywords: 
-summary: 'You must be aware of the guidelines for using SQL in OnCommand Workflow Automation \(WFA\) to write SQL queries for WFA.'
+keywords: guidelines, sql, wfa
+summary: "You must be aware of the guidelines for using SQL in OnCommand Workflow Automation (WFA) to write SQL queries for WFA."
 ---
 = Guidelines for SQL in WFA
 :icons: font
@@ -19,6 +19,7 @@ SQL is used in the following places in WFA:
 * A custom data source type of SQL type where the data has to be extracted from an external data source such as a custom configuration management database (CMDB).
 * SQL queries for reservation and verification scripts
 
+[cols="2*",options="header"]
 |===
 | Guidelines| Example
 a|
@@ -101,7 +102,7 @@ Use comments for complex queries. Some of the supported comment styles in querie
 A space is mandatory after the second hyphen in this comment style.
 
 * From a "`#`" character until the end of the line
-* From a "`/*`" to the following "`*/`"sequence
+* From a "`/\*`" to the following "``*/``"sequence
 
 a|
 
@@ -119,6 +120,3 @@ FROM --end of line comment
 ----
 
 |===
-*Related information*
-
-xref:reference_references_to_learning_material.adoc[References to learning material]

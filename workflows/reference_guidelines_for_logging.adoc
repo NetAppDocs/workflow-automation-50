@@ -1,8 +1,8 @@
 ---
 permalink: workflows/reference_guidelines_for_logging.html
 sidebar: sidebar
-keywords: 
-summary: 'You must be aware of the guidelines for logging when writing a PowerShell or Perl script for OnCommand Workflow Automation \(WFA\).'
+keywords: guidelines, logging, powershell, perl
+summary: "You must be aware of the guidelines for logging when writing a PowerShell or Perl script for OnCommand Workflow Automation (WFA)."
 ---
 = Guidelines for logging
 :icons: font
@@ -12,7 +12,7 @@ summary: 'You must be aware of the guidelines for logging when writing a PowerSh
 You must be aware of the guidelines for logging when writing a PowerShell or Perl script for OnCommand Workflow Automation (WFA).
 
 == PowerShell logging
-
+[cols="2*",options="header"]
 |===
 | Guidelines| Example
 a|
@@ -40,7 +40,7 @@ None
 |===
 
 == Perl logging
-
+[cols="2*",options="header"]
 |===
 | Guidelines| Example
 a|
@@ -87,6 +87,3 @@ destroy ZAPI: '.$VolumeName);
 ----
 
 |===
-*Related information*
-
-xref:reference_references_to_learning_material.adoc[References to learning material]

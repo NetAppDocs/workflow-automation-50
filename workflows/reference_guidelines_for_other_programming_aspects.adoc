@@ -1,8 +1,8 @@
 ---
 permalink: workflows/reference_guidelines_for_other_programming_aspects.html
 sidebar: sidebar
-keywords: 
-summary: 'You must be aware of certain important considerations when you convert PowerShell commands to Perl because PowerShell and Perl have different capabilities.'
+keywords: considerations, converting, powershell, commands, perl, input, command
+summary: "You must be aware of certain important considerations when you convert PowerShell commands to Perl because PowerShell and Perl have different capabilities."
 ---
 = Considerations while converting PowerShell commands to Perl
 :icons: font
@@ -81,7 +81,7 @@ sub get_cron_input_hash {
 == Command definition
 
 A one-line expression in PowerShell using a pipe operator might have to be expanded into multiple blocks of statements in Perl in order to achieve the same functionality. An example from one of the wait commands is shown in the following table.
-
+[cols="2*",options="header"]
 |===
 | PowerShell statement| Perl statement
 a|
@@ -89,8 +89,8 @@ a|
 ----
 # Get the latest job which moves the specified volume to the specified
  aggregate.
-$job = Get-NcJob -Query $query | where
-{$_.JobDescription -eq "Split" + $VolumeCloneName} | Select-Object -First 1
+$job = Get-NcJob -Query $query \| where
+{$_.JobDescription -eq "Split" + $VolumeCloneName} \| Select-Object -First 1
 ----
 
 a|
@@ -117,6 +117,3 @@ for my $job (@{ $result->{'attributes-list'}})
 ----
 
 |===
-*Related information*
-
-xref:reference_references_to_learning_material.adoc[References to learning material]
