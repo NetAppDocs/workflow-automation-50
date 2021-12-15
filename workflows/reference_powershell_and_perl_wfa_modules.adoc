@@ -1,8 +1,8 @@
 ---
 permalink: workflows/reference_powershell_and_perl_wfa_modules.html
 sidebar: sidebar
-keywords: 
-summary: 'You must be aware of the PowerShell or Perl modules for OnCommand Workflow Automation \(WFA\) to write scripts for your workflows.'
+keywords: powershell, perl, wfa, modules
+summary: "You must be aware of the PowerShell or Perl modules for OnCommand Workflow Automation (WFA) to write scripts for your workflows."
 ---
 = PowerShell and Perl WFA modules
 :icons: font
@@ -12,13 +12,13 @@ summary: 'You must be aware of the PowerShell or Perl modules for OnCommand Work
 You must be aware of the PowerShell or Perl modules for OnCommand Workflow Automation (WFA) to write scripts for your workflows.
 
 == PowerShell modules
-
+[cols="2*",options="header"]
 |===
 | Guidelines| Example
 a|
 Use the Data ONTAP PS Toolkit to invoke APIs whenever the toolkit is available.
 a|
-The Add VLAN command uses the toolkit as follows:
+The `Add VLAN` command uses the toolkit as follows:
 
 `Add-NaNetVlan-Interface $Interface-Vlans$VlanID`
 
@@ -32,7 +32,7 @@ a|
 == Perl modules
 
 The NaServer module is used in WFA commands. The NaServer module allows the invocation of Data ONTAP APIs, which are used in active management of Data ONTAP systems.
-
+[cols="2*",options="header"]
 |===
 | Guidelines| Example
 a|
@@ -75,11 +75,12 @@ The following example shows how the NaServer module is used for a resume SnapMir
 ----
 
 a|
-If a Data ONTAP API is not available, invoke the Data ONTAP CLI using the executeSystemCli utility method.*Note:* executeSystemCli is not supported and is currently available only for Data ONTAP operating in 7-Mode.
+If a Data ONTAP API is not available, invoke the Data ONTAP CLI using the executeSystemCli utility method.
+[NOTE]
+====
+executeSystemCli is not supported and is currently available only for Data ONTAP operating in 7-Mode.
+====
 
 a|
 None
 |===
-*Related information*
-
-xref:reference_references_to_learning_material.adoc[References to learning material]

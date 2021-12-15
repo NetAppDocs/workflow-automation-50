@@ -1,8 +1,8 @@
 ---
 permalink: workflows/reference_perl_database_modules_bundled_with_windows.html
 sidebar: sidebar
-keywords: 
-summary: 'Some Perl modules are bundled with the Windows Active state Perl distribution for OnCommand Workflow Automation \(WFA\). You can use these Perl modules in your Perl code for writing commands, only if they are bundled with Windows.'
+keywords: perl, modules, bundled, windows
+summary: "Some Perl modules are bundled with the Windows Active state Perl distribution for OnCommand Workflow Automation (WFA). You can use these Perl modules in your Perl code for writing commands, only if they are bundled with Windows."
 ---
 = Perl modules bundled with Windows
 :icons: font
@@ -12,7 +12,7 @@ summary: 'Some Perl modules are bundled with the Windows Active state Perl distr
 Some Perl modules are bundled with the Windows Active state Perl distribution for OnCommand Workflow Automation (WFA). You can use these Perl modules in your Perl code for writing commands, only if they are bundled with Windows.
 
 The following table lists the Perl database modules that are bundled with Windows for WFA.
-
+[cols="2*",options="header"]
 |===
 | Database module| Description
 a|

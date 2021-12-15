@@ -1,8 +1,8 @@
 ---
 permalink: workflows/reference_workflow_requirements_checklist.html
 sidebar: sidebar
-keywords: 
-summary: 'A workflow requirements checklist includes detailed requirements—such as commands, user input, and resources—for a planned workflow. You can use the checklist to plan your workflows and identify the gaps in the requirements.'
+keywords: sample, workflow, requirements, checklist
+summary: "A workflow requirements checklist includes detailed requirements—such as commands, user input, and resources—for a planned workflow. You can use the checklist to plan your workflows and identify the gaps in the requirements."
 ---
 = Sample workflow requirements checklist
 :icons: font
@@ -15,6 +15,8 @@ A workflow requirements checklist includes detailed requirements--such as comman
 
 The following sample workflow requirements checklist lists the requirements for the "`Create a Clustered Data ONTAP Volume`" workflow. You can use this sample checklist as a template to list your workflow requirements.
 
+*Workflow details*
+[cols="2*"]
 |===
 a|
 Workflow name
@@ -64,6 +66,8 @@ The volume will be mounted in the SVM namespace as /volname (under the root name
   *** Select the aggregate with maximum free space
 
 |===
+*User inputs*
+[cols="3*",options="header"]
 |===
 | Name| Type| Description (data values, validation, and so on)
 a|
@@ -107,6 +111,8 @@ a|
 * Data size (snap reserve should be considered)
 
 |===
+*Commands*
+[cols="3*",options="header"]
 |===
 | Name| Description| Status
 a|
@@ -116,6 +122,8 @@ Creates a volume in the SVM
 a|
 Existing
 |===
+*Return parameters*
+[cols="2*",options="header"]
 |===
 | Name| Value
 a|
@@ -135,25 +143,26 @@ Cluster name
 a|
 Name of the cluster
 |===
+*Gaps and issues*
 |===
 a|
 1.
 a|
- 
+
 a|
 2.
 a|
- 
+
 a|
 3.
 a|
- 
+
 a|
 4.
 a|
- 
+
 a|
 5.
 a|
- 
+
 |===
