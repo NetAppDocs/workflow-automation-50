@@ -1,8 +1,8 @@
 ---
 permalink: workflows/task_creating_a_function.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create a WFA function that can be used as a utility, if there is no predefined WFA function that is suitable for your task.'
+keywords: creating, function
+summary: "You can create a WFA function that can be used as a utility, if there is no predefined WFA function that is suitable for your task."
 ---
 = Creating a function
 :icons: font
@@ -11,7 +11,11 @@ summary: 'You can create a WFA function that can be used as a utility, if there 
 [.lead]
 You can create a WFA function that can be used as a utility, if there is no predefined WFA function that is suitable for your task.
 
+*What you'll need*
+
 You must know MVFLEX Expression Language (MVEL) syntaxes to create a function.
+
+*About this task*
 
 You must include the following for the function definitions:
 
@@ -21,9 +25,12 @@ You must not use a reserved word in MVEL syntax. Each function must have a uniqu
 
 * MVEL definition: a string specifying the MVEL syntax of the function definition
 
+.Steps
 . Click *Designer* > *Functions*.
 . Click image:../media/new_wfa_icon.gif[New icon] on the toolbar.
-. In the New Function dialog box, enter or select the required details in the *Function description* and *Function definition* fields.
+. In the *New Function* dialog box, enter or select the required details in the *Function description* and *Function definition* fields.
++
+*Example*
 +
 ----
 def actualVolumeSize(data_size, snap_pct)
@@ -41,8 +48,10 @@ def actualVolumeSize(data_size, snap_pct)
 +
 The *Function name* field is populated from the data that is used in the MVEL syntax.
 
-. Click *Test* to test the function:
+. *Optional:* Click *Test* to test the function:
  .. In the *Expression* section of the *Test* dialog box, enter the required expression of function.
++
+*Example*
 +
 `actualVolumeSize(600, 1)`
 
@@ -52,9 +61,3 @@ The test result is displayed.
 
  .. Close the dialog box.
 . Click *Save*.
-
-*Related information*
-
-xref:reference_reserved_words.adoc[Reserved words]
-
-xref:reference_references_to_learning_material.adoc[References to learning material]

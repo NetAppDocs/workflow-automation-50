@@ -1,8 +1,8 @@
 ---
 permalink: workflows/task_creating_recurring_schedules.html
 sidebar: sidebar
-keywords: 
-summary: 'OnCommand Workflow Automation \(WFA\) provides two scheduling options for workflows. You can either schedule a workflow to execute once at a specific time or you can create recurring schedules and associate the schedules to workflows so that the workflows are executed routinely.'
+keywords: creating, recurring, schedules
+summary: "OnCommand Workflow Automation (WFA) provides two scheduling options for workflows. You can either schedule a workflow to execute once at a specific time or you can create recurring schedules and associate the schedules to workflows so that the workflows are executed routinely."
 ---
 = Creating recurring schedules
 :icons: font
@@ -11,11 +11,14 @@ summary: 'OnCommand Workflow Automation \(WFA\) provides two scheduling options 
 [.lead]
 OnCommand Workflow Automation (WFA) provides two scheduling options for workflows. You can either schedule a workflow to execute once at a specific time or you can create recurring schedules and associate the schedules to workflows so that the workflows are executed routinely.
 
+*About this task*
+
 A schedule that you have created can be reused and associated with several workflows.
 
+.Steps
 . Click *Execution* > *Schedules*.
 . Click image:../media/new_wfa_icon.gif[New icon] on the toolbar.
-. In the New Schedule dialog box, enter or select a name, description, and frequency for the schedule.
+. In the *New Schedule* dialog box, enter or select a name, description, and frequency for the schedule.
 +
 For frequency, you must enter time in 24-hour format. The WFA server time is applied to the schedules.
 

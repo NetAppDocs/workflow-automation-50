@@ -1,8 +1,8 @@
 ---
 permalink: workflows/task_creating_a_workflow.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use Workflow Automation \(WFA\) to create workflows for tasks such as provisioning, migrating, and decommissioning storage for databases or file systems. You should create workflows when the predefined WFA workflows do not match your requirements.'
+keywords: creating, workflow
+summary: "You can use Workflow Automation (WFA) to create workflows for tasks such as provisioning, migrating, and decommissioning storage for databases or file systems. You should create workflows when the predefined WFA workflows do not match your requirements."
 ---
 = Creating a workflow
 :icons: font
@@ -11,26 +11,32 @@ summary: 'You can use Workflow Automation \(WFA\) to create workflows for tasks 
 [.lead]
 You can use Workflow Automation (WFA) to create workflows for tasks such as provisioning, migrating, and decommissioning storage for databases or file systems. You should create workflows when the predefined WFA workflows do not match your requirements.
 
+*What you'll need*
+
 * You must have understood the concepts for WFA building blocks.
 * You must have understood capabilities such as repeat row, approval points, and resource selection that are required for your workflow.
 * You must have completed the planning required for your workflow, including the workflow requirement checklist.
 * You should have created the help content, which provides information about the workflow to storage operators.
 
+*About this task*
+
 The construction of each workflow might vary based on the goal and requirement of the workflow. This task does not provide instructions for a specific workflow, but provides general instructions for creating a workflow.
 
+.Steps
 . Click *Designer* > *Workflows*.
 . Click image:../media/new_wfa_icon.gif[New icon] on the toolbar.
-. In the Workflow tab, perform the following steps:
+. In the *Workflow* tab, perform the following steps:
  .. Expand the required schema, and then double-click the required image:../media/wfa_command_icon.gif[Command icon] (command) or image:../media/wfa_workflow_icon.gif[Workflow icon] (workflow) from the *Available Steps* list.
 +
 You can repeat this step as required. You can drag-and-drop steps to rearrange the steps in the workflow editor.
 
- .. Click image:../media/add_row2_wfa_icon.gif[] to add the required number of rows, which are used to specify details for execution of steps.
+ .. *Optional;:* Click image:../media/add_row2_wfa_icon.gif[] to add the required number of rows, which are used to specify details for execution of steps.
 +
 Each step is executed based on the specified step details at the specified row and column. The steps are executed from left to right and in the top to bottom order.
 
  .. Position your cursor below the step you have added and click image:../media/add_object_wfa_icon.gif[command details icon] to add step details for the step execution, at the required row.
 +
+[cols="2*",options="header"]
 |===
 | For this step...| Do this...
 a|
@@ -52,6 +58,7 @@ image::../media/define_object_options.gif[]
 +
 Choose the appropriate action:
 +
+[cols="2*",options="header"]
 |===
 | For...| Do this...
 a|
@@ -67,11 +74,11 @@ Enter the value for attributes using the following options:
 You must position your cursor over the attribute fields and click image:../media/elipsisicon.gif[] to use the resource selection or incremental naming capabilities.
 
 a|
-by using a previously defined object
+by using a previously defined _object_
 a|
-Select the previously defined object in the box before the option list.
+Select the previously defined _object_ in the box before the option list.
 a|
-by searching for an existing object
+by searching for an existing _object_
 a|
 
   ... Click *Enter search criteria* to search for the object using the resource selection capability.
@@ -118,13 +125,13 @@ You can use this option and then specify a search criteria for an object. The co
 +
 The workflow name and description must be unique for each workflows.
 
- .. Specify the entity version.
- .. Clear the *Consider Reserved Elements* check box if you do not want to use the reservation capability.
- .. Clear the *Enable element existence validation* check box if you do not want to enable validation for elements that exist with the same name.
+ .. *Optional:* Specify the entity version.
+ .. *Optional:* Clear the *Consider Reserved Elements* check box if you do not want to use the reservation capability.
+ .. *Optional:* Clear the *Enable element existence validation* check box if you do not want to enable validation for elements that exist with the same name.
 . If you want to edit the user inputs, perform the following steps:
  .. Click the *User Inputs* tab.
  .. Double-click the user input you want to edit.
- .. In the Edit Variable: <user input> dialog box, edit the user input.
+ .. In the *Edit Variable: <user input>* dialog box, edit the user input.
 . If you want to add constants, perform the following steps
  .. Click the *Constants* tab, and then add the required constants for your workflow by using the *Add* button.
 +
@@ -135,10 +142,13 @@ You can define constants when you are using a common value for defining the para
 +
 You can use return parameters when the workflow planning and execution must return some calculated or selected values during planning. You can view the calculated or selected values in the Return Parameters tab of the monitoring window in the workflow preview or after the workflow execution is complete.
 +
+*Example*
++
 Aggregate: You can specify aggregate as a return parameter to see which aggregate was selected using the resource selection logic.
 +
 If you have included a child workflow in your workflow and if the child workflow return parameter names contain a space, dollar sign ($), or a function, you should specify the return parameter name within square brackets in the parent workflow to view the child workflow return parameter value in your parent workflow.
 +
+[cols="2*",options="header"]
 |===
 | If the parameter name is...| Specify as...
 a|
@@ -163,33 +173,11 @@ a|
 ChildWorkflow1["return_string(\"HW\")"]
 |===
 
-. Click the *Help Content* tab to add the help content file you have created for the workflow.
+. *Optional:* Click the *Help Content* tab to add the help content file you have created for the workflow.
 . Click *Preview* and ensure that the planning of the workflow is completed successfully.
 . Click *OK* to close the preview window.
 . Click *Save*.
 
+*After you finish*
+
 Test the workflow in your test environment, and then mark the workflow as ready for production in *WorkflowName* > *Details*.
-
-*Related information*
-
-xref:reference_workflow_requirements_checklist.adoc[Sample workflow requirements checklist]
-
-xref:concept_how_you_define_workflows.adoc[How you define workflows]
-
-xref:concept_how_you_define_user_input.adoc[How user inputs are defined]
-
-xref:concept_how_repeat_row_works.adoc[How repeat row works]
-
-xref:concept_what_approval_points_are.adoc[What approval points are]
-
-xref:concept_how_resource_selection_works.adoc[How resource selection works]
-
-xref:concept_how_reservation_works.adoc[How reservation works]
-
-xref:concept_what_incremental_naming_is.adoc[What incremental naming is]
-
-xref:concept_what_conditional_execution_is.adoc[What conditional execution is]
-
-xref:concept_what_return_parameters_are.adoc[How return parameters work]
-
-xref:task_creating_workflow_help_content.adoc[Creating workflow help content]

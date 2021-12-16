@@ -1,8 +1,8 @@
 ---
 permalink: workflows/task_creating_a_workflow_automation_pack.html
 sidebar: sidebar
-keywords: OnCommand Workflow Automation
-summary: 'You can create workflow packs on OnCommand Workflow Automation \(WFA\) for your storage automation and integration requirements.'
+keywords: oncommand workflow automation, creating, wfa, packs
+summary: "You can create workflow packs on OnCommand Workflow Automation (WFA) for your storage automation and integration requirements."
 ---
 = Creating WFA workflow packs
 :icons: font
@@ -11,9 +11,10 @@ summary: 'You can create workflow packs on OnCommand Workflow Automation \(WFA\)
 [.lead]
 You can create workflow packs on OnCommand Workflow Automation (WFA) for your storage automation and integration requirements.
 
+.Steps
 . Log in to the WFA window through a web browser.
 . Click *Designer* > *Pack*.
 . Click the *New Pack* icon.
-. In the New Pack dialog box, enter values for the *Name*, *Author*, *Version*, and *Description* fields.
+. In the *New Pack* dialog box, enter values for the *Name*, *Author*, *Version*, and *Description* fields.
 . Click *Save*.
-. Verify that the new pack is created in the Packs window.
+. Verify that the new pack is created in the *Packs* window.
