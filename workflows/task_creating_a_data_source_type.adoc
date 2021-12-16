@@ -1,8 +1,8 @@
 ---
 permalink: workflows/task_creating_a_data_source_type.html
 sidebar: sidebar
-keywords: 
-summary: 'You must create a data source type to enable data acquisition from a data source, which is not predefined in OnCommand Workflow Automation \(WFA\).'
+keywords: creating, data, source, type
+summary: "You must create a data source type to enable data acquisition from a data source, which is not predefined in OnCommand Workflow Automation (WFA)."
 ---
 = Creating a data source type
 :icons: font
@@ -11,13 +11,18 @@ summary: 'You must create a data source type to enable data acquisition from a d
 [.lead]
 You must create a data source type to enable data acquisition from a data source, which is not predefined in OnCommand Workflow Automation (WFA).
 
+*What you'll need*
+
 * You must have created the required dictionary entry and scheme if you are creating a custom data source type that is not predefined in WFA.
 * You must be aware of PowerShell scripting to create a data source type that uses the script method.
 
+.Steps
 . Click *Designer* > *Data Source Types*.
 . Click image:../media/new_wfa_icon.gif[New icon] on the toolbar.
-. In the New Data Source Type dialog box, enter or select the required details in the *Data source*, *Data source version*, and *Scheme* fields.
+. In the *New Data Source Type* dialog box, enter or select the required details in the *Data source*, *Data source version*, and *Scheme* fields.
 . In the *Default port* field, enter the port number.
++
+*Example*
 +
 `2638`
 +
@@ -25,6 +30,7 @@ The port number you have entered is populated when you add this data source type
 
 . From the *Method* list, select the method that WFA must use to acquire data:
 +
+[cols="2*",options="header"]
 |===
 | If you have selected...| Then...
 a|
@@ -40,14 +46,12 @@ From the *Driver type* list, select one of the following drivers that is appropr
 a|
 SCRIPT
 a|
-In the *Script* field, enter the PowerShell script that is used to connect and retrieve data from the data source.    *Note:* The data in the dictionary entry equivalent CSV files should include tabs as field separator. For example, see the PowerShell script for the VMware vCenter data source type.
-+
+In the *Script* field, enter the PowerShell script that is used to connect and retrieve data from the data source.
+[NOTE]
+====
+The data in the dictionary entry equivalent CSV files should include tabs as field separator. For example, see the PowerShell script for the VMware vCenter data source type.
+====
+
 |===
 
 . Click *Save*.
-
-*Related information*
-
-xref:task_creating_a_dictionary_entry.adoc[Creating a dictionary entry]
-
-xref:reference_references_to_learning_material.adoc[References to learning material]
