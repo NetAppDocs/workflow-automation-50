@@ -1,8 +1,8 @@
 ---
 permalink: workflows/task_importing_oncommand_workflow_automation_content.html
 sidebar: sidebar
-keywords: 
-summary: 'You can import user-created OnCommand Workflow Automation \(WFA\) content such as workflows, finders, and commands. You can also import content that is exported from another WFA installation, content that is downloaded from the Storage Automation Store or the WFA community, as well as packs, including Data ONTAP PowerShell toolkits and Perl NMSDK toolkits.'
+keywords: import, oncommand, workflow, automation, content
+summary: "You can import user-created OnCommand Workflow Automation (WFA) content such as workflows, finders, and commands. You can also import content that is exported from another WFA installation, content that is downloaded from the Storage Automation Store or the WFA community, as well as packs, including Data ONTAP PowerShell toolkits and Perl NMSDK toolkits."
 ---
 = Importing OnCommand Workflow Automation content
 :icons: font
@@ -11,22 +11,23 @@ summary: 'You can import user-created OnCommand Workflow Automation \(WFA\) cont
 [.lead]
 You can import user-created OnCommand Workflow Automation (WFA) content such as workflows, finders, and commands. You can also import content that is exported from another WFA installation, content that is downloaded from the Storage Automation Store or the WFA community, as well as packs, including Data ONTAP PowerShell toolkits and Perl NMSDK toolkits.
 
+*What you'll need*
+
 * You must have access to the WFA content that you want to import.
 * The content that you want to import must have been created on a system that is running the same version or an earlier version of WFA.
 +
 For example, if you are running WFA 2.2, you cannot import content that was created using WFA 3.0.
 
-* If the .dar file references NetApp-certified content, the NetApp-certified content packs must be imported.
+* If the `.dar` file references NetApp-certified content, the NetApp-certified content packs must be imported.
 +
 The NetApp-certified content packs can be downloaded from the Storage Automation Store. You must refer to the documentation of the pack to verify that all requirements are met.
 
+.Steps
 . Log in to WFA through a web browser.
 . Click *Settings*, and under *Maintenance* click *Import Workflows*.
 . Click *Choose File* to select the .dar file that you want to import, and then click *Import*.
-. In the Import Success dialog box, click *OK*.
+. In the *Import Success* dialog box, click *OK*.
 
 *Related information*
-
-xref:reference_considerations_of_importing_wfa_content.adoc[Considerations while importing OnCommand Workflow Automation content]
 
 http://community.netapp.com/t5/OnCommand-Storage-Management-Software-Articles-and-Resources/tkb-p/oncommand-storage-management-software-articles-and-resources/label-name/workflow%20automation%20%28wfa%29?labels=workflow+automation+%28wfa%29[NetApp community: OnCommand Workflow Automation]

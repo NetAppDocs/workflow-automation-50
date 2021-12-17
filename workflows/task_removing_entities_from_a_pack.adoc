@@ -1,8 +1,8 @@
 ---
 permalink: workflows/task_removing_entities_from_a_pack.html
 sidebar: sidebar
-keywords: OnCommand Workflow Automation
-summary: 'You can remove a pack from the entities in OnCommand Workflow Automation \(WFA\) and check in the updated pack to the Source Control Management \(SCM\) server.'
+keywords: oncommand workflow automation, remove, packs, entities
+summary: "You can remove a pack from the entities in OnCommand Workflow Automation (WFA) and check in the updated pack to the Source Control Management (SCM) server."
 ---
 = Removing WFA workflow packs from entities
 :icons: font
@@ -11,7 +11,11 @@ summary: 'You can remove a pack from the entities in OnCommand Workflow Automati
 [.lead]
 You can remove a pack from the entities in OnCommand Workflow Automation (WFA) and check in the updated pack to the Source Control Management (SCM) server.
 
+*What you'll need*
+
 The SCM must be set up and you must have admin or architect credentials.
+
+*About this task*
 
 You can remove a pack from the following entities:
 
@@ -28,14 +32,15 @@ You can remove a pack from the following entities:
 * Cache Queries
 * Categories
 
-. Log in to the WFA window through a web browser.
+.Steps
+. Log in to the *WFA* window through a web browser.
 . Click *Designer* > *<Entity>*.
 . Click the *Remove From Pack* icon.
-. In the Remove From Pack <Entity> dialog box, select the pack you want to delete from that entity.
+. In the *Remove From Pack <Entity>* dialog box, select the pack you want to delete from that entity.
 . Click *OK*.
 . Click the *Packs* tab.
 . Click the *Export To Server* icon.
-. In the Export To Server Folder dialog box, in the *Folder location at server system* field, enter the server folder location where the pack is saved in the server.
+. In the *Export To Server Folder* dialog box, in the *Folder location at server system* field, enter the server folder location where the pack is saved in the server.
 +
 This exports the pack in exploded form in the file system where the SCM client is created.
 

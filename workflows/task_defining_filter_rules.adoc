@@ -1,8 +1,8 @@
 ---
 permalink: workflows/task_defining_filter_rules.html
 sidebar: sidebar
-keywords: 
-summary: 'You can define a set of rules for filtering dictionary entry resources such as vFiler units, aggregates, and virtual machines. You can customize the rules for existing workflows and for new workflows while you are creating them.'
+keywords:  define, filter, rules
+summary: "You can define a set of rules for filtering dictionary entry resources such as vFiler units, aggregates, and virtual machines. You can customize the rules for existing workflows and for new workflows while you are creating them."
 ---
 = Defining filter rules
 :icons: font
@@ -11,14 +11,16 @@ summary: 'You can define a set of rules for filtering dictionary entry resources
 [.lead]
 You can define a set of rules for filtering dictionary entry resources such as vFiler units, aggregates, and virtual machines. You can customize the rules for existing workflows and for new workflows while you are creating them.
 
+.Steps
 . Log in to WFA through a web browser as an admin.
 . Click *Designer* > *Workflows*.
-. In the Workflows window, double-click the workflow that you want to modify.
+. In the *Workflows* window, double-click the workflow that you want to modify.
 +
 The Workflow <workflow name> window is displayed.
 
 . Define a set of rules by choosing one of the following options:
 +
+[cols="2*",options="header"]
 |===
 | If you want to...| Then do this...
 a|
@@ -57,7 +59,7 @@ a|
 +
 |===
 
-. In the Resource Selection dialog box, select the *Define filter rules* check box.
+. In the *Resource Selection* dialog box, select the *Define filter rules* check box.
 +
 If you have selected one of the options from the Finder drop-down of Resource Selection dialog box, the Define filter rules check box is disabled. The value for the finder must be set to "`None`" for the Define filter rules to be enabled.
 

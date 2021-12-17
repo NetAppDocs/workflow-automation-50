@@ -1,8 +1,8 @@
 ---
 permalink: workflows/task_importing_an_oncommand_workflow_automation_pack.html
 sidebar: sidebar
-keywords: OnCommand Workflow Automation
-summary: 'You can import workflow packs from the server to OnCommand Workflow Automation \(WFA\) for your storage automation and integration requirements.'
+keywords: oncommand workflow automation, import, packs
+summary: "You can import workflow packs from the server to OnCommand Workflow Automation (WFA) for your storage automation and integration requirements."
 ---
 = Importing WFA workflow packs
 :icons: font
@@ -11,8 +11,11 @@ summary: 'You can import workflow packs from the server to OnCommand Workflow Au
 [.lead]
 You can import workflow packs from the server to OnCommand Workflow Automation (WFA) for your storage automation and integration requirements.
 
+*What you'll need*
+
 You must have access to the WFA content in the server that you want to import.
 
+.Steps
 . Log in to the WFA window through a web browser.
 . Click *Designer* > *Pack*.
 . Click the *Import From Server* icon.
