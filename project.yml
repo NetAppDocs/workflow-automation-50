@@ -2,7 +2,7 @@ settings:
   search: workflow-automation-50
 sidebar:
   entries:
-    - title: Workflow Automation Documentation
+    - title: Home
       url: "/index.html"
     - section: help
     - section: rhel-install
