@@ -1,7 +1,7 @@
 ---
 permalink: windows-install/reference_backing_up_of_the_oncommand_workflow_automation_database.html
 sidebar: sidebar
-keywords: backing up, oncommand workflow automation, database
+keywords: back up, oncommand workflow automation, database
 summary: "A backup of the OnCommand Workflow Automation (WFA) database includes the system configuration settings and cache information, including the playground database. You can use the backup for restoration purposes on the same system or on a different system."
 ---
 = Backing up the OnCommand Workflow Automation database

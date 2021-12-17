@@ -1,7 +1,7 @@
 ---
 permalink: windows-install/task_configuring_mscs_to_install_wfa.html
 sidebar: sidebar
-keywords: configuring, mscs, install, workflow automation
+keywords: configure, mscs, install, workflow automation
 summary: "Before you install Workflow Automation (WFA) in Microsoft Cluster Server (MSCS), you must configure your MSCS environment."
 ---
 = Configuring MSCS to install Workflow Automation

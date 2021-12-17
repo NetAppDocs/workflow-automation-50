@@ -1,7 +1,7 @@
 ---
 permalink: windows-install/task_configuring_protocols_for_connecting_to_remote_systems.html
 sidebar: sidebar
-keywords: configuring, protocols, connecting, remote, systems
+keywords: configure, protocols, connecting, remote, systems
 summary: "You can configure the protocol used by OnCommand Workflow Automation (WFA) to connect to remote systems. You can configure the protocol based on your organization’s security requirements and the protocol supported by the remote system."
 ---
 = Configuring protocols for connecting to remote systems

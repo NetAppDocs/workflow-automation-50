@@ -1,7 +1,7 @@
 ---
 permalink: windows-install/task_accessing_oncommand_workflow_automation.html
 sidebar: sidebar
-keywords: accessing, oncommand workflow automation
+keywords: access, oncommand workflow automation
 summary: "You can access OnCommand Workflow Automation (WFA) through a web browser from any system that has access to the WFA server."
 ---
 = Accessing OnCommand Workflow Automation

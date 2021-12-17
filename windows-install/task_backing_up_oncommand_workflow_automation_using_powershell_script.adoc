@@ -1,7 +1,7 @@
 ---
 permalink: windows-install/task_backing_up_oncommand_workflow_automation_using_powershell_script.html
 sidebar: sidebar
-keywords: backing up, wfa, database, powershell, script
+keywords: back up, wfa, database, powershell, script
 summary: "If you want to back up the OnCommand Workflow Automation (WFA) database frequently, you can use the PowerShell script that is provided with the WFA installation package."
 ---
 = Backing up the WFA database using the PowerShell script

@@ -1,7 +1,7 @@
 ---
 permalink: windows-install/task_configuring_authentication_settings.html
 sidebar: sidebar
-keywords: oncommand workflow automation,
+keywords: oncommand workflow automation, configuration, settings, authentication
 summary: "You can configure OnCommand Workflow Automation (WFA) to use a Microsoft Active Directory (AD) Lightweight Directory Access Protocol (LDAP) server for authentication and authorization."
 ---
 = Configuring authentication settings

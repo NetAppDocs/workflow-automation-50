@@ -1,7 +1,7 @@
 ---
 permalink: windows-install/reference_troubleshooting.html
 sidebar: sidebar
-keywords: troubleshooting, installation, configuration, issues
+keywords: troubleshoot, installation, configuration, issues
 summary: "You can troubleshoot issues that might occur while installing and configuring OnCommand Workflow Automation (WFA)."
 ---
 = Troubleshooting installation and configuration issues

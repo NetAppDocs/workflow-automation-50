@@ -1,7 +1,7 @@
 ---
 permalink: windows-install/reference_system_requirements_for_oncommand_workflow_automation_windows.html
 sidebar: sidebar
-keywords: oncommand workflow automation, system, requirements, installing
+keywords: oncommand workflow automation, system, requirements, install
 summary: "You must be aware of the OnCommand Workflow Automation (WFA) hardware and software requirements before installing WFA."
 ---
 = System requirements for installing OnCommand Workflow Automation

@@ -1,7 +1,7 @@
 ---
 permalink: windows-install/task_configuring_a_database_user_by_running_ocsetup_on_linux.html
 sidebar: sidebar
-keywords: configuring, database, user, running, ocsetup, linux
+keywords: configure, database, user, running, ocsetup, linux
 summary: "You can run the ocsetup file on the Active IQ Data Center Manager server to configure read-only access of the Active IQ Data Center Manager database to OnCommand Workflow Automation."
 ---
 = Configuring a database user by running ocsetup on Linux

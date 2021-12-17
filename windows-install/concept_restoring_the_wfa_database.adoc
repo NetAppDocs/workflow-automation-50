@@ -1,7 +1,7 @@
 ---
 permalink: windows-install/concept_restoring_the_wfa_database.html
 sidebar: sidebar
-keywords:  oncommand workflow automation, database, restoring
+keywords:  oncommand workflow automation, database, restore
 summary: "Restoring the OnCommand Workflow Automation (WFA) database includes restoring the system configuration settings and cache information, including the playground database."
 ---
 = Restoring the OnCommand Workflow Automation database

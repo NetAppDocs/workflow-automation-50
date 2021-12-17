@@ -1,7 +1,7 @@
 ---
 permalink: windows-install/task_backing_up_regular_the_wfa_database_using_perl_script_linux.html
 sidebar: sidebar
-keywords: ocommand workflow automation, backing up, wfa, database cli
+keywords: ocommand workflow automation, back up, wfa, database cli
 summary: "You can perform a regular backup of the OnCommand Workflow Automation (WFA) database by using the WFA command-line interface (CLI). In a regular backup, only the WFA database is backed up."
 ---
 = Backing up (regular) the WFA database using the CLI

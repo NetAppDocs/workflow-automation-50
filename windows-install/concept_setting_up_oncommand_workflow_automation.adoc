@@ -1,7 +1,7 @@
 ---
 permalink: windows-install/concept_setting_up_oncommand_workflow_automation.html
 sidebar: sidebar
-keywords:  setting, up, oncommand workflow automation
+keywords:  set up, oncommand workflow automation
 summary: "After you complete installing OnCommand Workflow Automation (WFA), you must complete several configuration settings. You have to access WFA, configure users, set up data sources, configure credentials, and configure WFA."
 ---
 = Setting up OnCommand Workflow Automation
