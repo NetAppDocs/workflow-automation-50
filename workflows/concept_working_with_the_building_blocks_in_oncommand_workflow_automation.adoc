@@ -1,7 +1,7 @@
 ---
 permalink: workflows/concept_working_with_the_building_blocks_in_oncommand_workflow_automation.html
 sidebar: sidebar
-keywords: working, building, blocks, oncommand workflow automation
+keywords: work, building, blocks, oncommand workflow automation
 summary: "The Workflow Automation (WFA) workflows consist of several building blocks and WFA includes a library of the predefined building blocks. You can use the building blocks that WFA provides to create workflows that match the requirements of your organization."
 ---
 = Working with the building blocks in OnCommand Workflow Automation

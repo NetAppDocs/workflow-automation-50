@@ -1,7 +1,7 @@
 ---
 permalink: workflows/task_checking_in_a_new_pack_to_scm.html
 sidebar: sidebar
-keywords: oncommand workflow automation, checking, new, pack, scm
+keywords: oncommand workflow automation, check, new, pack, scm
 summary: "You can create a new workflow pack with OnCommand Workflow Automation (WFA) and check it in to Source Control Management (SCM)."
 ---
 = Checking in a new workflow pack to SCM

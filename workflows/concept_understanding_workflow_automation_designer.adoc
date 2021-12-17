@@ -1,7 +1,7 @@
 ---
 permalink: workflows/concept_understanding_workflow_automation_designer.html
 sidebar: sidebar
-keywords: understanding, workflow, automation, designer
+keywords: understand, workflow, automation, designer
 summary: "You create workflows in the Workflow Automation (WFA) designer using the building blocks such as finders, filters, and commands. Understanding the building blocks and the workflow creation process is important before you start creating your workflows."
 ---
 = Understanding Workflow Automation designer

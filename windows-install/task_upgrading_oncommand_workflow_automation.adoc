@@ -1,7 +1,7 @@
 ---
 permalink: windows-install/task_upgrading_oncommand_workflow_automation.html
 sidebar: sidebar
-keywords: upgrading, oncommand, workflow, automation
+keywords: upgrade, oncommand, workflow, automation
 summary: "If you have installed a previous version of OnCommand Workflow Automation (WFA), you can upgrade to the latest version of WFA to use the new features and enhancements."
 ---
 = Upgrading OnCommand Workflow Automation

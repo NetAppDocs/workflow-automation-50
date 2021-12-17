@@ -1,7 +1,7 @@
 ---
 permalink: workflows/concept_integrating_the_wfa_pack_with_scm_repository.html
 sidebar: sidebar
-keywords: oncommand, workflow, automation
+keywords: oncommand, workflow, automation. integrate, scm, repository
 summary: "You can integrate the OnCommand Workflow Automation (WFA) pack with the Source Control Management (SCM) repository."
 ---
 = Integrating WFA workflow packs with the SCM repository

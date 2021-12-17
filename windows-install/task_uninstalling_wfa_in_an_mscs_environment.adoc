@@ -1,7 +1,7 @@
 ---
 permalink: windows-install/task_uninstalling_wfa_in_an_mscs_environment.html
 sidebar: sidebar
-keywords: uninstalling, workflow automation, mscs, environment
+keywords: uninstall, workflow automation, mscs, environment
 summary: "You can uninstall Workflow Automation (WFA) from a cluster by deleting all the WFA services from the cluster nodes."
 ---
 = Uninstalling Workflow Automation in an MSCS environment

@@ -1,7 +1,7 @@
 ---
 permalink: windows-install/task_upgrading_jre_on_windows_wfa.html
 sidebar: sidebar
-keywords: OnCommand Workflow Automation, upgrading, jre
+keywords: oncommand workflow automation, upgrade, jre
 summary: "You can upgrade new versions of Java Runtime Environment (JRE) to OnCommand Workflow Automation (WFA) on the Windows server. You can upgrade to a newer version of JRE to get fixes for security vulnerabilities on the Windows server."
 ---
 = Upgrading JRE

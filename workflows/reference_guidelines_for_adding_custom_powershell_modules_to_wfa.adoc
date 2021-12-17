@@ -1,7 +1,7 @@
 ---
 permalink: workflows/reference_guidelines_for_adding_custom_powershell_modules_to_wfa.html
 sidebar: sidebar
-keywords: considerations, add, custom, powershell, Perl modules
+keywords: considerations, add, custom, powershell, perl modules
 summary: "You must be aware of certain considerations before adding custom PowerShell and Perl modules to OnCommand Workflow Automation (WFA). Custom PowerShell and Perl modules enable you to use custom commands for creating workflows."
 ---
 = Considerations for adding custom PowerShell and Perl modules

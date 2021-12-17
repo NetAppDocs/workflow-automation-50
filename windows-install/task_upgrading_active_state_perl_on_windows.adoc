@@ -1,7 +1,7 @@
 ---
 permalink: windows-install/task_upgrading_active_state_perl_on_windows.html
 sidebar: sidebar
-keywords: oncommand workflow automation, upgrading, activestate, perl
+keywords: oncommand workflow automation, upgrade, activestate, perl
 summary: "OnCommand Workflow Automation (WFA) works with the Enterprise edition of ActiveState Perl on Windows. You can upgrade to a newer version of ActiveState Perl to get fixes for security vulnerabilities on the Windows server."
 ---
 = Upgrading ActiveState Perl
