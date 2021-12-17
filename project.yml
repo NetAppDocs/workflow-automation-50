@@ -1,10 +1,10 @@
+---
 settings:
   search: workflow-automation-50
 sidebar:
   entries:
     - title: Home
       url: "/index.html"
-    - section: help
     - section: rhel-install
     - section: windows-install
     - section: workflows
