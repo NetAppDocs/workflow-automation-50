@@ -1,7 +1,7 @@
 ---
 permalink: rhel-install/task_enabling_remote_access_to_the_oncommand_workflow_automation_database_linux.html
 sidebar: sidebar
-keywords: enabling, disabling, remote, access, oncommand, workflow, automation, database
+keywords: enable, disable, remote, access, oncommand, workflow, automation, database
 summary: "By default, the OnCommand Workflow Automation (WFA) database can be accessed only by clients running on the WFA host system. You can change the default settings if you want to enable access to the WFA database from a remote system."
 ---
 = Enabling or disabling remote access to the OnCommand Workflow Automation database

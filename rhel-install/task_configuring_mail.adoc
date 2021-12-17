@@ -1,7 +1,7 @@
 ---
 permalink: rhel-install/task_configuring_mail.html
 sidebar: sidebar
-keywords: configuring, email, notifications
+keywords: configure, email, notifications
 summary: "You can configure OnCommand Workflow Automation (WFA) to send you email notifications about workflow operations—for example, workflow started or workflow failed."
 ---
 = Configuring email notifications

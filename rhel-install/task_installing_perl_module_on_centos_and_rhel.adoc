@@ -1,7 +1,7 @@
 ---
 permalink: rhel-install/task_installing_perl_module_on_centos_and_rhel.html
 sidebar: sidebar
-keywords: oncommand, workflow automation, installing, perl modules, centos, rhel
+keywords: oncommand, workflow automation, install, perl modules, centos, rhel
 summary: "Some Perl modules are not included by default with the Perl package for Linux."
 ---
 = Installing Perl modules on CentOS and RHEL

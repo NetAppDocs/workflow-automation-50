@@ -1,7 +1,7 @@
 ---
 permalink: rhel-install/task_configuring_your_preferred_perl_distribution_linux.html
 sidebar: sidebar
-keywords: configuring, preferred, perl, distribution
+keywords: configure, preferred, perl, distribution
 summary: "The Perl package installed on your system is used by OnCommand Workflow Automation. If you want to use another Perl distribution, you can configure your preferred Perl distribution to work with WFA."
 ---
 = Configuring your preferred Perl distribution

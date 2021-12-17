@@ -1,7 +1,7 @@
 ---
 permalink: rhel-install/task_configuring_syslog.html
 sidebar: sidebar
-keywords: configuring, syslog
+keywords: configure, syslog
 summary: "You can configure OnCommand Workflow Automation (WFA) to send log data to a specific Syslog server for purposes such as event logging and log information analysis."
 ---
 = Configuring Syslog

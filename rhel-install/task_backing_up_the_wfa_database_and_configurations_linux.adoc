@@ -1,7 +1,7 @@
 ---
 permalink: rhel-install/task_backing_up_the_wfa_database_and_configurations_linux.html
 sidebar: sidebar
-keywords: backing up, restoring, oncommand workflow automation, database, configurations, linux
+keywords: back up, restoring, oncommand workflow automation, database, configurations, linux
 summary: "You can back up and restore the OnCommand Workflow Automation (WFA) database and supported configurations so that you can recover the data in case of a disaster. The supported configurations include data access, HTTP timeout, and SSL certificates."
 ---
 = Backing up and restoring the OnCommand Workflow Automation database and configurations on Linux

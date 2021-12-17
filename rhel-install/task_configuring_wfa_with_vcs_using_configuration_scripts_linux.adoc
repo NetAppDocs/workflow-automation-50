@@ -1,7 +1,7 @@
 ---
 permalink: rhel-install/task_configuring_wfa_with_vcs_using_configuration_scripts_linux.html
 sidebar: sidebar
-keywords: configuring, workflow automation, vcs
+keywords: configure, workflow automation, vcs
 summary: "After you install Workflow Automation (WFA) in VCS, you must configure WFA in VCS using configuration scripts for high availability."
 ---
 = Configuring Workflow Automation in VCS

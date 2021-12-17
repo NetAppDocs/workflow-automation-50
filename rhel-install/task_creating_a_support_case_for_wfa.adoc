@@ -1,7 +1,7 @@
 ---
 permalink: rhel-install/task_creating_a_support_case_for_wfa.html
 sidebar: sidebar
-keywords: creating, support, case, oncommand workflow automation
+keywords: create, support, case, oncommand workflow automation
 summary: "You can create support cases for OnCommand Workflow Automation (WFA) issues that require assistance from technical support. You must use the technical triage template for creating a support case."
 ---
 = Creating a support case for OnCommand Workflow Automation
