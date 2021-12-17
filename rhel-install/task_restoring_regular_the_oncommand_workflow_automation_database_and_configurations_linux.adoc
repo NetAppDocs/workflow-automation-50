@@ -1,7 +1,7 @@
 ---
 permalink: rhel-install/task_restoring_regular_the_oncommand_workflow_automation_database_and_configurations_linux.html
 sidebar: sidebar
-keywords: oncommand workflow automation, wfa, cli
+keywords: oncommand workflow automation, wfa, cli, restore
 summary: "You can do a regular restore of the OnCommand Workflow Automation (WFA) database that you backed up previously by using the command-line interface (CLI). In a regular restore, you can only restore the WFA database."
 ---
 = Restoring (regular) the WFA database using the CLI

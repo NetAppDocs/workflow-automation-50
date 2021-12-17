@@ -1,7 +1,7 @@
 ---
 permalink: rhel-install/task_uninstalling_oncommand_workflow_automation_linux.html
 sidebar: sidebar
-keywords: uninstalling, oncommand workflow automation
+keywords: uninstall, oncommand workflow automation
 summary: "You can uninstall OnCommand Workflow Automation (WFA) from your Red Hat Enterprise Linux machine using a single command."
 ---
 = Uninstalling OnCommand Workflow Automation

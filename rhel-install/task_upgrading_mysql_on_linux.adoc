@@ -1,7 +1,7 @@
 ---
 permalink: rhel-install/task_upgrading_mysql_on_linux.html
 sidebar: sidebar
-keywords: oncommand workflow automation, upgrading, mysql, linux
+keywords: oncommand workflow automation, upgrade, mysql, linux
 summary: "You can upgrade to a newer version of MySQL on the Linux server on which OnCommand Workflow Automation is installed to obtain fixes for security vulnerabilities."
 ---
 = Upgrading MySQL on Linux

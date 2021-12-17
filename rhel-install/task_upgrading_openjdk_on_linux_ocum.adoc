@@ -1,7 +1,7 @@
 ---
 permalink: rhel-install/task_upgrading_openjdk_on_linux_ocum.html
 sidebar: sidebar
-keywords: oncommand, workflow, automation
+keywords: oncommand, workflow, automation, upgrade, jre, linux
 summary: "You can upgrade to a newer version of Java Runtime Environment (JRE) on the Linux server on which OnCommand Workflow Automation is installed to obtain fixes for security vulnerabilities."
 ---
 = Upgrading JRE on Linux

@@ -1,7 +1,7 @@
 ---
 permalink: rhel-install/task_uninstalling_wfa_in_a_vcs_environment.html
 sidebar: sidebar
-keywords: uninstalling, workflow automation, vcs, environment
+keywords: uninstall, workflow automation, vcs, environment
 summary: "You can uninstall Workflow Automation (WFA) from a cluster by deleting all the WFA services from the cluster nodes."
 ---
 = Uninstalling Workflow Automation in a VCS environment
