@@ -1,7 +1,7 @@
 ---
 permalink: workflows/reference_considerations_of_importing_wfa_content.html
 sidebar: sidebar
-keywords: considerations, importing, oncommand workflow automation, content
+keywords: considerations, import, oncommand workflow automation, content
 summary: "You must be aware of certain considerations when you import user-created content, content that is exported from another OnCommand Workflow Automation (WFA) installation, or content that is downloaded from the Storage Automation Store or the WFA community."
 ---
 = Considerations while importing OnCommand Workflow Automation content

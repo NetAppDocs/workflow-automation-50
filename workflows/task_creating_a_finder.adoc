@@ -1,7 +1,7 @@
 ---
 permalink: workflows/task_creating_a_finder.html
 sidebar: sidebar
-keywords: creating, finder
+keywords: create, finder
 summary: "You can create a WFA finder that can search for resources if there is no predefined WFA finder that is suitable for searching the required resources."
 ---
 = Creating a finder

@@ -1,7 +1,7 @@
 ---
 permalink: workflows/task_creating_a_filter.html
 sidebar: sidebar
-keywords: creating, filter
+keywords: create, filter
 summary: "You can create a WFA filter that can search for resources if there is no predefined WFA filter that is suitable for the task."
 ---
 = Creating a filter

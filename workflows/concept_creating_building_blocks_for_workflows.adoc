@@ -1,7 +1,7 @@
 ---
 permalink: workflows/concept_creating_building_blocks_for_workflows.html
 sidebar: sidebar
-keywords: creating, building, blocks, workflows
+keywords: create, building, blocks, workflows
 summary: "Workflow Automation (WFA) includes several building blocks, which are used to construct workflows. You can create the WFA buildings blocks that are required for your workflows."
 ---
 = Creating building blocks for workflows

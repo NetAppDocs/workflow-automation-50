@@ -1,7 +1,7 @@
 ---
 permalink: workflows/task_creating_a_function.html
 sidebar: sidebar
-keywords: creating, function
+keywords: create, function
 summary: "You can create a WFA function that can be used as a utility, if there is no predefined WFA function that is suitable for your task."
 ---
 = Creating a function

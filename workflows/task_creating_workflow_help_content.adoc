@@ -1,7 +1,7 @@
 ---
 permalink: workflows/task_creating_workflow_help_content.html
 sidebar: sidebar
-keywords: creating, workflow, help, content
+keywords: create, workflow, help, content
 summary: "oncommand workflow automation (WFA) admins and architects who design workflows can create help content for the workflows and include it in the workflow."
 ---
 = Creating workflow help content

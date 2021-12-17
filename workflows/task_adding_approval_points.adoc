@@ -1,7 +1,7 @@
 ---
 permalink: workflows/task_adding_approval_points.html
 sidebar: sidebar
-keywords: adding, approval, points
+keywords: add, approval, points
 summary: "You can add an approval point as a checkpoint in a workflow to pause the workflow execution and resume it based on your approval. You can use approval points for incremental execution of a workflow, where sections of the workflow are executed only after a certain condition is met—for example, when the next section has to be approved or when successful execution of the first section is validated."
 ---
 = Adding approval points

@@ -1,7 +1,7 @@
 ---
 permalink: workflows/task_creating_a_data_source_type.html
 sidebar: sidebar
-keywords: creating, data, source, type
+keywords: create, data, source, type
 summary: "You must create a data source type to enable data acquisition from a data source, which is not predefined in OnCommand Workflow Automation (WFA)."
 ---
 = Creating a data source type

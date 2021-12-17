@@ -1,7 +1,7 @@
 ---
 permalink: workflows/task_creating_a_dictionary_entry.html
 sidebar: sidebar
-keywords: creating, dictionary, entry
+keywords: create, dictionary, entry
 summary: "You can create a WFA dictionary entry when you want to define a new object type and its relationship in your storage environment."
 ---
 = Creating a dictionary entry

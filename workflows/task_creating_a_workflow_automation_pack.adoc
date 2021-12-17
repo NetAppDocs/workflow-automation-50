@@ -1,7 +1,7 @@
 ---
 permalink: workflows/task_creating_a_workflow_automation_pack.html
 sidebar: sidebar
-keywords: oncommand workflow automation, creating, wfa, packs
+keywords: oncommand workflow automation, create, wfa, packs
 summary: "You can create workflow packs on OnCommand Workflow Automation (WFA) for your storage automation and integration requirements."
 ---
 = Creating WFA workflow packs

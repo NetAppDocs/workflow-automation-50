@@ -1,7 +1,7 @@
 ---
 permalink: workflows/task_creating_a_cache_query.html
 sidebar: sidebar
-keywords: creating, cache, query
+keywords: create, cache, query
 summary: "You can define a cache query when you want to cache information about a dictionary object in the WFA database from a data source type. You can create a cache query and associate it with a dictionary entry and one or more data source types, such as OnCommand Unified Manager 6.1."
 ---
 = Creating a cache query

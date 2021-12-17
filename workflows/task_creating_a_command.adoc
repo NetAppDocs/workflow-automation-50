@@ -1,7 +1,7 @@
 ---
 permalink: workflows/task_creating_a_command.html
 sidebar: sidebar
-keywords: creating, command
+keywords: create, command
 summary: "You can create a WFA command to complete a specific task in your workflow if there is no predefined WFA command that is suitable for the task."
 ---
 = Creating a command

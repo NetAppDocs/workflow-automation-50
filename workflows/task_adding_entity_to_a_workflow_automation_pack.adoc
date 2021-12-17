@@ -1,7 +1,7 @@
 ---
 permalink: workflows/task_adding_entity_to_a_workflow_automation_pack.html
 sidebar: sidebar
-keywords: oncommand workflow automation, adding, entities, wfa, workflow, packs
+keywords: oncommand workflow automation, add, entities, wfa, workflow, packs
 summary: "You can add one or more entities to a workflow pack in OnCommand Workflow Automation (WFA) for your storage automation and integration requirements."
 ---
 = Adding entities to WFA workflow packs

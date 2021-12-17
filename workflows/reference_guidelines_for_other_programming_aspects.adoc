@@ -1,7 +1,7 @@
 ---
 permalink: workflows/reference_guidelines_for_other_programming_aspects.html
 sidebar: sidebar
-keywords: considerations, converting, powershell, commands, perl, input, command
+keywords: considerations, convert, powershell, commands, perl, input, command
 summary: "You must be aware of certain important considerations when you convert PowerShell commands to Perl because PowerShell and Perl have different capabilities."
 ---
 = Considerations while converting PowerShell commands to Perl

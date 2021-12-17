@@ -1,7 +1,7 @@
 ---
 permalink: workflows/concept_creating_workflows.html
 sidebar: sidebar
-keywords: creating, workflows
+keywords: create, workflows
 summary: "If the predefined workflows do not match your requirements, you can create the required workflow. Before you create your workflows, you should understand the capabilities available in the WFA designer and create a workflow checklist."
 ---
 = Creating workflows
