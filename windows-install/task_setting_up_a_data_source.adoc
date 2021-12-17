@@ -1,7 +1,7 @@
 ---
 permalink: windows-install/task_setting_up_a_data_source.html
 sidebar: sidebar
-keywords: setting, data source
+keywords: set up, data source
 summary: "You must set up a connection with a data source in OnCommand Workflow Automation (WFA) to acquire data from the data source."
 ---
 = Setting up a data source

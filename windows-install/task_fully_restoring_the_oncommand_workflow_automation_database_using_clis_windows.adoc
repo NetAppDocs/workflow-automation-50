@@ -1,7 +1,7 @@
 ---
 permalink: windows-install/task_fully_restoring_the_oncommand_workflow_automation_database_using_clis_windows.html
 sidebar: sidebar
-keywords: oncommand workflow automation, restoring, wfa, database, cli
+keywords: oncommand workflow automation, restore, wfa, database, cli
 summary: "You can do a full restore of the OnCommand Workflow Automation (WFA) database by using the command-line interface (CLI). In a full restore, you can restore the WFA database, WFA configuration, and key."
 ---
 = Restoring (full) WFA database using the CLI

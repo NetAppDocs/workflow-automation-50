@@ -1,7 +1,7 @@
 ---
 permalink: windows-install/task_replacing_the_default_workflow_automation_ssl_certificate.html
 sidebar: sidebar
-keywords: replacing, default, workflow, automation, ssl, certificate
+keywords: replace, default, workflow, automation, ssl, certificate
 summary: "You can replace the default Workflow Automation (WFA) SSL certificate if the certificate has expired or if you want to increase the validity period of the certificate."
 ---
 = Replacing the default Workflow Automation SSL certificate

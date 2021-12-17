@@ -1,7 +1,7 @@
 ---
 permalink: windows-install/task_enabling_remote_access_to_the_oncommand_workflow_automation_database.html
 sidebar: sidebar
-keywords: enabling, remote, access, oncommand workflow automation, database, windows
+keywords: enable, remote, access, oncommand workflow automation, database, windows
 summary: "By default, the OnCommand Workflow Automation (WFA) database can be accessed only by clients that are running on the WFA host system. You can change the default settings if you want to access the WFA database from a remote system."
 ---
 = Enabling remote access to the OnCommand Workflow Automation database on Windows

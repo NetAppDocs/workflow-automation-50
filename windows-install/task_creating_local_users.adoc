@@ -1,7 +1,7 @@
 ---
 permalink: windows-install/task_creating_local_users.html
 sidebar: sidebar
-keywords: oncommand workflow automation, creating, local, users
+keywords: oncommand workflow automation, create, local, users
 summary: "OnCommand Workflow Automation (WFA) enables you to create and manage local WFA users with specific permissions for various roles, such as guest, operator, approver, architect, admin, and backup."
 ---
 = Creating local users
