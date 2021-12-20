@@ -16,9 +16,9 @@ You can import workflow packs from the server to OnCommand Workflow Automation (
 You must have access to the WFA content in the server that you want to import.
 
 .Steps
-. Log in to the WFA window through a web browser.
+. Log in to the *WFA* window through a web browser.
 . Click *Designer* > *Pack*.
 . Click the *Import From Server* icon.
-. In the Import From Server Folder dialog box, in the *Folder location at server system* field, enter the location of the pack in the server in a string format, for example, C:\work\packs\test.
+. In the Import From Server Folder dialog box, in the *Folder location at server system* field, enter the location of the pack in the server in a string format, for example, `C:\work\packs\test`.
 . Click *OK*.
-. Verify that the pack is imported in the Packs window.
+. Verify that the pack is imported in the *Packs* window.

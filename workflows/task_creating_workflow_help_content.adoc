@@ -34,6 +34,7 @@ You must not include JavaScript files as part of the help content. The following
  ** `.htm`
  ** `.html`
  ** `.css`
++
 You can also include the `Thumbs.db` file, which is created by Windows.
 
 . Verify that the `index.htm` file and other files associated with the help content, such as images, are available in the `workflow-help` folder.

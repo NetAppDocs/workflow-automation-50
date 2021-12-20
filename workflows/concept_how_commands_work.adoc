@@ -38,19 +38,19 @@ a|
 a|
 `getWfaWorkflowParameter`
 |===
-Parameters added by the "`add`" cmdlets or functions to a command can be retrieved by a command that is executed subsequently and uses the "`get`" cmdlets or functions. For example, in a PowerShell WFA command, you can use the following in the code to add a parameter named `volumeId: Add-WfaWorkflowParameter -Name "VolumeUUID" -Value “12345” -AddAsReturnParameter $true`. Then, you can use the following in a subsequent command to retrieve the value of volumeId: `$volumeId = Get-WfaWorkflowParameter -Name volumeId`.
+Parameters added by the "`add`" cmdlets or functions to a command can be retrieved by a command that is executed subsequently and uses the "`get`" cmdlets or functions. For example, in a PowerShell WFA command, you can use the following in the code to add a parameter named `volumeId: Add-WfaWorkflowParameter -Name "VolumeUUID" -Value “12345” -AddAsReturnParameter $true`. Then, you can use the following in a subsequent command to retrieve the value of `volumeId: $volumeId = Get-WfaWorkflowParameter -Name volumeId`.
 
 WFA commands can query the WFA database and obtain the required result. This enables you to construct a command without using filters and finders. You can use the following functions to query the database:
 [cols="2*",options="header"]
 |===
 | PowerShell cmdlet| Perl function
 a|
-Invoke-MySqlQuery
+`Invoke-MySqlQuery`
 
 For example:
 
 `Invoke-MySqlQuery -Query "SELECT cluster.name AS 'Cluster Name' FROM cm_storage.cluster"`
 
 a|
-invokeMySqlQuery
+`invokeMySqlQuery`
 |===

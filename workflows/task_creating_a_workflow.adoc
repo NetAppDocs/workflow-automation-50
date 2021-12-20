@@ -30,7 +30,7 @@ The construction of each workflow might vary based on the goal and requirement o
 +
 You can repeat this step as required. You can drag-and-drop steps to rearrange the steps in the workflow editor.
 
- .. *Optional;:* Click image:../media/add_row2_wfa_icon.gif[] to add the required number of rows, which are used to specify details for execution of steps.
+ .. *Optional:* Click image:../media/add_row2_wfa_icon.gif[] to add the required number of rows, which are used to specify details for execution of steps.
 +
 Each step is executed based on the specified step details at the specified row and column. The steps are executed from left to right and in the top to bottom order.
 

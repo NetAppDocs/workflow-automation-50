@@ -29,7 +29,7 @@ You can remove a pack from the following entities:
 * Categories
 
 .Steps
-. Log in to the WFA window through a web browser.
+. Log in to the *WFA* window through a web browser.
 . Click *Designer* > *<Entities>*.
 . In the Entity window, select the entity you want to add to the pack.
 . Click the *Add To Pack* icon.

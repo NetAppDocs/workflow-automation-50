@@ -144,6 +144,7 @@ a|
 Name of the cluster
 |===
 *Gaps and issues*
+[cols="2*", cols="5, 25"]
 |===
 a|
 1.
