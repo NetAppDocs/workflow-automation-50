@@ -27,37 +27,37 @@ For more information, you can use the `Get-Help about_CommonParameters` command 
 a|
 ErrorAction: the following example shows how to handle a non-terminating error as a terminating error:
 
-----
-New-NcIgroup-Name $IgroupName-Protocol $Protocol-Type$OSType-ErrorActionstop
-----
+****
+`New-NcIgroup-Name $IgroupName-Protocol $Protocol-Type$OSType-ErrorActionstop`
+****
 
 WarningAction
 
-----
-New-VM-Name $VMName-VM $SourceVM-DataStore$DataStoreName-VMHost$VMHost-WarningActionSilentlyContinue
-----
+****
+`New-VM-Name $VMName-VM $SourceVM-DataStore$DataStoreName-VMHost$VMHost-WarningActionSilentlyContinue`
+****
 
 a|
 Use the general "`try/catch`" statement if the type of the incoming exception is unknown.
 a|
 
-----
-try
+****
+`try
 {
 "In Try/catch block"
 }
 catch
 {
 "Got exception"
-}
-----
+}`
+****
 
 a|
 Use the specific "`try/catch`" statement if the type of the incoming exception is known.
 a|
 
-----
-try
+****
+`try
 {
 "In Try/catch block"
 }
@@ -65,15 +65,15 @@ catch[System.Net.WebExceptional], [System.IO.
 IOException]
 {
 "Got exception"
-}
-----
+}`
+****
 
 a|
 Use the "`finally`" statement to release resources.
 a|
 
-----
-try
+****
+`try
 {
 "In Try/catch block"
 }
@@ -84,15 +84,15 @@ catch
 finally
 {
 "Release resources"
-}
-----
+}`
+****
 
 a|
 Use PowerShell automatic variables to access information about exceptions.
 a|
 
-----
-try
+****
+`try
 {
 Get-WFALogger -Info -message $("Creating
 Ipspace: " + $Ipspace)
@@ -102,20 +102,20 @@ catch
 {
 Throw "Failed to create Ipspace. Message:
 " + $_.Exception.Message;
-}
-----
+}`
+****
 
 |===
 
 == Perl error handling
-
+[cols="2*",options="header"]
 |===
 | Guidelines| Example
 a|
 Perl does not include native language support for try/catch blocks. Use eval blocks for checking and handling errors. Keep eval blocks as small as possible.
 a|
 
-----
+****
 eval {
 
 $wfa_util->sendLog('INFO',
@@ -137,6 +137,6 @@ $DestinationCluster://$DestinationVserver
 /$DestinationVolume",
     $@
 );
-----
+****
 
 |===
