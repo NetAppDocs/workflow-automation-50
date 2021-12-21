@@ -1,4 +1,4 @@
-reference_legal_notices.adoc
+
 ---
 permalink: legal-notices.html
 sidebar: sidebar
