@@ -41,23 +41,23 @@ a|
 Use the general "`try/catch`" statement if the type of the incoming exception is unknown.
 a|
 
-****
-`try
+----
+try
 {
 "In Try/catch block"
 }
 catch
 {
 "Got exception"
-}`
-****
+}
+----
 
 a|
 Use the specific "`try/catch`" statement if the type of the incoming exception is known.
 a|
 
-****
-`try
+----
+try
 {
 "In Try/catch block"
 }
@@ -65,15 +65,15 @@ catch[System.Net.WebExceptional], [System.IO.
 IOException]
 {
 "Got exception"
-}`
-****
+}
+----
 
 a|
 Use the "`finally`" statement to release resources.
 a|
 
-****
-`try
+----
+try
 {
 "In Try/catch block"
 }
@@ -84,15 +84,15 @@ catch
 finally
 {
 "Release resources"
-}`
-****
+}
+----
 
 a|
 Use PowerShell automatic variables to access information about exceptions.
 a|
 
-****
-`try
+----
+try
 {
 Get-WFALogger -Info -message $("Creating
 Ipspace: " + $Ipspace)
@@ -102,8 +102,8 @@ catch
 {
 Throw "Failed to create Ipspace. Message:
 " + $_.Exception.Message;
-}`
-****
+}
+----
 
 |===
 
@@ -115,7 +115,7 @@ a|
 Perl does not include native language support for try/catch blocks. Use eval blocks for checking and handling errors. Keep eval blocks as small as possible.
 a|
 
-****
+----
 eval {
 
 $wfa_util->sendLog('INFO',
@@ -137,6 +137,6 @@ $DestinationCluster://$DestinationVserver
 /$DestinationVolume",
     $@
 );
-****
+----
 
 |===

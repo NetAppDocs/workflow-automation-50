@@ -26,12 +26,12 @@ a|
 SQL reserved keywords must be in uppercase characters.
 a|
 
-****
-`SELECT
+----
+SELECT
     vserver.name
 FROM
-    cm_storage.vserver vserver`
-****
+    cm_storage.vserver vserver
+----
 
 a|
 Table and column names must be in lowercase characters.
@@ -53,8 +53,8 @@ a|
 Use table aliases with meaningful names in SELECT queries.
 a|
 
-****
-`SELECT
+----
+SELECT
 	vserver.name
 FROM
 	cm_storage.cluster cluster,
@@ -64,16 +64,16 @@ WHERE
 	AND cluster.name = '${ClusterName}'
 	AND vserver.type = 'cluster'
 ORDER BY
-	vserver.name ASC`
-****
+	vserver.name ASC
+----
 
 a|
 If you have to refer to a filter input parameter or user input parameter in a filter query or user query, use the syntax as '$\{inputVariableName}.You can also use the syntax to refer to a command definition parameter in reservation scripts and verification scripts.
 
 a|
 
-****
-`SELECT
+----
+SELECT
 	volume.name AS Name,
 	aggregate.name as Aggregate,
 	volume.size_mb AS 'Total Size (MB)',
@@ -91,8 +91,8 @@ WHERE
 	AND vserver.name = '${VserverName}'
 	AND cluster.name = '${ClusterName}'
 ORDER BY
-	volume.name ASC`
-****
+	volume.name ASC
+----
 
 a|
 Use comments for complex queries. Some of the supported comment styles in queries are as follows:
@@ -106,8 +106,8 @@ A space is mandatory after the second hyphen in this comment style.
 
 a|
 
-****
-`/*
+----
+/*
 multi-line
 comment
 */
@@ -116,7 +116,7 @@ SELECT
 	ip as ip, # comment till end of this line
 	NAME as name
 FROM --end of line comment
-	storage.array`
-****
+	storage.array
+----
 
 |===

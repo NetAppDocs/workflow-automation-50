@@ -47,13 +47,13 @@ a|
 Use the WFAUtil sendLog for logging.
 a|
 
-****
-`my wfa_util = WFAUtil->new();
+----
+my wfa_util = WFAUtil->new();
 eval {
 $wfa_util->sendLog('INFO', "Connecting to the
 cluster: $DestinationCluster");
-}`
-****
+}
+----
 
 a|
 Log every action that requires interaction with anything external to the command such as Data ONTAP, VMware, and WFA. All the log messages that you create using the WFAUtil sendLog routine are stored in the WFA database. These log messages are available for the executed workflow and command.
