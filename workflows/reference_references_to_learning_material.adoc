@@ -14,6 +14,7 @@ You should be aware of certain scripting and programming practices to create adv
 == Windows PowerShell
 
 WFA uses PowerShell scripts for workflow operations. The following table includes references to learning material for PowerShell:
+[cols="2*"]
 
 |===
 a|
@@ -59,7 +60,7 @@ The Data ONTAP PowerShell toolkit is bundled along with WFA. You can use the Pow
 `WFA_install_location` is the WFA installation directory, and `C:\Program Files\NetApp` is the default installation directory.
 
 The following table includes references to information about the Data ONTAP PowerShell toolkit:
-
+[cols="2*"]
 |===
 a|
 ONTAP PowerShell Toolkit Articles
@@ -82,6 +83,7 @@ You can also access the _ActivePerl User Guide_ from the following location: WFA
 WFA_install_location is the WFA installation directory, and C:\Program Files\NetApp is the default installation directory.
 
 WFA uses Perl scripts for workflow operations. The following table includes references to learning material for Perl:
+[cols="2*"]
 
 |===
 a|

@@ -27,7 +27,7 @@ You must know how to write the required code for the command using either PowerS
 +
 The string representation for a command is used to display the information you want to see in the workflow design during planning and execution. You must use only the parameters of the command in string representation for a command.
 
- .. If you are creating a wait command, select *Wait for condition* in the *Command type* section, and set the required value in the *Waiting interval (s)* field.
+ .. *Optional:* If you are creating a wait command, select *Wait for condition* in the *Command type* section, and set the required value in the *Waiting interval (s)* field.
 . In the *Code* tab, perform the following steps:
  .. Select the required scripting language for the command from the *Script Language* list.
 +

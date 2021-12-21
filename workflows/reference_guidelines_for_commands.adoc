@@ -60,7 +60,7 @@ VolName 10.68.66.212[NA]aggr1/testVol7
 a|
 Separate different entries in the string representation using the following delimiters: [ ] , / :
 a|
-`ArrayName[ArrayIp]``
+`ArrayName[ArrayIp]`
 a|
 Provide meaningful labels to every value in string representation.
 a|

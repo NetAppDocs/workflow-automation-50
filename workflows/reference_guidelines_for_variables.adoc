@@ -203,7 +203,7 @@ a|
 
 ----
 if
-(defined$SpaceGuarantee&&!($SpaceGuaranteeeq'none'||$SpaceGuaranteeeq'volume'||$SpaceGuaranteeeq'file'))
+(defined$SpaceGuarantee&&!($SpaceGuaranteeeq'none'\|\|$SpaceGuaranteeeq'volume'\|\|$SpaceGuaranteeeq'file'))
 {
 	die'Illegal SpaceGuarantee argument: \''.$SpaceGuarantee.'\'';
 }
