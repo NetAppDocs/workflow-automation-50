@@ -1,15 +1,17 @@
 ---
-permalink: help/task_configuring_autosupport.html
+permalink: help/task_configure_autosupport.html
 sidebar: sidebar
-keywords: 
-summary: 'You can configure several AutoSupport settings such as the schedule, content of the AutoSupport messages, and the proxy server. AutoSupport sends weekly logs of the content that you selected to technical support for archiving and issue analysis.'
+keywords: configure, autosupport
+summary: "You can configure several AutoSupport settings such as the schedule, content of the AutoSupport messages, and the proxy server. AutoSupport sends weekly logs of the content that you selected to technical support for archiving and issue analysis."
 ---
-= Configuring AutoSupport
+= Configure AutoSupport
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can configure several AutoSupport settings such as the schedule, content of the AutoSupport messages, and the proxy server. AutoSupport sends weekly logs of the content that you selected to technical support for archiving and issue analysis.
+
+.Steps
 
 . Log in to WFA through a web browser as an admin.
 . Click *Settings*, and under *Setup* click *AutoSupport*.
@@ -17,6 +19,7 @@ You can configure several AutoSupport settings such as the schedule, content of 
 . Enter the required information.
 . Select one of the following from the *Content* list:
 +
+[cols="2*",options="header"]
 |===
 | If you want to include...| Then choose this option...
 a|

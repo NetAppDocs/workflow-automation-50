@@ -273,9 +273,3 @@ entries:
       url: "/help/reference_clone_category_dialog_box.html"
   - title: Storage Automation Store window
     url: "/help/reference_wfa_store_window.html"
-  - title: Copyright information
-    url: "/help/reference_copyright.html"
-  - title: Trademark information
-    url: "/help/reference_trademark.html"
-  - title: How to send comments about documentation and receive update notifications
-    url: "/help/concept_how_to_send_comments_about_documentation_and_receive_update_notifications_netapp_post_preface.html"
