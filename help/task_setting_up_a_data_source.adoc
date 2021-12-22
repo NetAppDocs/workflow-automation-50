@@ -1,15 +1,17 @@
 ---
-permalink: help/task_setting_up_a_data_source.html
+permalink: help/task_set_up_a_data_source.html
 sidebar: sidebar
-keywords: 
-summary: 'You must set up a connection with a data source in OnCommand Workflow Automation \(WFA\) to acquire data from the data source.'
+keywords: set up, data source
+summary: "You must set up a connection with a data source in OnCommand Workflow Automation (WFA) to acquire data from the data source."
 ---
-= Setting up a data source
+= Set up a data source
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You must set up a connection with a data source in OnCommand Workflow Automation (WFA) to acquire data from the data source.
+
+**What you'll need**
 
 * For OnCommand Unified Manager versions earlier than 6.0, you must have run the latest version of the ocsetup tool on the Unified Manager server to enable and configure remote read-only access to the database.
 * For OnCommand Unified Manager6.0 and later, you must have created a database user account on the Unified Manager server.
@@ -22,6 +24,7 @@ See the documentation on your firewall for details.
 +
 The following are the default TCP port numbers:
 +
+[cols="3*",options="header"]
 |===
 | TCP port number| Unified Manager server version| Description
 a|
@@ -42,6 +45,8 @@ MySQL database server
 +
 See the _OnCommand Unified Manager Online Help_ for details.
 
+**About this task**
+
 * The TCP port for incoming connections on the VMware vCenter Server must be open.
 +
 The default TCP port number is 443. See the documentation on your firewall for details.
@@ -52,10 +57,13 @@ For more information about pairing WFA with Unified Manager server 6.x, see the 
 
 NOTE: While setting up a data source with WFA, you must be aware that OnCommand Unified Manager 6.0, 6.1, and 6.2 data source types are deprecated in the WFA 4.0 release, and these data source types will not be supported in future releases.
 
+.Steps
+
 . Access WFA using a web browser.
 . Click *Settings*, and under *Setup* click *Data Sources*.
 . Choose the appropriate action:
 +
+[cols="2*",options="header"]
 |===
 | To...| Do this...
 a|
@@ -75,6 +83,7 @@ Based on the selected data source type, the port, user name, password, and timeo
 
 . Choose an appropriate action:
 +
+[cols="2*",options="header"]
 |===
 | For...| Do this...
 a|
@@ -88,8 +97,9 @@ Enter the credentials of the Database User account that you created on the Unifi
 a|
 Performance Advisor for (OnCommand Unified Manager versions earlier than 6.0)
 a|
-Enter the credentials of an OnCommand Unified Manager user with a minimum role of GlobalRead.    *Note:* You must not provide the credentials of an OnCommand Unified Manager Database User account that was created using the command-line interface or the ocsetup tool.
-+
+Enter the credentials of an OnCommand Unified Manager user with a minimum role of GlobalRead.
+
+NOTE: You must not provide the credentials of an OnCommand Unified Manager Database User account that was created using the command-line interface or the ocsetup tool.
 |===
 
 . Click *Save*.

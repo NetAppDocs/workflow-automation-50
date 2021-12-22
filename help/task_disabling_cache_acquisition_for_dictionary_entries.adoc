@@ -1,15 +1,17 @@
 ---
-permalink: help/task_disabling_cache_acquisition_for_dictionary_entries.html
+permalink: help/task_disable_cache_acquisition_for_dictionary_entries.html
 sidebar: sidebar
-keywords: 
-summary: 'When it is not necessary to cache dictionary objects in OnCommand Workflow Automation \(WFA\), you can disable the caching of these objects. Disabling the caching of unwanted objects can reduce the time taken by WFA to complete data source acquisitions.'
+keywords: disable, cache, acquisition, dictionary, entries
+summary: "When it is not necessary to cache dictionary objects in OnCommand Workflow Automation (WFA), you can disable the caching of these objects. Disabling the caching of unwanted objects can reduce the time taken by WFA to complete data source acquisitions."
 ---
-= Disabling cache acquisition for dictionary entries
+= Disable cache acquisition for dictionary entries
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 When it is not necessary to cache dictionary objects in OnCommand Workflow Automation (WFA), you can disable the caching of these objects. Disabling the caching of unwanted objects can reduce the time taken by WFA to complete data source acquisitions.
+
+.Steps
 
 . Click *Designer* > *Dictionary*.
 . Select the dictionary entry for which you want to disable data acquisition.

@@ -1,15 +1,17 @@
 ---
-permalink: help/task_deleting_wfa_packs.html
+permalink: help/task_delete_wfa_packs.html
 sidebar: sidebar
-keywords: 
-summary: 'You can delete a pack from OnCommand Workflow Automation \(WFA\) if you no longer require it. If you delete a pack, all the entities associated with the pack are deleted.'
+keywords: delete, oncommand, workflow, automation, packs
+summary: "You can delete a pack from OnCommand Workflow Automation (WFA) if you no longer require it. If you delete a pack, all the entities associated with the pack are deleted."
 ---
-= Deleting OnCommand Workflow Automation packs
+= Delete OnCommand Workflow Automation packs
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can delete a pack from OnCommand Workflow Automation (WFA) if you no longer require it. If you delete a pack, all the entities associated with the pack are deleted.
+
+**About this task**
 
 * You cannot delete a pack if there are any dependencies on the entities that are part of the pack.
 +
@@ -18,6 +20,8 @@ For example, if you attempt to delete a pack that includes a command that is par
 * Entities that are part of a pack cannot be deleted individually.
 +
 To delete an entity that is part of a pack, you must delete the pack containing that entity. If an entity is part of multiple packs, the entity will be deleted from the WFA server only when all the packs containing that entity are deleted.
+
+.Steps
 
 . Log in to WFA through a web browser as an admin.
 . Click *Designer* > *Packs*.
