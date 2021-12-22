@@ -102,7 +102,7 @@ Use comments for complex queries. Some of the supported comment styles in querie
 A space is mandatory after the second hyphen in this comment style.
 
 * From a "`#`" character until the end of the line
-* From a "`/\*`" to the following "``*/``"sequence
+* From a "/\*" to the following "*/"sequence
 
 a|
 

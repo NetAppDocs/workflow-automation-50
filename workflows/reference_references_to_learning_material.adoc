@@ -26,7 +26,7 @@ PowerShell Development -- Integrated Scripting Environment (ISE)
 a|
 http://technet.microsoft.com/en-us/library/dd315244.aspx
 a|
-.NET Framework Naming Guidelines
++.NET Framework Naming Guidelines+
 a|
 http://msdn.microsoft.com/en-us/library/xzf533w0%28v=vs.71%29.aspx
 a|
