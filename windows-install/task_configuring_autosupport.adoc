@@ -34,7 +34,7 @@ WFA configuration details, data in WFA cache tables, and data in the installatio
 a|
 send configuration and cache extended data
 |===
-
++
 [NOTE]
 ====
 The password of any WFA user is _not_ included in the AutoSupport data.

@@ -15,6 +15,7 @@ You can perform a regular backup of the OnCommand Workflow Automation (WFA) data
 
 You must have admin, architect, or backup credentials.
 
+.Step
 . Enter the following URL in your web browser:
 +
 `+https://IP address of the WFA server/rest/backups+`

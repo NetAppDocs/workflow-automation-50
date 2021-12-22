@@ -24,7 +24,7 @@ _port_ is the TCP port number that you have used for the WFA server during insta
 +
 If you are specifying an IPv6 address, you must enclose it with square brackets.
 
-. Double-click the `wfa_ocsetup.exe`` file.
+. Double-click the `wfa_ocsetup.exe` file.
 . Read the information in the setup wizard and click *Next*.
 . Browse or type the JRE location and click *Next*.
 . Enter a user name and password to override the default credentials.
