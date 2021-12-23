@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_workflows_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Workflows window displays all of the available workflows, in alphabetical order. You can access this window by selecting Designer \> Workflows.'
+keywords: workflows, window
+summary: "The Workflows window displays all of the available workflows, in alphabetical order. You can access this window by selecting Designer > Workflows."
 ---
 = Workflows window
 :icons: font
@@ -13,8 +13,8 @@ The Workflows window displays all of the available workflows, in alphabetical or
 
 Depending on your role and account privileges, this window might not be displayed.
 
-* <<GUID-7935D5A4-3C38-4508-BE74-9791E3E6477B,Workflows table>>
-* <<GUID-E18CB91B-E9E0-4BEA-8AB5-2054C4F883D4,Toolbar>>
+* Workflows table
+* Toolbar
 
 == Workflows table
 

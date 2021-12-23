@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_user_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Users window enables you to view, create, edit, and delete the OnCommand Workflow Automation \(WFA\) users. You can access this window by selecting Settings, and under Management click Users.'
+keywords: users, window
+summary: "The Users window enables you to view, create, edit, and delete the OnCommand Workflow Automation (WFA) users. You can access this window by selecting Settings, and under Management click Users."
 ---
 = Users Window
 :icons: font
@@ -12,9 +12,6 @@ summary: 'The Users window enables you to view, create, edit, and delete the OnC
 The Users window enables you to view, create, edit, and delete the OnCommand Workflow Automation (WFA) users. You can access this window by selecting *Settings*, and under *Management* click *Users*.
 
 NOTE: Depending on your role and account privileges, this window might not be displayed.
-
-* <<SECTION_1AADE8ECC3594193BAE664C58DFE34FE,#SECTION_1AADE8ECC3594193BAE664C58DFE34FE>>
-* <<SECTION_2155631DE7F442539F244CAEE80C1D36,#SECTION_2155631DE7F442539F244CAEE80C1D36>>
 
 == Users table
 
@@ -29,6 +26,7 @@ The Users window displays existing users. You can customize the table display by
 
 The following table lists the supported operators for alphabetic and numeric columns in the Users table, available from the *Search* filter text box.
 
+[cols="2*",options="header"]
 |===
 | Alphabetic| Numeric
 a|
@@ -40,7 +38,6 @@ a|
 * Equals
 * Does not equal
 * Reset
-
 a|
 
 * Equals
@@ -51,7 +48,6 @@ a|
 * Greater than or equal to
 * Between
 * Reset
-
 |===
 The Users table contains the following columns:
 

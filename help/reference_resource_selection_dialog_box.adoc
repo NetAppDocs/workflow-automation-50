@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_resource_selection_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The Resource Selection dialog box enables you to search for resources and map the resources to a command.'
+keywords: resource selection, dialog box
+summary: "The Resource Selection dialog box enables you to search for resources and map the resources to a command."
 ---
 = Resource Selection dialog box
 :icons: font
@@ -10,9 +10,6 @@ summary: 'The Resource Selection dialog box enables you to search for resources 
 
 [.lead]
 The Resource Selection dialog box enables you to search for resources and map the resources to a command.
-
-* <<GUID-6A290AD4-917D-448C-AC0E-495E38B2B77F,Select <dictionary object> by tab>>
-* <<SECTION_DA18B27978B7465499AB47FB70FB0055,Advanced tab>>
 
 == Select <dictionary object> by tab
 

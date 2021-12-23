@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_supported_workflows_in_clustered_data_ontap.html
 sidebar: sidebar
-keywords: 
-summary: 'You must be aware of the workflows that are supported when OnCommand Workflow Automation \(WFA\) is paired with different versions of the Unified Manager server.'
+keywords: supported workflows, ontap
+summary: "You must be aware of the workflows that are supported when OnCommand Workflow Automation (WFA) is paired with different versions of the Unified Manager server."
 ---
 = Supported workflows in ONTAP
 :icons: font
@@ -13,6 +13,7 @@ You must be aware of the workflows that are supported when OnCommand Workflow Au
 
 The following table lists the workflows that are supported for different Unified Manager server versions.
 
+[cols="3*",options="header"]
 |===
 | Workflow name| Supported in Unified Manager server 6.3 and higher| Supported in Unified Manager server 5.x
 a|
@@ -50,7 +51,9 @@ Controller and shelf upgrade of an HA pair
 a|
 Yes
 a|
-YesSupported only for clusters running versions earlier than Data ONTAP 8.3.
+Yes
+
+Supported only for clusters running versions earlier than Data ONTAP 8.3.
 
 a|
 Create a basic Clustered Data ONTAP Volume
@@ -105,14 +108,16 @@ Create and configure NAS Storage Virtual Machine
 a|
 Yes
 a|
-YesSupported only for clusters running versions earlier than Data ONTAP 8.3.
+Yes
+Supported only for clusters running versions earlier than Data ONTAP 8.3.
 
 a|
 Create and configure SAN Storage Virtual Machine
 a|
 Yes
 a|
-YesSupported only for clusters running versions earlier than Data ONTAP 8.3.
+Yes
+Supported only for clusters running versions earlier than Data ONTAP 8.3.
 
 a|
 Create Clustered Data ONTAP SnapMirror Relationship on 8.1.x

@@ -1,35 +1,45 @@
 ---
-permalink: help/task_configuring_authentication_settings.html
+permalink: help/task_configure_authentication_settings.html
 sidebar: sidebar
-keywords: OnCommand Workflow Automation
-summary: 'You can configure OnCommand Workflow Automation \(WFA\) to use a Microsoft Active Directory \(AD\) Lightweight Directory Access Protocol \(LDAP\) server for authentication and authorization.'
+keywords: oncommand, workflow, automation, configure, authentication, settings
+summary: "You can configure OnCommand Workflow Automation (WFA) to use a Microsoft Active Directory (AD) Lightweight Directory Access Protocol (LDAP) server for authentication and authorization."
 ---
-= Configuring authentication settings
+= Configure authentication settings
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can configure OnCommand Workflow Automation (WFA) to use a Microsoft Active Directory (AD) Lightweight Directory Access Protocol (LDAP) server for authentication and authorization.
 
+**What you'll need**
+
 You must have configured a Microsoft AD LDAP server in your environment.
+
+**About this task**
 
 Only Microsoft AD LDAP authentication is supported for WFA. You cannot use any other LDAP authentication methods, including Microsoft AD Lightweight Directory Services (AD LDS) or Microsoft Global Catalog.
 
 NOTE: During communication, LDAP sends the user name and password in plain text. However, LDAPS (LDAP secure) communication is encrypted and secure.
 
+.Steps
+
 . Log in to WFA through a web browser as an admin.
 . Click *Settings*, and under *Setup* click *Authentication*.
 . Select the *Enable Active Directory* check box.
 . Enter the required information in the fields:
- .. If you want to use the user@domain format for domain users, replace sAMAccountName with userPrincipalName in the *User name attribute* field.
+ .. If you want to use the _user@domain_ format for domain users, replace `sAMAccountName` with `userPrincipalName` in the *User name attribute* field.
  .. If unique values are required for your environment, edit the required fields.
- .. Enter the AD server URI as follows: `ldap://active_directory_server_address\[:port\]`
+ .. Enter the AD server URI as follows:
+ `ldap://active_directory_server_address[:port]`
 +
+**Example**
++
+----
 ldap://NB-T01.example.com[:389]
+----
 +
-If you have enabled LDAP over SSL, you can use the following URI format: `ldaps://active_directory_server_address\[:port\]`
-
- .. Add a list of AD group names the required roles.
+If you have enabled LDAP over SSL, you can use the following URI format: `ldaps://active_directory_server_address[:port]`
+.. Add a list of AD group names the required roles.
 +
 NOTE: You can add a list of AD group names to the required roles in the Active Directory Groups Window.
 +

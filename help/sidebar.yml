@@ -3,29 +3,29 @@ title: Online Help
 entries:
   - title: Overview of OnCommand Workflow Automation
     url: "/help/concept_overview_of_oncommand_workflow_automation.html"
-  - title: Creating local users
-    url: "/help/task_creating_local_users.html"
-  - title: Configuring OnCommand Workflow Automation
-    url: "/help/concept_advanced_configuring_oncommand_workflow_automation.html"
+  - title: Create local users
+    url: "/help/task_create_local_users.html"
+  - title: Configure OnCommand Workflow Automation
+    url: "/help/concept_advanced_configure_oncommand_workflow_automation.html"
     entries:
-    - title: Configuring authentication settings
-      url: "/help/task_configuring_authentication_settings.html"
-    - title: Configuring email notifications
-      url: "/help/task_configuring_mail.html"
-    - title: Configuring SNMP
-      url: "/help/task_configuring_snmp.html"
-    - title: Configuring Syslog
-      url: "/help/task_configuring_syslog.html"
-    - title: Configuring AutoSupport
-      url: "/help/task_configuring_autosupport.html"
-    - title: Configuring email notifications for data source acquisition failures
-      url: "/help/task_configuring_email_notifications_for_data_source_acquisition_failures.html"
-    - title: Configuring resource reservation for workflows
-      url: "/help/task_configuring_resource_reservation_for_workflows.html"
-  - title: Configuring the credentials of a target system
-    url: "/help/task_configuring_the_credentials_of_a_target_system.html"
-  - title: Configuring protocols for connecting to remote systems
-    url: "/help/task_configuring_protocols_for_connecting_to_remote_systems.html"
+    - title: Configure authentication settings
+      url: "/help/task_configure_authentication_settings.html"
+    - title: Configure email notifications
+      url: "/help/task_configure_mail.html"
+    - title: Configure SNMP
+      url: "/help/task_configure_snmp.html"
+    - title: Configure Syslog
+      url: "/help/task_configure_syslog.html"
+    - title: Configure AutoSupport
+      url: "/help/task_configure_autosupport.html"
+    - title: Configure email notifications for data source acquisition failures
+      url: "/help/task_configure_email_notifications_for_data_source_acquisition_failures.html"
+    - title: Configure resource reservation for workflows
+      url: "/help/task_configure_resource_reservation_for_workflows.html"
+  - title: Configure the credentials of a target system
+    url: "/help/task_configure_the_credentials_of_a_target_system.html"
+  - title: Configure protocols for connecting to remote systems
+    url: "/help/task_configure_protocols_for_connecting_to_remote_systems.html"
   - title: OnCommand Workflow Automation Designer features
     url: "/help/reference_oncommand_workflow_automation_designer_features.html"
     entries:
@@ -61,15 +61,15 @@ entries:
     url: "/help/concept_how_you_define_constants.html"
   - title: How you use REST APIs
     url: "/help/concept_how_you_use_the_rest_api.html"
-  - title: Setting up a data source
-    url: "/help/task_setting_up_a_data_source.html"
+  - title: Set up a data source
+    url: "/help/task_set_up_a_data_source.html"
     entries:
-    - title: Configuring a database user by running ocsetup on Windows
-      url: "/help/task_configuring_a_database_user_by_running_ocsetup_on_windows.html"
-    - title: Configuring a database user by running ocsetup on Linux
-      url: "/help/task_configuring_a_database_user_by_running_ocsetup_on_linux.html"
-  - title: Creating workflow help content
-    url: "/help/task_creating_workflow_help_content.html"
+    - title: Configure a database user by running ocsetup on Windows
+      url: "/help/task_configure_a_database_user_by_running_ocsetup_on_windows.html"
+    - title: Configure a database user by running ocsetup on Linux
+      url: "/help/task_configure_a_database_user_by_running_ocsetup_on_linux.html"
+  - title: Create workflow help content
+    url: "/help/task_create_workflow_help_content.html"
   - title: Reserved words
     url: "/help/reference_reserved_words.html"
   - title: Where to find information about MVEL
@@ -83,30 +83,30 @@ entries:
     url: "/help/reference_references_to_learning_material.html"
   - title: Supported workflows in ONTAP
     url: "/help/reference_supported_workflows_in_clustered_data_ontap.html"
-  - title: Importing OnCommand Workflow Automation content
-    url: "/help/task_importing_oncommand_workflow_automation_content.html"
+  - title: Import OnCommand Workflow Automation content
+    url: "/help/task_import_oncommand_workflow_automation_content.html"
   - title: Considerations while importing OnCommand Workflow Automation content
     url: "/help/reference_considerations_of_importing_wfa_content.html"
-  - title: Exporting OnCommand Workflow Automation content
-    url: "/help/task_exporting_oncommand_workflow_automation_content.html"
-  - title: Disabling cache acquisition for dictionary entries
-    url: "/help/task_disabling_cache_acquisition_for_dictionary_entries.html"
-  - title: Creating WFA workflow packs
-    url: "/help/task_creating_a_workflow_automation_pack.html"
-  - title: Deleting OnCommand Workflow Automation packs
-    url: "/help/task_deleting_wfa_packs.html"
-  - title: Adding approval points
-    url: "/help/task_adding_approval_points.html"
-  - title: Defining filter rules
-    url: "/help/task_defining_filter_rules.html"
-  - title: Creating a scheme
-    url: "/help/task_creating_a_scheme.html"
-  - title: Editing a scheme
-    url: "/help/task_editing_a_scheme.html"
-  - title: Deleting a scheme
-    url: "/help/task_deleting_a_scheme.html"
-  - title: Adding a new remote system type
-    url: "/help/task_adding_a_new_remote_system_type.html"
+  - title: Export OnCommand Workflow Automation content
+    url: "/help/task_export_oncommand_workflow_automation_content.html"
+  - title: Disable cache acquisition for dictionary entries
+    url: "/help/task_disable_cache_acquisition_for_dictionary_entries.html"
+  - title: Create WFA workflow packs
+    url: "/help/task_create_a_workflow_automation_pack.html"
+  - title: Delete OnCommand Workflow Automation packs
+    url: "/help/task_delete_wfa_packs.html"
+  - title: Add approval points
+    url: "/help/task_add_approval_points.html"
+  - title: Define filter rules
+    url: "/help/task_define_filter_rules.html"
+  - title: Create a scheme
+    url: "/help/task_create_a_scheme.html"
+  - title: Edit a scheme
+    url: "/help/task_edit_a_scheme.html"
+  - title: Delete a scheme
+    url: "/help/task_delete_a_scheme.html"
+  - title: Add a new remote system type
+    url: "/help/task_add_a_new_remote_system_type.html"
   - title: Log Viewer window
     url: "/help/reference_log_viewer_directory_window.html"
   - title: Backup and Restore window
