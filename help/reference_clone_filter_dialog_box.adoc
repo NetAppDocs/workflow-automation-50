@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_clone_filter_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The Clone Filter dialog box enables you to copy a filter and edit the filter.'
+keywords: clone filter, dialog box
+summary: "The Clone Filter dialog box enables you to copy a filter and edit the filter."
 ---
 = Clone Filter dialog box
 :icons: font
@@ -11,8 +11,8 @@ summary: 'The Clone Filter dialog box enables you to copy a filter and edit the 
 [.lead]
 The Clone Filter dialog box enables you to copy a filter and edit the filter.
 
-* <<GUID-D6561A31-8337-48C7-B20C-A3F542E78D8F,Properties tab>>
-* <<SECTION_AAD904D9F3714252BA89D382F76EE560,Query tab>>
+* Properties tab
+* Query tab
 
 == Properties tab
 

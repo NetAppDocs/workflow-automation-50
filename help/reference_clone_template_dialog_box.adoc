@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_clone_template_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The Clone Template dialog box enables you to create a copy of the template and edit the template.'
+keywords: clone template, dialog box
+summary: "The Clone Template dialog box enables you to create a copy of the template and edit the template."
 ---
 = Clone Template dialog box
 :icons: font

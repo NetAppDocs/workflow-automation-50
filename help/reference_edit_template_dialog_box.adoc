@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_edit_template_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The Edit Template dialog box enables you to edit a template.'
+keywords: edit template, dialog box
+summary: "The Edit Template dialog box enables you to edit a template."
 ---
 = Edit Template dialog box
 :icons: font

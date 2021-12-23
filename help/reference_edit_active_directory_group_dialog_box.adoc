@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_edit_active_directory_group_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The Edit Active Directory Group dialog box enables you to view and modify the OnCommand Workflow Automation Active Directory group settings.'
+keywords: edit active directory group, dialog box
+summary: "The Edit Active Directory Group dialog box enables you to view and modify the OnCommand Workflow Automation Active Directory group settings."
 ---
 = Edit Active Directory Group dialog box
 :icons: font

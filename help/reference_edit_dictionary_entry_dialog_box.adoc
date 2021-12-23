@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_edit_dictionary_entry_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The Dictionary Entry <EntryName\> dialog box enables you to edit a dictionary object and its definition.'
+keywords: edit dictionary entry, dialog box
+summary: "The Dictionary Entry <EntryName> dialog box enables you to edit a dictionary object and its definition."
 ---
 = Edit Dictionary Entry dialog box
 :icons: font

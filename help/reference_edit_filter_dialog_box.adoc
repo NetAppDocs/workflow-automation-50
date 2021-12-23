@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_edit_filter_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The Edit Filter dialog box enables you to edit a filter.'
+keywords: edit filter, dialog box
+summary: "The Edit Filter dialog box enables you to edit a filter."
 ---
 = Edit Filter dialog box
 :icons: font
@@ -11,8 +11,8 @@ summary: 'The Edit Filter dialog box enables you to edit a filter.'
 [.lead]
 The Edit Filter dialog box enables you to edit a filter.
 
-* <<GUID-D6561A31-8337-48C7-B20C-A3F542E78D8F,Properties tab>>
-* <<SECTION_AAD904D9F3714252BA89D382F76EE560,Query tab>>
+* Properties tab
+* Query tab
 
 == Properties tab
 

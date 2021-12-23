@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_dictionary_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Dictionary window displays the available dictionary entries in alphabetical order.'
+keywords: dictionary window
+summary: "The Dictionary window displays the available dictionary entries in alphabetical order."
 ---
 = Dictionary window
 :icons: font

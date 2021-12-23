@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_edit_variable_dialog_box.html
 sidebar: sidebar
-keywords: Workflow Automation
-summary: 'The Edit Variable: <UserInputName\> dialog box enables you to edit the user input attributes of a workflow.'
+keywords: workflow automation
+summary: "The Edit Variable: <UserInputName> dialog box enables you to edit the user input attributes of a workflow."
 ---
 = Edit Variable dialog box
 :icons: font
