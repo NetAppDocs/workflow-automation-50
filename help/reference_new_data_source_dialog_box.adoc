@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_new_data_source_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The New Data Source dialog box enables you to add a new data source.'
+keywords: new data source, dialog box
+summary: "The New Data Source dialog box enables you to add a new data source."
 ---
 = New Data Source dialog box
 :icons: font
@@ -41,7 +41,7 @@ You can change the default port and specify a different port for the data source
 
 * *Scheme*
 +
-Displays the scheme associated with the selected data source type--for example cm_storage for OnCommand Unified Manager - 6.0 (MYSQL).
+Displays the scheme associated with the selected data source type--for example `cm_storage` for OnCommand Unified Manager - 6.0 (MYSQL).
 +
 This property cannot be modified.
 
@@ -90,7 +90,3 @@ Saves the configurations settings and closes the dialog box.
 * *Cancel*
 +
 Cancels changes, if any, and closes the dialog box.
-
-*Related information*
-
-xref:reference_data_sources_window.adoc[Data Sources window]

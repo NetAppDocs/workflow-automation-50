@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_mvel_enabled_fields_in_wfa.html
 sidebar: sidebar
-keywords: 
-summary: 'Several fields in OnCommand Workflow Automation \(WFA\) are enabled for MVFLEX Expression Language \(MVEL\). You can use MVEL syntaxes in these fields while designing workflows.'
+keywords: mvel-enabled fields, oncommand workflow automation
+summary: "Several fields in OnCommand Workflow Automation (WFA) are enabled for MVFLEX Expression Language (MVEL). You can use MVEL syntaxes in these fields while designing workflows."
 ---
 = MVEL-enabled fields in OnCommand Workflow Automation
 :icons: font
@@ -13,6 +13,7 @@ Several fields in OnCommand Workflow Automation (WFA) are enabled for MVFLEX Exp
 
 The following table explains when and where you can use MVEL syntaxes in the WFA interface:
 
+[cols="2*",options="header"]
 |===
 | When...| Where to use...
 a|
@@ -58,5 +59,4 @@ a|
 * *Workflow* > *Workflow* > *Repeat row* > *Variables* > *Variables for initial_value and expression*
 * *Workflow* > *Workflow* > *Repeat row* > *Repeats* > *For every resource in a group* > *Resource Search Criteria* > *Parameters to filter*
 * *Workflow* > *Workflow* > *Add condition* > *If the following expression is TRUE*
-
 |===

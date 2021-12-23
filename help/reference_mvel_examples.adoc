@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_mvel_examples.html
 sidebar: sidebar
-keywords: 
-summary: 'MVFLEX Expression Language \(MVEL\) syntaxes are used in several OnCommand Workflow Automation \(WFA\) sample workflows. You should review some sample MVEL syntaxes to learn how to use MVEL in WFA.'
+keywords: examples, mvel syntax
+summary: "MVFLEX Expression Language (MVEL) syntaxes are used in several OnCommand Workflow Automation (WFA) sample workflows. You should review some sample MVEL syntaxes to learn how to use MVEL in WFA."
 ---
 = Examples of MVEL syntax
 :icons: font

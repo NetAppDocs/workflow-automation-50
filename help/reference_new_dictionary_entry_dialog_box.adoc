@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_new_dictionary_entry_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The New Dictionary Entry dialog box enables you to create a new dictionary object and specify a definition for the object.'
+keywords: new dictionary entry, dialog box
+summary: "The New Dictionary Entry dialog box enables you to create a new dictionary object and specify a definition for the object."
 ---
 = New Dictionary Entry dialog box
 :icons: font

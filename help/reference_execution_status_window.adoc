@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_execution_status_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Executions window displays the status of the execution process for each workflow that has been submitted for execution. The window enables you to view details of the execution process and control the execution of a workflow. You can access this window by selecting Execution \> Executions.'
+keywords: executions window
+summary: "The Executions window displays the status of the execution process for each workflow that has been submitted for execution. The window enables you to view details of the execution process and control the execution of a workflow. You can access this window by selecting Execution > Executions."
 ---
 = Executions window
 :icons: font
@@ -11,8 +11,8 @@ summary: 'The Executions window displays the status of the execution process for
 [.lead]
 The Executions window displays the status of the execution process for each workflow that has been submitted for execution. The window enables you to view details of the execution process and control the execution of a workflow. You can access this window by selecting *Execution* > *Executions*.
 
-* <<GUID-8FE47E3E-84F8-41AA-A2B6-ABA117178EE3,Workflow table>>
-* <<GUID-47F26249-8C14-410F-9CA8-19377388B7A1,Toolbar>>
+* Workflow table
+* Toolbar
 
 == Workflow table
 
@@ -27,10 +27,10 @@ The Workflow table lists the workflows submitted for execution. You can customiz
 
 The following table outlines the supported operators for alphabetic and numeric columns in the Workflow table, available in the *Search* filter text box.
 
+[cols="2*",options="header"]
 |===
 | Alphabetic| Numeric
 a|
-
 * Contains
 * Does not contain
 * Starts with
@@ -38,7 +38,6 @@ a|
 * Equals
 * Does not equal
 * Reset
-
 a|
 
 * Equals
@@ -207,7 +206,3 @@ Enables you to clean the resource reservation made for a workflow from the local
 * *image:../media/refresh_wfa_icon.gif[Refrech icon] (Refresh)*
 +
 Refreshes the list of workflows. The view refreshes automatically. You can toggle auto refresh on and off by clicking image:../media/refresh_icon_wfa.gif[] in the status bar.
-
-*Related information*
-
-xref:reference_monitoring_window.adoc[Monitoring window]

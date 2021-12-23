@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_functions_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Functions window displays the available OnCommand Workflow Automation \(WFA\) functions and enables you to manage these functions.'
+keywords: functions window
+summary: "The Functions window displays the available OnCommand Workflow Automation (WFA) functions and enables you to manage these functions."
 ---
 = Functions window
 :icons: font

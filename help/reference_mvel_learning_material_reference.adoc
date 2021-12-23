@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_mvel_learning_material_reference.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the MVEL Language Guide to learn more about MVFLEX Expression Language \(MVEL\).'
+keywords: where to find, information about, mvel
+summary: "You can use the MVEL Language Guide to learn more about MVFLEX Expression Language (MVEL)."
 ---
 = Where to find information about MVEL
 :icons: font

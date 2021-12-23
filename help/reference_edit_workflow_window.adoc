@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_edit_workflow_window.html
 sidebar: sidebar
-keywords: Workflow Automation
-summary: 'The Workflow <workflow name\> window displays the selected workflow and its associated commands and parameters. The commands associated with the workflow are displayed as blue boxes in columns that are arranged in the sequential order of execution—left to right. The variables and objects for each command are displayed as gray boxes below the command.'
+keywords: workflow automation, window, workflow name
+summary: "The Workflow <workflow name> window displays the selected workflow and its associated commands and parameters. The commands associated with the workflow are displayed as blue boxes in columns that are arranged in the sequential order of execution—left to right. The variables and objects for each command are displayed as gray boxes below the command."
 ---
 = Workflow <workflow name> window
 :icons: font

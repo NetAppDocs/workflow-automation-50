@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_filters_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Filters window displays the available filters in alphabetical order. You can access this window by selecting Designer \> Filters.'
+keywords: filters window
+summary: "The Filters window displays the available filters in alphabetical order. You can access this window by selecting Designer > Filters."
 ---
 = Filters window
 :icons: font
@@ -15,8 +15,8 @@ NOTE: Depending on your role and account privileges, this window might not be di
 
 Filters are query rules that remove irrelevant resources during the query-based search for locating resources. Filters are used to develop a finder.
 
-* <<GUID-36648429-AF6D-47B7-84E3-D3B273AE59D7,Filters table>>
-* <<GUID-52CDFBFE-D295-4CD1-AC56-3D6B86D83E71,Toolbar>>
+* Filters table
+* Toolbar
 
 == Filters table
 
