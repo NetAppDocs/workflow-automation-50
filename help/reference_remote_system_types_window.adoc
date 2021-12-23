@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_remote_system_types_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Remote System Types window displays the type of remote systems that OnCommand Workflow Automation \(WFA\) can work with. The remote systems include clustered Data ONTAP, Cloud Manager, OnCommand Unified Manager, DataFabric Manager server, and E-Series systems.'
+keywords: remote system types, window
+summary: "The Remote System Types window displays the type of remote systems that OnCommand Workflow Automation (WFA) can work with. The remote systems include clustered Data ONTAP, Cloud Manager, OnCommand Unified Manager, DataFabric Manager server, and E-Series systems."
 ---
 = Remote System Types window
 :icons: font
@@ -10,9 +10,6 @@ summary: 'The Remote System Types window displays the type of remote systems tha
 
 [.lead]
 The Remote System Types window displays the type of remote systems that OnCommand Workflow Automation (WFA) can work with. The remote systems include clustered Data ONTAP, Cloud Manager, OnCommand Unified Manager, DataFabric Manager server, and E-Series systems.
-
-* <<GUID-1E417C67-1F31-4FA5-AAA7-2D5BB298C6AB,Remote System Types table>>
-* <<SECTION_819274C0AB2341B0915167A78A41F1D8,Toolbar>>
 
 == Remote System Types table
 

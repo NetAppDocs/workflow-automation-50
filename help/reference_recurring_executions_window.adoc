@@ -1,18 +1,15 @@
 ---
 permalink: help/reference_recurring_executions_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Recurring Executionswindow enables you to suspend, resume, or delete a recurring execution that is associated with a workflow. A workflow that has a recurring execution is executed on a recurring basis at a specified frequency. You can access this window by selecting Execution \> Recurring Executions.'
+keywords: recurring, executions, window
+summary: "The Recurring Executionswindow enables you to suspend, resume, or delete a recurring execution that is associated with a workflow. A workflow that has a recurring execution is executed on a recurring basis at a specified frequency. You can access this window by selecting Execution > Recurring Executions."
 ---
 = Recurring Executions window
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-The Recurring Executionswindow enables you to suspend, resume, or delete a recurring execution that is associated with a workflow. A workflow that has a recurring execution is executed on a recurring basis at a specified frequency. You can access this window by selecting *Execution* > *Recurring Executions*.
-
-* <<GUID-1E417C67-1F31-4FA5-AAA7-2D5BB298C6AB,Recurring Executions table>>
-* <<SECTION_819274C0AB2341B0915167A78A41F1D8,Toolbar>>
+The Recurring Executions window enables you to suspend, resume, or delete a recurring execution that is associated with a workflow. A workflow that has a recurring execution is executed on a recurring basis at a specified frequency. You can access this window by selecting *Execution* > *Recurring Executions*.
 
 == Recurring Executions table
 
@@ -27,10 +24,10 @@ The Recurring Schedules table lists the existing recurring schedules that are as
 
 The following table outlines the supported operators for alphabetic and numeric columns in the Recurring Executions table, available in the *Search* filter text box.
 
+[cols="2*",options="header"]
 |===
 | Alphabetic| Numeric
 a|
-
 * Contains
 * Does not contain
 * Starts with
@@ -38,7 +35,6 @@ a|
 * Equals
 * Does not equal
 * Reset
-
 a|
 
 * Equals
@@ -49,7 +45,6 @@ a|
 * Greater than or equal to
 * Between
 * Reset
-
 |===
 The Recurring Schedules table contains the following columns:
 

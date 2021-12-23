@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_new_remote_system_type_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The New Remote System Type dialog box enables you to add a new remote system type to OnCommand Workflow Automation \(WFA\) if a predefined system type does not meet your requirement or if you want to change the configuration of a predefined system type.'
+keywords: new, remote, system, type, dialog box
+summary: "The New Remote System Type dialog box enables you to add a new remote system type to OnCommand Workflow Automation (WFA) if a predefined system type does not meet your requirement or if you want to change the configuration of a predefined system type."
 ---
 = New Remote System Type dialog box
 :icons: font
@@ -11,8 +11,8 @@ summary: 'The New Remote System Type dialog box enables you to add a new remote 
 [.lead]
 The New Remote System Type dialog box enables you to add a new remote system type to OnCommand Workflow Automation (WFA) if a predefined system type does not meet your requirement or if you want to change the configuration of a predefined system type.
 
-* <<GUID-5F9A31AD-BB92-479A-8CD9-78BAB5480463,Details tab>>
-* <<SECTION_72E88AAE274E45C391716FA8A9DE7258,Validation Script tab>>
+* Details tab
+* Validation Script tab
 
 == Details tab
 
@@ -58,7 +58,3 @@ Saves the configuration settings of the remote system type and closes the dialog
 * *Cancel*
 +
 Cancels changes, if any, and closes the dialog box.
-
-*Related information*
-
-xref:reference_remote_system_types_window.adoc[Remote System Types window]

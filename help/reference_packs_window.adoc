@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_packs_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Packs window displays the OnCommand Workflow Automation WFA packs that are imported and available in the WFA server. Each pack contains the pack information file and WFA content, such as workflows, commands, filters, functions, finders, and templates.'
+keywords: packs, window
+summary: "The Packs window displays the OnCommand Workflow Automation WFA packs that are imported and available in the WFA server. Each pack contains the pack information file and WFA content, such as workflows, commands, filters, functions, finders, and templates."
 ---
 = Packs window
 :icons: font
@@ -11,8 +11,8 @@ summary: 'The Packs window displays the OnCommand Workflow Automation WFA packs 
 [.lead]
 The Packs window displays the OnCommand Workflow Automation WFA packs that are imported and available in the WFA server. Each pack contains the pack information file and WFA content, such as workflows, commands, filters, functions, finders, and templates.
 
-* <<GUID-1E417C67-1F31-4FA5-AAA7-2D5BB298C6AB,Packs table>>
-* <<SECTION_819274C0AB2341B0915167A78A41F1D8,Toolbar>>
+* Packs table
+* Toolbar
 
 == Packs table
 

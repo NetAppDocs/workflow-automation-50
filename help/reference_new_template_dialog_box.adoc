@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_new_template_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The New Template dialog box enables you to create a new template.'
+keywords: new template dialog box
+summary: "The New Template dialog box enables you to create a new template."
 ---
 = New Template dialog box
 :icons: font
