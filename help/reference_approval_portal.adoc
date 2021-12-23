@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_approval_portal.html
 sidebar: sidebar
-keywords: 
-summary: 'The Approval Portal window enables you to approve or reject a workflow.'
+keywords: approval portal, window
+summary: "The Approval Portal window enables you to approve or reject a workflow."
 ---
 = Approval Portal window
 :icons: font

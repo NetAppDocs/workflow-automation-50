@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_clone_dictionary_entry_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The New Dictionary Entry <EntryName_copy\> dialog box enables you to copy a dictionary object and edit the definition of the cloned dictionary object.'
+keywords: clone dictionary entry dialog box
+summary: "The New Dictionary Entry <EntryName_copy> dialog box enables you to copy a dictionary object and edit the definition of the cloned dictionary object."
 ---
 = Clone Dictionary Entry dialog box
 :icons: font
@@ -25,7 +25,7 @@ Enables you to select a scheme that should be associated with the cloned diction
 
 * *Entity Version*
 +
-Enables you to enter the version number for the cloned dictionary entry in major.minor.revision format--for example, 1.0.0.
+Enables you to enter the version number for the cloned dictionary entry in _major.minor.revision_ format--for example, 1.0.0.
 
 == Attribute table
 

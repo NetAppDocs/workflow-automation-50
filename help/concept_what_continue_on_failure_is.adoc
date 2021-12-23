@@ -1,8 +1,8 @@
 ---
 permalink: help/concept_what_continue_on_failure_is.html
 sidebar: sidebar
-keywords: 
-summary: 'The continue on failure feature helps you to configure a step in a workflow so that the workflow execution can continue even if the step fails. You can address the failed steps and resolve the issue that caused the step to fail by accessing the wfa.log file or by clicking the icon.'
+keywords: continue, failure features
+summary: "The continue on failure feature helps you to configure a step in a workflow so that the workflow execution can continue even if the step fails. You can address the failed steps and resolve the issue that caused the step to fail by accessing the wfa.log file or by clicking the icon."
 ---
 = How continue on failure works
 :icons: font

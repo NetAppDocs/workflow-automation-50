@@ -1,8 +1,8 @@
 ---
 permalink: help/concept_what_return_parameters_are.html
 sidebar: sidebar
-keywords: 
-summary: 'Return parameters are parameters that are available after the planning phase of a workflow. The values returned by these parameters are useful in debugging a workflow. You should understand how return parameters work and what parameters can be used as return parameters to debug workflows.'
+keywords: how, return parameters, work
+summary: "Return parameters are parameters that are available after the planning phase of a workflow. The values returned by these parameters are useful in debugging a workflow. You should understand how return parameters work and what parameters can be used as return parameters to debug workflows."
 ---
 = How return parameters work
 :icons: font
@@ -19,12 +19,13 @@ Before referring to the values of the return parameters for debugging your workf
 
 == Parameters that can be used as return parameters
 
+[cols="2*",options="header"]
 |===
 | Return parameters| Example
 a|
 Variable attributes that are scalar
 a|
-volume1.name, which is an attribute of the "`volume name`" variable
+`volume1.name`, which is an attribute of the "`volume name`" variable
 a|
 Constants
 a|
@@ -40,7 +41,7 @@ volume1.name+'-'+$clusterName
 a|
 The return parameter that a command adds during execution
 a|
-The $volumeUUID parameter is added as a return parameter when you use the following line in a PowerShell command: Add-WfaWorkflowParameter -Name "VolumeUUID" -Value "`12345`" -AddAsReturnParameter $true.
+The `$volumeUUID` parameter is added as a return parameter when you use the following line in a PowerShell command: `Add-WfaWorkflowParameter -Name "VolumeUUID" -Value "`12345`" -AddAsReturnParameter $true`.
 |===
 
 == Examples of return parameters in predefined workflows

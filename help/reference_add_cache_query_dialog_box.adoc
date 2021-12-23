@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_add_cache_query_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The Add Cache Query dialog box enables you to create a new cache query for a dictionary entry and associate the query with a data provide type, such as a specific OnCommand Unified Manager version.'
+keywords: add cache query, dialog box
+summary: "The Add Cache Query dialog box enables you to create a new cache query for a dictionary entry and associate the query with a data provide type, such as a specific OnCommand Unified Manager version."
 ---
 = Add Cache Query dialog box
 :icons: font

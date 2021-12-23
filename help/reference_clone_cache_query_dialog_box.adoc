@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_clone_cache_query_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The Edit Cache Query dialog box enables you to edit a cache query associated with a dictionary entry.'
+keywords: clone cache query, dialog box
+summary: "The Edit Cache Query dialog box enables you to edit a cache query associated with a dictionary entry."
 ---
 = Clone Cache Query dialog box
 :icons: font

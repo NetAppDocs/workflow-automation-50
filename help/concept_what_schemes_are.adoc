@@ -1,8 +1,8 @@
 ---
 permalink: help/concept_what_schemes_are.html
 sidebar: sidebar
-keywords: 
-summary: 'A scheme represents the data model for a system. A data model is a collection of dictionary entries. You can define a scheme and then define a data source type. The data source defines how the data is acquired and the scheme is populated. For example, a vc scheme acquires data about your virtual environment, such as virtual machines, hosts, and datastores.'
+keywords: what, schemes, virtual environment, oncommand, workflow, automation, ontap. storage
+summary: "A scheme represents the data model for a system. A data model is a collection of dictionary entries. You can define a scheme and then define a data source type. The data source defines how the data is acquired and the scheme is populated. For example, a vc scheme acquires data about your virtual environment, such as virtual machines, hosts, and datastores."
 ---
 = What schemes are
 :icons: font

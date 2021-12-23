@@ -1,8 +1,8 @@
 ---
 permalink: help/concept_what_conditional_execution_is.html
 sidebar: sidebar
-keywords: 
-summary: 'Conditional execution helps you to design workflows that can execute commands when specified conditions are met.'
+keywords: conditional execution
+summary: "Conditional execution helps you to design workflows that can execute commands when specified conditions are met."
 ---
 = What conditional execution is
 :icons: font
