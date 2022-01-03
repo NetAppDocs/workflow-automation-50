@@ -33,7 +33,7 @@ The designer portal includes several building blocks, such as commands, template
 The designer portal also includes building blocks, such as dictionary entries, cache queries, and data source types, for caching data from external systems.
 
 * Execution portal to execute workflows, verify status of workflow execution, and access logs
-* Administration > Settings option for tasks such as setting up WFA, connecting to data sources, and configuring user credentials
+* Administration/Settings option for tasks such as setting up WFA, connecting to data sources, and configuring user credentials
 * Web services interfaces to invoke workflows from external portals and data center orchestration software
 * Storage Automation Store to download WFA packs
 
