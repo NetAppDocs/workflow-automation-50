@@ -1,0 +1,59 @@
+---
+permalink: rhel-install/task_replace_the_default_workflow_automation_ssl_certificate_linux.html
+sidebar: sidebar
+keywords: replace, default, workflow automation, ssl, certificate
+summary: "You can replace the default Workflow Automation (WFA) SSL certificate if the certificate has expired or if you want to increase the validity period of the certificate."
+---
+= Replace the default Workflow Automation SSL certificate
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can replace the default Workflow Automation (WFA) SSL certificate if the certificate has expired or if you want to increase the validity period of the certificate.
+
+*What you'll need*
+
+You must have root privileges for the Linux system on which you have installed WFA.
+
+*About this task*
+
+The default WFA installation path is used in this procedure. If you changed the default location during installation, you must use the custom WFA installation path.
+
+.Steps
+. Log in as a root user on the WFA host machine.
+. At the shell prompt, navigate to the following directory on the WFA server:
++
+`WFA_install_location/wfa/bin`
+. Stop the WFA database and server services:
++
+`./wfa --stop=WFA`
++
+`./wfa --stop=DB`
+. Delete the `wfa.keystore` file from the following location: `WFA_install_location/wfa/jboss/standalone/configuration/keystore.`
+. Open a shell prompt on the WFA server, and then change directories to the following location:
++
+`WFA_install_location/wfa/jre/bin`
+. Obtain the database key:
++
+`keytool -keysize 2048 -genkey -alias "ssl keystore" -keyalg RSA -keystore "WFA_install_location/wfa/jboss/standalone/configuration/keystore/wfa.keystore" -validity xxxx`
++
+`xxxx` is the number of days for the validity of the new certificate.
+
+. When prompted, provide the password (default or new).
++
+`changeit` is the default password. If you do not want to use the default password, you must change the password attribute of the SSL element in the `standalone-full.xml` file from the following location: `WFA_install_location/wfa/jboss/standalone/configuration`
++
+*Example*
++
+----
+<ssl name="ssl" password="new_password" certificate-key-file="${jboss.server.config.dir}/keystore/wfa.keystore"
+----
+
+. Enter the required details for the certificate.
+. Review the displayed information, and then enter `Yes`.
+. Press *Enter* when prompted by the following message: `Enter key password for <SSL keystore> <RETURN if same as keystore password>.`
+. Restart the WFA services:
++
+`./wfa --start=DB`
++
+`./wfa --start=WFA`
