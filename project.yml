@@ -3,7 +3,7 @@ settings:
   search: workflow-automation-50
 sidebar:
   entries:
-    - title: Home
+    - title: OnCommand Workflow Automation 5.0 Documentation
       url: "/index.html"
     - section: rhel-install
     - section: windows-install
