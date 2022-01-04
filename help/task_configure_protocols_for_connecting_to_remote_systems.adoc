@@ -36,7 +36,7 @@ a|
 +
 |===
 
-. From the Connection Protocol list, select one of the following:
+. From the *Connection Protocol* list, select one of the following:
  ** HTTPS with fallback to HTTP (default)
  ** HTTPS only
  ** HTTP only

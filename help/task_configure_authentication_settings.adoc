@@ -27,8 +27,8 @@ NOTE: During communication, LDAP sends the user name and password in plain text.
 . Click *Settings*, and under *Setup* click *Authentication*.
 . Select the *Enable Active Directory* check box.
 . Enter the required information in the fields:
- .. If you want to use the _user@domain_ format for domain users, replace `sAMAccountName` with `userPrincipalName` in the *User name attribute* field.
- .. If unique values are required for your environment, edit the required fields.
+ .. *Optional*: If you want to use the _user@domain_ format for domain users, replace `sAMAccountName` with `userPrincipalName` in the *User name attribute* field.
+ .. *Optional*: If unique values are required for your environment, edit the required fields.
  .. Enter the AD server URI as follows:
  `ldap://active_directory_server_address[:port]`
 +
@@ -43,5 +43,5 @@ If you have enabled LDAP over SSL, you can use the following URI format: `ldaps:
 +
 NOTE: You can add a list of AD group names to the required roles in the Active Directory Groups Window.
 +
-link:reference_active_directory_groups_window.md#[Active Directory Groups window]
+link:reference_active_directory_groups_window.html[Active Directory Groups window]
 . Click *Save*.

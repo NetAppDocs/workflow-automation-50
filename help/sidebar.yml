@@ -5,8 +5,8 @@ entries:
     url: "/help/concept_overview_of_oncommand_workflow_automation.html"
   - title: Create local users
     url: "/help/task_create_local_users.html"
-  - title: Configure OnCommand Workflow Automation
-    url: "/help/concept_advanced_configure_oncommand_workflow_automation.html"
+  - title: Configuring OnCommand Workflow Automation
+    url: "/help/concept_advanced_configuring_oncommand_workflow_automation.html"
     entries:
     - title: Configure authentication settings
       url: "/help/task_configure_authentication_settings.html"

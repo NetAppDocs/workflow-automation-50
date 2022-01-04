@@ -22,8 +22,8 @@ The default is 4.
 
 . Click *Save*.
 . Enable resource reservation in each required workflow:
- .. Click *Workflow* > *Details* of the required workflow.
+ .. Click *Workflow* > *Details of the required workflow*.
 +
-Workflow is the workflow that requires resource reservation.
+_Workflow_ is the workflow that requires resource reservation.
 
  .. Select *Consider Reserved Elements*.

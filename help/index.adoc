@@ -1,8 +1,0 @@
----
-permalink: help/index.html
-sidebar: sidebar
-keywords:
-summary: ''
----
-:icons: font
-:imagesdir: ../media/
