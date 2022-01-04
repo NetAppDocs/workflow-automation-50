@@ -1,10 +1,10 @@
 ---
-permalink: workflows/task_removing_entities_from_a_pack.html
+permalink: workflows/task_remove_entities_from_a_pack.html
 sidebar: sidebar
 keywords: oncommand workflow automation, remove, packs, entities
 summary: "You can remove a pack from the entities in OnCommand Workflow Automation (WFA) and check in the updated pack to the Source Control Management (SCM) server."
 ---
-= Removing WFA workflow packs from entities
+= Remove WFA workflow packs from entities
 :icons: font
 :imagesdir: ../media/
 

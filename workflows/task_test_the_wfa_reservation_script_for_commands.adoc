@@ -1,10 +1,10 @@
 ---
-permalink: workflows/task_testing_the_wfa_reservation_script_for_commands.html
+permalink: workflows/task_test_the_wfa_reservation_script_for_commands.html
 sidebar: sidebar
 keywords: test, reservation, script, commands
 summary: "You can test the reservation scripts you have written for OnCommand Workflow Automation (WFA) commands on the playground database to ensure that the scripts are working fine and not affecting the WFA database tables."
 ---
-= Testing the reservation script for commands
+= Test the reservation script for commands
 :icons: font
 :imagesdir: ../media/
 

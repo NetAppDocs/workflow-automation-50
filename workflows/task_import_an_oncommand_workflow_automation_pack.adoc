@@ -1,10 +1,10 @@
 ---
-permalink: workflows/task_importing_an_oncommand_workflow_automation_pack.html
+permalink: workflows/task_import_an_oncommand_workflow_automation_pack.html
 sidebar: sidebar
 keywords: oncommand workflow automation, import, packs
 summary: "You can import workflow packs from the server to OnCommand Workflow Automation (WFA) for your storage automation and integration requirements."
 ---
-= Importing WFA workflow packs
+= Import WFA workflow packs
 :icons: font
 :imagesdir: ../media/
 

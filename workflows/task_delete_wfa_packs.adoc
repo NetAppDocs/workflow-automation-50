@@ -1,10 +1,10 @@
 ---
-permalink: workflows/task_deleting_wfa_packs.html
+permalink: workflows/task_delete_wfa_packs.html
 sidebar: sidebar
 keywords: delete, oncommand workflow automation, packs
 summary: "You can delete a pack from OnCommand Workflow Automation (WFA) if you no longer require it. If you delete a pack, all the entities associated with the pack are deleted."
 ---
-= Deleting OnCommand Workflow Automation packs
+= Delete OnCommand Workflow Automation packs
 :icons: font
 :imagesdir: ../media/
 

@@ -1,10 +1,10 @@
 ---
-permalink: workflows/task_creating_a_workflow.html
+permalink: workflows/task_create_a_workflow.html
 sidebar: sidebar
 keywords: create, workflow
 summary: "You can use Workflow Automation (WFA) to create workflows for tasks such as provisioning, migrating, and decommissioning storage for databases or file systems. You should create workflows when the predefined WFA workflows do not match your requirements."
 ---
-= Creating a workflow
+= Create a workflow
 :icons: font
 :imagesdir: ../media/
 

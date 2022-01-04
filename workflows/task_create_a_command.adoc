@@ -1,10 +1,10 @@
 ---
-permalink: workflows/task_creating_a_command.html
+permalink: workflows/task_create_a_command.html
 sidebar: sidebar
 keywords: create, command
 summary: "You can create a WFA command to complete a specific task in your workflow if there is no predefined WFA command that is suitable for the task."
 ---
-= Creating a command
+= Create a command
 :icons: font
 :imagesdir: ../media/
 

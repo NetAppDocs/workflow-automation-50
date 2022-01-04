@@ -1,10 +1,10 @@
 ---
-permalink: workflows/task_updating_the_pack_from_scm.html
+permalink: workflows/task_update_the_pack_from_scm.html
 sidebar: sidebar
 keywords: oncommand workflow automation, update, wfa, workflow, packs, scm server
 summary: "You can update a pack in the Source Control Management (SCM) server, and then import the updated pack to OnCommand Workflow Automation (WFA)."
 ---
-= Updating WFA workflow packs from the SCM server
+= Update WFA workflow packs from the SCM server
 :icons: font
 :imagesdir: ../media/
 

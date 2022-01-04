@@ -1,10 +1,10 @@
 ---
-permalink: workflows/task_creating_a_filter.html
+permalink: workflows/task_create_a_filter.html
 sidebar: sidebar
 keywords: create, filter
 summary: "You can create a WFA filter that can search for resources if there is no predefined WFA filter that is suitable for the task."
 ---
-= Creating a filter
+= Create a filter
 :icons: font
 :imagesdir: ../media/
 

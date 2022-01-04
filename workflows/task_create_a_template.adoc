@@ -1,10 +1,10 @@
 ---
-permalink: workflows/task_creating_a_template.html
+permalink: workflows/task_create_a_template.html
 sidebar: sidebar
 keywords: create, template
 summary: "You can create a template that can be used as a blueprint for filling up attributes in command details."
 ---
-= Creating a template
+= Create a template
 :icons: font
 :imagesdir: ../media/
 

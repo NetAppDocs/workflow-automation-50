@@ -39,11 +39,11 @@ entries:
     - title: Managing workflows
       url: "/workflows/concept_managing_workflows.html"
       entries:
-      - title: Customizing predefined workflows
-        url: "/workflows/task_customizing_predefined_workflows.html"
+      - title: Customize predefined workflows
+        url: "/workflows/task_customize_predefined_workflows.html"
         entries:
-        - title: Customizing the Create a Volume and a CIFS Share workflow
-          url: "/workflows/task_customizing_the_create_volume_and_create_cifs_share_workflow.html"
+        - title: Customize the Create a Volume and a CIFS Share workflow
+          url: "/workflows/task_customize_the_create_volume_and_create_cifs_share_workflow.html"
       - title: Creating workflows
         url: "/workflows/concept_creating_workflows.html"
         entries:
@@ -77,24 +77,24 @@ entries:
           url: "/workflows/concept_what_continue_on_failure_is.html"
         - title: Sample workflow requirements checklist
           url: "/workflows/reference_workflow_requirements_checklist.html"
-        - title: Creating a workflow
-          url: "/workflows/task_creating_a_workflow.html"
+        - title: Create a workflow
+          url: "/workflows/task_create_a_workflow.html"
           entries:
-          - title: Creating workflow help content
-            url: "/workflows/task_creating_workflow_help_content.html"
-      - title: Creating WFA workflow packs
-        url: "/workflows/task_creating_a_workflow_automation_pack.html"
+          - title: Create workflow help content
+            url: "/workflows/task_create_workflow_help_content.html"
+      - title: Create WFA workflow packs
+        url: "/workflows/task_create_a_workflow_automation_pack.html"
         entries:
-        - title: Adding entities to WFA workflow packs
-          url: "/workflows/task_adding_entity_to_a_workflow_automation_pack.html"
-        - title: Deleting OnCommand Workflow Automation packs
-          url: "/workflows/task_deleting_wfa_packs.html"
-        - title: Exporting OnCommand Workflow Automation content
-          url: "/workflows/task_exporting_oncommand_workflow_automation_content.html"
-        - title: Importing OnCommand Workflow Automation content
-          url: "/workflows/task_importing_oncommand_workflow_automation_content.html"
-        - title: Importing WFA workflow packs
-          url: "/workflows/task_importing_an_oncommand_workflow_automation_pack.html"
+        - title: Add entities to WFA workflow packs
+          url: "/workflows/task_add_entity_to_a_workflow_automation_pack.html"
+        - title: Delete OnCommand Workflow Automation packs
+          url: "/workflows/task_delete_wfa_packs.html"
+        - title: Export OnCommand Workflow Automation content
+          url: "/workflows/task_export_oncommand_workflow_automation_content.html"
+        - title: Import OnCommand Workflow Automation content
+          url: "/workflows/task_import_oncommand_workflow_automation_content.html"
+        - title: Import WFA workflow packs
+          url: "/workflows/task_import_an_oncommand_workflow_automation_pack.html"
         - title: Considerations while importing OnCommand Workflow Automation content
           url: "/workflows/reference_considerations_of_importing_wfa_content.html"
         - title: Pack identification during upgrade
@@ -102,46 +102,46 @@ entries:
       - title: Integrating WFA workflow packs with the SCM repository
         url: "/workflows/concept_integrating_the_wfa_pack_with_scm_repository.html"
         entries:
-        - title: Checking in a new workflow pack to SCM
-          url: "/workflows/task_checking_in_a_new_pack_to_scm.html"
-        - title: Checking in a new version of a WFA workflow pack
-          url: "/workflows/task_checking_in_a_new_version_of_a_pack_to_a_new_location_in_scm.html"
-        - title: Updating WFA workflow packs from the SCM server
-          url: "/workflows/task_updating_the_pack_from_scm.html"
-        - title: Checking in existing WFA workflow packs to the SCM server
-          url: "/workflows/task_checking_in_an_already_existing_pack_into_scm.html"
-        - title: Removing WFA workflow packs from entities
-          url: "/workflows/task_removing_entities_from_a_pack.html"
-        - title: Rolling back a WFA workflow pack to its previous version in SCM
+        - title: Check in a new workflow pack to SCM
+          url: "/workflows/task_check_in_a_new_pack_to_scm.html"
+        - title: Check in a new version of a WFA workflow pack
+          url: "/workflows/task_check_in_a_new_version_of_a_pack_to_a_new_location_in_scm.html"
+        - title: Update WFA workflow packs from the SCM server
+          url: "/workflows/task_update_the_pack_from_scm.html"
+        - title: Check in existing WFA workflow packs to the SCM server
+          url: "/workflows/task_check_in_an_already_existing_pack_into_scm.html"
+        - title: Remove WFA workflow packs from entities
+          url: "/workflows/task_remove_entities_from_a_pack.html"
+        - title: Roll back a WFA workflow pack to its previous version in SCM
           url: "/workflows/task_rollback_pack_to_a_previous_version_in_scm.html"
     - title: Creating building blocks for workflows
       url: "/workflows/concept_creating_building_blocks_for_workflows.html"
       entries:
-      - title: Creating a data source type
-        url: "/workflows/task_creating_a_data_source_type.html"
-      - title: Creating a command
-        url: "/workflows/task_creating_a_command.html"
+      - title: Create a data source type
+        url: "/workflows/task_create_a_data_source_type.html"
+      - title: Create a command
+        url: "/workflows/task_create_a_command.html"
         entries:
-        - title: Testing the reservation script for commands
-          url: "/workflows/task_testing_the_wfa_reservation_script_for_commands.html"
-      - title: Creating a finder
-        url: "/workflows/task_creating_a_finder.html"
-      - title: Creating a filter
-        url: "/workflows/task_creating_a_filter.html"
-      - title: Creating a dictionary entry
-        url: "/workflows/task_creating_a_dictionary_entry.html"
-      - title: Creating a function
-        url: "/workflows/task_creating_a_function.html"
-      - title: Creating a template
-        url: "/workflows/task_creating_a_template.html"
-      - title: Creating a cache query
-        url: "/workflows/task_creating_a_cache_query.html"
-      - title: Creating recurring schedules
-        url: "/workflows/task_creating_recurring_schedules.html"
-      - title: Defining filter rules
-        url: "/workflows/task_defining_filter_rules.html"
-      - title: Adding approval points
-        url: "/workflows/task_adding_approval_points.html"
+        - title: Test the reservation script for commands
+          url: "/workflows/task_test_the_wfa_reservation_script_for_commands.html"
+      - title: Create a finder
+        url: "/workflows/task_create_a_finder.html"
+      - title: Create a filter
+        url: "/workflows/task_create_a_filter.html"
+      - title: Create a dictionary entry
+        url: "/workflows/task_create_a_dictionary_entry.html"
+      - title: Create a function
+        url: "/workflows/task_create_a_function.html"
+      - title: Create a template
+        url: "/workflows/task_create_a_template.html"
+      - title: Create a cache query
+        url: "/workflows/task_create_a_cache_query.html"
+      - title: Create recurring schedules
+        url: "/workflows/task_create_recurring_schedules.html"
+      - title: Define filter rules
+        url: "/workflows/task_define_filter_rules.html"
+      - title: Add approval points
+        url: "/workflows/task_add_approval_points.html"
     - title: Coding guidelines for WFA
       url: "/workflows/concept_coding_guidelines_for_wfa.html"
       entries:

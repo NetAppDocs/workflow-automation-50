@@ -1,10 +1,10 @@
 ---
-permalink: workflows/task_defining_filter_rules.html
+permalink: workflows/task_define_filter_rules.html
 sidebar: sidebar
 keywords:  define, filter, rules
 summary: "You can define a set of rules for filtering dictionary entry resources such as vFiler units, aggregates, and virtual machines. You can customize the rules for existing workflows and for new workflows while you are creating them."
 ---
-= Defining filter rules
+= Define filter rules
 :icons: font
 :imagesdir: ../media/
 

@@ -1,10 +1,10 @@
 ---
-permalink: workflows/task_customizing_the_create_volume_and_create_cifs_share_workflow.html
+permalink: workflows/task_customize_the_create_volume_and_create_cifs_share_workflow.html
 sidebar: sidebar
 keywords: customize, create, volume, cifs, share, workflow
 summary: "You can customize your workflows based on your requirements. For example, you can modify the predefined Create a Volume and a CIFS Share workflow to include deduplication and compression."
 ---
-= Customizing the Create a Volume and a CIFS Share workflow
+= Customize the Create a Volume and a CIFS Share workflow
 :icons: font
 :imagesdir: ../media/
 

@@ -1,10 +1,10 @@
 ---
-permalink: workflows/task_checking_in_an_already_existing_pack_into_scm.html
+permalink: workflows/task_check_in_an_already_existing_pack_into_scm.html
 sidebar: sidebar
 keywords: oncommand workflow automation, existing, wfa, workflow, packs, scm, server
 summary: "You can check in already existing packs to the Source Control Management (SCM) server from OnCommand Workflow Automation (WFA)."
 ---
-= Checking in existing WFA workflow packs to the SCM server
+= Check in existing WFA workflow packs to the SCM server
 :icons: font
 :imagesdir: ../media/
 

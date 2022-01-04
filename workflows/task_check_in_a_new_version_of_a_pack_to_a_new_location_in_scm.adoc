@@ -1,10 +1,10 @@
 ---
-permalink: workflows/task_checking_in_a_new_version_of_a_pack_to_a_new_location_in_scm.html
+permalink: workflows/task_check_in_a_new_version_of_a_pack_to_a_new_location_in_scm.html
 sidebar: sidebar
 keywords: oncommand, workflow, automation, check, version, wfa, pack
 summary: "You can update the version of a pack in OnCommand Workflow Automation (WFA), and then check in the updated pack to a new location in the Source Control Management (SCM) server."
 ---
-= Checking in a new version of a WFA workflow pack
+= Check in a new version of a WFA workflow pack
 :icons: font
 :imagesdir: ../media/
 
