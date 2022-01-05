@@ -18,6 +18,7 @@ Enables you to choose the automatic refresh of the client, which is triggered by
  ** Execution Status
  ** Data Sources
  ** Reservations
++ 
 If not selected, the tables are not updated until you click *Refresh*. This check box is selected by default.
 
 * *Refresh Interval (seconds)*

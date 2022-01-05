@@ -33,7 +33,7 @@ Displays the associated port number, if any, for the selected data source type. 
 
 * *Scheme*
 +
-Displays the scheme associated with the selected data source type--for example cm_storage for Unified Manager - 6.0 (MYSQL).
+Displays the scheme associated with the selected data source type--for example _cm_storage_ for Unified Manager - 6.0 (MYSQL).
 +
 You cannot modify this property.
 

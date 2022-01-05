@@ -17,9 +17,9 @@ The About dialog box displays details about the current version of the installed
 +
 Displays the current version number of the installed WFA application.
 +
-The version number has the following format: A.B.C.
+The version number has the following format: `A.B.C`.
 +
-A.B.C reflects the _Major.Minor.Maintenance_ release numbers.
+`A.B.C` reflects the _Major.Minor.Maintenance_ release numbers.
 +
 For example: `2.0.0`.
 

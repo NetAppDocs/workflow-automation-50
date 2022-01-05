@@ -49,7 +49,7 @@ You can search for a workflow by entering one of its schemes in the *Search* fil
 
 * *Entity Version*
 +
-Displays the version number of the object in major.minor.revision format--for example, 1.0.0.
+Displays the version number of the object in _major.minor.revision_ format--for example, 1.0.0.
 +
 You can search for a workflow by entering the version number in the *Search* filter text box.
 
@@ -129,7 +129,7 @@ Opens the Delete Workflow confirmation dialog box, which enables you to delete t
 
 * *image:../media/export_wfa_icon.gif[Export icon] (Export)*
 +
-Opens the File Download dialog box, which enables you to save the selected workflow as a .dar file. This option is enabled only for the workflows that you have created.
+Opens the File Download dialog box, which enables you to save the selected workflow as a `.dar` file. This option is enabled only for the workflows that you have created.
 
 * *image:../media/execute_wfa_icon.gif[Execute icon] (Execute)*
 +

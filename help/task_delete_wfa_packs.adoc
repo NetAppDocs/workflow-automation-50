@@ -26,4 +26,4 @@ To delete an entity that is part of a pack, you must delete the pack containing 
 . Log in to WFA through a web browser as an admin.
 . Click *Designer* > *Packs*.
 . Select the pack you want to delete and click image:../media/delete_wfa_icon.gif[Delete icon].
-. In the Delete Pack confirmation dialog box, click *OK*.
+. In the *Delete Pack* confirmation dialog box, click *OK*.

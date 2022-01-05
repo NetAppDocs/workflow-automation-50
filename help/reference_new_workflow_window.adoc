@@ -39,7 +39,7 @@ Opens the Row Repetition Details dialog box, which enables you to modify the *Re
 
 * *Remove row repetition*
 +
-Cancels the *Repeat Row* action set in the Row Repetition Details dialog box for the selected row.
+Cancels the *Repeat Row* action set in the *Row Repetition Details* dialog box for the selected row.
 
 * *Add condition*
 +

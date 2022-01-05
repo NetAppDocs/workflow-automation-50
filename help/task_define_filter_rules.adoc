@@ -13,9 +13,9 @@ You can define a set of rules for filtering dictionary entry resources such as v
 
 .Steps
 
-. Log in to WFA through a web browser as an admin.
+. Log in to *WFA* through a web browser as an admin.
 . Click *Designer* > *Workflows*.
-. In the Workflows window, double-click the workflow that you want to modify.
+. In the *Workflows* window, double-click the workflow that you want to modify.
 +
 The Workflow <workflow name> window is displayed.
 
