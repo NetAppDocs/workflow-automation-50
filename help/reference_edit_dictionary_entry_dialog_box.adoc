@@ -25,7 +25,7 @@ You must not edit the scheme of a dictionary object. If you change the scheme, s
 
 * *Entity Version*
 +
-Enables you to enter the version number for the dictionary entry in major.minor.revision format--for example, 1.0.0.
+Enables you to enter the version number for the dictionary entry in _major.minor.revision_ format--for example, 1.0.0.
 
 == Attribute table
 

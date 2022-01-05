@@ -65,7 +65,7 @@ You can search for filters by entering the type in the Search filter text box.
 
 * *Entity Version*
 +
-Displays the version number of the object in major.minor.revision format--for example, 1.0.0.
+Displays the version number of the object in _major.minor.revision_ format--for example, 1.0.0.
 +
 You can search for a filter by entering the version number in the Search filter text box.
 

@@ -47,7 +47,7 @@ You can search for a pack by entering its description in the *Search* filter tex
 
 * *Entity Version*
 +
-Displays the version number of the pack in major.minor.revision format--for example, 1.0.0.
+Displays the version number of the pack in _major.minor.revision_ format--for example, 1.0.0.
 
 * *Last Updated On*
 +

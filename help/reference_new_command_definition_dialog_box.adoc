@@ -28,7 +28,7 @@ Enables you to specify a name for the command. You must specify a name in order 
 
 * *Entity Version*
 +
-Enables you to specify the version number for the command in major.minor.revision format--for example, 1.0.0.
+Enables you to specify the version number for the command in _major.minor.revision_ format--for example, 1.0.0.
 
 * *Description*
 +

@@ -32,7 +32,7 @@ You can search for a remote system type by entering its name in the *Search* fil
 
 * *Entity Version*
 +
-Displays the current version of the remote system type in major.minor.revision format--for example, 1.0.0.
+Displays the current version of the remote system type in _major.minor.revision_ format--for example, 1.0.0.
 +
 You can search for a remote system type by entering the version number in the *Search* filter text box.
 

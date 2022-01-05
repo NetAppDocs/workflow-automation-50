@@ -52,7 +52,7 @@ You can search for a scheme by entering its name in the *Search* filter text box
 
 * *Entity Version*
 +
-Displays the version number of the object in major.minor.revision format--for example, 1.0.0.
+Displays the version number of the object in _major.minor.revision_ format--for example, 1.0.0.
 +
 You can search for a scheme by entering the version number in the *Search* filter text box.
 

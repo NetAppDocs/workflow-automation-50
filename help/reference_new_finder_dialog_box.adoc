@@ -29,7 +29,7 @@ Enables you to select the type of object from the list such as aggregate, igroup
 
 * *Entity Version*
 +
-Enables you to enter the version number for the finder in major.minor.revision format--for example, 1.0.0.
+Enables you to enter the version number for the finder in _major.minor.revision_ format--for example, 1.0.0.
 
 * *Description*
 +

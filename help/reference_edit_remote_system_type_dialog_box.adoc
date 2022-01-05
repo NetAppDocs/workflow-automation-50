@@ -28,7 +28,7 @@ Enables you to modify the description of the remote system type.
 
 * *Version*
 +
-Enables you to edit the version number of the remote system type in major.minor.revision format--for example, 1.0.0.
+Enables you to edit the version number of the remote system type in _major.minor.revision_ format--for example, 1.0.0.
 
 * *Connection Protocol*
 +
@@ -41,6 +41,7 @@ The connection primarily uses HTTPS. If connection through HTTPS fails, HTTP is 
  ** HTTPS Only
  ** HTTP Only
  ** Custom
++
 When you select a connection protocol, the protocol, default port, and default timeout (sec) fields are populated with data.
 
 == Validation Script tab

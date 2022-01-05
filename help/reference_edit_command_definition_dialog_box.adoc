@@ -28,7 +28,7 @@ Enables you to edit the name of the command. You must enter a name to save the c
 
 * *Entity Version*
 +
-Enables you to enter the version number for the command in major.minor.revision format--for example, 1.0.0.
+Enables you to enter the version number for the command in _major.minor.revision_ format--for example, 1.0.0.
 
 * *Description*
 +

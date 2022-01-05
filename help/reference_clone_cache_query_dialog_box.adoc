@@ -17,7 +17,7 @@ Specifies a dictionary entry associated with the cache query.
 
 * *Entity Version*
 +
-Enables you to enter the version number for the cache query in major.minor.revision format--for example, 1.0.0.
+Enables you to enter the version number for the cache query in _major.minor.revision_ format--for example, 1.0.0.
 
 * *Data Source Types*
 +

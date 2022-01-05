@@ -25,7 +25,7 @@ Enables you to select a scheme that should be associated with the object. You ca
 
 * *Entity Version*
 +
-Enables you to enter the version number for the dictionary entry in major.minor.revision format--for example, 1.0.0.
+Enables you to enter the version number for the dictionary entry in _major.minor.revision_ format--for example, 1.0.0.
 
 == Attribute table
 
