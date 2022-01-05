@@ -45,11 +45,11 @@ MySQL database server
 +
 See the _OnCommand Unified Manager Online Help_ for details.
 
-**About this task**
-
 * The TCP port for incoming connections on the VMware vCenter Server must be open.
 +
 The default TCP port number is 443. See the documentation on your firewall for details.
+
+**About this task**
 
 You can add multiple Unified Manager server data sources to WFA using this procedure. However, you must not use this procedure if you want to pair Unified Manager server 6.3 and later with WFA and use the protection functionality in Unified Manager server.
 
@@ -77,7 +77,7 @@ Select the existing data source entry, and click image:../media/edit_wfa_icon.gi
 |===
 If you have added a Unified Manager server data source to WFA and then upgraded the version of the Unified Manager server, WFA will not recognize the upgraded version of the Unified Manager server. You must delete the previous version of the Unified Manager server and then add the upgraded version of the Unified Manager server to WFA.
 
-. In the New Data Source dialog box, select the required data source type, and enter a name for the data source and the host name.
+. In the *New Data Source* dialog box, select the required data source type, and enter a name for the data source and the host name.
 +
 Based on the selected data source type, the port, user name, password, and timeout fields might be automatically populated with the default data, if available. You can edit these entries as required.
 
@@ -103,5 +103,5 @@ NOTE: You must not provide the credentials of an OnCommand Unified Manager Datab
 |===
 
 . Click *Save*.
-. In the Data Sources table, select the data source, and click image:../media/acquire_now_wfa_icon.gif[Acquire now icon] on the toolbar.
+. *Optional*: In the Data Sources table, select the data source, and click image:../media/acquire_now_wfa_icon.gif[Acquire now icon] on the toolbar.
 . Verify the status of the data acquisition process.

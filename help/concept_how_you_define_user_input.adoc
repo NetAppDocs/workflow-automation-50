@@ -11,7 +11,7 @@ summary: "The OnCommand Workflow Automation (WFA) user inputs are data input opt
 [.lead]
 The OnCommand Workflow Automation (WFA) user inputs are data input options that are available during the execution of workflows. You must define the user input parameters for your workflows to enhance the flexibility and usability of your workflows.
 
-User inputs are shown as input fields, which can be filled out with relevant data when previewing or executing workflows. You can create a user input field when specifying the command details in a workflow by prefixing a label or variable with the dollar sign ($). For example, ``$VolumeName` creates a Volume Name user input field. WFA automatically populates the User Inputs tab in the Workflow <workflow name> window with the user input labels that you have created. You can also define the type of the user input and customize the input fields by modifying the user input attributes, such as type, display name, default values, and validation values.
+User inputs are shown as input fields, which can be filled out with relevant data when previewing or executing workflows. You can create a user input field when specifying the command details in a workflow by prefixing a label or variable with the dollar sign ($). For example, `$VolumeName` creates a `Volume Name` user input field. WFA automatically populates the User Inputs tab in the Workflow <workflow name> window with the user input labels that you have created. You can also define the type of the user input and customize the input fields by modifying the user input attributes, such as type, display name, default values, and validation values.
 
 == User input type options
 
@@ -51,23 +51,24 @@ You can use the Boolean type to display a check box in the user input dialog box
 * *Table*
 +
 You can use the table type of user input to specify the column headers of a table that can be used to enter multiple values during the execution of the workflow. For example, a table that can be used to specify a list of node names and port names. You can also specify one of the following user input types for the column headers to validate the values that are entered during run time:
-
++
  ** String
  ** Number
  ** Enum
  ** Boolean
  ** Query
++
 String is the default user input type for the column headers. You must double-click the Type column to specify a different user input type.
-
 +
 You can open the Create SnapMirror policy and rules workflow in the Designer to see how the user input types are used in the "`SnapMirrorPolicyRule`" user input.
 +
 You can use the following functions when using the table type of user input:
-
- ** getSize
- ** getValueAt
- ** getValueAt2D
- ** getValueFrom2DByRowKey
++
+  ** getSize
+  ** getValueAt
+  ** getValueAt2D
+  ** getValueFrom2DByRowKey
++
 You can open the *Create and configure a Storage Virtual Machine with Infinite Volume* workflow in the Designer to see how the table type is used.
 
 * *Password*

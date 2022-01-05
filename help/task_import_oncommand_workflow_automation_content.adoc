@@ -18,7 +18,7 @@ You can import user-created OnCommand Workflow Automation (WFA) content such as 
 +
 For example, if you are running WFA 2.2, you cannot import content that was created using WFA 3.0.
 
-* If the ``.dar` file references NetApp-certified content, the NetApp-certified content packs must be imported.
+* If the `.dar` file references NetApp-certified content, the NetApp-certified content packs must be imported.
 +
 The NetApp-certified content packs can be downloaded from the Storage Automation Store. You must refer to the documentation of the pack to verify that all requirements are met.
 

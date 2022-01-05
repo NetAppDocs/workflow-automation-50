@@ -27,36 +27,36 @@ a|
 Creating or editing command details in a workflow
 a|
 
-* *Commands* > *Parameters for parameter_name* > *Enter search criteria* > *Resource Selection* > *Finder* > *Parameters*
-* *Commands* > *Parameters for parameter_name* > *Enter search criteria* > *Resource Selection* > *Advanced* > *Execute search only when the following expression evaluates to TRUE*
-* *Commands* > *Parameters for parameter_name* > *Advanced* > *If the following expression is TRUE*
-* *Commands* > *Parameters for parameter_name* > *Other Parameters*
+* *Commands* > *Parameters for _parameter_name_* > *Enter search criteria* > *Resource Selection* > *Finder* > *Parameters*
+* *Commands* > *Parameters for _parameter_name_* > *Enter search criteria* > *Resource Selection* > *Advanced* > *Execute search only when the following expression evaluates to TRUE*
+* *Commands* > *Parameters for _parameter_name_* > *Advanced* > *If the following expression is TRUE*
+* *Commands* > *Parameters for _parameter_name_* > *Other Parameters*
 * *Commands* > *parameter_name* > *Attributes*
 
 a|
 Creating or editing a command
 a|
 
-* *Commands* > *Command Definition command_name* > *Properties* > *String Representation*
+* *Commands* > *Command Definition _command_name_* > *Properties* > *String Representation*
 
 a|
 Creating or editing a function
 a|
 
-* *Functions* > *Function function_name* > *Function definition*
+* *Functions* > *Function _function_name_* > *Function definition*
 
 a|
 Creating or editing a template
 a|
 
-* *Template* > *Parameters for parameter_name* > *Template template_name* > *Attributes* > *Value*
+* *Template* > *Parameters for _parameter_name_* > *Template _template_name_* > *Attributes* > *Value*
 
 a|
 Editing a row
 a|
 
 * *Workflow* > *Workflow* > *Repeat row* > *Repeats* > *Number of times*
-* *Workflow* > *Workflow* > *Repeat row* > *Variables* > *Variables for initial_value and expression*
+* *Workflow* > *Workflow* > *Repeat row* > *Variables* > *Variables for _initial_value_ and expression*
 * *Workflow* > *Workflow* > *Repeat row* > *Repeats* > *For every resource in a group* > *Resource Search Criteria* > *Parameters to filter*
 * *Workflow* > *Workflow* > *Add condition* > *If the following expression is TRUE*
 |===

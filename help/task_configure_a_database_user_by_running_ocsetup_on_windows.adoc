@@ -13,11 +13,15 @@ You can run the `ocsetup` file on the OnCommand Unified Manager server to config
 
 .Steps
 
-. Download the `wfa_ocsetup.exe` file to a directory in the OnCommand Unified Manager server from the following location: https://WFA_Server_IP/download/wfa_ocsetup.exe.
+. Download the `wfa_ocsetup.exe` file to a directory in the OnCommand Unified Manager server from the following location:
++
+_https:_//WFA_Server_IP/download/wfa_ocsetup.exe.
 +
 `WFA_Server_IP` is the IP address (IPv4 or IPv6 address) of your WFA server.
 +
-If you have specified a non-default port for WFA, you must include the port number as follows: https://wfa_server_ip:port/download/wfa_ocsetup.exe.
+If you have specified a non-default port for WFA, you must include the port number as follows:
++
+_https:_//wfa_server_ip:port/download/wfa_ocsetup.exe.
 +
 `port` is the TCP port number that you have used for the WFA server during installation.
 +

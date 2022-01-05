@@ -9,7 +9,7 @@ summary: "The continue on failure feature helps you to configure a step in a wor
 :imagesdir: ../media/
 
 [.lead]
-The continue on failure feature helps you to configure a step in a workflow so that the workflow execution can continue even if the step fails. You can address the failed steps and resolve the issue that caused the step to fail by accessing the wfa.log file or by clicking the image:../media/info_icon_execute_wfa.gif[] icon.
+The continue on failure feature helps you to configure a step in a workflow so that the workflow execution can continue even if the step fails. You can address the failed steps and resolve the issue that caused the step to fail by accessing the `wfa.log` file or by clicking the image:../media/info_icon_execute_wfa.gif[] icon.
 
 A workflow that has one or more such failed steps is in the Partially Successful state after the execution is complete. You can configure a step so that the workflow execution continues even if the step fails by selecting the required option in the Advanced tab of the Parameters for <command_name> dialog box.
 

@@ -25,7 +25,7 @@ If you have specified a non-default port for WFA, you must include the port numb
 +
 If you are specifying an IPv6 address, you must enclose it with square brackets.
 
-. Use the following command in the terminal to change the wfa_ocsetup.sh file to an executable:
+. Use the following command in the terminal to change the `wfa_ocsetup.sh` file to an executable:
 +
 `chmod +x wfa_ocsetup.sh`
 . Run the script by entering the following in the terminal:

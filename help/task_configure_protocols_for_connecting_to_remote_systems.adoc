@@ -25,7 +25,7 @@ Configure a protocol for a new remote system
 a|
 
  .. Click image:../media/new_wfa_icon.gif[New icon].
- .. In the New Remote System Type dialog box, specify the details such as name, description, and version.
+ .. In the *New Remote System Type* dialog box, specify the details such as name, description, and version.
 
 a|
 Modify the protocol configuration of an existing remote system

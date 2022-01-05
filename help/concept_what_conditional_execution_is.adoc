@@ -13,7 +13,7 @@ Conditional execution helps you to design workflows that can execute commands wh
 
 Execution of commands in a workflow can be dynamic. You can specify a condition for the execution of each command or a row of commands in your workflow. For example, you might want the "`Add volume to dataset`" command to be executed only when a specific dataset is found and you do not want the workflow to fail if the dataset is not found. In this case, you can enable the "`Add volume to dataset`" command to search for a specific dataset and if it is not found, you can disable the command in the workflow.
 
-Options for conditional execution of commands are available in the Dictionary object tab and the Advanced tab of the Parameters for commands dialog box.
+Options for conditional execution of commands are available in the _Dictionary object_ tab and the Advanced tab of the Parameters for _commands_ dialog box.
 
 You can abort a workflow or disable a specific command in the workflow. In addition, you can set a command to be executed using one of the following options:
 

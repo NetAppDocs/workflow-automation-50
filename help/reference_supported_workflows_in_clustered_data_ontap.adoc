@@ -109,6 +109,7 @@ a|
 Yes
 a|
 Yes
+
 Supported only for clusters running versions earlier than Data ONTAP 8.3.
 
 a|
@@ -117,6 +118,7 @@ a|
 Yes
 a|
 Yes
+
 Supported only for clusters running versions earlier than Data ONTAP 8.3.
 
 a|

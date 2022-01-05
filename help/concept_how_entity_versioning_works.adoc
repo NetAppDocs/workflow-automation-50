@@ -103,7 +103,7 @@ NOTE: When you perform a rollback of an entity, the version of its immediate par
 
 * Import of new entities
 
-NOTE: You cannot selectively import entities from a .dar file.
+NOTE: You cannot selectively import entities from a `.dar` file.
 
 If a later version of an entity is imported, the version of its immediate parent entities is updated.
 
