@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_new_schedule_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the New Schedule dialog box to create a new schedule for any workflow so that the workflow is executed on a specified frequency. For example, you can schedule a workflow to be executed every Monday.'
+keywords: new schedule dialog box
+summary: "You can use the New Schedule dialog box to create a new schedule for any workflow so that the workflow is executed on a specified frequency. For example, you can schedule a workflow to be executed every Monday."
 ---
 = New Schedule dialog box
 :icons: font

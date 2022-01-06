@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_cache_queries_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Cache Queries window enables you to manage cache queries for the WFA dictionary entries and their associated data source types.'
+keywords: cache queries, window
+summary: "The Cache Queries window enables you to manage cache queries for the WFA dictionary entries and their associated data source types."
 ---
 = Cache Queries window
 :icons: font
@@ -13,8 +13,8 @@ The Cache Queries window enables you to manage cache queries for the WFA diction
 
 A cache query is an SQL query that retrieves the required data from the table specified in the query. A cache query is associated with a dictionary entry and one or more data source types--for example, cache query for *Volume (storage)* is associated with both OnCommand Unified Manager 5.1 and 5.2 data source types. You can define a cache query when you want retrieve some information, such as volume from a table of a data source OnCommand Unified Manager 6.0 into WFA's cache.
 
-* <<SECTION_EACB13D7EB7B44F6B66845CD75CAFE0E,Cache Queries table>>
-* <<SECTION_819274C0AB2341B0915167A78A41F1D8,Toolbar>>
+* Cache Queries table
+* Toolbar
 
 == Cache Queries list
 
@@ -43,7 +43,7 @@ Displays the dictionary entry associated with the scheme.
 
 * *Entity Version*
 +
-Displays the version number of the object in major.minor.revision format--for example, 1.0.0.
+Displays the version number of the object in _major.minor.revision_ format--for example, 1.0.0.
 
 * *Data Source Types*
 +

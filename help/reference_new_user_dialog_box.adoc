@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_new_user_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The New User dialog box enables you to create a new user account.'
+keywords: new, user, dialog, box
+summary: "The New User dialog box enables you to create a new user account."
 ---
 = New User dialog box
 :icons: font

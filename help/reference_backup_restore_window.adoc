@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_backup_restore_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Backup and Restore window enables you to back up the OnCommand Workflow Automation \(WFA\) database, which contains the system configuration settings, cache information, and core packs that include PowerShell toolkits and Perl toolkits. You can also restore the saved database when you upgrade or reinstall WFA.'
+keywords: backup and restore, window
+summary: "The Backup and Restore window enables you to back up the OnCommand Workflow Automation (WFA) database, which contains the system configuration settings, cache information, and core packs that include PowerShell toolkits and Perl toolkits. You can also restore the saved database when you upgrade or reinstall WFA."
 ---
 = Backup and Restore window
 :icons: font

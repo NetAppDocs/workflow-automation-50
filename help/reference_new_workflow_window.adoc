@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_new_workflow_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The New Workflow window displays a newly created workflow and its associated commands.'
+keywords: new, workflow, window
+summary: "The New Workflow window displays a newly created workflow and its associated commands."
 ---
 = New Workflow window
 :icons: font
@@ -13,7 +13,7 @@ The New Workflow window displays a newly created workflow and its associated com
 
 == New Workflow
 
-TheNew Workflow window displays the name of the workflow in the header of the window. The associated commands are displayed as blue boxes in columns that are presented in the sequential order of execution--read left to right, top to bottom. The variables and objects for each command are displayed as gray boxes in the column of the command.
+The New Workflow window displays the name of the workflow in the header of the window. The associated commands are displayed as blue boxes in columns that are presented in the sequential order of execution--read left to right, top to bottom. The variables and objects for each command are displayed as gray boxes in the column of the command.
 
 * *Insert a row*
 +
@@ -39,7 +39,7 @@ Opens the Row Repetition Details dialog box, which enables you to modify the *Re
 
 * *Remove row repetition*
 +
-Cancels the *Repeat Row* action set in the Row Repetition Details dialog box for the selected row.
+Cancels the *Repeat Row* action set in the *Row Repetition Details* dialog box for the selected row.
 
 * *Add condition*
 +
@@ -94,7 +94,3 @@ Saves the workflow.
 * *Close*
 +
 Closes the window. In the process, if any changes were made to the configuration, a Save Changes confirmation dialog box is opened, prompting you to either save the changes, close the window without saving changes, or cancel the closing action.
-
-*Related information*
-
-xref:reference_preview_workflow_dialog_box.adoc[Preview Workflow dialog box]

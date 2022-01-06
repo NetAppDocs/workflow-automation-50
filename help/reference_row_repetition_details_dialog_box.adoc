@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_row_repetition_details_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The Row Repetition Details dialog box enables you to specify how the parameters in the row should be repeated.'
+keywords: row repetition details, dialog box
+summary: "The Row Repetition Details dialog box enables you to specify how the parameters in the row should be repeated."
 ---
 = Row Repetition Details dialog box
 :icons: font

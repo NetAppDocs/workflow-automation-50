@@ -1,17 +1,21 @@
 ---
-permalink: help/task_configuring_syslog.html
+permalink: help/task_configure_syslog.html
 sidebar: sidebar
-keywords: 
-summary: 'You can configure OnCommand Workflow Automation \(WFA\) to send log data to a specific Syslog server for purposes such as event logging and log information analysis.'
+keywords: configure, syslog
+summary: "You can configure OnCommand Workflow Automation (WFA) to send log data to a specific Syslog server for purposes such as event logging and log information analysis."
 ---
-= Configuring Syslog
+= Configure Syslog
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can configure OnCommand Workflow Automation (WFA) to send log data to a specific Syslog server for purposes such as event logging and log information analysis.
 
+**What you'll need**
+
 You must have configured the Syslog server to accept data from the WFA server.
+
+.Steps
 
 . Log in to WFA through a web browser as an admin.
 . Click *Settings*, and under *Maintenance* click *Syslog*.

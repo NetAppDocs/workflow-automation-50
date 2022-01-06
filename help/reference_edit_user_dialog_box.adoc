@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_edit_user_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The Edit User dialog box enables you to view and modify user account settings.'
+keywords: edit user, dialog box
+summary: "The Edit User dialog box enables you to view and modify user account settings."
 ---
 = Edit User dialog box
 :icons: font

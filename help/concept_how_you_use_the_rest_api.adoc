@@ -1,8 +1,8 @@
 ---
 permalink: help/concept_how_you_use_the_rest_api.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use REST APIs provided by Workflow Automation \(WFA\) to invoke workflows from external portals and the data center orchestration software. WFA supports XML and JSON content types for all REST APIs.'
+keywords: use, rest, apis, how to
+summary: "You can use REST APIs provided by Workflow Automation (WFA) to invoke workflows from external portals and the data center orchestration software. WFA supports XML and JSON content types for all REST APIs."
 ---
 = How you use REST APIs
 :icons: font
@@ -25,6 +25,6 @@ You can perform several actions through the WFA REST APIs, including the followi
 
 _REST documentation_ has more information about REST APIs:
 
-https://wfa_server_ip:port/rest/docs
+_https:_//wfa_server_ip:port/rest/docs
 
-wfa_server_ip is the IP address of your WFA server and port is the TCP port number you have used for the WFA server during installation.
+`wfa_server_ip` is the IP address of your WFA server and `port` is the TCP port number you have used for the WFA server during installation.

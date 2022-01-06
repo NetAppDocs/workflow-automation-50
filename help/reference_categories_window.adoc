@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_categories_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Categories window enables you to manage the workflow categories.'
+keywords: Categories window
+summary: "The Categories window enables you to manage the workflow categories."
 ---
 = Categories window
 :icons: font
@@ -13,8 +13,8 @@ The Categories window enables you to manage the workflow categories.
 
 NOTE: Depending on your role and account privileges, this window might not be displayed.
 
-* <<GUID-924E7351-B973-4661-A135-AFAC95407DF6,Categories table>>
-* <<SECTION_AA667A06DBEB48F1A41214D2C4B08034,Toolbar>>
+* Categories table
+* Toolbar
 
 A category is a set of workflows that enables you to complete a task. You can create a category by grouping a set of related workflows. You can also grant access to specific users to operate a category.
 

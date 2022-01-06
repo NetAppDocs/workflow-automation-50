@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_edit_active_directory_group_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The Edit Active Directory Group dialog box enables you to view and modify the OnCommand Workflow Automation Active Directory group settings.'
+keywords: edit active directory group, dialog box
+summary: "The Edit Active Directory Group dialog box enables you to view and modify the OnCommand Workflow Automation Active Directory group settings."
 ---
 = Edit Active Directory Group dialog box
 :icons: font
@@ -29,7 +29,10 @@ Displays one of the following group roles assigned for the Active Directory grou
 +
 This group can only view the status of a workflow execution or be notified about a change in the status of a workflow execution.
 
- ** This group is allowed to preview and execute the workflows for which the group is provided access.
+ ** *Operator*
++
+This group is allowed to preview and execute the workflows for which the group is provided access.
+
  ** *Approver*
 +
 This group is allowed to preview, execute, approve, and reject the workflows for which the group is provided access.

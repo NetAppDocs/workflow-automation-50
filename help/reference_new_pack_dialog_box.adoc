@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_new_pack_dialog_box.html
 sidebar: sidebar
-keywords: Workflow Automation
-summary: 'The New Pack dialog box enables you to create a new pack.'
+keywords: workflow, automation
+summary: "The New Pack dialog box enables you to create a new pack."
 ---
 = New Pack dialog box
 :icons: font

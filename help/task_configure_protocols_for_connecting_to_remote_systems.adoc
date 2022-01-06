@@ -1,20 +1,23 @@
 ---
-permalink: help/task_configuring_protocols_for_connecting_to_remote_systems.html
+permalink: help/task_configure_protocols_for_connecting_to_remote_systems.html
 sidebar: sidebar
-keywords: 
-summary: 'You can configure the protocol used by OnCommand Workflow Automation \(WFA\) to connect to remote systems. You can configure the protocol based on your organization’s security requirements and the protocol supported by the remote system.'
+keywords: configure, protocols, connecting, remote, systems
+summary: "You can configure the protocol used by OnCommand Workflow Automation (WFA) to connect to remote systems. You can configure the protocol based on your organization’s security requirements and the protocol supported by the remote system."
 ---
-= Configuring protocols for connecting to remote systems
+= Configure protocols for connecting to remote systems
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can configure the protocol used by OnCommand Workflow Automation (WFA) to connect to remote systems. You can configure the protocol based on your organization's security requirements and the protocol supported by the remote system.
 
+.Steps
+
 . Log in to WFA through a web browser as an admin.
 . Click *Designer* > *Remote System Types*.
 . Perform one of the following actions:
 +
+[cols="2*",options="header"]
 |===
 | If you want to...| Do this...
 a|
@@ -22,7 +25,7 @@ Configure a protocol for a new remote system
 a|
 
  .. Click image:../media/new_wfa_icon.gif[New icon].
- .. In the New Remote System Type dialog box, specify the details such as name, description, and version.
+ .. In the *New Remote System Type* dialog box, specify the details such as name, description, and version.
 
 a|
 Modify the protocol configuration of an existing remote system
@@ -30,11 +33,10 @@ a|
 
  .. Select and double-click the remote system that you want to modify.
  .. Click image:../media/edit_wfa_icon.gif[Edit icon].
-
 +
 |===
 
-. From the Connection Protocol list, select one of the following:
+. From the *Connection Protocol* list, select one of the following:
  ** HTTPS with fallback to HTTP (default)
  ** HTTPS only
  ** HTTP only

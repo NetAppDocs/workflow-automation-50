@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_execute_workflow_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The Execute Workflow dialog box enables you to specify the required user inputs, time for execution, and execution comment for a workflow.'
+keywords: execute workflow, dialog box
+summary: "The Execute Workflow dialog box enables you to specify the required user inputs, time for execution, and execution comment for a workflow."
 ---
 = Execute Workflow dialog box
 :icons: font

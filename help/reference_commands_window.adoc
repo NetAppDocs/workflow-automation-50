@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_commands_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Commands window displays the available commands, in alphabetical order. You can access this window by selecting Designer \> Commands.'
+keywords: commands window
+summary: "The Commands window displays the available commands, in alphabetical order. You can access this window by selecting Designer > Commands."
 ---
 = Commands window
 :icons: font
@@ -15,8 +15,8 @@ NOTE: Depending on your role and account privileges, this window might not be di
 
 A command is defined as an action taken as part of a workflow.
 
-* <<GUID-00B67CF8-4AF9-4C05-B5ED-A3AD6BC2144E,Commands table>>
-* <<GUID-0063D79E-10F9-474C-9A39-0A548135A467,Toolbar>>
+* Commands table
+* Toolbar
 
 == Commands table
 
@@ -47,7 +47,7 @@ Displays the scheme associated with commands. A scheme represents the data model
 
 * *Entity Version*
 +
-Displays the version number of the object in major.minor.revision format--for example, 1.0.0.
+Displays the version number of the object in _major.minor.revision_ format--for example, 1.0.0.
 
 * *Description*
 +

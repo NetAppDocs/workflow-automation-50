@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_dictionary_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Dictionary window displays the available dictionary entries in alphabetical order.'
+keywords: dictionary window
+summary: "The Dictionary window displays the available dictionary entries in alphabetical order."
 ---
 = Dictionary window
 :icons: font
@@ -50,7 +50,7 @@ Displays the scheme associated with the dictionary entries. A scheme is a collec
 
 * *Entity Version*
 +
-Displays the version number of the object in major.minor.revision format--for example, 1.0.0.
+Displays the version number of the object in _major.minor.revision_ format--for example, 1.0.0.
 
 * *Description*
 +

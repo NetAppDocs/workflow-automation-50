@@ -1,8 +1,8 @@
 ---
 permalink: help/concept_how_you_define_workflows.html
 sidebar: sidebar
-keywords: 
-summary: 'You must break down the goal of a workflow into the steps that should be executed by the workflow. You can then arrange the steps to complete your workflow.'
+keywords: how to, define, workflows
+summary: "You must break down the goal of a workflow into the steps that should be executed by the workflow. You can then arrange the steps to complete your workflow."
 ---
 = How you define workflows
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_schedules_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Schedules window enables you to create, edit, and delete the schedule of a workflow. You can schedule a workflow to be executed at a particular date and time. You can access this window by selecting Execution \> Schedules.'
+keywords: schedules window
+summary: "The Schedules window enables you to create, edit, and delete the schedule of a workflow. You can schedule a workflow to be executed at a particular date and time. You can access this window by selecting Execution > Schedules."
 ---
 = Schedules window
 :icons: font
@@ -10,9 +10,6 @@ summary: 'The Schedules window enables you to create, edit, and delete the sched
 
 [.lead]
 The Schedules window enables you to create, edit, and delete the schedule of a workflow. You can schedule a workflow to be executed at a particular date and time. You can access this window by selecting *Execution* > *Schedules*.
-
-* <<GUID-1E417C67-1F31-4FA5-AAA7-2D5BB298C6AB,Schedules table>>
-* <<SECTION_819274C0AB2341B0915167A78A41F1D8,Toolbar>>
 
 == Schedules table
 
@@ -27,6 +24,7 @@ The Schedules table lists the existing schedules for workflow execution in a tab
 
 The following table lists the supported operators for alphabetic and numeric columns in the Schedules table, available from the *Search* filter text box.
 
+[cols="2*",options="header"]
 |===
 | Alphabetic| Numeric
 a|
@@ -49,7 +47,6 @@ a|
 * Greater than or equal to
 * Between
 * Reset
-
 |===
 The Schedules table contains the following columns:
 

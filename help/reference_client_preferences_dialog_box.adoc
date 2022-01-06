@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_client_preferences_dialog_box.html
 sidebar: sidebar
-keywords: Workflow Automation
-summary: 'The Preferences window enables you to view and modify the refresh and logging options for all of the clients associated with the specific Workflow Automation \(WFA\) server. You can access this window by selecting Settings, and under Setup click Preferences.'
+keywords: workflow automation, preferences, window
+summary: "The Preferences window enables you to view and modify the refresh and logging options for all of the clients associated with the specific Workflow Automation (WFA) server. You can access this window by selecting Settings, and under Setup click Preferences."
 ---
 = Preferences window
 :icons: font
@@ -18,6 +18,7 @@ Enables you to choose the automatic refresh of the client, which is triggered by
  ** Execution Status
  ** Data Sources
  ** Reservations
++ 
 If not selected, the tables are not updated until you click *Refresh*. This check box is selected by default.
 
 * *Refresh Interval (seconds)*

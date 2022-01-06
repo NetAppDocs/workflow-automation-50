@@ -1,8 +1,8 @@
 ---
 permalink: help/concept_how_entity_versioning_works.html
 sidebar: sidebar
-keywords: 
-summary: 'The OnCommand Workflow Automation \(WFA\) entities, such as commands and workflows, are versioned. You can use the version numbers to easily manage changes to the WFA entities.'
+keywords: how, entity, versioning, works
+summary: "The OnCommand Workflow Automation (WFA) entities, such as commands and workflows, are versioned. You can use the version numbers to easily manage changes to the WFA entities."
 ---
 = How entity versioning works
 :icons: font
@@ -11,7 +11,7 @@ summary: 'The OnCommand Workflow Automation \(WFA\) entities, such as commands a
 [.lead]
 The OnCommand Workflow Automation (WFA) entities, such as commands and workflows, are versioned. You can use the version numbers to easily manage changes to the WFA entities.
 
-Each WFA entity includes a version number in the major.minor.revision format--for example, 1.1.20. You can include up to three digits in each part of the version number.
+Each WFA entity includes a version number in the _major.minor.revision_ format--for example, 1.1.20. You can include up to three digits in each part of the version number.
 
 Before modifying the version number of a WFA entity, you must be aware of the following rules:
 
@@ -28,7 +28,7 @@ When you update the version of a WFA entity, the version of its immediate parent
 * Modifying the revision version of an entity does not update any part of the version of its immediate parent entities.
 
 The following table lists the WFA entities and their immediate parent entities:
-
+[cols="2*",options="header"]
 |===
 | Entity| Immediate parent entity
 a|
@@ -55,32 +55,24 @@ NOTE: If a function contains special or mixed case characters, the version of it
 a|
 Dictionary
 a|
-
 * Template
 * Filter
 * Cache query
 * Command
 * Data source types which are using script method
-
 a|
 Command
 a|
-
 * Workflow
-
 a|
 Filter
 a|
-
 * Finder
 * Workflow
-
 a|
 Finder
 a|
-
 * Workflow
-
 a|
 Data source type
 a|
@@ -95,7 +87,6 @@ You can search for an entity in WFA either using the parts of the version number
 If you delete a parent entity, the child entities are retained and their version is not updated for the deletion.
 
 == How versioning works when importing entities
-
 If you import entities from versions earlier than Workflow Automation 2.2, the entities are versioned as 1.0.0, by default. If the imported entity is already present in the WFA server, the existing entity is overwritten with the imported entity.
 
 The following are the potential changes to WFA entities during an import:
@@ -112,7 +103,7 @@ NOTE: When you perform a rollback of an entity, the version of its immediate par
 
 * Import of new entities
 
-NOTE: You cannot selectively import entities from a .dar file.
+NOTE: You cannot selectively import entities from a `.dar` file.
 
 If a later version of an entity is imported, the version of its immediate parent entities is updated.
 
@@ -126,7 +117,7 @@ The revision part of the parent's version is incremented.
 +
 The minor part of the parent's version is incremented.
 
-== Example of how the versions of imported child entities affect the parent's version
+=== Example of how the versions of imported child entities affect the parent's version
 
 Consider the following workflow in WFA: "`Create Volume and export using NFS - Custom`" 1.0.0.
 

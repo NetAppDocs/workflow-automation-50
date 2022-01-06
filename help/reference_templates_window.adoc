@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_templates_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Templates window displays the available templates in alphabetical order. A template is a collection of settings that can be used when creating workflows. You can use templates to create workflows quickly.'
+keywords: templates window
+summary: "The Templates window displays the available templates in alphabetical order. A template is a collection of settings that can be used when creating workflows. You can use templates to create workflows quickly."
 ---
 = Templates window
 :icons: font
@@ -12,9 +12,6 @@ summary: 'The Templates window displays the available templates in alphabetical 
 The Templates window displays the available templates in alphabetical order. A template is a collection of settings that can be used when creating workflows. You can use templates to create workflows quickly.
 
 NOTE: Depending on your role and account privileges, this window might not be displayed.
-
-* <<GUID-03349071-D237-4048-A804-4B8393A4153B,Templates table>>
-* <<SECTION_56A8573F5684463E88DC7F15575E0EFF,Toolbar>>
 
 == Templates table
 
@@ -57,7 +54,7 @@ Displays the dictionary object type of the template--for example, volume and Sna
 
 * *Entity Version*
 +
-Displays the version number of the object in major.minor.revision format--for example, 1.0.0.
+Displays the version number of the object in _major.minor.revision_ format--for example, 1.0.0.
 
 * *Description*
 +
