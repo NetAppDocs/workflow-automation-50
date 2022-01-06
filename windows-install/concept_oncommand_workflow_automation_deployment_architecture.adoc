@@ -1,8 +1,8 @@
 ---
 permalink: windows-install/concept_oncommand_workflow_automation_deployment_architecture.html
 sidebar: sidebar
-keywords: 
-summary: 'OnCommand Workflow Automation \(WFA\) server is installed to orchestrate the workflow operations across several datacenters.'
+keywords: oncommand workflow automation, deployment, architecture
+summary: "OnCommand Workflow Automation (WFA) server is installed to orchestrate the workflow operations across several datacenters."
 ---
 = OnCommand Workflow Automation deployment architecture
 :icons: font

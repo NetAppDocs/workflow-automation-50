@@ -1,8 +1,8 @@
 ---
 permalink: windows-install/reference_prerequisites_for_installing_workflow_automation.html
 sidebar: sidebar
-keywords: 
-summary: 'Before installing OnCommand Workflow Automation \(WFA\), you must ensure that you have the required information and you have completed certain tasks.'
+keywords: prerequisites, install, workflow automation
+summary: "Before installing OnCommand Workflow Automation (WFA), you must ensure that you have the required information and you have completed certain tasks."
 ---
 = Prerequisites for installing Workflow Automation
 :icons: font
@@ -21,14 +21,18 @@ NOTE: You must have valid credentials to log in to the NetApp Support Site. If y
  ** Storage controllers
  ** Active IQ Data Center Manager
  ** VMware vCenter
-*Note:* If your environment requires Secure Shell (SSH) accessibility, you must ensure that SSH is enabled on the target controllers.
+
+[NOTE]
+====
+If your environment requires Secure Shell (SSH) accessibility, you must ensure that SSH is enabled on the target controllers.
+====
 * Verifying that PowerShell 3.0 or later is installed
 * Ensuring that VMware Power CLI is installed, if you are using WFA to execute workflows on VMware vSphere
 * Collecting the required configuration information
 * Ensuring that the MySQL .Net connector is installed, if you are using the Invoke-MysqlQuery cmdlet
 
 == Required configuration information
-
+[cols="3*",options="header"]
 |===
 | Unit or system| Details| Purpose
 a|
@@ -39,7 +43,12 @@ a|
 * User name and password
 
 a|
-Perform operations on storage systems**Note:** Root or admin account credentials are required for storage (arrays).
+Perform operations on storage systems
+
+[NOTE]
+====
+Root or admin account credentials are required for storage (arrays).
+====
 
 a|
 vSphere
@@ -49,7 +58,9 @@ a|
 * User name and password of an admin for vCenter server
 
 a|
-Acquire data Perform operations by using VMware APIs
+Acquire data
+
+Perform operations by using VMware APIs
 
 NOTE: You must have installed VMware Power CLI.
 
@@ -61,7 +72,9 @@ a|
 * User name and password of a read-only user account
 
 a|
-Acquire dataYou must create the relevant WFA content, such as dictionary entries and cache queries for the external repositories, in order to acquire data from the external repositories.
+Acquire data
+
+You must create the relevant WFA content, such as dictionary entries and cache queries for the external repositories, in order to acquire data from the external repositories.
 
 a|
 Mail server
@@ -81,7 +94,9 @@ a|
 * Mail host
 
 a|
-Send AutoSupport messages through SMTPIf you do not have a mail host configured, you can use HTTP or HTTPS to send AutoSupport messages.
+Send AutoSupport messages through SMTP
+
+If you do not have a mail host configured, you can use HTTP or HTTPS to send AutoSupport messages.
 
 a|
 Microsoft Active Directory (AD) LDAP server
@@ -112,7 +127,5 @@ a|
 Send log data
 |===
 *Related information*
-
-xref:reference_ports_required_for_oncommand_workflow_automation.adoc[Ports required for Workflow Automation]
 
 http://mysupport.netapp.com[NetApp Support]

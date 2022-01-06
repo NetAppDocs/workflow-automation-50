@@ -1,8 +1,8 @@
 ---
 permalink: workflows/concept_what_a_playground_database_is.html
 sidebar: sidebar
-keywords: 
-summary: 'The playground database is a MySQL database, which is included in the Workflow Automation \(WFA\) server installation. You can add tables to the playground database to include information, which can be used by filters and SQL queries for user inputs.'
+keywords: playground, database
+summary: "The playground database is a MySQL database, which is included in the Workflow Automation (WFA) server installation. You can add tables to the playground database to include information, which can be used by filters and SQL queries for user inputs."
 ---
 = What a playground database is
 :icons: font
@@ -32,7 +32,7 @@ For example, you can use the playground database for the following use cases:
 For example, if you are using the name of the BU as a tag for the storage objects, such as aggregates and vFiler units, you can create a table in the playground database that includes the name of the BU. The BU name can then be used by filters and user input queries for your workflows.
 
 The following is an example playground database table (playground.volume_bu):
-
+[cols="3*",options="header"]
 |===
 | array_ip| volume_name| BU
 a|

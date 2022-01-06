@@ -1,8 +1,8 @@
 ---
 permalink: workflows/concept_how_you_define_user_input.html
 sidebar: sidebar
-keywords: 
-summary: 'The OnCommand Workflow Automation \(WFA\) user inputs are data input options that are available during the execution of workflows. You must define the user input parameters for your workflows to enhance the flexibility and usability of your workflows.'
+keywords: how, user, inputs, defined
+summary: "The OnCommand Workflow Automation (WFA) user inputs are data input options that are available during the execution of workflows. You must define the user input parameters for your workflows to enhance the flexibility and usability of your workflows."
 ---
 = How user inputs are defined
 :icons: font
@@ -11,7 +11,7 @@ summary: 'The OnCommand Workflow Automation \(WFA\) user inputs are data input o
 [.lead]
 The OnCommand Workflow Automation (WFA) user inputs are data input options that are available during the execution of workflows. You must define the user input parameters for your workflows to enhance the flexibility and usability of your workflows.
 
-User inputs are shown as input fields, which can be filled out with relevant data when previewing or executing workflows. You can create a user input field when specifying the command details in a workflow by prefixing a label or variable with the dollar sign ($). For example, $VolumeName creates a Volume Name user input field. WFA automatically populates the User Inputs tab in the Workflow <workflow name> window with the user input labels that you have created. You can also define the type of the user input and customize the input fields by modifying the user input attributes, such as type, display name, default values, and validation values.
+User inputs are shown as input fields, which can be filled out with relevant data when previewing or executing workflows. You can create a user input field when specifying the command details in a workflow by prefixing a label or variable with the dollar sign ($). For example, `$VolumeName` creates a `Volume Name` user input field. WFA automatically populates the User Inputs tab in the Workflow <workflow name> window with the user input labels that you have created. You can also define the type of the user input and customize the input fields by modifying the user input attributes, such as type, display name, default values, and validation values.
 
 == User input type options
 
@@ -31,7 +31,7 @@ You can create enumeration values that can be selected when filling the user inp
 
 * *Query*
 +
-You can select the query type when you want the user input to be selected from the values available in the WFA cache. For example, you can use the following query to automatically populate the user input fields with the IP address and name values from the WFA cache: SELECT ip, name FROM storage.array. You can optionally lock the values retrieved by a query so that only the results retried by the query are selected.
+You can select the query type when you want the user input to be selected from the values available in the WFA cache. For example, you can use the following query to automatically populate the user input fields with the IP address and name values from the WFA cache: `SELECT ip, name FROM storage.array`. You can optionally lock the values retrieved by a query so that only the results retried by the query are selected.
 
 * *Query (multi-select)*
 +
@@ -61,13 +61,14 @@ String is the default user input type for the column headers. You must double-cl
 
 +
 You can open the Create SnapMirror policy and rules workflow in the Designer to see how the user input types are used in the "`SnapMirrorPolicyRule`" user input.
-+
+ +
 You can use the following functions when using the table type of user input:
 
  ** getSize
  ** getValueAt
  ** getValueAt2D
  ** getValueFrom2DByRowKey
++
 You can open the *Create and configure a Storage Virtual Machine with Infinite Volume* workflow in the Designer to see how the table type is used.
 
 * *Password*
@@ -86,7 +87,7 @@ You can add the table data for the selected dictionary entry. The dictionary ent
 For example, you can specify a rule for aggregates by listing all aggregates with name starting with the string "`aggr`" and have an available size greater than 5 GB. The first rule in the group is the attribute `name`, with the operator `starts-with`, and the value aggr. The second rule for the same group is the attribute `available_size_mb`, with the operator `>` and the value 5000.
 
 The following table lists the options that you can apply to the user input types:
-
+[cols="2*",options="header"]
 |===
 | Option| Description
 a|
@@ -116,8 +117,3 @@ a|
 With the conditional user input capability, you can set the value of a user input based on the value that is entered for another user input. For example, in a workflow that configures the NAS protocol, you can specify the required user input for protocol as NFS to enable the "`Read/Write host lists`" user input.
 
 |===
-*Related information*
-
-xref:concept_how_you_map_command_parameters.adoc[How you map command parameters]
-
-xref:concept_how_you_define_workflows.adoc[How you define workflows]

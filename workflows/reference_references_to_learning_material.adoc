@@ -1,8 +1,8 @@
 ---
 permalink: workflows/reference_references_to_learning_material.html
 sidebar: sidebar
-keywords: 
-summary: 'You should be aware of certain scripting and programming practices to create advanced Workflow Automation \(WFA\) workflows. You can use reference material to learn about the required options before creating WFA building blocks or workflows.'
+keywords: references, learning, material
+summary: "You should be aware of certain scripting and programming practices to create advanced Workflow Automation (WFA) workflows. You can use reference material to learn about the required options before creating WFA building blocks or workflows."
 ---
 = References to learning material
 :icons: font
@@ -14,6 +14,7 @@ You should be aware of certain scripting and programming practices to create adv
 == Windows PowerShell
 
 WFA uses PowerShell scripts for workflow operations. The following table includes references to learning material for PowerShell:
+[cols="2*"]
 
 |===
 a|
@@ -25,7 +26,7 @@ PowerShell Development -- Integrated Scripting Environment (ISE)
 a|
 http://technet.microsoft.com/en-us/library/dd315244.aspx
 a|
-.NET Framework Naming Guidelines
++.NET Framework Naming Guidelines+
 a|
 http://msdn.microsoft.com/en-us/library/xzf533w0%28v=vs.71%29.aspx
 a|
@@ -52,12 +53,14 @@ http://msdn.microsoft.com/en-us/library/windows/desktop/dd901844(v=vs.85).aspx
 
 == Data ONTAP PowerShell toolkit
 
-The Data ONTAP PowerShell toolkit is bundled along with WFA. You can use the PowerShell toolkit cmdlets to invoke Data ONTAP commands from a PowerShell script. For more information, see the _Data ONTAP PowerShell Toolkit Help_, which you can access from the following location: WFA_install_location\WFA\PoSH\Modules\DataONTAP\webhelp\index.html.
+The Data ONTAP PowerShell toolkit is bundled along with WFA. You can use the PowerShell toolkit cmdlets to invoke Data ONTAP commands from a PowerShell script. For more information, see the _Data ONTAP PowerShell Toolkit Help_, which you can access from the following location:
 
-WFA_install_location is the WFA installation directory, and C:\Program Files\NetApp is the default installation directory.
+`WFA_install_location\WFA\PoSH\Modules\DataONTAP\webhelp\index.html`.
+
+`WFA_install_location` is the WFA installation directory, and `C:\Program Files\NetApp` is the default installation directory.
 
 The following table includes references to information about the Data ONTAP PowerShell toolkit:
-
+[cols="2*"]
 |===
 a|
 ONTAP PowerShell Toolkit Articles
@@ -80,6 +83,7 @@ You can also access the _ActivePerl User Guide_ from the following location: WFA
 WFA_install_location is the WFA installation directory, and C:\Program Files\NetApp is the default installation directory.
 
 WFA uses Perl scripts for workflow operations. The following table includes references to learning material for Perl:
+[cols="2*"]
 
 |===
 a|
@@ -98,9 +102,11 @@ http://www.perl.org/
 
 == NetApp Manageability SDK
 
-The required Perl modules of the NetApp Manageability SDK are bundled along with WFA. These Perl modules are required for using the Perl commands in WFA. For more information, see the NetApp Manageability SDK documentation, which you can access from the following location: WFA_install_location\WFA\perl\NMSDK\html.
+The required Perl modules of the NetApp Manageability SDK are bundled along with WFA. These Perl modules are required for using the Perl commands in WFA. For more information, see the NetApp Manageability SDK documentation, which you can access from the following location:
 
-WFA_install_location is the WFA installation directory, and C:\Program Files\NetApp is the default installation directory.
+`WFA_install_location\WFA\perl\NMSDK\html`.
+
+`WFA_install_location` is the WFA installation directory, and `C:\Program Files\NetApp` is the default installation directory.
 
 == Structured Query Language (SQL)
 

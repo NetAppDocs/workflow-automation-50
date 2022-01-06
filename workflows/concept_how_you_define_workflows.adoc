@@ -1,8 +1,8 @@
 ---
 permalink: workflows/concept_how_you_define_workflows.html
 sidebar: sidebar
-keywords: 
-summary: 'You must break down the goal of a workflow into the steps that should be executed by the workflow. You can then arrange the steps to complete your workflow.'
+keywords: how, define, workflows
+summary: "You must break down the goal of a workflow into the steps that should be executed by the workflow. You can then arrange the steps to complete your workflow."
 ---
 = How you define workflows
 :icons: font
@@ -26,11 +26,3 @@ You can use a WFA command or a workflow for each step in your workflow. WFA incl
 You can then arrange the commands or workflows in a new workflow to create the workflow that accomplishes your goal.
 
 At the beginning of the workflow execution, WFA plans the execution and verifies that the workflow can be executed using the input to the workflow and the commands. When planning the workflow, all resource selection and user input are resolved to create an execution plan. After planning is completed, WFA executes the execution plan, which consists of a set of WFA commands with applicable parameters.
-
-*Related information*
-
-xref:concept_how_you_define_user_input.adoc[How user inputs are defined]
-
-xref:task_creating_a_workflow.adoc[Creating a workflow]
-
-xref:concept_how_you_map_command_parameters.adoc[How you map command parameters]

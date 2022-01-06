@@ -1,8 +1,8 @@
 ---
 permalink: workflows/reference_guidelines_for_workflows.html
 sidebar: sidebar
-keywords: 
-summary: 'You must be aware of the guidelines for creating or modifying a predefined workflow for OnCommand Workflow Automation \(WFA\).'
+keywords: guidelines, workflows, general, user, inputs
+summary: "You must be aware of the guidelines for creating or modifying a predefined workflow for OnCommand Workflow Automation (WFA)."
 ---
 = Guidelines for workflows
 :icons: font
@@ -12,30 +12,36 @@ summary: 'You must be aware of the guidelines for creating or modifying a predef
 You must be aware of the guidelines for creating or modifying a predefined workflow for OnCommand Workflow Automation (WFA).
 
 == General guidelines
-
+[cols="2*",options="header"]
 |===
 | Guidelines| Example
 a|
 Name the workflow such that it reflects the operation that is executed by the storage operator.
 a|
-Create a CIFS Share
+`Create a CIFS Share`
 a|
 For workflow names, capitalize the initial letter of the first word and every word that is an object. Capitalize letters for abbreviations and acronyms.
 a|
-VolumeQtree
+Volume
+
+Qtree
 
 Create a Clustered Data ONTAP Qtree CIFS Share
 
 a|
 For workflow descriptions, include all of the important steps of the workflow, including any prerequisites, result of the workflow, or conditional aspects of execution.
 a|
-See the description of the sample workflow Create VMware NFS Datastore on Clustered Data ONTAP Storage, which includes the prerequisites.
+See the description of the sample workflow
+
+`Create VMware NFS Datastore on Clustered Data ONTAP Storage`, which includes the prerequisites.
 a|
-Set "`Ready For Production`" to true only when the workflow is ready for production and can be displayed in the portal page.
+Set "`Ready For Production`" to *true* only when the workflow is ready for production and can be displayed in the portal page.
 a|
 None
 a|
-By default, set "`Consider reserved elements`" to true.When previewing a workflow for execution, the WFA planner considers all of the objects that are reserved along with the existing objects in the cache database. Effects of other scheduled workflows or workflows executing in parallel are considered when planning a specific workflow if this option is set to true.
+By default, set "`Consider reserved elements`" to *true*.
+
+When previewing a workflow for execution, the WFA planner considers all of the objects that are reserved along with the existing objects in the cache database. Effects of other scheduled workflows or workflows executing in parallel are considered when planning a specific workflow if this option is set to *true*.
 
 a|
 
@@ -45,31 +51,31 @@ Workflow 1 creates a volume, and is scheduled to execute one week later. Workflo
 
 * Scenario 2
 +
-Workflow 1 uses the Create Volume command. If there is a scheduled workflow 2 that consumes 100 GB from an aggregate, then workflow 1 must consider the requirements for workflow 2 during planning.
+Workflow 1 uses the `Create Volume` command. If there is a scheduled workflow 2 that consumes 100 GB from an aggregate, then workflow 1 must consider the requirements for workflow 2 during planning.
 
 a|
-By default, "`Enable element existence validation`" is set to true.
+By default, "`Enable element existence validation`" is set to *true*.
 
 a|
 
 * Scenario 1
 +
-If you create a workflow that first removes a volume by name using the command Remove Volume only if the volume exists, and the re-creates it using another command such as Create Volume or Clone Volume, then the workflow should not use this flag. The effect of removing the volume will not be available to the Create volume command, thereby causing the workflow to fail.
+If you create a workflow that first removes a volume by name using the command `Remove Volume` only if the volume exists, and the re-creates it using another command such as `Create Volume` or `Clone Volume`, then the workflow should not use this flag. The effect of removing the volume will not be available to the `Create volume` command, thereby causing the workflow to fail.
 
 * Scenario 2
 +
-The Create Volume command is used in a workflow with a specific name as "`vol198`".
+The `Create Volume` command is used in a workflow with a specific name as "`vol198`".
 +
-If this option is set to true, WFA planner checks during planning to see if a volume by that name exists in the given array. If the volume exists, the workflow fails during planning.
+If this option is set to *true*, WFA planner checks during planning to see if a volume by that name exists in the given array. If the volume exists, the workflow fails during planning.
 
 a|
 When the same command is selected more than once in a workflow, provide appropriate display names for the command instances.
 a|
-The "`Create, map, and protect LUNs with SnapVault`" sample workflow uses the Create Volume command twice. However, it uses the display names as Create Primary Volume and Create Secondary Volume appropriately for the primary volume and the mirrored destination volume.
+The "`Create, map, and protect LUNs with SnapVault`" sample workflow uses the `Create Volume` command twice. However, it uses the display names as `Create Primary Volume` and `Create Secondary Volume` appropriately for the primary volume and the mirrored destination volume.
 |===
 
 == User inputs
-
+[cols="2*",options="header"]
 |===
 | Guidelines| Example
 a|
@@ -81,7 +87,9 @@ Names:
 * Do not use underscores.
 
 a|
-$Array $VolumeName
+`$Array`
+
+`$VolumeName`
 
 a|
 Display names:
@@ -91,7 +99,9 @@ Display names:
 * If inputs have specific units, specify the unit in brackets in the display name directly.
 
 a|
-Volume Name Volume Size (MB)
+`Volume Name`
+
+`Volume Size (MB)`
 
 a|
 Descriptions:
@@ -134,7 +144,7 @@ a|
 Type: Query TypeSQL query for user inputs can refer to any other user inputs preceding it. This can be used to limit the results from a query based on other user inputs such as vFiler units of an array, volumes of an aggregate, LUNs in a storage virtual machine (SVM).
 
 a|
-In the sample workflow Create a Clustered Data ONTAP Volume, the query for VserverName is as follows:
+In the sample workflow `Create a Clustered Data ONTAP Volume`, the query for VserverName is as follows:
 
 ----
 SELECT
@@ -153,12 +163,16 @@ ORDER BY
 The query refers to $\{ClusterName}, where $ClusterName is the name of the user input preceding the $VserverName user input.
 
 a|
-Type:Use Boolean type with values as "`true, false`" for user inputs that are Boolean in nature. This helps in writing internal expressions in the workflow design using the user input directly. For example, $UserInputName rather than $UserInputName == '`Yes'.
+Type:
+
+Use Boolean type with values as "`true, false`" for user inputs that are Boolean in nature. This helps in writing internal expressions in the workflow design using the user input directly. For example, $UserInputName rather than $UserInputName == '`Yes'.
 
 a|
-$CreateCIFSShare: Boolean type with valid values as "`true`" or "`false`"
+`$CreateCIFSShare:` Boolean type with valid values as "`true`" or "`false`"
 a|
-Type:For string and number type, use regular expressions in the values column when you want to validate the value with specific formats.
+Type:
+
+For string and number type, use regular expressions in the values column when you want to validate the value with specific formats.
 
 Use regular expressions for IP address and network mask inputs.
 
@@ -166,38 +180,46 @@ a|
 Location-specific user input can be expressed as "`[A-Z][A-Z]\-0[1-9]`". This user input accepts values such as "`US-01`", "`NB-02`", but not "`nb-00`".
 
 a|
-Type:For number type, a range-based validation can be specified in the values column.
+Type:
+
+For number type, a range-based validation can be specified in the values column.
 
 a|
 For Number of LUNs to be created, the entry in the Values column is 1-20.
 a|
-Group:Group related user inputs into appropriate buckets and name the group.
+Group:
+
+Group related user inputs into appropriate buckets and name the group.
 
 a|
 "`Storage Details`" for all storage-related user inputs."`Datastore Details`" for all VMware-related user inputs.
 
 a|
-Mandatory:If the value of any user input is necessary for the workflow to execute, mark the user input as mandatory. This ensures that the user input screen mandatorily accepts that input from the user.
+Mandatory:
+
+If the value of any user input is necessary for the workflow to execute, mark the user input as mandatory. This ensures that the user input screen mandatorily accepts that input from the user.
 
 a|
 "`$VolumeName`" in the "`Create NFS Volume`" workflow.
 a|
-Default value:If a user input has a default value that can work for most of the workflow executions, provide the values. This helps in allowing the user to provide fewer inputs during execution, if the default serves the purpose.
+Default value:
+
+If a user input has a default value that can work for most of the workflow executions, provide the values. This helps in allowing the user to provide fewer inputs during execution, if the default serves the purpose.
 
 a|
 None
 |===
 
 == Constants, variables, and returns parameters
-
+[cols="2*",options="header"]
 |===
 | Guidelines| Example
 a|
 Constants: Define constants when using a common value for defining parameters to multiple commands.
 a|
-_AGGREGATE_OVERCOMMITMENT_THRESHOLD_ in the Create, map, and protect LUNs with SnapVault sample workflow.
+_AGGREGATE_OVERCOMMITMENT_THRESHOLD_ in the `Create, map, and protect LUNs with SnapVault` sample workflow.
 a|
-Constants:Names
+Constants: Names
 
 * Use an uppercase letter at the beginning of each word.
 * Use uppercase letters for all terms and abbreviations.
@@ -226,6 +248,3 @@ Return parameters: Use return parameters when the workflow planning and executio
 a|
 Aggregate: If the aggregate is selected using the resource selection logic, then the actual selected aggregate can be defined as a return parameter.
 |===
-*Related information*
-
-xref:reference_references_to_learning_material.adoc[References to learning material]

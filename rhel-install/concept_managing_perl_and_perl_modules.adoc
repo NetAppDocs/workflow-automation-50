@@ -1,8 +1,8 @@
 ---
 permalink: rhel-install/concept_managing_perl_and_perl_modules.html
 sidebar: sidebar
-keywords: 
-summary: 'OnCommand Workflow Automation \(WFA\) supports Perl commands for workflow operations. You can install and configure your preferred Perl distribution and Perl modules.'
+keywords: manage, perl, perl modules
+summary: "OnCommand Workflow Automation (WFA) supports Perl commands for workflow operations. You can install and configure your preferred Perl distribution and Perl modules."
 ---
 = Managing Perl and Perl modules
 :icons: font

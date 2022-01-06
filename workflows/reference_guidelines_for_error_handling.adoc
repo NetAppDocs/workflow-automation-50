@@ -1,8 +1,8 @@
 ---
 permalink: workflows/reference_guidelines_for_error_handling.html
 sidebar: sidebar
-keywords: 
-summary: 'You must be aware of the guidelines for error handling when writing a PowerShell or Perl script for OnCommand Workflow Automation \(WFA\).'
+keywords: guidelines, error, handling
+summary: "You must be aware of the guidelines for error handling when writing a PowerShell or Perl script for OnCommand Workflow Automation (WFA)."
 ---
 = Guidelines for error handling
 :icons: font
@@ -12,7 +12,7 @@ summary: 'You must be aware of the guidelines for error handling when writing a 
 You must be aware of the guidelines for error handling when writing a PowerShell or Perl script for OnCommand Workflow Automation (WFA).
 
 == PowerShell error handling
-
+[cols="2*",options="header"]
 |===
 | Guidelines| Example
 a|
@@ -22,20 +22,20 @@ Common parameters added to cmdlets by PowerShell runtime include error handling 
 * The WarningAction parameter determines how a cmdlet should react to a warning from the command.
 * Stop, SilentlyContinue, Inquire, and Continue are the valid values for the ErrorAction and WarningAction parameters.
 
-For more information, you can use the Get-Help about_CommonParameters command in PowerShell CLI.
+For more information, you can use the `Get-Help about_CommonParameters` command in PowerShell CLI.
 
 a|
 ErrorAction: the following example shows how to handle a non-terminating error as a terminating error:
 
-----
-New-NcIgroup-Name $IgroupName-Protocol $Protocol-Type$OSType-ErrorActionstop
-----
+****
+`New-NcIgroup-Name $IgroupName-Protocol $Protocol-Type$OSType-ErrorActionstop`
+****
 
 WarningAction
 
-----
-New-VM-Name $VMName-VM $SourceVM-DataStore$DataStoreName-VMHost$VMHost-WarningActionSilentlyContinue
-----
+****
+`New-VM-Name $VMName-VM $SourceVM-DataStore$DataStoreName-VMHost$VMHost-WarningActionSilentlyContinue`
+****
 
 a|
 Use the general "`try/catch`" statement if the type of the incoming exception is unknown.
@@ -108,7 +108,7 @@ Throw "Failed to create Ipspace. Message:
 |===
 
 == Perl error handling
-
+[cols="2*",options="header"]
 |===
 | Guidelines| Example
 a|
@@ -140,6 +140,3 @@ $DestinationCluster://$DestinationVserver
 ----
 
 |===
-*Related information*
-
-xref:reference_references_to_learning_material.adoc[References to learning material]

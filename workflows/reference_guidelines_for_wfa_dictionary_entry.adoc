@@ -1,8 +1,8 @@
 ---
 permalink: workflows/reference_guidelines_for_wfa_dictionary_entry.html
 sidebar: sidebar
-keywords: 
-summary: 'You must be aware of the guidelines for creating dictionary entries in OnCommand Workflow Automation \(WFA\).'
+keywords: guidelines, wfa, dictionary, entries
+summary: "You must be aware of the guidelines for creating dictionary entries in OnCommand Workflow Automation (WFA)."
 ---
 = Guidelines for WFA dictionary entries
 :icons: font
@@ -10,7 +10,7 @@ summary: 'You must be aware of the guidelines for creating dictionary entries in
 
 [.lead]
 You must be aware of the guidelines for creating dictionary entries in OnCommand Workflow Automation (WFA).
-
+[cols="2*",options="header"]
 |===
 | Guidelines| Example
 a|
@@ -21,7 +21,9 @@ Cluster_License
 Switch_23
 
 a|
-Dictionary entry names must start with an uppercase character.Begin every word in the name with an uppercase character and separate each word with an underscore (_).
+Dictionary entry names must start with an uppercase character.
+
+Begin every word in the name with an uppercase character and separate each word with an underscore (_).
 
 a|
 Volume
@@ -41,7 +43,9 @@ Separate words with an underscore. Spaces are not allowed.
 a|
 resource_pool
 a|
-Dictionary entries cannot include references that are from a different scheme. When a dictionary entry requires cross-reference to an object in a different scheme, ensure that all the natural keys of the object being referred to are present in the dictionary entry.
+Dictionary entries cannot include references that are from a different scheme.
+
+When a dictionary entry requires cross-reference to an object in a different scheme, ensure that all the natural keys of the object being referred to are present in the dictionary entry.
 
 a|
 Array_Performance dictionary entry requires all the natural keys of the Array dictionary entry as direct attributes in it.
@@ -58,25 +62,28 @@ Use Enum when an attribute has a fixed set of values.
 a|
 raid_type in storage.Volume dictionary entry
 a|
-Set "`To be Cached`" as true for an attribute or reference when a data source provides value for that attribute or reference.For OnCommand Unified Manager data source, add cacheable attributes if the data source can provide the value to it.
+Set "`To be Cached`" as *true* for an attribute or reference when a data source provides value for that attribute or reference.
+
+For OnCommand Unified Manager data source, add cacheable attributes if the data source can provide the value to it.
 
 a|
 None
 a|
-Set "`Can be Null`" as true if the data source providing the value for this attribute or reference can return NULL.
+Set "`Can be Null`" as *true* if the data source providing the value for this attribute or reference can return NULL.
 a|
 None
 a|
-Provide a meaningful description to each attribute and reference.The description is displayed in command details when designing a workflow.
+Provide a meaningful description to each attribute and reference.
+
+The description is displayed in command details when designing a workflow.
 
 a|
 None
 a|
-Do not use "`id`" as the name of an attribute in dictionary entries.It is reserved for internal WFA usage.
+Do not use "`id`" as the name of an attribute in dictionary entries.
+
+It is reserved for internal WFA usage.
 
 a|
 None
 |===
-*Related information*
-
-xref:reference_references_to_learning_material.adoc[References to learning material]

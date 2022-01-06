@@ -1,0 +1,33 @@
+---
+permalink: rhel-install/task_restore_regular_the_oncommand_workflow_automation_database_using_rest_apis.html
+sidebar: sidebar
+keywords: oncommand workflow automation, restore, regular, wfa, database, rest, apis
+summary: "You can do a regular restore of the OnCommand Workflow Automation (WFA) database by using REST APIs. In a regular restore, you can only restore the WFA database."
+---
+= Restore (regular) the WFA database using REST APIs
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can do a regular restore of the OnCommand Workflow Automation (WFA) database by using REST APIs. In a regular restore, you can only restore the WFA database.
+
+*What you'll need*
+
+* You must have created a `.zip` backup of the WFA database.
+* You must have admin or architect credentials.
+* If you are restoring the database as a part of the migration procedure, you must do a full restore.
+
+.Steps
+. Enter the following URL in the REST client browser:
++
+`+https://IP address of WFA server/rest/backups+`
+. In the *Backup window*, select the *POST* method.
+. In the *Part* drop-down list, select *Multipart Body*.
+. In the *File* field, enter the following information:
+ .. In the *Content type* drop-down list, select *multi-part/form-data*.
+ .. In the *Charset* drop-down list, select *ISO-8859-1*.
+ .. In the **File name**field, enter the name of the backup file as `backupFile`.
+ .. Click *Browse*.
+ .. Select the location of the `.zip` backup file.
+. Navigate to the `/opt/netapp/wfa/bin` directory, and restart the WFA services:
+. Verify that the restore operation is successful and WFA is accessible.
