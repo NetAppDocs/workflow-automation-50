@@ -1,8 +1,8 @@
 ---
 permalink: rhel-install/concept_upgrading_third_party_products_in_linux.html
 sidebar: sidebar
-keywords: OnCommand Workflow Automation
-summary: 'You can upgrade third-party products on Workflow Automation \(WFA\) such as JRE and MySQL in Linux.'
+keywords: oncommand workflow automation, upgrade, third-party, products
+summary: "You can upgrade third-party products on Workflow Automation (WFA) such as JRE and MySQL in Linux."
 ---
 = Upgrading third-party products
 :icons: font
@@ -10,9 +10,3 @@ summary: 'You can upgrade third-party products on Workflow Automation \(WFA\) su
 
 [.lead]
 You can upgrade third-party products on Workflow Automation (WFA) such as JRE and MySQL in Linux.
-
-*Related information*
-
-link:task_upgrading_openjdk_on_linux_ocum.md#[Upgrading JRE]
-
-link:task_upgrading_mysql_on_linux.md#[Upgrading MySQL]

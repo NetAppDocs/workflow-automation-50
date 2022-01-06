@@ -1,8 +1,8 @@
 ---
 permalink: workflows/reference_guidelines_for_indentation.html
 sidebar: sidebar
-keywords: 
-summary: 'You must be aware of the guidelines for indentation when writing a PowerShell or Perl script for OnCommand Workflow Automation \(WFA\).'
+keywords: guidelines, indentation
+summary: "You must be aware of the guidelines for indentation when writing a PowerShell or Perl script for OnCommand Workflow Automation (WFA)."
 ---
 = Guidelines for indentation
 :icons: font
@@ -10,13 +10,13 @@ summary: 'You must be aware of the guidelines for indentation when writing a Pow
 
 [.lead]
 You must be aware of the guidelines for indentation when writing a PowerShell or Perl script for OnCommand Workflow Automation (WFA).
-
+[cols="2*",options="header"]
 |===
 | Guidelines| Example
 a|
 A tab is equal to four empty spaces.
 a|
- 
+
 a|
 Use tabs and braces to show the beginning and end of a block.
 a|
@@ -54,6 +54,3 @@ $Pair)
 ----
 
 |===
-*Related information*
-
-xref:reference_references_to_learning_material.adoc[References to learning material]

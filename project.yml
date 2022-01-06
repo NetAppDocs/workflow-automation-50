@@ -1,12 +1,12 @@
 ---
 settings:
-  name: Workflow Automation 50
-  internal:
-    pdf_enabled: true
-  prod:
-    pdf_enabled: true
+  search: workflow-automation-50
 sidebar:
   entries:
-    - section: help
-homepage:
-  tiles:
+    - title: OnCommand Workflow Automation 5.0 Documentation
+      url: "/index.html"
+    - section: rhel-install
+    - section: windows-install
+    - section: workflows
+    - title: Legal notices
+      url: "/legal-notices.html"

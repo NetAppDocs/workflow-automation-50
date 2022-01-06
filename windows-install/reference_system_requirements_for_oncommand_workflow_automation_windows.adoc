@@ -1,8 +1,8 @@
 ---
 permalink: windows-install/reference_system_requirements_for_oncommand_workflow_automation_windows.html
 sidebar: sidebar
-keywords: OnCommand Workflow Automation
-summary: 'You must be aware of the OnCommand Workflow Automation \(WFA\) hardware and software requirements before installing WFA.'
+keywords: oncommand workflow automation, system, requirements, install
+summary: "You must be aware of the OnCommand Workflow Automation (WFA) hardware and software requirements before installing WFA."
 ---
 = System requirements for installing OnCommand Workflow Automation
 :icons: font
@@ -14,7 +14,7 @@ You must be aware of the OnCommand Workflow Automation (WFA) hardware and softwa
 == Hardware requirements for installing WFA
 
 The following table lists the minimum hardware requirements and the recommended hardware specifications for the WFA server.
-
+[cols="3*",options="header"]
 |===
 | Component| Minimum requirements| Recommended specifications
 a|
@@ -44,6 +44,8 @@ WFA runs on a 64-bit Windows operating system, and should be installed on dedica
 
 WFA runs from Microsoft Windows Server 2012 Enterprise Edition to Microsoft Windows Server 2016 (all editions). Enterprise Edition is the recommended Windows operating system.
 
+*Other minimum required software*
+
 * One of the following supported browsers:
  ** Mozilla Firefox
  ** Microsoft Internet Explorer
@@ -57,7 +59,5 @@ NOTE: The PowerShell extension for VMware APIs is required only if you are using
 For more details, see the https://mysupport.netapp.com/matrix[Interoperability Matrix Tool].
 
 *Related information*
-
-xref:reference_ports_required_for_oncommand_workflow_automation.adoc[Ports required for Workflow Automation]
 
 http://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool]

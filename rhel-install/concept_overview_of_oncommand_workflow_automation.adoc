@@ -1,8 +1,8 @@
 ---
 permalink: rhel-install/concept_overview_of_oncommand_workflow_automation.html
 sidebar: sidebar
-keywords: 
-summary: 'OnCommand Workflow Automation \(WFA\) is a software solution that helps to automate storage management tasks, such as provisioning, migration, decommissioning, data protection configurations, and cloning storage. You can use WFA to build workflows to complete tasks that are specified by your processes. WFA supports ONTAP.'
+keywords: overview, oncommand workflow automation, wfa, features
+summary: "OnCommand Workflow Automation (WFA) is a software solution that helps to automate storage management tasks, such as provisioning, migration, decommissioning, data protection configurations, and cloning storage. You can use WFA to build workflows to complete tasks that are specified by your processes. WFA supports ONTAP."
 ---
 = Overview of OnCommand Workflow Automation
 :icons: font

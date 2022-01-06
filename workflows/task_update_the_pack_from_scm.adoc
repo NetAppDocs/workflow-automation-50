@@ -1,0 +1,30 @@
+---
+permalink: workflows/task_update_the_pack_from_scm.html
+sidebar: sidebar
+keywords: oncommand workflow automation, update, wfa, workflow, packs, scm server
+summary: "You can update a pack in the Source Control Management (SCM) server, and then import the updated pack to OnCommand Workflow Automation (WFA)."
+---
+= Update WFA workflow packs from the SCM server
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can update a pack in the Source Control Management (SCM) server, and then import the updated pack to OnCommand Workflow Automation (WFA).
+
+*What you'll need*
+
+The SCM must be set up and you must have admin or architect credentials
+
+*About this task*
+
+If you make any changes or updates to a pack in the SCM server, the admin or architect needs to resolve the conflicts, if any, using the SCM-provided diff tools. WFA tailors the XML diff file to show only the relevant changes.
+
+Before importing the pack, you are notified about the changes going in to the WFA pack content.
+
+.Steps
+. Log in to the *WFA* window through a web browser.
+. Import the updated pack to WFA.
++
+link:task_importing_an_oncommand_workflow_automation_pack.html[Importing WFA workflow packs]
++
+NOTE: If the WFA database already contains the same pack, then the pack content will be overwritten.

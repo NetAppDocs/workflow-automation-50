@@ -1,8 +1,8 @@
 ---
 permalink: workflows/concept_what_functions_are.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use a function in your workflows for a complex task that has to be completed during the planning phase of the workflow.'
+keywords: what, functions
+summary: "You can use a function in your workflows for a complex task that has to be completed during the planning phase of the workflow."
 ---
 = What functions are
 :icons: font
@@ -14,7 +14,3 @@ You can use a function in your workflows for a complex task that has to be compl
 You can write functions by using the MVFLEX Expression Language (MVEL). You can use functions to put together commonly used logic as well as more complex logic in a named function and reuse it as values for command parameters or filter parameters. You can write a function once and use it across workflows. You can use functions to handle repetitive tasks and tasks that might be complex, such as defining a complex naming convention.
 
 Functions might use other functions during their execution.
-
-*Related information*
-
-xref:task_creating_a_function.adoc[Creating a function]

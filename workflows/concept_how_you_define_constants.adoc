@@ -1,8 +1,8 @@
 ---
 permalink: workflows/concept_how_you_define_constants.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create and use constants to define a value, which can be used across a single workflow. Constants are defined at a workflow level.'
+keywords: how, you, define, constants
+summary: "You can create and use constants to define a value, which can be used across a single workflow. Constants are defined at a workflow level."
 ---
 = How you define constants
 :icons: font
