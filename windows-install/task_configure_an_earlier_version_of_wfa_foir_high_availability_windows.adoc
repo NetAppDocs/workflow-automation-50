@@ -14,7 +14,7 @@ You can configure OnCommand Workflow Automation (WFA) versions earlier than 3.1 
 .Steps
 . Upgrade the existing version of WFA to the latest available version of WFA.
 +
-xref:task_upgrading_oncommand_workflow_automation.adoc[Upgrading WFA]
+link:task_upgrade_oncommand_workflow_automation.html[Upgrade WFA]
 +
 This upgraded version of WFA is the primary node of the cluster.
 
@@ -26,14 +26,14 @@ If any of the parameters were changed manually, you must create a backup of the 
 
 . Configure MSCS to install WFA on the primary node.
 +
-link:task_configuring_mscs_to_install_wfa.html[Configuring MSCS to install WFA]
+link:task_configure_mscs_to_install_wfa.html[Configure MSCS to install WFA]
 
 . Install the latest available version of WFA on the secondary node.
 +
-link:task_installing_workflow_automation_on_windows.html[Installing WFA]
+link:task_install_workflow_automation_on_windows.html[Install WFA]
 
 . Configure WFA in MSCS.
 +
-link:task_configuring_mscs_to_install_wfa.html[Configuring WFA in MSCS]
+link:task_configure_mscs_to_install_wfa.html[Configure WFA in MSCS]
 +
 The WFA server is configured for high availability.

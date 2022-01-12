@@ -25,6 +25,6 @@ Before importing the pack, you are notified about the changes going in to the WF
 . Log in to the *WFA* window through a web browser.
 . Import the updated pack to WFA.
 +
-link:task_importing_an_oncommand_workflow_automation_pack.html[Importing WFA workflow packs]
+link:task_import_an_oncommand_workflow_automation_pack.html[Import WFA workflow packs]
 +
 NOTE: If the WFA database already contains the same pack, then the pack content will be overwritten.

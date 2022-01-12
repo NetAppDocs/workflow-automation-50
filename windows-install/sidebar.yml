@@ -54,8 +54,8 @@ entries:
     - title: OnCommand Workflow Automation data sources
       url: "/windows-install/concept_wfa_data_sources.html"
       entries:
-      - title: Configure a database user on Active IQ Data Center Manager
-        url: "/windows-install/reference_configure_a_database_user_on_datafabric_manager.html"
+      - title: Configuring a database user on Active IQ Data Center Manager
+        url: "/windows-install/reference_configuring_a_database_user_on_datafabric_manager.html"
         entries:
         - title: Configure a database user by running ocsetup on Windows
           url: "/windows-install/task_configure_a_database_user_by_running_ocsetup_on_windows.html"
@@ -116,15 +116,15 @@ entries:
       url: "/windows-install/task_upgrade_mysql_on_windows_wfa.html"
     - title: Upgrade ActiveState Perl
       url: "/windows-install/task_upgrade_active_state_perl_on_windows.html"
-  - title: Back up the OnCommand Workflow Automation database
-    url: "/windows-install/reference_back_up_of_the_oncommand_workflow_automation_database.html"
+  - title: Backing up the OnCommand Workflow Automation database
+    url: "/windows-install/reference_backing_up_of_the_oncommand_workflow_automation_database.html"
     entries:
     - title: Back up the WFA database from the web portal
       url: "/windows-install/task_back_up_oncommand_workflow_automation_database_using_the_web_portal.html"
     - title: Back up the WFA database using the PowerShell script
       url: "/windows-install/task_back_up_oncommand_workflow_automation_using_powershell_script.html"
-    - title: Back up the WFA database using the CLI
-      url: "/windows-install/concept_back_up_the_wfa_database_using_the_command_line_interface.html"
+    - title: Backing up the WFA database using the CLI
+      url: "/windows-install/concept_backing_up_the_wfa_database_using_the_command_line_interface.html"
       entries:
       - title: Back up (full) the WFA database using the CLI
         url: "/windows-install/task_back_up_full_the_wfa_database_using_perl_script_linux.html"
@@ -142,8 +142,8 @@ entries:
     entries:
     - title: Restore the WFA database
       url: "/windows-install/task_restore_oncommand_workflow_automation_database_using_web_portal.html"
-    - title: Restore the WFA database using the CLI
-      url: "/windows-install/concept_restore_the_oncommand_workflow_automation_database_using_cli.html"
+    - title: Restoring the WFA database using the CLI
+      url: "/windows-install/concept_restoring_the_oncommand_workflow_automation_database_using_cli.html"
       entries:
       - title: Restore (full) WFA database using the CLI
         url: "/windows-install/task_fully_restore_the_oncommand_workflow_automation_database_using_clis_windows.html"

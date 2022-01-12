@@ -59,8 +59,8 @@ entries:
     - title: OnCommand Workflow Automation data sources
       url: "/rhel-install/concept_wfa_data_sources.html"
       entries:
-      - title: Configure a database user on Active IQ Data Center Manager
-        url: "/rhel-install/reference_configure_a_database_user_on_datafabric_manager.html"
+      - title: Configuring a database user on Active IQ Data Center Manager
+        url: "/rhel-install/reference_configuring_a_database_user_on_datafabric_manager.html"
         entries:
         - title: Configure a database user by running ocsetup on Windows
           url: "/rhel-install/task_configure_a_database_user_by_running_ocsetup_on_windows.html"
@@ -114,39 +114,39 @@ entries:
       url: "/rhel-install/task_upgrade_openjdk_on_linux_ocum.html"
     - title: Upgrade MySQL on Linux
       url: "/rhel-install/task_upgrade_mysql_on_linux.html"
-  - title: Back up the OnCommand Workflow Automation database
-    url: "/rhel-install/reference_back_up_of_the_oncommand_workflow_automation_database.html"
+  - title: Backing up the OnCommand Workflow Automation database
+    url: "/rhel-install/reference_backing_up_of_the_oncommand_workflow_automation_database.html"
     entries:
     - title: Back up the WFA database from the web portal
       url: "/rhel-install/task_back_up_oncommand_workflow_automation_database_using_the_web_portal.html"
-    - title: Back up the WFA database using the CLI
-      url: "/rhel-install/concept_back_up_the_wfa_database_using_the_command_line_interface.html"
+    - title: Backing up the WFA database using the CLI
+      url: "/rhel-install/concept_backing_up_the_wfa_database_using_the_command_line_interface.html"
       entries:
       - title: Back up (full) the WFA database using the CLI
         url: "/rhel-install/task_back_up_full_the_wfa_database_using_perl_script_linux.html"
       - title: Back up (regular) the WFA database using the CLI
         url: "/rhel-install/task_back_up_regular_the_wfa_database_using_perl_script_linux.html"
-    - title: Back up the WFA database using REST APIs
-      url: "/rhel-install/concept_back_up_the_wfa_database_using_rest_apis.html"
+    - title: Backing up the WFA database using REST APIs
+      url: "/rhel-install/concept_backing_up_the_wfa_database_using_rest_apis.html"
       entries:
       - title: Perform a full backup of the WFA database using REST APIs
-        url: "/rhel-install/task_back_up_full_oncommand_workflow_automation_database_using_rest_api.html"
+        url: "/rhel-install/task_back_full_oncommand_workflow_automation_database_using_rest_api.html"
       - title: Perform a regular backup of the WFA database using REST APIs
         url: "/rhel-install/task_back_up_regular_oncommand_workflow_automation_database_using_rest_api.html"
-  - title: Restore the OnCommand Workflow Automation database
-    url: "/rhel-install/concept_restore_the_wfa_database.html"
+  - title: Restoring the OnCommand Workflow Automation database
+    url: "/rhel-install/concept_restoring_the_wfa_database.html"
     entries:
     - title: Restore the WFA database
       url: "/rhel-install/task_restore_oncommand_workflow_automation_database_using_web_portal.html"
-    - title: Restore the WFA database using the CLI
-      url: "/rhel-install/concept_restore_the_oncommand_workflow_automation_database_using_cli.html"
+    - title: Restoring the WFA database using the CLI
+      url: "/rhel-install/concept_restoring_the_oncommand_workflow_automation_database_using_cli.html"
       entries:
       - title: Restore (full) the WFA database using the CLI
         url: "/rhel-install/task_restore_full_the_oncommand_workflow_automation_database_and_configurations_linux.html"
       - title: Restore (regular) the WFA database using the CLI
         url: "/rhel-install/task_restore_regular_the_oncommand_workflow_automation_database_and_configurations_linux.html"
-    - title: Restore the WFA database using REST APIs
-      url: "/rhel-install/concept_restore_the_oncommand_workflow_automation_database_using_rest_api.html"
+    - title: Restoring the WFA database using REST APIs
+      url: "/rhel-install/concept_restoring_the_oncommand_workflow_automation_database_using_rest_api.html"
       entries:
       - title: Restore (full) the WFA database using REST APIs
         url: "/rhel-install/task_restore_full_the_oncommand_workflow_automation_database_using_rest_apis.html"
@@ -163,15 +163,15 @@ entries:
     url: "/rhel-install/task_migrate_the_oncommand_workflow_automation_installation_linux.html"
   - title: Uninstall OnCommand Workflow Automation
     url: "/rhel-install/task_uninstall_oncommand_workflow_automation_linux.html"
-  - title: Manage OnCommand Workflow Automation SSL certificate
-    url: "/rhel-install/reference_manage_oncommand_workflow_automation_ssl_certificates.html"
+  - title: Managing OnCommand Workflow Automation SSL certificate
+    url: "/rhel-install/reference_managing_oncommand_workflow_automation_ssl_certificates.html"
     entries:
     - title: Replace the default Workflow Automation SSL certificate
       url: "/rhel-install/task_replace_the_default_workflow_automation_ssl_certificate_linux.html"
     - title: Create a certificate signing request for Workflow Automation
       url: "/rhel-install/task_create_a_certificate_signing_request_for_workflow_automation_linux.html"
-  - title: Manage Perl and Perl modules
-    url: "/rhel-install/concept_manage_perl_and_perl_modules.html"
+  - title: Managing Perl and Perl modules
+    url: "/rhel-install/concept_managing_perl_and_perl_modules.html"
     entries:
     - title: Configure your preferred Perl distribution
       url: "/rhel-install/task_configure_your_preferred_perl_distribution_linux.html"

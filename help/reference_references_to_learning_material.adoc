@@ -15,8 +15,12 @@ You should be aware of certain scripting and programming practices to create adv
 
 WFA uses PowerShell scripts for workflow operations. The following table includes references to learning material for PowerShell:
 
-[cols="2*"]
+[cols="2*",options="header"]
 |===
+a|
+PowerShell
+a|
+Learning material
 a|
 Getting Started with Windows PowerShell
 a|
@@ -26,7 +30,7 @@ PowerShell Development -- Integrated Scripting Environment (ISE)
 a|
 http://technet.microsoft.com/en-us/library/dd315244.aspx
 a|
-.NET Framework Naming Guidelines
+_.NET Framework Naming Guidelines_
 a|
 http://msdn.microsoft.com/en-us/library/xzf533w0%28v=vs.71%29.aspx
 a|
@@ -59,8 +63,12 @@ The Data ONTAP PowerShell toolkit is bundled along with WFA. You can use the Pow
 
 The following table includes references to information about the Data ONTAP PowerShell toolkit:
 
-[cols="2*"]
+[cols="2*",options="header"]
 |===
+a|
+PowerShell Toolkit
+a|
+References
 a|
 ONTAP PS Toolkit Article
 a|
@@ -83,8 +91,12 @@ You can also access the _ActivePerl User Guide_ from the following location: `WF
 
 WFA uses Perl scripts for workflow operations. The following table includes references to learning material for Perl:
 
-[cols="2*"]
+[cols="2*",options="header"]
 |===
+a|
+Perl
+a|
+Learning material
 a|
 Modern Perl: 2014
 a|
@@ -109,7 +121,7 @@ The required Perl modules of the NetApp Manageability SDK are bundled along with
 
 The SQL SELECT syntax is used in filters and to populate user inputs.
 
-http://dev.mysql.com/doc/refman/5.1/en/select.html[MySQL SELECT syntax]
+http://dev.mysql.com/doc/refman/5.1/en/select.html[MySQL SELECT syntax^]
 
 == MVFLEX Expression Language (MVEL)
 
@@ -121,4 +133,4 @@ For more information, see the _MVEL Language Guide_.
 
 You can use regular expression (regex) in WFA.
 
-http://livedocs.adobe.com/flex/3/html/help.html?content=12_Using_Regular_Expressions_03.html[ActionScript 3.0 Using regular expressions]
+http://livedocs.adobe.com/flex/3/html/help.html?content=12_Using_Regular_Expressions_03.html[ActionScript 3.0 Using regular expressions^]

@@ -23,6 +23,6 @@ The SCM client gets synced to the exact change number that you are interested in
 . Log in to the *WFA* window through a web browser.
 . Import the updated pack to WFA.
 +
-link:task_importing_an_oncommand_workflow_automation_pack.html[Importing WFA workflow packs]
+link:task_import_an_oncommand_workflow_automation_pack.html[Import WFA workflow packs]
 +
 NOTE: This rolls back the WFA database to the previous version.
