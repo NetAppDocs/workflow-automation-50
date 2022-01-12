@@ -1,13 +1,13 @@
 ---
 settings:
-  name: OnCommand Workflow Automation 5.0.1
+  name: OnCommand Workflow Automation 5.0
   internal:
     pdf_enabled: true
   prod:
     pdf_enabled: true
 sidebar:
   entries:
-    - title: OnCommand Workflow Automation 5.0.1 docs
+    - title: OnCommand Workflow Automation 5.0 docs
       url: "/index.html"
     - title: Release Notes
       url: "/reference-releasenotes.html"
