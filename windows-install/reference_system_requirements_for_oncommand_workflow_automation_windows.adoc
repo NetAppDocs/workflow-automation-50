@@ -56,8 +56,4 @@ WFA runs from Microsoft Windows Server 2012 Enterprise Edition to Microsoft Wind
 +
 NOTE: The PowerShell extension for VMware APIs is required only if you are using WFA to execute workflows on VMware vSphere.
 
-For more details, see the https://mysupport.netapp.com/matrix[Interoperability Matrix Tool].
-
-*Related information*
-
-http://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool]
+For more details, see the https://mysupport.netapp.com/matrix[Interoperability Matrix Tool^].
