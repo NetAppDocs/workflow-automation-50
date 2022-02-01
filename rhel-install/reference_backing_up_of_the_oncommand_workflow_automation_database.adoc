@@ -1,10 +1,10 @@
 ---
-permalink: rhel-install/reference_back_up_of_the_oncommand_workflow_automation_database.html
+permalink: rhel-install/reference_backing_up_of_the_oncommand_workflow_automation_database.html
 sidebar: sidebar
 keywords: backup, oncommand workflow automation, database
 summary: "A backup of the OnCommand Workflow Automation (WFA) database includes the system configuration settings and cache information, including the playground database. You can use the backup for restoration purposes on the same system or on a different system."
 ---
-= Back up the OnCommand Workflow Automation database
+= Backing up the OnCommand Workflow Automation database
 :icons: font
 :imagesdir: ../media/
 
