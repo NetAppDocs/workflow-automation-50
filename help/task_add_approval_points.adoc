@@ -20,5 +20,5 @@ You can add an approval point as a checkpoint in a workflow to pause the workflo
 +
 You can add approval points for one or more steps.
 
-. In the New Approval Point dialog box, provide the comment and condition details.
+. In the `New Approval Point` dialog box, provide the comment and condition details.
 . Click *OK*.
