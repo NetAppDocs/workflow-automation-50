@@ -1,6 +1,6 @@
 ---
 settings:
-  name: OnCommand Workflow Automation 5.0
+  name: OnCommand Workflow Automation
   internal:
     pdf_enabled: true
   prod:

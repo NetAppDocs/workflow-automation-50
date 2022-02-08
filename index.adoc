@@ -6,7 +6,7 @@ lead: Welcome to the OnCommand Workflow Automation Information Library.
 summary: Documentation for OnCommand Workflow Automation, WFA docs, 5.0.1
 ---
 
-= OnCommand Workflow 5.0 Documentation
+= OnCommand Workflow Automation 5.0 Documentation
 :hardbreaks:
 :nofooter:
 :icons: font
