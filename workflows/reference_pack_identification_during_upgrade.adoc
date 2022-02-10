@@ -1,8 +1,8 @@
 ---
 permalink: workflows/reference_pack_identification_during_upgrade.html
 sidebar: sidebar
-keywords: 
-summary: 'During the upgrade process, OnCommand Workflow Automation \(WFA\) identifies and classifies the entities into a pack. If you had deleted any entity of a pack before the upgrade, the pack will not be identified during the upgrade.'
+keywords: pack, identification, upgrade
+summary: "During the upgrade process, OnCommand Workflow Automation (WFA) identifies and classifies the entities into a pack. If you had deleted any entity of a pack before the upgrade, the pack will not be identified during the upgrade."
 ---
 = Pack identification during upgrade
 :icons: font

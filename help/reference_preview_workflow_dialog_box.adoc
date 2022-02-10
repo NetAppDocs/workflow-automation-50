@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_preview_workflow_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The Preview Workflow dialog box enables you to specify values for user inputs associated with a workflow and then to preview the execution of that workflow with the specified values.'
+keywords: preview, workflow, dialog, box
+summary: "The Preview Workflow dialog box enables you to specify values for user inputs associated with a workflow and then to preview the execution of that workflow with the specified values."
 ---
 = Preview Workflow dialog box
 :icons: font

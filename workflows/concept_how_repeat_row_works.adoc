@@ -1,8 +1,8 @@
 ---
 permalink: workflows/concept_how_repeat_row_works.html
 sidebar: sidebar
-keywords: 
-summary: 'A workflow contains commands and command details arranged in rows. You can specify the commands in a row to be repeated for a fixed number of iterations or dynamic number of iterations based on the results of a search criteria.'
+keywords: how, repeat, row, works
+summary: "A workflow contains commands and command details arranged in rows. You can specify the commands in a row to be repeated for a fixed number of iterations or dynamic number of iterations based on the results of a search criteria."
 ---
 = How repeat row works
 :icons: font

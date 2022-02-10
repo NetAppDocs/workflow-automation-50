@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_portal_workflow_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Portal window displays the workflows that are marked ready for production. You can edit or execute the workflows for which you have authorization. You can access this window by clicking the Portal tab.'
+keywords: portal window
+summary: "The Portal window displays the workflows that are marked ready for production. You can edit or execute the workflows for which you have authorization. You can access this window by clicking the Portal tab."
 ---
 = Portal window
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: workflows/concept_how_resource_selection_works.html
 sidebar: sidebar
-keywords: 
-summary: 'OnCommand Workflow Automation \(WFA\) uses search algorithms to select storage resources for workflow execution. You should understand how resource selection works in order to design workflows efficiently.'
+keywords: how, resource, selection, works
+summary: "OnCommand Workflow Automation (WFA) uses search algorithms to select storage resources for workflow execution. You should understand how resource selection works in order to design workflows efficiently."
 ---
 = How resource selection works
 :icons: font

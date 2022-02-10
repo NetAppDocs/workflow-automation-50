@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_monitoring_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Monitoring window displays details about results of the planning or execution phase of the workflow. The tabs in the window display read-only content. You can access this window from various areas of the WFA application when selecting the Details, Preview, or Execute options.'
+keywords: monitoring window
+summary: "The Monitoring window displays details about results of the planning or execution phase of the workflow. The tabs in the window display read-only content. You can access this window from various areas of the WFA application when selecting the Details, Preview, or Execute options."
 ---
 = Monitoring window
 :icons: font
@@ -11,13 +11,13 @@ summary: 'The Monitoring window displays details about results of the planning o
 [.lead]
 The Monitoring window displays details about results of the planning or execution phase of the workflow. The tabs in the window display read-only content. You can access this window from various areas of the WFA application when selecting the *Details*, *Preview*, or *Execute* options.
 
-* <<GUID-0B74D434-2D35-42DE-9196-470701E1736F,Status area>>
-* <<GUID-670EC380-B7A0-49AD-A749-80C38008380C,Flow tab>>
-* <<GUID-E21A2F9C-D71C-4862-8FF1-6CB96347B79B,Details tab>>
-* <<GUID-1C56E9C3-ABCE-441A-8330-4421F1DD13F4,Execution Plan tab>>
-* <<GUID-96C9C624-55F7-49B6-ACD5-905569857C7A,User Inputs>>
-* <<GUID-9747AA53-7DA3-4DAC-B532-D4A1FB10ABFC,Return Parameters tab>>
-* <<GUID-DDCE5638-B6A0-42D6-B45A-ABA8B6A9876D,History tab>>
+* Status area
+* Flow tab
+* Details tab
+* Execution Plan tab
+* User Inputs
+* Return Parameters tab
+* History tab
 
 == Status area
 

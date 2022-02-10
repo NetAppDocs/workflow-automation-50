@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_incremental_naming_wizard.html
 sidebar: sidebar
-keywords: 
-summary: 'The Incremental Naming Wizard enables you to define the value of an attribute based on a search for an existing parameter.'
+keywords: incremental naming wizard
+summary: "The Incremental Naming Wizard enables you to define the value of an attribute based on a search for an existing parameter."
 ---
 = Incremental Naming Wizard
 :icons: font

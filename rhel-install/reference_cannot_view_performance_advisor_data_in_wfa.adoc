@@ -1,8 +1,8 @@
 ---
 permalink: rhel-install/reference_cannot_view_performance_advisor_data_in_wfa.html
 sidebar: sidebar
-keywords: 
-summary: 'If you cannot view Performance Advisor data in WFA or if the data acquisition process from the Performance Advisor data source fails, you should perform certain actions to troubleshoot the issue.'
+keywords: cannot view, performance, advisor, data, wfa
+summary: "If you cannot view Performance Advisor data in WFA or if the data acquisition process from the Performance Advisor data source fails, you should perform certain actions to troubleshoot the issue."
 ---
 = Cannot view Performance Advisor data in WFA
 :icons: font

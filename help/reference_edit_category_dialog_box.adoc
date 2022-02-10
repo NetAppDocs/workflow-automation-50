@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_edit_category_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The Edit Category dialog box enables you to edit a workflow category.'
+keywords: edit category, dialog box
+summary: "The Edit Category dialog box enables you to edit a workflow category."
 ---
 = Edit Category dialog box
 :icons: font

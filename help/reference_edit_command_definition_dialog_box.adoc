@@ -1,22 +1,22 @@
 ---
 permalink: help/reference_edit_command_definition_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The Edit Command Definition dialog box enables you to edit the selected command.'
+keywords: edit command definition dialog box
+summary: "The Edit Command Definition dialog box enables you to edit the selected command."
 ---
 = Edit Command Definition dialog box
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-TheEdit Command Definition dialog box enables you to edit the selected command.
+The Edit Command Definition dialog box enables you to edit the selected command.
 
-* <<GUID-D4ADB7AB-318A-48E6-90C6-FDB9B771F359,Properties tab>>
-* <<SECTION_ACD7BE38CFDC4752B9DA88A5921794C8,Code tab>>
-* <<SECTION_C931C8EAABD840DCAE72C0E7F473A5F6,Parameters Definition tab>>
-* <<SECTION_51EE316C2F274742981C90EBF79DCE0F,Parameters Mapping tab>>
-* <<SECTION_5E0602B158B94A1884220CC8670159F3,Reservation tab>>
-* <<SECTION_61DA824C41374A0CB37A1663C397184F,Verification tab>>
+* Properties tab
+* Code tab
+* Parameters Definition tab
+* Parameters Mapping tab
+* Reservation tab
+* Verification tab
 
 == Properties tab
 
@@ -28,7 +28,7 @@ Enables you to edit the name of the command. You must enter a name to save the c
 
 * *Entity Version*
 +
-Enables you to enter the version number for the command in major.minor.revision format--for example, 1.0.0.
+Enables you to enter the version number for the command in _major.minor.revision_ format--for example, 1.0.0.
 
 * *Description*
 +

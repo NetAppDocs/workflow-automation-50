@@ -1,8 +1,8 @@
 ---
 permalink: workflows/concept_how_entity_versioning_works.html
 sidebar: sidebar
-keywords: 
-summary: 'The OnCommand Workflow Automation \(WFA\) entities, such as commands and workflows, are versioned. You can use the version numbers to easily manage changes to the WFA entities.'
+keywords: how, entity, versioning, works
+summary: "The OnCommand Workflow Automation (WFA) entities, such as commands and workflows, are versioned. You can use the version numbers to easily manage changes to the WFA entities."
 ---
 = How entity versioning works
 :icons: font
@@ -11,7 +11,7 @@ summary: 'The OnCommand Workflow Automation \(WFA\) entities, such as commands a
 [.lead]
 The OnCommand Workflow Automation (WFA) entities, such as commands and workflows, are versioned. You can use the version numbers to easily manage changes to the WFA entities.
 
-Each WFA entity includes a version number in the major.minor.revision format--for example, 1.1.20. You can include up to three digits in each part of the version number.
+Each WFA entity includes a version number in the _major.minor.revision_ format--for example, 1.1.20. You can include up to three digits in each part of the version number.
 
 Before modifying the version number of a WFA entity, you must be aware of the following rules:
 
@@ -28,7 +28,7 @@ When you update the version of a WFA entity, the version of its immediate parent
 * Modifying the revision version of an entity does not update any part of the version of its immediate parent entities.
 
 The following table lists the WFA entities and their immediate parent entities:
-
+[cols="2*",options="header"]
 |===
 | Entity| Immediate parent entity
 a|
@@ -140,4 +140,4 @@ The commands included in the .dar file, which is to be imported, are as follows:
 * "`Create Export Policy - Custom`" 1.1.0
 * "`Create Volume - Custom`" 2.0.0
 
-When you import this .dar file, the minor version of the "`Create Volume and export using NFS - Custom`" workflow is incremented to 1.1.0.
+When you import this `.dar` file, the minor version of the "`Create Volume and export using NFS - Custom`" workflow is incremented to 1.1.0.

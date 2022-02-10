@@ -1,8 +1,8 @@
 ---
 permalink: workflows/concept_how_you_use_categories.html
 sidebar: sidebar
-keywords: OnCommand Workflow Automation
-summary: 'You can categorize your workflows to better organize the workflows and to apply access control capability on the workflows.'
+keywords: oncommand, workflow, automation
+summary: "You can categorize your workflows to better organize the workflows and to apply access control capability on the workflows."
 ---
 = How you use categories
 :icons: font

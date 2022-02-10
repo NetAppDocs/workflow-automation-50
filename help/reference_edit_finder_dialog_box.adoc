@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_edit_finder_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The Edit Finder dialog box enables you to edit the finder.'
+keywords: edit finder, dialog box
+summary: "The Edit Finder dialog box enables you to edit the finder."
 ---
 = Edit Finder dialog box
 :icons: font
@@ -11,9 +11,9 @@ summary: 'The Edit Finder dialog box enables you to edit the finder.'
 [.lead]
 The Edit Finder dialog box enables you to edit the finder.
 
-* <<GUID-D6561A31-8337-48C7-B20C-A3F542E78D8F,Properties tab>>
-* <<SECTION_AAD904D9F3714252BA89D382F76EE560,Filters>>
-* <<SECTION_173DC8442E574C50A1FB94FEB510E136,Returned Attributes tab>>
+* Properties tab
+* Filters
+* Returned Attributes tab
 
 == Properties tab
 
@@ -29,7 +29,7 @@ Enables you to select the type of WFA dictionary object from the list such as ag
 
 * *Entity Version*
 +
-Enables you to enter the version number for the finder in major.minor.revision format--for example, 1.0.0.
+Enables you to enter the version number for the finder in _major.minor.revision format_--for example, 1.0.0.
 
 * *Description*
 +

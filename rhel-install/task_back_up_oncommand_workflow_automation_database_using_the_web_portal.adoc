@@ -1,0 +1,26 @@
+---
+permalink: rhel-install/task_back_up_oncommand_workflow_automation_database_using_the_web_portal.html
+sidebar: sidebar
+keywords: oncommand, workflow automation, backup, wfa, database, web portal
+summary: "You can back up the OnCommand Workflow Automation (WFA) database from the web portal and use the backup file for data recovery purposes. You cannot perform a full backup from the web portal."
+---
+= Back up the WFA database from the web portal
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can back up the OnCommand Workflow Automation (WFA) database from the web portal and use the backup file for data recovery purposes. You cannot perform a full backup from the web portal.
+
+*What you'll need*
+
+You must have admin or architect credentials to perform this task.
+
+*About this task*
+
+A WFA user with backup role cannot log in to the web portal to perform a backup. The WFA users with backup role can only perform remote or scripted backups.
+
+.Steps
+. Log in to the WFA web GUI as an admin.
+. Click *Settings* and under *Maintenance*, click *Backup & Restore*.
+. Click *Backup*.
+. In the dialog box that opens, select a location, and then save the file.

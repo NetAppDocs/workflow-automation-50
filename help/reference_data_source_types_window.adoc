@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_data_source_types_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Data Source Types window displays the available data source types. You can manage the data source types from this window.'
+keywords: data source types, window
+summary: "The Data Source Types window displays the available data source types. You can manage the data source types from this window."
 ---
 = Data Source Types window
 :icons: font
@@ -56,7 +56,7 @@ The following are the default schemes that are selected by default:
 
 * *Entity Version*
 +
-Displays the version number of the object in major.minor.revision format--for example, 1.0.0.
+Displays the version number of the object in _major.minor.revision_ format--for example, 1.0.0.
 
 * *OS Compatibility*
 +

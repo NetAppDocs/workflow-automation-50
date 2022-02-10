@@ -1,0 +1,27 @@
+---
+permalink: help/task_configure_mail.html
+sidebar: sidebar
+keywords: configure, email, notifications
+summary: "You can configure OnCommand Workflow Automation (WFA) to send you email notifications about workflow operations—for example, workflow started or workflow failed."
+---
+= Configure email notifications
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can configure OnCommand Workflow Automation (WFA) to send you email notifications about workflow operations--for example, workflow started or workflow failed.
+
+**What you'll need**
+
+You must have configured a mail host in your environment.
+
+.Steps
+
+. Log in to WFA through a web browser as an admin.
+. Click *Settings*, and under *Setup* click *Mail*.
+. Enter the required information in the fields.
+. Test the mail settings by performing the following steps:
+ .. Click *Send test mail*.
+ .. In the Test Connection dialog box, enter the email address to which you want to send the email.
+ .. Click *Test*.
+. Click *Save*.

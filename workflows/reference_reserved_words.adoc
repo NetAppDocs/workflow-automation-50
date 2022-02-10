@@ -1,8 +1,8 @@
 ---
 permalink: workflows/reference_reserved_words.html
 sidebar: sidebar
-keywords: 
-summary: 'OnCommand Workflow Automation \(WFA\) includes some reserved words. You must not use the reserved words in workflows for any attribute or parameters such as variable names, user input, constants, and return parameters.'
+keywords: reserved, words
+summary: "OnCommand Workflow Automation (WFA) includes some reserved words. You must not use the reserved words in workflows for any attribute or parameters such as variable names, user input, constants, and return parameters."
 ---
 = Reserved words
 :icons: font
@@ -12,7 +12,7 @@ summary: 'OnCommand Workflow Automation \(WFA\) includes some reserved words. Yo
 OnCommand Workflow Automation (WFA) includes some reserved words. You must not use the reserved words in workflows for any attribute or parameters such as variable names, user input, constants, and return parameters.
 
 The following is a list of the reserved words in WFA:
-
+[cols="3*"]
 |===
 a|
 

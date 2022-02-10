@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_clone_category_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The Clone Category dialog box enables you to copy a workflow category and edit the category.'
+keywords: clone category, dialog box
+summary: "The Clone Category dialog box enables you to copy a workflow category and edit the category."
 ---
 = Clone Category dialog box
 :icons: font

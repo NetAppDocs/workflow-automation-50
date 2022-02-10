@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_oncommand_workflow_automation_designer_features.html
 sidebar: sidebar
-keywords: 
-summary: 'OnCommand Workflow Automation includes various features to help you design storage workflows.'
+keywords: oncommand, workflow, automation, designer, features
+summary: "OnCommand Workflow Automation includes various features to help you design storage workflows."
 ---
 = OnCommand Workflow Automation Designer features
 :icons: font

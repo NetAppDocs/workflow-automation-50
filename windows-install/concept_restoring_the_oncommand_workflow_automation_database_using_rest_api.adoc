@@ -1,8 +1,8 @@
 ---
 permalink: windows-install/concept_restoring_the_oncommand_workflow_automation_database_using_rest_api.html
 sidebar: sidebar
-keywords: OnCommand Workflow Automation
-summary: 'You can restore the OnCommand Workflow Automation \(WFA\) database by using REST APIs. You cannot use the command-line interface \(CLI\) to restore the WFA database during a failover.'
+keywords: oncommand workflow automation, restore, database, rest, apis
+summary: "You can restore the OnCommand Workflow Automation (WFA) database by using REST APIs. You cannot use the command-line interface (CLI) to restore the WFA database during a failover."
 ---
 = Restoring the WFA database using REST APIs
 :icons: font

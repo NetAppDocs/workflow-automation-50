@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_schemes_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Schemes window displays the available schemes and enables you to manage the schemes. OnCommand Workflow Automation \(WFA\) uses schemes to acquire data relevant to an environment.'
+keywords: schemes window
+summary: "The Schemes window displays the available schemes and enables you to manage the schemes. OnCommand Workflow Automation (WFA) uses schemes to acquire data relevant to an environment."
 ---
 = Schemes window
 :icons: font
@@ -52,7 +52,7 @@ You can search for a scheme by entering its name in the *Search* filter text box
 
 * *Entity Version*
 +
-Displays the version number of the object in major.minor.revision format--for example, 1.0.0.
+Displays the version number of the object in _major.minor.revision_ format--for example, 1.0.0.
 +
 You can search for a scheme by entering the version number in the *Search* filter text box.
 
@@ -137,7 +137,3 @@ NOTE: The Add To Pack feature is enabled only for schemes for which the certific
 Opens the Remove From Pack Schemes dialog box for the selected scheme, which enables you to delete or remove the scheme from the pack.
 +
 NOTE: The Remove From Pack feature is enabled only for schemes for which the certification is set to None.
-
-*Related information*
-
-xref:concept_what_schemes_are.adoc[What schemes are]

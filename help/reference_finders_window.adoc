@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_finders_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Finders window displays the available finders in alphabetical order. You can access this window by selecting Designer \> Finders.'
+keywords: finders window
+summary: "The Finders window displays the available finders in alphabetical order. You can access this window by selecting Designer > Finders."
 ---
 = Finders window
 :icons: font
@@ -15,8 +15,8 @@ NOTE: Depending on your role and account privileges, this window might not be di
 
 A finder is a search operation for locating resources. A finder consists of filtering rules that remove irrelevant resources. Finders search for information about WFA objects in the WFA-cached repositories.
 
-* <<GUID-96F6826D-3B37-4B9E-9917-5A0B10213EBF,Finders table>>
-* <<GUID-0063D79E-10F9-474C-9A39-0A548135A467,Toolbar>>
+* Finders table
+* Toolbar
 
 == Finders table
 

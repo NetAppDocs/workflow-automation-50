@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_reservations_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Reservations window displays each workflow that is marked for reservation, and enables you to manage the reservations. You can access this window by selecting Execution \> Reservations.'
+keywords: reservations window
+summary: "The Reservations window displays each workflow that is marked for reservation, and enables you to manage the reservations. You can access this window by selecting Execution > Reservations."
 ---
 = Reservations window
 :icons: font
@@ -12,9 +12,6 @@ summary: 'The Reservations window displays each workflow that is marked for rese
 The Reservations window displays each workflow that is marked for reservation, and enables you to manage the reservations. You can access this window by selecting *Execution* > *Reservations*.
 
 A reservation helps ensure that a selected resource is available for a specific scheduled workflow when that workflow is executed.
-
-* <<GUID-46A4D2D1-72DE-4AFB-B3A0-CB6077DB4081,Reservations table>>
-* <<GUID-757A6BAF-198D-4227-AD89-9359698CF77B,Toolbar>>
 
 == Reservations table
 
@@ -29,10 +26,10 @@ The Reservations table lists the workflows that are submitted for reservation. Y
 
 The following table lists the supported operators for alphabetic and numeric columns in the Reservations table, available from the *Search* filter text box.
 
+[cols="2*",options="header"]
 |===
 | Alphabetic| Numeric
 a|
-
 * Contains
 * Does not contain
 * Starts with
@@ -40,7 +37,6 @@ a|
 * Equals
 * Does not equal
 * Reset
-
 a|
 
 * Equals
@@ -51,7 +47,6 @@ a|
 * Greater than or equal to
 * Between
 * Reset
-
 |===
 The Reservations table contains the following columns:
 

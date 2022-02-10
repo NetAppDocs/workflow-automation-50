@@ -1,8 +1,8 @@
 ---
 permalink: workflows/reference_guidelines_for_creating_a_validation_script_for_remote_system_type.html
 sidebar: sidebar
-keywords: 
-summary: 'You must be aware of the guidelines for creating validation scripts that are used to test the remote system types that you define in OnCommand Workflow Automation \(WFA\).'
+keywords: guidelines, creating, validation, scripts, remote, system, types
+summary: "You must be aware of the guidelines for creating validation scripts that are used to test the remote system types that you define in OnCommand Workflow Automation (WFA)."
 ---
 = Guidelines for creating validation scripts for remote system types
 :icons: font

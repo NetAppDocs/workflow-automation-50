@@ -1,10 +1,10 @@
 ---
 permalink: help/reference_new_approval_point_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The New Approval Point dialog box enables you to add an approval point as a checkpoint in a workflow to pause the workflow execution and resume it based on your approval.'
+keywords: new approval point, dialog box
+summary: "The New Approval Point dialog box enables you to add an approval point as a checkpoint in a workflow to pause the workflow execution and resume it based on your approval."
 ---
-= New Approval Point dialog box 
+= New Approval Point dialog box
 :icons: font
 :imagesdir: ../media/
 

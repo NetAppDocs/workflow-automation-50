@@ -1,0 +1,42 @@
+---
+permalink: windows-install/task_upgrade_oncommand_workflow_automation.html
+sidebar: sidebar
+keywords: upgrade, oncommand, workflow, automation
+summary: "If you have installed a previous version of OnCommand Workflow Automation (WFA), you can upgrade to the latest version of WFA to use the new features and enhancements."
+---
+= Upgrade OnCommand Workflow Automation
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you have installed a previous version of OnCommand Workflow Automation (WFA), you can upgrade to the latest version of WFA to use the new features and enhancements.
+
+*About this task*
+
+* You can upgrade to WFA 5.0 from either WFA 4.2 or 4.1 only.
++
+If you are currently running WFA 4.0 or earlier versions of WFA, then you must first upgrade to either WFA 4.2 or 4.1 and then upgrade to WFA 5.0.
+
+* You can restore a backup taken on either WFA 4.1 or 4.2 on WFA 5.0. A WFA database backup can only be restored to a system that is running the same version or a later version of WFA.
++
+For example, if you created a backup on a system that is running WFA 4.2, the backup can be restored only to systems that are running WFA 4.2 or later.
+
+* You cannot install MySQL on your own when upgrading from versions earlier than WFA 4.2.
++
+However, you can install MySQL on your own:
+
+ ** During a fresh installation of WFA 4.2 and later or
+ ** When you are upgrading from WFA 4.2 to later versions of WFA.
+
+.Steps
+. Back up the WFA database by using one of the following options:
+ ** WFA web portal
+ ** PowerShell script
+If you want to revert to the same version of WFA, you can use the backup that you created to restore your WFA database.
+. Uninstall the existing version of WFA.
+. Install the latest version of WFA.
+. Restore the WFA database.
+
+*After you finish*
+
+You can review the restored content for completeness in functionality--for example, you can check the functioning of your custom workflows.

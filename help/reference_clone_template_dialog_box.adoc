@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_clone_template_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The Clone Template dialog box enables you to create a copy of the template and edit the template.'
+keywords: clone template, dialog box
+summary: "The Clone Template dialog box enables you to create a copy of the template and edit the template."
 ---
 = Clone Template dialog box
 :icons: font
@@ -21,7 +21,7 @@ Enables you to select a dictionary object from the list. The name of the templat
 
 * *Entity Version*
 +
-Enables you to enter the version number for the template in major.minor.revision format--for example, 1.0.0.
+Enables you to enter the version number for the template in _major.minor.revision_ format--for example, 1.0.0.
 
 * *Description*
 +

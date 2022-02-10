@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_add_cache_query_dialog_box.html
 sidebar: sidebar
-keywords: 
-summary: 'The Add Cache Query dialog box enables you to create a new cache query for a dictionary entry and associate the query with a data provide type, such as a specific OnCommand Unified Manager version.'
+keywords: add cache query, dialog box
+summary: "The Add Cache Query dialog box enables you to create a new cache query for a dictionary entry and associate the query with a data provide type, such as a specific OnCommand Unified Manager version."
 ---
 = Add Cache Query dialog box
 :icons: font
@@ -17,7 +17,7 @@ Enables you to select a dictionary entry for which you want to create a cache qu
 
 * *Entity Version*
 +
-Enables you to enter the version number for the cache query in major.minor.revision format--for example, 1.0.0.
+Enables you to enter the version number for the cache query in _major.minor.revision_ format--for example, 1.0.0.
 
 * *Data Source Types*
 +

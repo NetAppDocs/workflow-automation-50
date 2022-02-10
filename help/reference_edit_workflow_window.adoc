@@ -1,8 +1,8 @@
 ---
 permalink: help/reference_edit_workflow_window.html
 sidebar: sidebar
-keywords: Workflow Automation
-summary: 'The Workflow <workflow name\> window displays the selected workflow and its associated commands and parameters. The commands associated with the workflow are displayed as blue boxes in columns that are arranged in the sequential order of execution—left to right. The variables and objects for each command are displayed as gray boxes below the command.'
+keywords: workflow automation, window, workflow name
+summary: "The Workflow <workflow name> window displays the selected workflow and its associated commands and parameters. The commands associated with the workflow are displayed as blue boxes in columns that are arranged in the sequential order of execution—left to right. The variables and objects for each command are displayed as gray boxes below the command."
 ---
 = Workflow <workflow name> window
 :icons: font
@@ -206,7 +206,7 @@ The Help Content tab enables you to add, view, and remove the Help content for t
 
 The Advanced tab enables you to configure a custom URI path for workflow execution through API calls. Each segment in the URI path can be a string or a valid name of the user input of the workflow in brackets.
 
-For example, /devops/\{ProjectName}/clone. The workflow can be invoked as a call to https://WFA-Server:HTTPS_PORT/rest/devops/Project1/clone/jobs.
+For example, /devops/\{ProjectName}/clone. The workflow can be invoked as a call to _https:_//WFA-Server:HTTPS_PORT/rest/devops/Project1/clone/jobs.
 
 == Command buttons
 

@@ -1,0 +1,41 @@
+---
+permalink: windows-install/task_back_up_regular_the_wfa_database_using_perl_script_linux.html
+sidebar: sidebar
+keywords: ocommand workflow automation, back up, wfa, database cli
+summary: "You can perform a regular backup of the OnCommand Workflow Automation (WFA) database by using the WFA command-line interface (CLI). In a regular backup, only the WFA database is backed up."
+---
+= Back up (regular) the WFA database using the CLI
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can perform a regular backup of the OnCommand Workflow Automation (WFA) database by using the WFA command-line interface (CLI). In a regular backup, only the WFA database is backed up.
+
+*What you'll need*
+
+You must have admin user credentials, architect credentials, or backup user credentials.
+
+*About this task*
+
+In a high-availability environment, you should create scheduled backups by using REST APIs. You cannot create backups by using the CLI when WFA is in failover mode.
+
+For more information, see the REST documentation.
+
+.Steps
+. At the shell prompt, navigate to the following directory on the WFA server:
++
+`WFA_install_location\WFA\bin.`
++
+`WFA_install_location` is the WFA installation directory.
+
+. Back up the WFA database:
++
+`.\wfa --backup --user=USER [--password=PASS] [--location=PATH]`
++
+ ** _user_ is the user name of the backup user.
+ ** _password_ is the password of the backup user.
++
+If you have not provided the password, you must enter the password when prompted.
+
+ ** _path_ is the complete directory path to the backup file.
+. *Optional:* Verify that the backup file was created at the specified location.
