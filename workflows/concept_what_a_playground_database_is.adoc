@@ -67,8 +67,8 @@ WHERE
 
 *Related information*
 
-https://www.webyog.com/[SQLyog: www.webyog.com]
+https://www.webyog.com/[SQLyog: www.webyog.com^]
 
-http://www.mysql.com/products/workbench/[MySQL Workbench: www.mysql.com/products/workbench]
+http://www.mysql.com/products/workbench/[MySQL Workbench: www.mysql.com/products/workbench^]
 
-http://www.quest.com/toad-for-mysql/[Toad for MySQL: www.quest.com/toad-for-mysql]
+http://www.quest.com/toad-for-mysql/[Toad for MySQL: www.quest.com/toad-for-mysql^]

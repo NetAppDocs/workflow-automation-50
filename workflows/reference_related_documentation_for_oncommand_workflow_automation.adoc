@@ -17,7 +17,7 @@ The Workflow Automation space within the NetApp community provides additional le
 
 * *NetApp community*
 +
-http://community.netapp.com/t5/OnCommand-Storage-Management-Software-Articles-and-Resources/tkb-p/oncommand-storage-management-software-articles-and-resources/label-name/workflow%20automation%20%28wfa%29?labels=workflow+automation+%28wfa%29[NetApp community: Workflow Automation (WFA)]
+http://community.netapp.com/t5/OnCommand-Storage-Management-Software-Articles-and-Resources/tkb-p/oncommand-storage-management-software-articles-and-resources/label-name/workflow%20automation%20%28wfa%29?labels=workflow+automation+%28wfa%29[NetApp community: Workflow Automation (WFA)^]
 
 == Tool references
 
@@ -25,4 +25,4 @@ http://community.netapp.com/t5/OnCommand-Storage-Management-Software-Articles-an
 +
 Lists supported combinations of hardware components and software versions.
 +
-http://mysupport.netapp.com/matrix/[Interoperability Matrix]
+http://mysupport.netapp.com/matrix/[Interoperability Matrix^]

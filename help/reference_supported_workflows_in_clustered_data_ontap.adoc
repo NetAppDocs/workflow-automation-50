@@ -316,4 +316,4 @@ No
 |===
 *Related information*
 
-http://mysupport.netapp.com/matrix[Interoperability Matrix Tool: mysupport.netapp.com/matrix]
+http://mysupport.netapp.com/matrix[Interoperability Matrix Tool^]
