@@ -1,0 +1,18 @@
+---
+permalink: workflows/concept-what-finders-are.html
+sidebar: sidebar
+keywords: what, finders
+summary: "A finder is a combination of one or more filters that are used together to identify common results. You can use a finder in your workflows to select the required resources for workflow execution."
+---
+= What finders are
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A finder is a combination of one or more filters that are used together to identify common results. You can use a finder in your workflows to select the required resources for workflow execution.
+
+Finders might apply a sorting order to differentiate the applicable results. Finders return the best resource based on the selection criteria and sorting.
+
+Finders return either one result or no result; therefore, they can be used to verify the existence of certain storage elements. However, when a finder is used as part of a repeat row definition, the result sets are used to form the list of members in the group. Filters that are used in finders return the natural key of the dictionary type, at a minimum, but might return additional fields, whose value can be referenced. A sorting order might be applied to any returned field of a filter's SQL query.
+
+You can test the results of a finder. When testing a finder, you can view the common results of all the WFA filters, where the effective result of the finder is highlighted in the results. When using a finder in a workflow, you can create a customized error message to convey meaningful information to the storage operator.

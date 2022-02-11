@@ -1,0 +1,46 @@
+---
+permalink: help/reference-edit-cache-query-dialog-box.html
+sidebar: sidebar
+keywords: edit cache query, dialog box
+summary: "The Edit Cache Query dialog box enables you to edit a cache query associated with a dictionary entry."
+---
+= Edit Cache Query dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Edit Cache Query dialog box enables you to edit a cache query associated with a dictionary entry.
+
+* *Dictionary Entry*
++
+Specifies a dictionary entry associated with the cache query.
+
+* *Entity Version*
++
+Enables you to enter the version number for the cache query in `major.minor.revision` format--for example, 1.0.0.
+
+* *Data Source Types*
++
+Specifies the data source type associated with the cache query.
+
+== Table Structure
+
+Displays the attributes and the SQL syntax associated with the dictionary entry.
+
+* *SQL select query*
++
+Enables you to edit the SQL query associated with the dictionary entry and the selected data provider type.
+
+== Command buttons
+
+* *Test*
++
+Enables you to test the SQL query entered in the *SQL select query* field.
+
+* *Save*
++
+Saves the cache query and closes the dialog box.
+
+* *Cancel*
++
+Cancels changes, if any, and closes the dialog box.

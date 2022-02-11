@@ -1,0 +1,45 @@
+---
+permalink: windows-install/task-upgrade-from-oncommand-workflow-automation-3-1-or-later-on-windows.html
+sidebar: sidebar
+keywords: oncommand workflow automation, upgrade, versions, later
+summary: "You can perform an in-place upgrade from OnCommand Workflow Automation (WFA) 3.1 or later versions to the latest available versions of WFA to use the new features and enhancements."
+---
+= Upgrade from OnCommand Workflow Automation 3.1 or later versions
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can perform an in-place upgrade from OnCommand Workflow Automation (WFA) 3.1 or later versions to the latest available versions of WFA to use the new features and enhancements.
+
+*What you'll need*
+
+You must have downloaded the `.exe` binary file from the NetApp Support Site to the WFA host machine.
+
+*About this task*
+
+You cannot install MySQL on your own when upgrading from earlier versions of WFA. However, you can install MySQL on your own:
+
+* During a fresh installation of WFA 4.2 and later or
+* When you are upgrading from WFA 4.2 to later versions of WFA.
+
+.Step
+. Upgrade from WFA 3.1 or later versions by choosing one of the following methods:
+ ** Interactive installation
+  .. Navigate to the `.exe` binary file in the WFA host machine, and then run the file.
+  .. Follow the on-screen instructions in the wizard to complete the upgrade.
+ ** Silent installation
++
+Enter the following at the command prompt:
++
+`WFA-version_number-build_number.exe /s /v"WFA_ADMIN_USERNAME_UP=wfa username WFA_ADMIN_PASSWORD_UP=password /qr /l*v C:\upgrade.log"`
++
+*Example*:
++
+`WFA-x64-v4.2.0.0.0-B2973881.exe /s /v"WFA_ADMIN_USERNAME_UP=admin WFA_ADMIN_PASSWORD_UP=password*123 /qr /l*v C:\upgrade.log"`
++
+NOTE: The `/qn` option is not supported by WFA.
++
+If you want to perform a silent upgrade, then you must include values for all of the command parameters:
+
+  *** _WFA_ADMIN_USERNAME_UP_ is the user name of a WFA user who has permission to create a WFA database backup.
+  *** _WFA_ADMIN_PASSWORD_UP_ is the password of the user.

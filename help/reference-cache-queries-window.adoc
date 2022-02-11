@@ -1,0 +1,110 @@
+---
+permalink: help/reference-cache-queries-window.html
+sidebar: sidebar
+keywords: cache queries, window
+summary: "The Cache Queries window enables you to manage cache queries for the WFA dictionary entries and their associated data source types."
+---
+= Cache Queries window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Cache Queries window enables you to manage cache queries for the WFA dictionary entries and their associated data source types.
+
+A cache query is an SQL query that retrieves the required data from the table specified in the query. A cache query is associated with a dictionary entry and one or more data source types--for example, cache query for *Volume (storage)* is associated with both OnCommand Unified Manager 5.1 and 5.2 data source types. You can define a cache query when you want retrieve some information, such as volume from a table of a data source OnCommand Unified Manager 6.0 into WFA's cache.
+
+* Cache Queries table
+* Toolbar
+
+== Cache Queries list
+
+The Cache Queries table lists the dictionary entries and their associated data source types. You can customize the table display by using the filtering and sorting features available for each column, as well as by rearranging the column order.
+
+* image:../media/filter_icon_wfa.gif[Filter icon] enables or disables filtering for the entire table. A red "x" appears over the icon if filtering is disabled.
+* Double-clicking image:../media/filter_icon_wfa.gif[Filter icon] clears and resets the filtering selections.
+* image:../media/wfa_filter_icon.gif[Filter icon] on each column header enables you to filter based on the content of the columns. Clicking image:../media/wfa_filter_icon.gif[Filter icon] in a column allows you to filter on a specific item from the drop-down list or on all available items.
+* Clicking the column header toggles between ascending and descending order of sorting. You can identify the applied sort order by the sort arrows (image:../media/wfa_sortarrow_up_icon.gif[Sort up icon] for ascending and image:../media/wfa_sortarrow_down_icon.gif[Sort down icon] for descending).
+* To rearrange the location of columns, you can drag and drop columns to place them in any required order. However, you cannot hide or delete any of these columns.
+* Clicking the *Search* filter text box allows you to search for specific content. In addition, you can search using supported operators for the applicable column type, Alphabetic or Numeric.
+
+The Cache Queries table contains the following columns:
+
+* *Certification*
++
+Indicates whether the cache query is user-created (no icon, empty cell), PS (image:../media/ps_certified_icon_wfa.gif[]), community (image:../media/community_certification.gif[]), user-locked (image:../media/lock_icon_wfa.gif[]), or NetApp-certified (image:../media/netapp_certified.gif[]).
+
+* *Scheme*
++
+Indicates a scheme name (schema) that contains data that is relevant to your environment. For example, a *cm_storage* caching scheme contains data relevant to clustered Data ONTAP. The relevant scheme information is obtained from the data source.
+
+* *Dictionary Entry*
++
+Displays the dictionary entry associated with the scheme.
+
+* *Entity Version*
++
+Displays the version number of the object in _major.minor.revision_ format--for example, 1.0.0.
+
+* *Data Source Types*
++
+Displays the data source type associated with the dictionary entry.
+
+* *Last Updated On*
++
+Displays the date and time when the cache query was last updated.
+
+* *Updated By*
++
+Displays the user who updated the cache query.
+
+== Toolbar
+
+The toolbar is located above the column header. You can use the icons in the toolbar to perform various actions. These actions can also be accessed from the right-click menu in the window.
+
+* *image:../media/new_wfa_icon.gif[New icon] (New)*
++
+Opens the Add Cache Query dialog box, which enables you to create a cache query.
+
+* *image:../media/edit_wfa_icon.gif[Edit icon] (Edit)*
++
+Opens the Edit Cache Query dialog box for the selected cache query, which enables you to edit the cache query.
+
+* *image:../media/clone_wfa_icon.gif[Clone icon] (Clone)*
++
+Opens the Add Cache Query dialog box, which enables you to create a clone or copy of the selected cache query.
+
+* *image:../media/lock_wfa_icon.gif[Lock icon] (Lock)*
++
+Opens the confirmation dialog box, which enables you to lock the selected cache query.
+
+* *image:../media/unlock_wfa_icon.gif[Unlock icon] (Unlock)*
++
+Opens the confirmation dialog box, which enables you to unlock the selected cache query. This option is enabled only for the cache queries that are locked by you. However, administrators can unlock cache queries locked by other users.
+
+* *image:../media/delete_wfa_icon.gif[Delete icon] (Delete)*
++
+Opens the confirmation dialog box, which enables you to delete the selected user-created cache query.
++
+NOTE: You cannot delete a WFA, PS, or sample cache queries.
+
+* *image:../media/export_wfa_icon.gif[Export icon] (Export)*
++
+Opens the confirmation dialog box, which enables you to export the selected user-created cache query.
++
+NOTE: You cannot export a WFA, PS, or sample cache queries.
+
+* *image:../media/test_wfa_icon.gif[test icon] (Test)*
++
+Opens the Test Cache Query dialog box, which enables you to test the selected cache query.
+
+* *image:../media/add_to_pack.png[add to pack icon] (Add To Pack)*
++
+Opens the Add To Pack Cache Query dialog box, which enables you to add the cache query and its dependable entities to a pack, which is editable.
++
+NOTE: The Add To Pack feature is enabled only for the cache query for which the certification is set to None.
+
+* *image:../media/remove_from_pack.png[remove from pack icon] (Remove From Pack)*
++
+Opens the Remove From Pack Cache Query dialog box for the selected cache query, which enables you to delete or remove the cache query from the pack.
++
+NOTE: The Remove From Pack feature is enabled only for cache query for which the certification is set to None.

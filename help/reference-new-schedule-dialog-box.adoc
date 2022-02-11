@@ -1,0 +1,40 @@
+---
+permalink: help/reference-new-schedule-dialog-box.html
+sidebar: sidebar
+keywords: new schedule dialog box
+summary: "You can use the New Schedule dialog box to create a new schedule for any workflow so that the workflow is executed on a specified frequency. For example, you can schedule a workflow to be executed every Monday."
+---
+= New Schedule dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the New Schedule dialog box to create a new schedule for any workflow so that the workflow is executed on a specified frequency. For example, you can schedule a workflow to be executed every Monday.
+
+== New Schedule Configuration properties
+
+* *Name*
++
+Enables you to specify a name for the schedule.
+
+* *Description*
++
+Enables you to enter a description for the schedule.
+
+* *Frequency*
++
+Enables you to specify the frequency at which the workflow associated with the schedule must be executed. The Hourly option is selected by default. Frequency can be Hourly, Daily, Weekly, or Monthly.
++
+For example, if you want a workflow to be executed every Tuesday at 9 A.M., you must select the weekly option and enter the time as 9:00 and day as Tuesday. You must use a colon when you specify the time.
++
+The 24-hour time format is supported. The entered data will be based on the server time.
+
+== Command buttons
+
+* *OK*
++
+Saves the configurations settings and closes the dialog box.
+
+* *Cancel*
++
+Cancels changes, if any, and closes the dialog box.

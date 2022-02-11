@@ -1,0 +1,145 @@
+---
+permalink: help/reference-dictionary-window.html
+sidebar: sidebar
+keywords: dictionary window
+summary: "The Dictionary window displays the available dictionary entries in alphabetical order."
+---
+= Dictionary window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Dictionary window displays the available dictionary entries in alphabetical order.
+
+A dictionary entry is the definition of an object type that is supported by OnCommand Workflow Automation (WFA). Each dictionary entry represents an object type and its relationships in the storage and storage-related environments. Dictionary entries are converted to tables in the databases.
+
+NOTE: Depending on your role and account privileges, this window might not be displayed.
+
+== Dictionary table
+
+The Dictionary table lists the available dictionary entries. Each entry is identified as one of the following:
+
+* No icon - content created by users
+* image:../media/ps_certified_icon_wfa.gif[] - content developed by Professional Services (PS), which is available only on custom installations made by PS
+* image:../media/community_certification.gif[] - packs developed by users
+* image:../media/lock_icon_wfa.gif[] - content created by users that is locked
+* image:../media/netapp_certified.gif[] - NetApp-certified content
+
+You can customize the table display by using the filtering and sorting features available for each column, as well as by rearranging the column order.
+
+* image:../media/filter_icon_wfa.gif[Filter icon] enables or disables filtering for the entire table. A red "x" appears over the icon if filtering is disabled.
+* Double-clicking image:../media/filter_icon_wfa.gif[Filter icon] clears and resets the filtering selections.
+* image:../media/wfa_filter_icon.gif[Filter icon] on each column header enables you to filter based on the content of the columns. Clicking image:../media/wfa_filter_icon.gif[Filter icon] in a column allows you to filter on a specific item from the drop-down list or on all available items.
+* Clicking the column header toggles between ascending and descending order of sorting. You can identify the applied sort order by the sort arrows (image:../media/wfa_sortarrow_up_icon.gif[Sort up icon] for ascending and image:../media/wfa_sortarrow_down_icon.gif[Sort down icon] for descending).
+* To rearrange the location of columns, you can drag and drop columns to place them in any required order. However, you cannot hide or delete any of these columns.
+* Clicking the *Search* filter text box allows you to search for specific content. In addition, you can search using supported operators for the applicable column type, Alphabetic or Numeric.
+
+The Dictionary table contains the following columns:
+
+* *Certification*
++
+Indicates whether the dictionary entry is user-created (no icon, empty cell), PS (image:../media/ps_certified_icon_wfa.gif[]), community (image:../media/community_certification.gif[]), user-locked (image:../media/lock_icon_wfa.gif[]), or NetApp-certified (image:../media/netapp_certified.gif[]).
+
+* *Name*
++
+Displays the name of the dictionary entry.
+
+* *Scheme*
++
+Displays the scheme associated with the dictionary entries. A scheme is a collection of dictionary entries that contain data relevant to your environment. (For example, a vc scheme contains data relevant to your virtual environment, such as virtual machines, hosts, and datastores.)
+
+* *Entity Version*
++
+Displays the version number of the object in _major.minor.revision_ format--for example, 1.0.0.
+
+* *Description*
++
+Displays the description of the dictionary entry.
+
+* *Acquisition Enabled*
++
+Displays a check mark for the dictionary entries that are enabled for data acquisition.
+
+* *Last Updated On*
++
+Displays the date and time when the dictionary entry was last updated.
+
+* *Updated By*
++
+Displays the name of the user who updated the dictionary entry.
+
+* *Locked By*
++
+Displays the name of the user who locked the dictionary entry.
+
+* *Natural Keys*
++
+Displays the natural keys associated with the dictionary entries.
+
+== Toolbar
+
+The toolbar is located above the column header. You can use the icons in the toolbar to perform various actions. These actions can also be accessed from the right-click menu in the window.
+
+* *image:../media/new_wfa_icon.gif[New icon] (New)*
++
+Opens the New Dictionary Entry window, which enables you to create a new dictionary entry.
+
+* *image:../media/edit_wfa_icon.gif[Edit icon] (Edit)*
++
+Opens the Dictionary Entry <EntryName> window for the selected dictionary entry, which enables you to edit the dictionary entry.
+
+* *image:../media/clone_wfa_icon.gif[Clone icon] (Clone)*
++
+Opens the New Dictionary Entry <EntryName>_copy window, which enables you to create a copy of the selected dictionary entry.
+
+* *image:../media/lock_wfa_icon.gif[Lock icon] (Lock)*
++
+Opens the Lock the Dictionary Entry confirmation dialog box, which enables you to lock the selected dictionary entry.
++
+This option is enabled only for the dictionary entries that you have created.
+
+* *image:../media/unlock_wfa_icon.gif[Unlock icon] (Unlock)*
++
+Opens the Unlock the Dictionary Entry confirmation dialog box, which enables you to unlock the selected dictionary entry.
++
+This option is enabled only for the dictionary entries that you have locked. Administrators can unlock dictionary entries that were locked by other users.
+
+* *image:../media/delete_wfa_icon.gif[Delete icon] (Delete)*
++
+Opens the Delete Dictionary Entry confirmation dialog box, which enables you to delete the selected user-created dictionary entry.
++
+NOTE: You cannot delete a WFA dictionary entry or PS dictionary entry.
+
+* *image:../media/export_wfa_icon.gif[Export icon] (Export)*
++
+Enables you to export the selected user-created dictionary entry.
++
+NOTE: You cannot export a WFA dictionary entry or PS dictionary entry.
+
+* *image:../media/enable_acquisition_wfa_icon.gif[Enable acquisition icon] (Enable Acquisition)*
++
+Provides the option to enable cache acquisition for the selected dictionary entry.
+
+* *image:../media/disable_acquisition_wfa_icon.gif[Disable acquisition icon] (Disable Acquisition)*
++
+Enables you to disable cache acquisition for the selected dictionary entry.
+
+* *image:../media/reset_scheme_wfa_icon.gif[Reset scheme icon] (Reset Scheme)*
++
+Enables you to reset the scheme associated with the selected dictionary entry.
+
+* *image:../media/add_to_pack.png[add to pack icon] (Add To Pack)*
++
+Opens the Add To Pack Dictionary dialog box, which enables you to add the dictionary entry and its dependable entities to a pack, which is editable.
++
+NOTE: The Add To Pack feature is enabled only for the dictionary entries for which the certification is set to None.
+
+* *image:../media/remove_from_pack.png[remove from pack icon] (Remove From Pack)*
++
+Opens the Remove From Pack Dictionary dialog box for the selected dictionary entry, which enables you to delete or remove the dictionary entry from the pack.
++
+NOTE: The Remove From Pack feature is enabled only for dictionary entries for which the certification is set to None.
+
+* *image:../media/inventory.png[] (Inventory)*
++
+Opens the Inventory dialog box for the selected dictionary entry, which enables you to see the table data.

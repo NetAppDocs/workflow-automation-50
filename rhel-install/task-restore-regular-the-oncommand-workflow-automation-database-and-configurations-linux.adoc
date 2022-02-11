@@ -1,0 +1,37 @@
+---
+permalink: rhel-install/task-restore-regular-the-oncommand-workflow-automation-database-and-configurations-linux.html
+sidebar: sidebar
+keywords: oncommand workflow automation, wfa, cli, restore
+summary: "You can do a regular restore of the OnCommand Workflow Automation (WFA) database that you backed up previously by using the command-line interface (CLI). In a regular restore, you can only restore the WFA database."
+---
+= Restore (regular) the WFA database using the CLI
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can do a regular restore of the OnCommand Workflow Automation (WFA) database that you backed up previously by using the command-line interface (CLI). In a regular restore, you can only restore the WFA database.
+
+*What you'll need*
+
+* You must have created a backup of the WFA database.
+* You must have admin or architect credentials.
+
+.Steps
+
+. At the shell prompt, navigate to the following directory on the WFA server:
++
+`WFA_install_location/wfa/bin`
++
+`wfa_install_location` is the WFA installation directory.
+
+. Restore the WFA database:
++
+`wfa --restore --user=user_name [--password=password] [--location=path]`
+
+ ** _user_name_ is the user name of the admin or architect user.
+ ** _password_ is the password of the user.
++
+If you have not provided the password, you must enter the password when prompted.
+
+ ** _path_ is the complete directory path to the restore file.
+. Verify that the restore operation is successful and WFA is accessible.

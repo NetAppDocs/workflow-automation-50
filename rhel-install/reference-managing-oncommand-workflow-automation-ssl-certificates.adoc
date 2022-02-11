@@ -1,0 +1,14 @@
+---
+permalink: rhel-install/reference-managing-oncommand-workflow-automation-ssl-certificates.html
+sidebar: sidebar
+keywords: manage, oncommand workflow automation, ssl certificate
+summary: "You can replace the default OnCommand Workflow Automation (WFA) SSL certificate with a self-signed certificate or a certificate signed by a Certificate Authority (CA)."
+---
+= Managing OnCommand Workflow Automation SSL certificate
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can replace the default OnCommand Workflow Automation (WFA) SSL certificate with a self-signed certificate or a certificate signed by a Certificate Authority (CA).
+
+The default self-signed WFA SSL certificate is generated during the installation of WFA. When you are upgrading, the certificate for the previous installation is replaced with the new certificate. If you are using a non-default self-signed certificate or a certificate signed by a CA, you must replace the default WFA SSL certificate with your certificate.

@@ -1,0 +1,84 @@
+---
+permalink: help/reference-resource-selection-dialog-box.html
+sidebar: sidebar
+keywords: resource selection, dialog box
+summary: "The Resource Selection dialog box enables you to search for resources and map the resources to a command."
+---
+= Resource Selection dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Resource Selection dialog box enables you to search for resources and map the resources to a command.
+
+== Select <dictionary object> by tab
+
+This tab enables you specify a finder or filters as the search criteria and enter attributes for the selected search criteria. You can also save the selected filters as a finder.
+
+* *Define filter rules*
++
+Enables you to define a set of rules for dictionary entry resources, such as vFiler units, aggregates, and virtual machines.
++
+The filter rules can contain one or more groups of rules.
++
+A rule consists of a dictionary entry attribute, an operator, and a value. The attribute can also include attributes of its references. For example, you can specify a rule for aggregates as follows: List all aggregates with name starting with the string "`aggr`" and have an available size greater than 5 GB. The first rule in the group is the attribute "`name`", with the operator "`starts-with`", and the value "`aggr`". The second rule for the same group is the attribute "`available_size_mb`", with the operator "`>`" and the value "`5000`".
++
+The *Define filter rules* option is disabled if you have selected a finder.
++
+You can clear the values specified by clicking the *Reset* button.
+
+* *Select one resource by its natural keys*
++
+Enables you to select a resource based on the natural keys of the resource.
+
+* *Finder*
++
+Enables you to select a finder from the list. *None* is selected by default.
++
+Filters are displayed below the finder list. You cannot select filters if you have selected a finder.
+
+* *Parameters*
++
+Enables you to enter the values for the selected finder or filters. You must enter all the required values to complete the search criteria.
+
+* *Command buttons*
+ ** *Save As Finder*
++
+Saves the selected filters as a finder.
+
+ ** *Test*
++
+Enables you to test the parameters for the selected filters before specifying the values in the Parameters area.
+
+ ** *OK*
++
+Saves the configurations settings and closes the dialog box.
+
+ ** *Cancel*
++
+Cancels changes, if any, and closes the dialog box.
+
+== Advanced tab
+
+This tab enables you to specify when the search should be performed and allows you to sort the resource attributes and the status of the resource attributes.
+
+* *Execute this search always*
++
+Executes the search without any restriction when the command is executed.
+
+* *Execute search only when the following expression evaluates to TRUE*
++
+Executes the search only when the value of the optional attribute specified in the box is "`true`". You can use MVFLEX Expression Language (MVEL) syntax to specify the optional attribute.
+
+* *Sorting table*
++
+Displays the attributes and the sort order for the filters selected in the *Select <dictionary object> by* tab. The sort order is significant for resource selection--for example, if you selected descending as the sort order for aggregates, the aggregate with maximum _available_space_ is selected as the resource. To change the sort order for an attribute, you can click the status column of the attribute and select the required sort order from the list.
+
+* *Command buttons*
+ ** *Up*
++
+Moves the selected entry up one row in the Sorting table.
+
+ ** *Down*
++
+Moves the selected entry down one row in the Sorting table.

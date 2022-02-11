@@ -1,0 +1,18 @@
+---
+permalink: workflows/concept-what-data-sources-are.html
+sidebar: sidebar
+keywords: data, sources
+summary: "A data source is a method for establishing a connection to other systems, files and databases in order to extract data. For example, a data source can be a connection to an OnCommand Unified Manager database of OnCommand Unified Manager 9.4 data source type."
+---
+= What data sources are
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A data source is a method for establishing a connection to other systems, files and databases in order to extract data. For example, a data source can be a connection to an OnCommand Unified Manager database of OnCommand Unified Manager 9.4 data source type.
+
+You can add a custom data source to OnCommand Workflow Automation (WFA) for data acquisition after defining the required data source type by associating the caching scheme, the required port, and the acquisition method with the data source type.
+
+WFA caches information through various data sources. WFA collects resource information from the data sources and formats it for the caching scheme. The cache tables, which are the tables inside the caching schemes, are formatted to match the dictionary entry objects. When you use a finder in workflows, it returns a dictionary object and the data from the dictionary object is populated from the cache tables. The process of acquiring data from the data sources is known as _data source acquisition_. You can use either a script-based method or a driver-based method for data source acquisition. The sources can be different from each other and data source acquisition might sample them at different time intervals. WFA then merges that information in to the database and superimposes the reservation data to maintain updated resource information in the database.
+
+The WFA database includes several different caching schemes. A caching scheme is a set of tables and each table includes information from a certain dictionary entry type; however, the tables might include combined information from multiple sources of a specific data source type. WFA uses the database information to understand the status of the resources, perform calculations, and execute commands on the resources.

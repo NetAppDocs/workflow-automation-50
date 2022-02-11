@@ -1,0 +1,81 @@
+---
+permalink: help/reference-clone-dictionary-entry-dialog-box.html
+sidebar: sidebar
+keywords: clone dictionary entry dialog box
+summary: "The New Dictionary Entry <EntryName_copy> dialog box enables you to copy a dictionary object and edit the definition of the cloned dictionary object."
+---
+= Clone Dictionary Entry dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The New Dictionary Entry <EntryName_copy> dialog box enables you to copy a dictionary object and edit the definition of the cloned dictionary object.
+
+* *Name of object type*
++
+Enables you to specify a name for the cloned dictionary object.
+
+* *Description*
++
+Enables you to provide a description for the cloned dictionary object.
+
+* *Scheme*
++
+Enables you to select a scheme that should be associated with the cloned dictionary object. You can add custom dictionary entries to the certified schemes.
+
+* *Entity Version*
++
+Enables you to enter the version number for the cloned dictionary entry in _major.minor.revision_ format--for example, 1.0.0.
+
+== Attribute table
+
+Enables you to specify a list of attributes that define the cloned dictionary object.
+
+* *Name*
++
+Enables you to enter the name of the attribute.
+
+* *Type*
++
+Enables you to select the type of the attribute--such as string, boolean, and integer--for type checking. You can also reference a dictionary entry from the selected scheme.
+
+* *String length*
++
+Enables you to specify the length of the string in numerals, if string type is selected for the attribute.
+
+* *Values*
++
+Enables you to specify a list of comma-separated values, if enum type is selected for the attribute.
+
+* *Natural key*
++
+Enables you to specify whether the dictionary attribute is part of the dictionary object's natural key.
++
+A natural key is the unique identifier of a dictionary object. For example, qtrees are identified by the qtree name, the volume name, and the array IP address.
+
+* *To be Cached*
++
+Enables you to specify whether the attribute should be cached.
++
+A dictionary entry can include both attributes that are cached and attributes that are not cached. A cache table is created and populated with the attributes that are marked for caching during the cache acquisition of the scheme. A cache table is created for a dictionary object when at least one attribute is selected to be cached.
+
+* *Can be Null*
++
+Enables you to specify whether the value of the attribute can be null. This setting is valid only for attributes that are selected to be cached.
+
+* *Description*
++
+Enables you to specify a description for the attribute.
+
+* *Values in natural key columns are case sensitive*
++
+Enables you to specify that the natural keys are case-sensitive.
+
+* *Command buttons*
+ ** *Add row*
++
+Enables you to add a row to the table that is used to specify an attribute.
+
+ ** *Remove row*
++
+Enables you to delete the selected row.

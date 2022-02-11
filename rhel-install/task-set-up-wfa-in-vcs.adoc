@@ -1,0 +1,18 @@
+---
+permalink: rhel-install/task-set-up-wfa-in-vcs.html
+sidebar: sidebar
+keywords: set up, workflow automation, vcs, high availability
+summary: "You must install and configure Workflow Automation (WFA) in a Veritas Cluster Server (VCS) environment to set up high availability and provide failover. Before you install WFA, you must verify that all required components are configured correctly."
+---
+= Set up Workflow Automation in VCS for high availability
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You must install and configure Workflow Automation (WFA) in a Veritas Cluster Server (VCS) environment to set up high availability and provide failover. Before you install WFA, you must verify that all required components are configured correctly.
+
+*About this task*
+
+A high-availability setup provides constant support for application operations. If one of the components fails, the mirrored component in the setup takes over the operation and provides uninterrupted network resources.
+
+NOTE: VCS is the only clustering solution that is supported by WFA on Linux.

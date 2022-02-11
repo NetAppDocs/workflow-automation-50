@@ -1,0 +1,95 @@
+---
+permalink: help/reference-new-finder-dialog-box.html
+sidebar: sidebar
+keywords: new finder, dialog box
+summary: "The New Finder dialog box enables you to create new finders."
+---
+= New Finder dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The New Finder dialog box enables you to create new finders.
+
+* Properties tab
+* Filters
+* Returned Attributes tab
+
+== Properties tab
+
+The *Properties* tab enables you to specify a name for the finder, select the type of WFA dictionary object, and enter a description for the finder. The tab also displays the input parameters after a filter is selected in the *Filters* tab.
+
+* *Name*
++
+Enables you to enter a name for the finder.
+
+* *Type*
++
+Enables you to select the type of object from the list such as aggregate, igroup, and cluster. The filters for the selected object are displayed in the *Filters* tab.
+
+* *Entity Version*
++
+Enables you to enter the version number for the finder in _major.minor.revision_ format--for example, 1.0.0.
+
+* *Description*
++
+Enables you to enter a description for the finder.
+
+* *Input Parameters table*
++
+Displays the input parameters for the selected filters.
+
+== Filters tab
+
+Enables you to select the required filters from the available list of filters.
+
+* *Available Filters*
++
+Displays the list of available filters for the selected object in the *Properties* tab.
+
+* *Selected Filters*
++
+Displays the list of filters selected from the available filters.
+
+* *Selection buttons*
++
+Moves the selected entry from one box to another.
+
+== Returned Attributes tab
+
+Enables you to see details about the available filters, select the required attributes of the available filters, and specify the sort order for the attributes.
+
+* *Available*
++
+Displays the available filters and the attributes for the filters.
+
+* *Selected*
++
+Displays the selected filters and the attributes, the aliases, and the sort order for the selected filters.
+
+* *Command buttons*
+ ** *Up*
++
+Moves the selected entry up one row in the Selected table.
+
+ ** *Down*
++
+Moves the selected entry down one row in the Selected table.
+
+ ** *Selection buttons*
++
+Moves the selected entry from one table to another.
+
+== Command buttons
+
+* *Test*
++
+Enables you to test the finder that you have defined.
+
+* *Save*
++
+Saves the finder and closes the dialog box.
+
+* *Cancel*
++
+Does not save the finder and closes the dialog box.

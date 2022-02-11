@@ -1,0 +1,225 @@
+---
+permalink: help/reference-edit-workflow-window.html
+sidebar: sidebar
+keywords: workflow automation, window, workflow name
+summary: "The Workflow <workflow name> window displays the selected workflow and its associated commands and parameters. The commands associated with the workflow are displayed as blue boxes in columns that are arranged in the sequential order of execution—left to right. The variables and objects for each command are displayed as gray boxes below the command."
+---
+= Workflow <workflow name> window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Workflow <workflow name> window displays the selected workflow and its associated commands and parameters. The commands associated with the workflow are displayed as blue boxes in columns that are arranged in the sequential order of execution--left to right. The variables and objects for each command are displayed as gray boxes below the command.
+
+== Workflow tab
+
+The Workflow tab enables you to select and use child workflows and commands, and customize the display name.
+
+* *Available Steps*
++
+Provides a list of available child workflows and commands that you can add to your workflow.
++
+You can search for child workflows or commands by using the name, scheme, and minimum software version as search strings in the text box.
++
+You can customize the workflow display by rearranging the order of the commands. To rearrange the commands, you can drag and drop commands in the required order. Double-clicking a command moves that command to the end of the list. You can modify the display name by double-clicking the display name of the command in the blue box. You can delete a command by moving the cursor over the blue box, and then clicking "`X`" on the upper-right corner.
++
+You can click the row number to perform various functions on the row.
+
+ ** *Insert a row*
++
+Inserts a new row above or below the selected row in the workflow.
+
+ ** *Copy row*
++
+Copies the selected row from the workflow and saves it to the clipboard. The repetition details set for the row is copied when a row is copied.
+
+ ** *Repeat row*
++
+Opens the Row Repetition Details dialog box, which enables you to specify the type of repetition.
+
+ ** *Add condition*
++
+Opens the Condition for row <row number> dialog box, which enables you to select a condition. The selected condition is applicable to all the commands in the row. All commands in the row will be executed only if the selected condition is met.
+
+ ** *Remove row*
++
+Deletes the selected row from the workflow.
+
+* *Paste Row*
++
+Pastes the copied row above or below the selected row. This option is available after selecting the Copy row function.
+
+== Details tab
+
+The Details tab enables you to provide general information about the workflow.
+
+* *Workflow name*
++
+Enables you to specify the name of the workflow using an alphanumeric string.
+
+* *Entity Version*
++
+Enables you to enter a version number for the workflow in the major.minor.revision format--for example, 1.0.0.
+
+* *Categories*
++
+Displays the associated category for the workflow. You can assign a workflow to a category from the Category window.
+
+* *Workflow Description*
++
+Enables you to enter a description of the workflow. You can click in the field to open the Edit Description dialog box.
+
+* *Ready for production*
++
+Enables you to mark the workflow ready for production, which allows the workflow to be executed and listed in the Portal window.
+
+* *Consider Reserved Elements*
++
+Enables you to use the reservation feature for the workflow, when selected resources are available for the workflow until the reservation expiration period you have configured. The reservation feature enables you to exclude resources reserved by other workflows during resource selection.
++
+NOTE: You must not select this check box if you require the filters to search only the contents of the persistent cache without considering reservations set by other workflows.
+
+* *Enable element existence validation*
++
+Enables you to validate the existence of elements and avoid failure of certain actions during the execution of workflows. For example, you can avoid creating a new volume in an array with the same name as that of an existing volume.
+
+* *Minimum Software Versions*
++
+Specifies the minimum versions of the software that is required to execute the workflow. For example, the software can be clustered Data ONTAP 8.2.0 and vCenter 6.0. The versions are displayed as comma-separated values.
+
+== User Inputs tab
+
+The User Inputs tab enables you to view and edit the user input attributes that you created when you defined the workflow objects and created user inputs. The values for the user input attributes are filled when you preview or execute the workflow.
+
+You can double-click the user input that you want to edit, which opens the Edit Variable: <user_input> dialog box, enabling you to edit the user input.
+
+You can customize the table display by rearranging the column order. To rearrange the columns, you can drag and drop columns in the required order. However, you cannot hide or delete any of these columns.
+
+* *Name*
++
+Displays the name of the user input attribute.
+
+* *Display Name*
++
+Displays the name that is displayed to the workflow user.
+
+* *Type*
++
+Displays the user input type, such as string, query, boolean, table, or password.
+
+* *Values*
++
+Displays the allowed values for the user input--for example, range for numbers and regular expression for strings.
+
+* *Default Value*
++
+Displays the default value of the user input.
+
+* *Input Dependency*
++
+Displays another user input from the list that provides a value to the selected user input.
+
+* *Group*
++
+Displays the name of the group for the user input attributes.
+
+* *Mandatory*
++
+Displays the status of the user input. If the check box is displayed as selected, the user input attributes are mandatory for the execution of the workflow.
+
+* *Command buttons*
+ ** *Up*
++
+Moves the selected entry up one row in the table.
+
+ ** *Down*
++
+Moves the selected entry down one row in the table.
+
+== Constants tab
+
+The Constants tab enables you to define the value of the constants that can be used multiple times in the workflow. You can specify the following as the value of constants:
+
+* Numbers
+* Strings
+* MVEL expressions
+* Functions
+* User inputs
+* Variables
+
+You can customize the table display by sorting each column, as well as by rearranging the column order.
+
+* *Name*
++
+Displays the name of the constant.
+
+* *Description*
++
+Enables you to specify a description for the constant.
+
+* *Value*
++
+Enables you to specify a value for the constant.
+
+* *Command buttons*
+ ** *Add*
++
+Adds a new row in the Constants table.
+
+ ** *Remove*
++
+Deletes the selected row from the Constants table.
+
++
+You can also right-click the constants to use the copy and paste functionality.
+
+== Return Parameters tab
+
+The Return Parameters tab enables you to define and provide a description of the return parameters for the workflow that can be viewed from the Monitoring window or from web services.
+
+* *Parameter Value*
++
+Enables you to specify the parameter value.
+
+* *Parameter Name*
++
+Enables you to specify the parameter name.
+
+* *Description*
++
+Enables you to specify a description for the selected parameter.
+
+* *Command buttons*
+ ** *Add Row*
++
+Adds a new row in the Return Parameters table.
+
+ ** *Remove Row*
++
+Deletes the selected row from the Return Parameters table.
+
+== Help Content tab
+
+The Help Content tab enables you to add, view, and remove the Help content for the workflow. The workflow Help content provides information about the workflow for storage operators.
+
+== Advanced tab
+
+The Advanced tab enables you to configure a custom URI path for workflow execution through API calls. Each segment in the URI path can be a string or a valid name of the user input of the workflow in brackets.
+
+For example, /devops/\{ProjectName}/clone. The workflow can be invoked as a call to _https:_//WFA-Server:HTTPS_PORT/rest/devops/Project1/clone/jobs.
+
+== Command buttons
+
+The command buttons are available at the bottom of the workflow window. The commands can also be accessed from the right-click menu in the window.
+
+* *Preview*
++
+Opens the Preview Workflow dialog box, which enables you to specify user input attributes.
+
+* *Save As*
++
+Enables you to save the workflow with a new name.
+
+* *Save*
++
+Saves the configurations settings.

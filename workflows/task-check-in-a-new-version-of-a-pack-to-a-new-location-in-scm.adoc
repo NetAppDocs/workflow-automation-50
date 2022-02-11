@@ -1,0 +1,31 @@
+---
+permalink: workflows/task-check-in-a-new-version-of-a-pack-to-a-new-location-in-scm.html
+sidebar: sidebar
+keywords: oncommand, workflow, automation, check, version, wfa, pack
+summary: "You can update the version of a pack in OnCommand Workflow Automation (WFA), and then check in the updated pack to a new location in the Source Control Management (SCM) server."
+---
+= Check in a new version of a WFA workflow pack
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can update the version of a pack in OnCommand Workflow Automation (WFA), and then check in the updated pack to a new location in the Source Control Management (SCM) server.
+
+*What you'll need*
+
+The SCM must be set up and you must have admin or architect credentials.
+
+.Steps
+. Log in to the *WFA* window through a web browser.
+. Click *Designer* > *Pack*.
+. Click the *Edit Pack* icon.
+. In the *Pack <pack name>* dialog box, in the *Version* field, update the version of the pack.
+. Click *Save*.
+. Click the *Export To Server* icon at the pack level.
+. In the Export To Server Folder dialog box, in the *Folder location at server system* field, enter a new file system location.
++
+If the pack was previously saved in the `C:\p4\cdot\1.0.0` file system location, now save it in the `C:\p4\cdot\2.0.0` location.
+
+. In the SCM client location, check in the pack content to a new location in the SCM server.
++
+If the pack was previously saved in the `//depot/wfa/packs/cdot/1.0.0` path in the SCM server, you can save it in another location, such as `//depot/wfa/packs/cdot/2.0.0.`
