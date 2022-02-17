@@ -23,7 +23,7 @@ link:task-create-a-workflow-automation-pack.html[Create a workflow automation pa
 
 . Add entities to the pack you created.
 +
-link:task_add_entity_to_a_workflow_automation_pack.adoc[Add entities to an OnCommand Workflow Automation pack]
+link:task-add-entity-to-a-workflow-automation-pack.html[Add entities to an OnCommand Workflow Automation pack]
 
 . Click the *Export To Server* icon.
 . In the *Export To Server Folder* dialog box, in the *Folder location at server system* field, enter the file system location where the pack is to be saved in the server containing the SCM client.

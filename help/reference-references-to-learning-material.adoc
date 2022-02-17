@@ -24,7 +24,7 @@ http://msdn.microsoft.com/en-us/library/windows/desktop/aa973757(v=vs.85).aspx[^
 a|
 PowerShell Development -- Integrated Scripting Environment (ISE)
 a|
-https://docs.microsoft.com/en-us/powershell/scripting/windows-powershell/ise/introducing-the-windows-powershell-ise?view=powershell-7.2#:~:text=The%20Windows%20PowerShell%20Integrated%20Scripting,Windows%2Dbased%20graphic%20user%20interface.[^]
+https://docs.microsoft.com/en-us/powershell/scripting/windows-powershell/ise/introducing-the-windows-powershell-ise?view=powershell-7.2#:~:text=The%20Windows%20PowerShell%20Integrated%20Scripting,Windows%2Dbased%20graphic%20user%20interface[^]
 a|
 +.NET Framework Naming Guidelines+
 a|

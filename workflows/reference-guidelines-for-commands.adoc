@@ -56,7 +56,7 @@ The string representation for a command displays the details of a command in a w
 a|
 Avoid using attributes that do not have any value. An attribute without a value is displayed as NA.
 a|
-VolName 10.68.66.212[NA]aggr1/testVol7
+`VolName 10.68.66.212[NA]aggr1/testVol7`
 a|
 Separate different entries in the string representation using the following delimiters: [ ] , / :
 a|

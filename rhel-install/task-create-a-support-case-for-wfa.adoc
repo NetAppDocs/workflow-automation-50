@@ -17,7 +17,4 @@ The technical triage template for WFA provides all the required information for 
 
 .Steps
 . Access the WFA technical triage template.
-+
-https://kb.netapp.com/support/index?page=content&id=1013484[NetApp KB Article 1013484: Triage Template - How to Troubleshoot OnCommand Workflow Automation^]
-
 . Use the template to construct and send your case to technical support.

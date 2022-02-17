@@ -23,7 +23,7 @@ homepage:
       links:
         - title: Release Notes
           url: reference-releasenotes.html
-    - title: Install & setup
+    - title: Install and setup
       links:
         - title: Install OnCommand Workflow Automation on Linux systems
           url: rhel-install/concept-oncommand-workflow-automation-installation-and-configuration-instructions.html

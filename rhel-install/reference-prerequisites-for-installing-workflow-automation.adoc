@@ -114,4 +114,4 @@ Send log data
 |===
 *Related information*
 
-http://mysupport.netapp.com[NetApp Support]
+http://mysupport.netapp.com[NetApp Support^]

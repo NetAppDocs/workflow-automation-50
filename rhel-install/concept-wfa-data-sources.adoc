@@ -17,4 +17,4 @@ For more information about the predefined data source types, see the Interoperab
 
 *Related information*
 
-http://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool]
+http://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool^]

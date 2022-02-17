@@ -98,7 +98,6 @@ The admin user password must satisfy the following criteria:
   *** One lowercase character
   *** One numeral
   *** One special character
-
 a|
 -m
 a|
@@ -107,10 +106,6 @@ a|
 -n
 a|
 HTTP port
-a|
-
-a|
-
 a|
 -s
 a|
@@ -133,9 +128,8 @@ a|
 Option to display
 
 Displays the Help
-
 |===
 
 *Related information*
 
-http://mysupport.netapp.com[NetApp Support]
+http://mysupport.netapp.com[NetApp Support^]
