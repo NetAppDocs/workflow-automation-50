@@ -11,7 +11,7 @@ summary: "You can do a regular restore of the OnCommand Workflow Automation (WFA
 [.lead]
 You can do a regular restore of the OnCommand Workflow Automation (WFA) database that you backed up previously by using the command-line interface (CLI). In a regular restore, you can only restore the WFA database.
 
-*What you'll need*
+.What you'll need
 
 * You must have created a backup of the WFA database.
 * You must have admin or architect credentials.

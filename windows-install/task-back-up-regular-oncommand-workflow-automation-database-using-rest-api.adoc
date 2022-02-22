@@ -11,7 +11,7 @@ summary: "You can perform a regular backup of the OnCommand Workflow Automation 
 [.lead]
 You can perform a regular backup of the OnCommand Workflow Automation (WFA) database by using the REST APIs. In a regular backup, only the WFA database is backed up.
 
-*What you'll need*
+.What you'll need
 
 You must have admin, architect, or backup credentials.
 

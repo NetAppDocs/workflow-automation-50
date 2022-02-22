@@ -11,7 +11,7 @@ summary: "The Perl package installed on your system is used by OnCommand Workflo
 [.lead]
 The Perl package installed on your system is used by OnCommand Workflow Automation. If you want to use another Perl distribution, you can configure your preferred Perl distribution to work with WFA.
 
-*What you'll need*
+.What you'll need
 
 You must have installed the required Perl distribution on the WFA server.
 

@@ -11,7 +11,7 @@ summary: "You must create a data source type to enable data acquisition from a d
 [.lead]
 You must create a data source type to enable data acquisition from a data source, which is not predefined in OnCommand Workflow Automation (WFA).
 
-*What you'll need*
+.What you'll need
 
 * You must have created the required dictionary entry and scheme if you are creating a custom data source type that is not predefined in WFA.
 * You must be aware of PowerShell scripting to create a data source type that uses the script method.

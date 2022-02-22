@@ -11,12 +11,12 @@ summary: "By default, the OnCommand Workflow Automation (WFA) database can be ac
 [.lead]
 By default, the OnCommand Workflow Automation (WFA) database can be accessed only by clients that are running on the WFA host system. You can change the default settings if you want to access the WFA database from a remote system.
 
-*What you'll need*
+.What you'll need
 
 * You must have logged in to the WFA host system as an admin user.
 * If a firewall is installed on the WFA host system, you must have configured your firewall settings to allow access from the remote system.
 
-*About this task*
+.About this task
 
 The default WFA installation path is used in this procedure. If you changed the default location during installation, you must use the custom WFA installation path.
 

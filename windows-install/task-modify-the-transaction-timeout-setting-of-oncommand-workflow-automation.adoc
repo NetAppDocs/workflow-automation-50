@@ -11,11 +11,11 @@ summary: "The OnCommand Workflow Automation (WFA) database transaction times out
 [.lead]
 The OnCommand Workflow Automation (WFA) database transaction times out in 300 seconds by default. You can increase the default timeout duration when restoring a large-sized WFA database from a backup to avoid potential failure of the database restoration.
 
-*What you'll need*
+.What you'll need
 
 You must have logged in to the WFA host system as an admin.
 
-*About this task*
+.About this task
 
 The default WFA installation path is used in this procedure. If you changed the default location during installation, you must use the changed WFA installation path.
 

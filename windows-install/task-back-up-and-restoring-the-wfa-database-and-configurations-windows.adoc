@@ -11,11 +11,11 @@ summary: "You can back up and restore the OnCommand Workflow Automation (WFA) da
 [.lead]
 You can back up and restore the OnCommand Workflow Automation (WFA) database and supported configurations so that you can recover the data in case of a disaster. The supported configurations include data access, HTTP timeout, and SSL certificates.
 
-*What you'll need*
+.What you'll need
 
 You must have admin privileges or architect credentials.
 
-*About this task*
+.About this task
 
 You must create the backup in a secure location because restoring the backup will provide access to all the storage systems that are accessed by WFA.
 

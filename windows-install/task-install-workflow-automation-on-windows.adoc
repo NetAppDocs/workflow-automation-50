@@ -11,7 +11,7 @@ summary: "You can install OnCommand Workflow Automation (WFA) to create and cust
 [.lead]
 You can install OnCommand Workflow Automation (WFA) to create and customize storage workflows for automating the storage tasks that are performed in your environment.
 
-*What you'll need*
+.What you'll need
 
 * You must have reviewed the installation prerequisites.
 +
@@ -21,7 +21,7 @@ xref:reference-prerequisites-for-installing-workflow-automation.adoc[Prerequisit
 * You must have downloaded the WFA installer from the NetApp Support Site.
 * You must disable the `Auto upgrade` feature of Java.
 
-*About this task*
+.About this task
 
 * If you are installing WFA on a virtual machine (VM), the name of the VM must not include the underscore (_) character.
 * ActiveState ActivePerl is installed before you install WFA.

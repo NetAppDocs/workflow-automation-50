@@ -11,7 +11,7 @@ summary: "You must install and configure Workflow Automation (WFA) in a Veritas 
 [.lead]
 You must install and configure Workflow Automation (WFA) in a Veritas Cluster Server (VCS) environment to set up high availability and provide failover. Before you install WFA, you must verify that all required components are configured correctly.
 
-*About this task*
+.About this task
 
 A high-availability setup provides constant support for application operations. If one of the components fails, the mirrored component in the setup takes over the operation and provides uninterrupted network resources.
 

@@ -11,13 +11,13 @@ summary: "You can upgrade new versions of MySQL for OnCommand Workflow Automatio
 [.lead]
 You can upgrade new versions of MySQL for OnCommand Workflow Automation (WFA) on the Windows server. You can upgrade to a newer version of MySQL to get fixes for security vulnerabilities on the Windows server.
 
-*What you'll need*
+.What you'll need
 
 You must have Windows admin privileges and the password for MYSQL root user on the WFA server.
 
 NOTE: Before reinstalling WFA 4.2 or later, you must have deleted the MySQL data directory if you have uninstalled MySQL.
 
-*About this task*
+.About this task
 
 You should be aware of the following limitations:
 

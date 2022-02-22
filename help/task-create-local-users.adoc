@@ -11,11 +11,11 @@ summary: "OnCommand Workflow Automation (WFA) enables you to create and manage l
 [.lead]
 OnCommand Workflow Automation (WFA) enables you to create and manage local WFA users with specific permissions for various roles, such as guest, operator, approver, architect, admin, and backup.
 
-**What you'll need**
+*.What you'll need*
 
 You must have installed WFA and logged in as an admin.
 
-**About this task**
+*.About this task*
 
 WFA enables you to create users for the following roles:
 

@@ -11,11 +11,11 @@ summary: "You can back up the OnCommand Workflow Automation (WFA) database from 
 [.lead]
 You can back up the OnCommand Workflow Automation (WFA) database from the web portal and use the backup file for data recovery purposes. You cannot perform a full backup from the web portal.
 
-*What you'll need*
+.What you'll need
 
 You must have admin or architect credentials to perform this task.
 
-*About this task*
+.About this task
 
 A WFA user with backup role cannot log in to the web portal to perform a backup. The WFA users with backup role can only perform remote or scripted backups.
 

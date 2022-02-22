@@ -11,7 +11,7 @@ summary: "You can install OnCommand Workflow Automation (WFA) by using the comma
 [.lead]
 You can install OnCommand Workflow Automation (WFA) by using the command-line interface (CLI).
 
-*What you'll need*
+.What you'll need
 
 * You must have reviewed the installation prerequisites.
 +
@@ -19,7 +19,7 @@ xref:reference-prerequisites-for-installing-workflow-automation.adoc[Installatio
 
 * You must have downloaded the WFA installer from the NetApp Support Site.
 
-*About this task*
+.About this task
 
 If you are installing WFA on a virtual machine (VM), the name of the VM must not include the underscore (_) character.
 

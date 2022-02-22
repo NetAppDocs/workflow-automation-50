@@ -11,7 +11,7 @@ summary: "You can create a new workflow pack with OnCommand Workflow Automation 
 [.lead]
 You can create a new workflow pack with OnCommand Workflow Automation (WFA) and check it in to Source Control Management (SCM).
 
-*What you'll need*
+.What you'll need
 
 SCM must be set up and you must have admin or architect credentials.
 

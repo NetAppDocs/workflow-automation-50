@@ -11,7 +11,7 @@ summary: "You must set up a connection with a data source in OnCommand Workflow 
 [.lead]
 You must set up a connection with a data source in OnCommand Workflow Automation (WFA) to acquire data from the data source.
 
-*What you'll need*
+.What you'll need
 
 * For Active IQ Data Center Manager versions earlier than 6.0, you must have run the latest version of the ocsetup tool on the Data Center Manager server to enable and configure remote read-only access to the database.
 * For Active IQ Data Center Manager6.0 and later, you must have created a database user account on the Data Center Manager server.
@@ -55,7 +55,7 @@ NOTE: You must have installed VMware PowerCLI. If you want to execute workflows 
 +
 The default TCP port number is 443. See the documentation on your firewall for details.
 
-*About this task*
+.About this task
 
 You can add multiple Data Center Manager server data sources to WFA using this procedure. However, you must not use this procedure if you want to pair Data Center Manager server 6.3 and later with WFA and use the protection functionality in Data Center Manager server.
 

@@ -11,7 +11,7 @@ summary: "You can test the reservation scripts you have written for OnCommand Wo
 [.lead]
 You can test the reservation scripts you have written for OnCommand Workflow Automation (WFA) commands on the playground database to ensure that the scripts are working fine and not affecting the WFA database tables.
 
-*About this task*
+.About this task
 
 The default WFA installation path is used in this procedure. If you changed the default location during installation, you must use the changed WFA installation path.
 

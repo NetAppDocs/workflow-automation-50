@@ -11,7 +11,7 @@ summary: "Before you install OnCommand Workflow Automation (WFA) in Veritas Clus
 [.lead]
 Before you install OnCommand Workflow Automation (WFA) in Veritas Cluster Server (VCS), you must ensure that the cluster nodes are properly configured to support WFA.
 
-*What you'll need*
+.What you'll need
 
 * VCS must be installed on both nodes of the cluster according to the instructions in the _Veritas Cluster Server 6.1.1 Installation Guide_.
 * To receive notifications about cluster events, VCS software must be configured for SNMP and SMTP according to the instructions in the _Veritas Cluster Server Administrator's Guide_.

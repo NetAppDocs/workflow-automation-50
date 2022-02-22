@@ -11,7 +11,7 @@ summary: "You can create a WFA filter that can search for resources if there is 
 [.lead]
 You can create a WFA filter that can search for resources if there is no predefined WFA filter that is suitable for the task.
 
-*What you'll need*
+.What you'll need
 
 You must know the appropriate SQL syntaxes to create the filter.
 

@@ -11,11 +11,11 @@ summary: "You can customize a predefined Workflow Automation (WFA) workflow if t
 [.lead]
 You can customize a predefined Workflow Automation (WFA) workflow if there is no predefined workflow that is suitable for your requirement.
 
-*What you'll need*
+.What you'll need
 
 You must have identified the required modifications for the predefined workflow.
 
-*About this task*
+.About this task
 
 Questions and support request for the following must be directed to the WFA community:
 

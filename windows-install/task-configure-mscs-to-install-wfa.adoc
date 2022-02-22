@@ -11,7 +11,7 @@ summary: "Before you install Workflow Automation (WFA) in Microsoft Cluster Serv
 [.lead]
 Before you install Workflow Automation (WFA) in Microsoft Cluster Server (MSCS), you must configure your MSCS environment.
 
-*What you'll need*
+.What you'll need
 
 * MSCS must be installed from the server manager.
 * Optional: SnapDrive for Windows must be installed.
@@ -21,7 +21,7 @@ The minimum supported versions are Windows 2008 and 2012.
 * The same version of WFA must be installed using the same path on both the cluster nodes.
 * Both the cluster nodes must be added to the same domain.
 
-*About this task*
+.About this task
 
 You must complete this task by using Cluster Manager in the MSCS interface.
 

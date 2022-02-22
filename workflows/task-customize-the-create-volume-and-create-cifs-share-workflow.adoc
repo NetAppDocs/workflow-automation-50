@@ -11,7 +11,7 @@ summary: "You can customize your workflows based on your requirements. For examp
 [.lead]
 You can customize your workflows based on your requirements. For example, you can modify the predefined _Create a Volume and a CIFS Share_ workflow to include deduplication and compression.
 
-*About this task*
+.About this task
 
 The customization and illustrations in this task are examples; you can modify the WFA workflows based on your requirements.
 

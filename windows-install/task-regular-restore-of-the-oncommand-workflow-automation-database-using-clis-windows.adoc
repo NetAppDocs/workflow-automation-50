@@ -11,7 +11,7 @@ summary: "You can do regular restore of the OnCommand Workflow Automation (WFA) 
 [.lead]
 You can do regular restore of the OnCommand Workflow Automation (WFA) database by using the REST APIs. In a regular restore, you can only backup the WFA database.
 
-*What you'll need*
+.What you'll need
 
 * You must have created a backup of the WFA database.
 * You must have admin credentials, architect credentials, or backup user credentials.

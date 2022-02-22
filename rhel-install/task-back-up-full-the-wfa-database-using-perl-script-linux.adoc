@@ -11,11 +11,11 @@ summary: "You can perform a full backup of the OnCommand Workflow Automation (WF
 [.lead]
 You can perform a full backup of the OnCommand Workflow Automation (WFA) database by using the WFA command-line interface (CLI). In a full backup, the WFA database, WFA configuration, and key are backed up.
 
-*What you'll need*
+.What you'll need
 
 You must have admin user credentials or architect credentials.
 
-*About this task*
+.About this task
 
 In a high-availability environment, you should create scheduled backups by using REST APIs. You cannot create backups by using the CLI when WFA is in failover mode.
 

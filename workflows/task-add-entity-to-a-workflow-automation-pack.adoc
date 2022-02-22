@@ -11,7 +11,7 @@ summary: "You can add one or more entities to a workflow pack in OnCommand Workf
 [.lead]
 You can add one or more entities to a workflow pack in OnCommand Workflow Automation (WFA) for your storage automation and integration requirements.
 
-*About this task*
+.About this task
 
 You can remove a pack from the following entities:
 

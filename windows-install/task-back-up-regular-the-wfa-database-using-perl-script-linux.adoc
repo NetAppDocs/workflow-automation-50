@@ -11,11 +11,11 @@ summary: "You can perform a regular backup of the OnCommand Workflow Automation 
 [.lead]
 You can perform a regular backup of the OnCommand Workflow Automation (WFA) database by using the WFA command-line interface (CLI). In a regular backup, only the WFA database is backed up.
 
-*What you'll need*
+.What you'll need
 
 You must have admin user credentials, architect credentials, or backup user credentials.
 
-*About this task*
+.About this task
 
 In a high-availability environment, you should create scheduled backups by using REST APIs. You cannot create backups by using the CLI when WFA is in failover mode.
 

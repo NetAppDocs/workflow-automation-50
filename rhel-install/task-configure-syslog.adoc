@@ -11,7 +11,7 @@ summary: "You can configure OnCommand Workflow Automation (WFA) to send log data
 [.lead]
 You can configure OnCommand Workflow Automation (WFA) to send log data to a specific Syslog server for purposes such as event logging and log information analysis.
 
-*What you'll need*
+.What you'll need
 
 You must have configured the Syslog server to accept data from the WFA server.
 

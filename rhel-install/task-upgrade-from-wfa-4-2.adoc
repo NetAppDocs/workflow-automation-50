@@ -11,11 +11,11 @@ summary: "You can perform an in-place upgrade from OnCommand Workflow Automation
 [.lead]
 You can perform an in-place upgrade from OnCommand Workflow Automation (WFA) 3.1 or later to the latest available version of WFA to use the new features and enhancements.
 
-*What you'll need*
+.What you'll need
 
 You must have downloaded the .bin binary file from the NetApp Support Site to the WFA host machine.
 
-*About this task*
+.About this task
 
 You can restore to WFA 5.0 from either WFA 4.2 or 4.1 only. A WFA database backup can only be restored to a system that is running the same version or a later version of WFA.
 

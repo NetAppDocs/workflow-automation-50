@@ -11,11 +11,11 @@ summary: "You can remove a pack from the entities in OnCommand Workflow Automati
 [.lead]
 You can remove a pack from the entities in OnCommand Workflow Automation (WFA) and check in the updated pack to the Source Control Management (SCM) server.
 
-*What you'll need*
+.What you'll need
 
 The SCM must be set up and you must have admin or architect credentials.
 
-*About this task*
+.About this task
 
 You can remove a pack from the following entities:
 

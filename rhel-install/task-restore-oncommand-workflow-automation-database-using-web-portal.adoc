@@ -11,12 +11,12 @@ summary: "You can restore the OnCommand Workflow Automation (WFA) database that 
 [.lead]
 You can restore the OnCommand Workflow Automation (WFA) database that you backed up previously.
 
-*What you'll need*
+.What you'll need
 
 * You must have created a backup of the WFA database.
 * You must have admin or architect credentials.
 
-*About this task*
+.About this task
 
 * Restoring a WFA database erases the current database.
 * You can restore a WFA database backup only to a system running the same or a later version of OnCommand Workflow Automation.

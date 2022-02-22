@@ -11,7 +11,7 @@ summary: "You can configure the timeout value for the Workflow Automation (WFA) 
 [.lead]
 You can configure the timeout value for the Workflow Automation (WFA) web GUI, instead of using the default timeout value.
 
-*About this task*
+.About this task
 
 The default timeout value for WFA web GUI is 180 minutes. You can configure the timeout value to meet your requirements through CLI. You cannot set the timeout value from the WFA web GUI.
 

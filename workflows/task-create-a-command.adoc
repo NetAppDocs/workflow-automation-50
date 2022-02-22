@@ -11,7 +11,7 @@ summary: "You can create a WFA command to complete a specific task in your workf
 [.lead]
 You can create a WFA command to complete a specific task in your workflow if there is no predefined WFA command that is suitable for the task.
 
-*What you'll need*
+.What you'll need
 
 You must know how to write the required code for the command using either PowerShell or Perl.
 

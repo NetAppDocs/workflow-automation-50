@@ -11,7 +11,7 @@ summary: "You can do a full restore of the OnCommand Workflow Automation (WFA) d
 [.lead]
 You can do a full restore of the OnCommand Workflow Automation (WFA) database by using REST APIs. In a full restore, you can restore the WFA database, WFA configuration, and key.
 
-*What you'll need*
+.What you'll need
 
 * You must have created a `.zip` backup of the WFA database.
 * You must have admin or architect credentials.

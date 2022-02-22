@@ -11,7 +11,7 @@ summary: "You can check in already existing packs to the Source Control Manageme
 [.lead]
 You can check in already existing packs to the Source Control Management (SCM) server from OnCommand Workflow Automation (WFA).
 
-*What you'll need*
+.What you'll need
 
 The SCM must be set up and you must have admin or architect credentials.
 

@@ -11,11 +11,11 @@ summary: "You can perform an in-place upgrade from OnCommand Workflow Automation
 [.lead]
 You can perform an in-place upgrade from OnCommand Workflow Automation (WFA) 3.1 or later versions to the latest available versions of WFA to use the new features and enhancements.
 
-*What you'll need*
+.What you'll need
 
 You must have downloaded the `.exe` binary file from the NetApp Support Site to the WFA host machine.
 
-*About this task*
+.About this task
 
 You cannot install MySQL on your own when upgrading from earlier versions of WFA. However, you can install MySQL on your own:
 

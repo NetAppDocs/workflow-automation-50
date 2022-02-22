@@ -11,7 +11,7 @@ summary: "You can update the version of a pack in OnCommand Workflow Automation 
 [.lead]
 You can update the version of a pack in OnCommand Workflow Automation (WFA), and then check in the updated pack to a new location in the Source Control Management (SCM) server.
 
-*What you'll need*
+.What you'll need
 
 The SCM must be set up and you must have admin or architect credentials.
 

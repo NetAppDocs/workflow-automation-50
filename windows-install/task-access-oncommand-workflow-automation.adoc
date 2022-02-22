@@ -11,7 +11,7 @@ summary: "You can access OnCommand Workflow Automation (WFA) through a web brows
 [.lead]
 You can access OnCommand Workflow Automation (WFA) through a web browser from any system that has access to the WFA server.
 
-*What you'll need*
+.What you'll need
 
 You must have installed Adobe Flash Player for your web browser.
 

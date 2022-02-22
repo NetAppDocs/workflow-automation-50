@@ -11,7 +11,7 @@ summary: "By default, OnCommand Workflow Automation (WFA) executes the workflows
 [.lead]
 By default, OnCommand Workflow Automation (WFA) executes the workflows as the admin of the host system. You can restrict WFA rights on the host system by changing the default settings.
 
-*What you'll need*
+.What you'll need
 
 You must have logged in to the WFA host system as an admin.
 

@@ -11,7 +11,7 @@ summary: "You can use the ActiveState Perl Package Manager (PPM) to manage your 
 [.lead]
 You can use the ActiveState Perl Package Manager (PPM) to manage your site-specific Perl modules. You must install your site-specific Perl modules outside the OnCommand Workflow Automation (WFA) installation directory to avoid deletion of your Perl modules during a WFA upgrade.
 
-*About this task*
+.About this task
 
 Using the PERL5LIB environment variable, you can configure the Perl interpreter installed on the WFA server to use your Perl modules.
 

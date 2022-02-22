@@ -11,7 +11,7 @@ summary: "You can migrate an OnCommand Workflow Automation (WFA) installation to
 [.lead]
 You can migrate an OnCommand Workflow Automation (WFA) installation to maintain the unique WFA database key that is installed during the WFA installation. For example, you can migrate the WFA installation from a Windows 2008 server to a Windows 2012 server.
 
-*About this task*
+.About this task
 
 * You must perform this procedure only when you want to migrate a WFA installation that includes the WFA database key to a different server.
 * A WFA database restore does not migrate the WFA key.

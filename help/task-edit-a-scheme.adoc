@@ -11,12 +11,12 @@ summary: "You can edit the display name, description, and entity version of a sc
 [.lead]
 You can edit the display name, description, and entity version of a scheme that you created.
 
-**What you'll need**
+*.What you'll need*
 
 * You must have installed WFA.
 * You must have administrator privileges or architect credentials for WFA.
 
-**About this task**
+*.About this task*
 
 You cannot modify predefined schemes.
 

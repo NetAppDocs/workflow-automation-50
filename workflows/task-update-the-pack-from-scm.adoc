@@ -11,11 +11,11 @@ summary: "You can update a pack in the Source Control Management (SCM) server, a
 [.lead]
 You can update a pack in the Source Control Management (SCM) server, and then import the updated pack to OnCommand Workflow Automation (WFA).
 
-*What you'll need*
+.What you'll need
 
 The SCM must be set up and you must have admin or architect credentials
 
-*About this task*
+.About this task
 
 If you make any changes or updates to a pack in the SCM server, the admin or architect needs to resolve the conflicts, if any, using the SCM-provided diff tools. WFA tailors the XML diff file to show only the relevant changes.
 

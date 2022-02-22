@@ -11,12 +11,12 @@ summary: "You can delete a scheme that you created from OnCommand Workflow Autom
 [.lead]
 You can delete a scheme that you created from OnCommand Workflow Automation (WFA) if you no longer require it.
 
-**What you'll need**
+*.What you'll need*
 
 * You must have installed WFA.
 * You must have administrator privileges or architect credentials for WFA.
 
-**About this task**
+*.About this task*
 
 You cannot delete predefined schemes.
 

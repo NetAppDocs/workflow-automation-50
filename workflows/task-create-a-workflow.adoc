@@ -11,14 +11,14 @@ summary: "You can use Workflow Automation (WFA) to create workflows for tasks su
 [.lead]
 You can use Workflow Automation (WFA) to create workflows for tasks such as provisioning, migrating, and decommissioning storage for databases or file systems. You should create workflows when the predefined WFA workflows do not match your requirements.
 
-*What you'll need*
+.What you'll need
 
 * You must have understood the concepts for WFA building blocks.
 * You must have understood capabilities such as repeat row, approval points, and resource selection that are required for your workflow.
 * You must have completed the planning required for your workflow, including the workflow requirement checklist.
 * You should have created the help content, which provides information about the workflow to storage operators.
 
-*About this task*
+.About this task
 
 The construction of each workflow might vary based on the goal and requirement of the workflow. This task does not provide instructions for a specific workflow, but provides general instructions for creating a workflow.
 
