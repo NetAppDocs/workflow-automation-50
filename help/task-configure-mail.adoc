@@ -11,7 +11,7 @@ summary: "You can configure OnCommand Workflow Automation (WFA) to send you emai
 [.lead]
 You can configure OnCommand Workflow Automation (WFA) to send you email notifications about workflow operations--for example, workflow started or workflow failed.
 
-*.What you'll need*
+.What you'll need
 
 You must have configured a mail host in your environment.
 

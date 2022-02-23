@@ -11,11 +11,11 @@ summary: "You can configure OnCommand Workflow Automation (WFA) to use a Microso
 [.lead]
 You can configure OnCommand Workflow Automation (WFA) to use a Microsoft Active Directory (AD) Lightweight Directory Access Protocol (LDAP) server for authentication and authorization.
 
-*.What you'll need*
+.What you'll need
 
 You must have configured a Microsoft AD LDAP server in your environment.
 
-*.About this task*
+.About this task
 
 Only Microsoft AD LDAP authentication is supported for WFA. You cannot use any other LDAP authentication methods, including Microsoft AD Lightweight Directory Services (AD LDS) or Microsoft Global Catalog.
 

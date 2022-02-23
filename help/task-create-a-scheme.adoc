@@ -11,12 +11,12 @@ summary: "You must create a scheme when data has to be cached from a new data so
 [.lead]
 You must create a scheme when data has to be cached from a new data source type or when data has to be stored by workflows directly in the database.
 
-*.What you'll need*
+.What you'll need
 
 * You must have installed WFA.
 * You must have administrator privileges or architect credentials for WFA.
 
-*.About this task*
+.About this task
 
 By default, WFA supports two types of schemes: Data Source Acquisition and Other.
 

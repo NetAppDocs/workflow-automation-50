@@ -11,7 +11,7 @@ summary: "You must set up a connection with a data source in OnCommand Workflow 
 [.lead]
 You must set up a connection with a data source in OnCommand Workflow Automation (WFA) to acquire data from the data source.
 
-*.What you'll need*
+.What you'll need
 
 * For OnCommand Unified Manager versions earlier than 6.0, you must have run the latest version of the ocsetup tool on the Unified Manager server to enable and configure remote read-only access to the database.
 * For OnCommand Unified Manager6.0 and later, you must have created a database user account on the Unified Manager server.
@@ -49,7 +49,7 @@ See the _OnCommand Unified Manager Online Help_ for details.
 +
 The default TCP port number is 443. See the documentation on your firewall for details.
 
-*.About this task*
+.About this task
 
 You can add multiple Unified Manager server data sources to WFA using this procedure. However, you must not use this procedure if you want to pair Unified Manager server 6.3 and later with WFA and use the protection functionality in Unified Manager server.
 

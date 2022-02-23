@@ -11,7 +11,7 @@ summary: "You can delete a pack from OnCommand Workflow Automation (WFA) if you 
 [.lead]
 You can delete a pack from OnCommand Workflow Automation (WFA) if you no longer require it. If you delete a pack, all the entities associated with the pack are deleted.
 
-*.About this task*
+.About this task
 
 * You cannot delete a pack if there are any dependencies on the entities that are part of the pack.
 +
