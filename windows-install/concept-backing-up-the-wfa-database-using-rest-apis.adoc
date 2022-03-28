@@ -1,0 +1,17 @@
+---
+permalink: windows-install/concept-backing-up-the-wfa-database-using-rest-apis.html
+sidebar: sidebar
+keywords: oncommand workflow automation, back up, wfa, database, rest, apis
+summary: "You can back up the OnCommand Workflow Automation (WFA) database by using the REST APIs. If WFA is in the failover mode in a high-availability environment, you can use the REST APIs to create scheduled backups. You cannot use the command-line interface (CLI) to create backups during a failover."
+---
+= Backing up the WFA database using REST APIs
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can back up the OnCommand Workflow Automation (WFA) database by using the REST APIs. If WFA is in the failover mode in a high-availability environment, you can use the REST APIs to create scheduled backups. You cannot use the command-line interface (CLI) to create backups during a failover.
+
+The following are the two types of backup:
+
+* Full backup
+* Regular backup

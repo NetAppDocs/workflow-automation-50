@@ -1,0 +1,96 @@
+---
+permalink: help/reference-new-workflow-window.html
+sidebar: sidebar
+keywords: new, workflow, window
+summary: "The New Workflow window displays a newly created workflow and its associated commands."
+---
+= New Workflow window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The New Workflow window displays a newly created workflow and its associated commands.
+
+== New Workflow
+
+The New Workflow window displays the name of the workflow in the header of the window. The associated commands are displayed as blue boxes in columns that are presented in the sequential order of execution--read left to right, top to bottom. The variables and objects for each command are displayed as gray boxes in the column of the command.
+
+* *Insert a row*
++
+Adds a new row above or below the selected row in the workflow.
++
+You can click image:../media/add_row2_wfa_icon.gif[] to add a row below the last available row.
+
+* *Copy row*
++
+Copies the selected row from the workflow and saves it to the clipboard. Copying a row does not copy the repetition details set for the row.
+
+* *Paste row*
++
+Places the last item saved to the clipboard in a new row below the selected row. Unique names are used for variables; however, variables in expressions are not changed.
+
+* *Repeat row*
++
+Opens the Row Repetition Details dialog box.
+
+* *Edit row repetition*
++
+Opens the Row Repetition Details dialog box, which enables you to modify the *Repeat Row* action set for the selected row.
+
+* *Remove row repetition*
++
+Cancels the *Repeat Row* action set in the *Row Repetition Details* dialog box for the selected row.
+
+* *Add condition*
++
+Opens the Conditions for row <row number> dialog box, which enables you to select a condition. The selected condition is applicable to all the commands in the row. All commands in the row will be executed only if the selected condition is met.
+
+* *Remove row*
++
+Deletes the selected row from the workflow.
+
+* *New Approval Point*
++
+You can click image:../media/approval_point_disabled.gif[] to open the New Approval Point dialog box, which enables you to add an approval point before the execution of the command.
+
+* *Edit Approval Point*
++
+You can click image:../media/approval_point_enabled.gif[] to open the Edit Approval Point dialog box, which enables you to edit the approval point comment.
+
+* *Add Command Parameters*
++
+Adds parameters for a command in the selected row.
++
+You can place your cursor below the selected command, at the required row, and click image:../media/add_object_wfa_icon.gif[] to open the Parameters for <command_name> dialog box.
+
+* *Edit Command Parameters*
++
+Opens the Parameters for <command_name> dialog box to enable you to modify the selected parameters for a command.
++
+You can place your cursor over the gray box that you want to edit and click to open the Parameters for <command_name> dialog box.
+
+* *Delete Command Parameters*
++
+Removes the parameter.
++
+You can move the cursor over the gray box that you want to delete and click the "`X`" on the upper-right corner of the gray box.
+
+== Command buttons
+
+The command buttons are available at the bottom of the workflow window. The commands can also be accessed from the right-click menu in the window.
+
+* *Preview*
++
+Opens the Preview Workflow dialog box, which enables you to specify user input attributes.
+
+* *Save As*
++
+Enables you to save the workflow with a new name.
+
+* *Save*
++
+Saves the workflow.
+
+* *Close*
++
+Closes the window. In the process, if any changes were made to the configuration, a Save Changes confirmation dialog box is opened, prompting you to either save the changes, close the window without saving changes, or cancel the closing action.

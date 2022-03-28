@@ -1,0 +1,34 @@
+---
+permalink: help/reference-test-connectivity-dialog-box.html
+sidebar: sidebar
+keywords: test connectivity, dialog, box
+summary: "The Test Connectivity dialog box enables you to test the connection to the system associated with a credential. The test connectivity operation triggers the search path and first looks for an exact match, then for a pattern match, and finally for LDAP service authentication."
+---
+= Test Connectivity dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Test Connectivity dialog box enables you to test the connection to the system associated with a credential. The test connectivity operation triggers the search path and first looks for an exact match, then for a pattern match, and finally for LDAP service authentication.
+
+The Internet Control Message Protocol (ICMP) is used to check if the system is running before testing for connectivity.
+
+== Test Connectivity parameters
+
+* *Type*
++
+Enables you to select the type of credential from the drop-down list.
+
+* *Name/IP*
++
+Enables you to specify the host name or IP address for the credential.
+
+== Command buttons
+
+* *Test*
++
+Opens a connection attempt to the host name or IP address.
+
+* *Close*
++
+Cancels changes, if any, and closes the dialog box.

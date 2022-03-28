@@ -1,0 +1,70 @@
+---
+permalink: help/task-configure-a-database-user-by-running-ocsetup-on-linux.html
+sidebar: sidebar
+keywords: configure, database, user, running, ocsetup, linux
+summary: "You can run the ocsetup file on the OnCommand Unified Manager server to configure read-only access of the OnCommand Unified Manager database to OnCommand Workflow Automation."
+---
+= Configure a database user by running ocsetup on Linux
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can run the `ocsetup` file on the OnCommand Unified Manager server to configure read-only access of the OnCommand Unified Manager database to OnCommand Workflow Automation.
+
+.Steps
+
+. Download the `wfa_ocsetup.sh` file to your home directory on the OnCommand Unified Manager server using the following command in the terminal: `+wget https://WFA_Server_IP/download/wfa_ocsetup.sh+`
++
+_WFA_Server_IP_ is the IP address (IPv4 or IPv6 address) of your WFA server.
++
+If you have specified a non-default port for WFA, you must include the port number as follows:
++
+`+wget https://wfa_server_ip:port/download/wfa_ocsetup.sh+`
++
+`port` is the TCP port number that you have used for the WFA server during installation.
++
+If you are specifying an IPv6 address, you must enclose it with square brackets.
+
+. Use the following command in the terminal to change the `wfa_ocsetup.sh` file to an executable:
++
+`chmod +x wfa_ocsetup.sh`
+. Run the script by entering the following in the terminal:
++
+`./wfa_ocsetup.sh JRE_path`
++
+_JRE_path_ is the path to the JRE.
++
+**Example**
++
+`/opt/NTAPdfm/java`
++
+The following output is displayed in the terminal, indicating a successful setup:
++
+----
+Verifying archive integrity... All good.
+Uncompressing WFA OnCommand Setup.....
+*** Welcome to OnCommand Setup Utility for Linux ***
+    <Help information>
+*** Please override the default credentials below ***
+Override DB Username [wfa] :
+----
+
+. Enter a user name and password to override the default credentials.
++
+A new database user account is created with access to the OnCommand Unified Manager database.
++
+NOTE: If you do not create a user account, the default credentials are used. You must create a user account for security purposes.
++
+The following output is displayed in the terminal, indicating a successful setup:
++
+----
+***** Start of response from the database *****
+>>> Connecting to database
+<<< Connected
+*** Dropped existing 'wfa' user
+=== Created user 'username'
+>>> Granting access
+<<< Granted access
+***** End of response from the database *****
+***** End of Setup *****
+----

@@ -1,0 +1,131 @@
+---
+permalink: windows-install/reference-prerequisites-for-installing-workflow-automation.html
+sidebar: sidebar
+keywords: prerequisites, install, workflow automation
+summary: "Before installing OnCommand Workflow Automation (WFA), you must ensure that you have the required information and you have completed certain tasks."
+---
+= Prerequisites for installing Workflow Automation
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Before installing OnCommand Workflow Automation (WFA), you must ensure that you have the required information and you have completed certain tasks.
+
+Before you install WFA on a system, you must have completed the following tasks:
+
+* Downloading the WFA installation file from the NetApp Support Site and copying the file to the server on which you want to install WFA
++
+NOTE: You must have valid credentials to log in to the NetApp Support Site. If you do not have valid credentials, you can register on the NetApp Support Site to obtain the credentials.
+
+* Verifying that the system has access to the following, as applicable:
+ ** Storage controllers
+ ** Active IQ Data Center Manager
+ ** VMware vCenter
+
+[NOTE]
+====
+If your environment requires Secure Shell (SSH) accessibility, you must ensure that SSH is enabled on the target controllers.
+====
+* Verifying that PowerShell 3.0 or later is installed
+* Ensuring that VMware Power CLI is installed, if you are using WFA to execute workflows on VMware vSphere
+* Collecting the required configuration information
+* Ensuring that the MySQL .Net connector is installed, if you are using the Invoke-MysqlQuery cmdlet
+
+== Required configuration information
+[cols="3*",options="header"]
+|===
+| Unit or system| Details| Purpose
+a|
+Arrays
+a|
+
+* IP address
+* User name and password
+
+a|
+Perform operations on storage systems
+
+[NOTE]
+====
+Root or admin account credentials are required for storage (arrays).
+====
+
+a|
+vSphere
+a|
+
+* IP address
+* User name and password of an admin for vCenter server
+
+a|
+Acquire data
+
+Perform operations by using VMware APIs
+
+NOTE: You must have installed VMware Power CLI.
+
+a|
+External repositories such as OnCommand Balance and custom databases
+a|
+
+* IP address
+* User name and password of a read-only user account
+
+a|
+Acquire data
+
+You must create the relevant WFA content, such as dictionary entries and cache queries for the external repositories, in order to acquire data from the external repositories.
+
+a|
+Mail server
+a|
+
+* IP address
+* User name and password
+
+NOTE: User name and password are required if your mail server requires authentication.
+
+a|
+Receive WFA notifications through email
+a|
+AutoSupport server
+a|
+
+* Mail host
+
+a|
+Send AutoSupport messages through SMTP
+
+If you do not have a mail host configured, you can use HTTP or HTTPS to send AutoSupport messages.
+
+a|
+Microsoft Active Directory (AD) LDAP server
+a|
+
+* IP address
+* User name and password
+* Group name
+
+a|
+Authenticate and authorize using AD LDAP or AD LDAPS
+a|
+SNMP management application
+a|
+
+* IP address
+* Port
+
+a|
+Receive WFA SNMP notifications
+a|
+Syslog server
+a|
+
+* IP address
+
+a|
+Send log data
+|===
+*Related information*
+
+http://mysupport.netapp.com[NetApp Support^]

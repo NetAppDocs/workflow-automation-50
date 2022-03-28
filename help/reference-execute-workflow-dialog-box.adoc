@@ -1,0 +1,36 @@
+---
+permalink: help/reference-execute-workflow-dialog-box.html
+sidebar: sidebar
+keywords: execute workflow, dialog box
+summary: "The Execute Workflow dialog box enables you to specify the required user inputs, time for execution, and execution comment for a workflow."
+---
+= Execute Workflow dialog box
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Execute Workflow dialog box enables you to specify the required user inputs, time for execution, and execution comment for a workflow.
+
+== User Inputs
+
+Enables you to specify the inputs for the workflow. The mandatory attributes are marked with an asterisk (*) and the border for the boxes are in red.
+
+== Options
+
+Enables you to specify the time for the workflow execution.
+
+* *Execute now*
++
+Enables you to execute the workflow immediately.
+
+* *Execute recurrently*
++
+Enables you to set the workflow to recur periodically. This option is displayed only when a schedule has been created.
+
+* *Execute once*
++
+Enables you to schedule the execution of the workflow.
+
+== Execution Comment
+
+Enables you to specify a comment for the workflow execution. This comment is displayed in the Execution Status window.

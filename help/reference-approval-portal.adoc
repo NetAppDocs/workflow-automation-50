@@ -1,0 +1,34 @@
+---
+permalink: help/reference-approval-portal.html
+sidebar: sidebar
+keywords: approval portal, window
+summary: "The Approval Portal window enables you to approve or reject a workflow."
+---
+= Approval Portal window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Approval Portal window enables you to approve or reject a workflow.
+
+You can log in to the Approval Portal window from the link provided in the email notification for the approval of the workflow.
+
+* *Return to WFA*
++
+Takes you back to the WFA application from the Approval Portal window.
+
+== Approval Portal
+
+* *Enter Comment*
++
+Enables you to enter your comment for the approval or rejection of the workflow.
+
+== Command buttons
+
+* *Approve & Resume*
++
+Enables you to approve the workflow, which resumes the workflow.
+
+* *Reject & Abort*
++
+Enables you to reject the workflow, which aborts the workflow.

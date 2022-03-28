@@ -1,0 +1,126 @@
+---
+permalink: help/reference-user-window.html
+sidebar: sidebar
+keywords: users, window
+summary: "The Users window enables you to view, create, edit, and delete the OnCommand Workflow Automation (WFA) users. You can access this window by selecting Settings, and under Management click Users."
+---
+= Users Window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Users window enables you to view, create, edit, and delete the OnCommand Workflow Automation (WFA) users. You can access this window by selecting *Settings*, and under *Management* click *Users*.
+
+NOTE: Depending on your role and account privileges, this window might not be displayed.
+
+== Users table
+
+The Users window displays existing users. You can customize the table display by using the filtering and sorting features available for each column, as well as by rearranging the column order.
+
+* image:../media/filter_icon_wfa.gif[Filter icon] enables or disables filtering for the entire table. A red "x" appears over the icon if filtering is disabled.
+* Double-clicking image:../media/filter_icon_wfa.gif[Filter icon] clears and resets the filtering selections.
+* image:../media/wfa_filter_icon.gif[Filter icon] on each column header enables you to filter based on the content of the columns. Clicking image:../media/wfa_filter_icon.gif[Filter icon] in a column allows you to filter on a specific item from the drop-down list or on all available items.
+* Clicking the column header toggles between ascending and descending order of sorting. You can identify the applied sort order by the sort arrows (image:../media/wfa_sortarrow_up_icon.gif[Sort up icon] for ascending and image:../media/wfa_sortarrow_down_icon.gif[Sort down icon] for descending).
+* To rearrange the location of columns, you can drag and drop columns to place them in any required order. However, you cannot hide or delete any of these columns.
+* Clicking the *Search* filter text box allows you to search for specific content. In addition, you can search using supported operators for the applicable column type, Alphabetic or Numeric.
+
+The following table lists the supported operators for alphabetic and numeric columns in the Users table, available from the *Search* filter text box.
+
+[cols="2*",options="header"]
+|===
+| Alphabetic| Numeric
+a|
+
+* Contains
+* Does not contain
+* Starts with
+* Ends with
+* Equals
+* Does not equal
+* Reset
+a|
+
+* Equals
+* Does not equal
+* Less than
+* Greater than
+* Less than or equal to
+* Greater than or equal to
+* Between
+* Reset
+|===
+The Users table contains the following columns:
+
+* *Username*
++
+Displays the user name for the account.
+
+* *Role*
++
+Displays the assigned role for the user. Roles can include any of the following:
+
+ ** *Guest*
++
+This user can only view the status of a workflow execution or can be notified of a change in the status of a workflow execution.
+
+ ** *Operator*
++
+This user is allowed to preview and execute workflows for which the user is provided access.
+
+ ** *Approver*
++
+This user is allowed to preview, execute, approve, and reject workflows for which the user is provided access.
++
+NOTE: You must provide the email ID of the approver and the status of the workflow that is to be notified to the approver. If there are multiple approvers, you can provide a group email ID in the *E-mail* field.
+
+ ** *Architect*
++
+This user has full access to create workflows, but is restricted from modifying global WFA server settings.
+
+ ** *Admin*
++
+This user has complete access to the WFA server.
++
+NOTE: You must configure at least one admin user.
+
+ ** *Backup*
++
+This is the only user who can remotely generate backups of the WFA server; however, this user is restricted from all other access.
+
+* *Categories*
++
+Displays the workflow category assigned to an operator, which provides workflow authorization and privileges to the designated operator.
++
+You can set this authorization setting by clicking *Designer* > *Categories*.
+
+* *E-mail*
++
+Displays the email address for the user. You can use this email for notification about the workflow status.
+
+* *Notifications Enabled*
++
+Indicates whether the user can receive email notifications (true or false) about the status of workflow executions that were triggered by that user.
+
+* *LDAP*
++
+Indicates whether the user is provisioned through the External Active Directory server accessed by LDAP (true or false).
+
+* *Active Directory Group*
++
+Indicates whether the user is a part of LDAP or Active Directory groups.
+
+== Toolbar
+
+The toolbar is located above the column header. You can use the icons in the toolbar to perform various actions. These actions can also be accessed from the right-click menu in the window.
+
+* *image:../media/new_wfa_icon.gif[New icon] (New)*
++
+Opens the New User dialog box, which enables you to add a new user account.
+
+* *image:../media/edit_wfa_icon.gif[Edit icon] (Edit)*
++
+Opens the Edit User dialog box, which enables you to edit the selected user account.
+
+* *image:../media/delete_wfa_icon.gif[Delete icon] (Delete)*
++
+Opens the Delete User confirmation dialog box, which enables you to delete the selected user account.

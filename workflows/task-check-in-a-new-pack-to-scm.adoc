@@ -1,0 +1,33 @@
+---
+permalink: workflows/task-check-in-a-new-pack-to-scm.html
+sidebar: sidebar
+keywords: oncommand workflow automation, check, new, pack, scm
+summary: "You can create a new workflow pack with OnCommand Workflow Automation (WFA) and check it in to Source Control Management (SCM)."
+---
+= Check in a new workflow pack to SCM
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create a new workflow pack with OnCommand Workflow Automation (WFA) and check it in to Source Control Management (SCM).
+
+.What you'll need
+
+SCM must be set up and you must have admin or architect credentials.
+
+.Steps
+. Log in to the *WFA* window through a web browser.
+. Create a new workflow pack.
++
+link:task-create-a-workflow-automation-pack.html[Create a workflow automation pack]
+
+. Add entities to the pack you created.
++
+link:task-add-entity-to-a-workflow-automation-pack.html[Add entities to an OnCommand Workflow Automation pack]
+
+. Click the *Export To Server* icon.
+. In the *Export To Server Folder* dialog box, in the *Folder location at server system* field, enter the file system location where the pack is to be saved in the server containing the SCM client.
++
+To edit or re-export the pack or the contents, click the *Unlock* icon.
+
+. In the SCM client location, check in the pack content to the SCM server.

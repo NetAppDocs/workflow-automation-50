@@ -1,0 +1,134 @@
+---
+permalink: help/concept-how-entity-versioning-works.html
+sidebar: sidebar
+keywords: how, entity, versioning, works
+summary: "The OnCommand Workflow Automation (WFA) entities, such as commands and workflows, are versioned. You can use the version numbers to easily manage changes to the WFA entities."
+---
+= How entity versioning works
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The OnCommand Workflow Automation (WFA) entities, such as commands and workflows, are versioned. You can use the version numbers to easily manage changes to the WFA entities.
+
+Each WFA entity includes a version number in the _major.minor.revision_ format--for example, 1.1.20. You can include up to three digits in each part of the version number.
+
+Before modifying the version number of a WFA entity, you must be aware of the following rules:
+
+* Version numbers cannot be changed from the current version to an earlier version.
+* Each part of the version must be a number from 0 through 999.
+* New WFA entities are versioned as 1.0.0, by default.
+* An entity's version number is retained when cloning or using *Save As* to save a copy of the entity.
+* Multiple versions of an entity cannot exist in a WFA installation.
+
+When you update the version of a WFA entity, the version of its immediate parent entity is updated automatically. For example, updating the version of the *Create Volume* command updates the *Create an NFS Volume* workflow, because the *Create an NFS Volume* workflow is an immediate parent entity of the *Create Volume* command. The automatic update to versions is applied as follows:
+
+* Modifying the major version of an entity updates the minor version of its immediate parent entities.
+* Modifying the minor version of an entity updates the revision version of its immediate parent entities.
+* Modifying the revision version of an entity does not update any part of the version of its immediate parent entities.
+
+The following table lists the WFA entities and their immediate parent entities:
+[cols="2*",options="header"]
+|===
+| Entity| Immediate parent entity
+a|
+Cache query
+a|
+
+* Data source type
+
+a|
+Template
+a|
+
+* Workflow
+
+a|
+Function
+a|
+
+* Workflow
+* Template
+
+NOTE: If a function contains special or mixed case characters, the version of its immediate parent entities might not be updated.
+
+a|
+Dictionary
+a|
+* Template
+* Filter
+* Cache query
+* Command
+* Data source types which are using script method
+a|
+Command
+a|
+* Workflow
+a|
+Filter
+a|
+* Finder
+* Workflow
+a|
+Finder
+a|
+* Workflow
+a|
+Data source type
+a|
+None
+a|
+Workflow
+a|
+None
+|===
+You can search for an entity in WFA either using the parts of the version number or the complete version number.
+
+If you delete a parent entity, the child entities are retained and their version is not updated for the deletion.
+
+== How versioning works when importing entities
+If you import entities from versions earlier than Workflow Automation 2.2, the entities are versioned as 1.0.0, by default. If the imported entity is already present in the WFA server, the existing entity is overwritten with the imported entity.
+
+The following are the potential changes to WFA entities during an import:
+
+* Upgrade of entities
++
+The entities are replaced with a later version.
+
+* Rollback of entities
++
+The entities are replaced with an earlier version.
++
+NOTE: When you perform a rollback of an entity, the version of its immediate parent entities are updated.
+
+* Import of new entities
+
+NOTE: You cannot selectively import entities from a `.dar` file.
+
+If a later version of an entity is imported, the version of its immediate parent entities is updated.
+
+If there are multiple child entities to the imported parent entity, only the highest degree of change (major, minor, or revision) to the child entities is applied to the parent entity. The following examples explain how this rule works:
+
+* For an imported parent entity, if there is one child entity with a minor change and another child entity with a revision change, the minor change is applied to the parent entity.
++
+The revision part of the parent's version is incremented.
+
+* For an imported parent entity, if there is one child entity with a major change and another child entity with a minor change, the major change is applied to the parent entity.
++
+The minor part of the parent's version is incremented.
+
+=== Example of how the versions of imported child entities affect the parent's version
+
+Consider the following workflow in WFA: "`Create Volume and export using NFS - Custom`" 1.0.0.
+
+The existing commands included in the workflow are as follows:
+
+* "`Create Export Policy - Custom`" 1.0.0
+* "`Create Volume - Custom`" 1.0.0
+
+The commands included in the .dar file, which is to be imported, are as follows:
+
+* "`Create Export Policy - Custom`" 1.1.0
+* "`Create Volume - Custom`" 2.0.0
+
+When you import this .dar file, the minor version of the "`Create Volume and export using NFS - Custom`" workflow is incremented to 1.1.0.

@@ -1,0 +1,17 @@
+---
+permalink: windows-install/concept-backing-up-the-wfa-database-using-the-command-line-interface.html
+sidebar: sidebar
+keywords: oncommand workflow automation, backing, wfa, database, cli
+summary: "If you want to back up the OnCommand Workflow Automation (WFA) database frequently, you can use the WFA command-line interface (CLI) provided with the WFA installation package."
+---
+= Backing up the WFA database using the CLI
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you want to back up the OnCommand Workflow Automation (WFA) database frequently, you can use the WFA command-line interface (CLI) provided with the WFA installation package.
+
+The following are the two backup types:
+
+* Full backup
+* Regular backup

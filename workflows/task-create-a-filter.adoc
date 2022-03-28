@@ -1,0 +1,47 @@
+---
+permalink: workflows/task-create-a-filter.html
+sidebar: sidebar
+keywords: create, filter
+summary: "You can create a WFA filter that can search for resources if there is no predefined WFA filter that is suitable for the task."
+---
+= Create a filter
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create a WFA filter that can search for resources if there is no predefined WFA filter that is suitable for the task.
+
+.What you'll need
+
+You must know the appropriate SQL syntaxes to create the filter.
+
+.Steps
+. Click *Designer* > *Filters*.
+. Click image:../media/new_wfa_icon.gif[New icon] on the toolbar.
+. In the Properties tab of the New Filter dialog box, enter or select the required details in the *Name*, *Dictionary type*, and *Description* fields.
+. In the *Query* tab, enter the appropriate SQL query for the filter.
++
+You must enter a single SQL query and optionally use input parameters. You should use the following syntax to use an input parameter: `+${ParameterName}+`.
++
+----
+SELECT
+	array.ip
+FROM
+	storage.array
+WHERE
+	array.name = '${ArrayName}'
+----
+
+. Click *Refresh* to populate the *Input Parameters* table and the *Returned Attributes* list.
++
+This information is obtained from the SQL query that you have entered. For example, if you use the SQL query example from the previous step, ip is displayed in Returned Attributes and ArrayName is displayed in Input Parameters. You can edit the entries in the *Label* and *Description* columns.
+
+. *Optional:* Click *Test* to test the filter.
+ .. In the Test Filter <FilterName> dialog box, enter the required test parameters.
+ .. Clear the *Use reservation data in test* check box if you do not want to use the reservation data for testing the filter.
+ .. Click *Test*.
++
+The test result is displayed.
+
+ .. Close the dialog boxes.
+. Click *Save*.
