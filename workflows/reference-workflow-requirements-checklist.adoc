@@ -19,6 +19,10 @@ The following sample workflow requirements checklist lists the requirements for 
 [cols="2*"]
 |===
 a|
+Requirement
+a|
+Description
+a|
 Workflow name
 a|
 Create a Clustered Data ONTAP Volume
