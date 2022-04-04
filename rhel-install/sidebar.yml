@@ -20,8 +20,6 @@ entries:
     entries:
     - title: Install Perl modules on CentOS and RHEL
       url: "/rhel-install/task-install-perl-module-on-centos-and-rhel.html"
-  - title: Install OnCommand Workflow Automation on Linux
-    url: "/rhel-install/task-install-oncommand-workflow-automation.html"
   - title: Managing high availability
     url: "/rhel-install/concept-managing-high-availability.html"
     entries:
