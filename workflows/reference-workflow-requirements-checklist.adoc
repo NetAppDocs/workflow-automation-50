@@ -16,7 +16,7 @@ A workflow requirements checklist includes detailed requirements--such as comman
 The following sample workflow requirements checklist lists the requirements for the "`Create a Clustered Data ONTAP Volume`" workflow. You can use this sample checklist as a template to list your workflow requirements.
 
 *Workflow details*
-[cols="2*"]
+[cols="2*",options="header"]
 |===
 a|
 Requirement
@@ -37,22 +37,19 @@ The workflow creates a new volume in a specific SVM. This workflow is meant for 
 a|
 High-level description of how the workflow works
 a|
-
 * The SVM that contains the volume is specified by the user (cluster, SVM names).
 * A volume is created based on the specified size.
 * The configuration of the volume is described in a template.
-
 a|
 Details
 a|
-
 * Use the *Create CM Volume* command
 * Command details for *Create CM Volume*:
  ** Execution is set as always
  ** Volume details are specified by filling in attributes for the volume
  ** Use the *Space Guaranteed Settings* template for configuring the volume
  ** Volume name and size are provided by user.
-+
+
 The volume will be mounted in the SVM namespace as /volname (under the root namespace).
 
  ** Use the *actualVolumeSize* function because the snap reserve will be 5%.
@@ -68,10 +65,10 @@ The volume will be mounted in the SVM namespace as /volname (under the root name
   *** CM Aggregate by used size % (threshold = 90, spaceToBeProvisioned = size provided, since guarantee is volume)
   *** CM Aggregate by over commitment (threshold = 300, spaceToBeAllocated = Size of volume being provisioned)
   *** Select the aggregate with maximum free space
-
 |===
+
 *User inputs*
-[cols="3*",options="header"]
+[cols="25h,25h,~",options="header"]
 |===
 | Name| Type| Description (data values, validation, and so on)
 a|

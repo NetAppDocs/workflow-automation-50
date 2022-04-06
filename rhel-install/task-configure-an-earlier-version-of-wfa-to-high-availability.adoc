@@ -20,7 +20,7 @@ This upgraded version of WFA is the primary node of the cluster.
 
 . Create a backup of the WFA database.
 +
-link:reference-back-up-of-the-oncommand-workflow-automation-database.html[Back up the WFA database]
+link:reference-backing-up-of-the-oncommand-workflow-automation-database.html[Back up the WFA database]
 +
 If any of the parameters were changed manually, you must create a backup of the WFA database, uninstall the existing WFA installation, install the latest available version of WFA, restore the backup, and then proceed with the Veritas Cluster Server (VCS) configuration.
 
