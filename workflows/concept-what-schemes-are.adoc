@@ -41,4 +41,4 @@ Scheme to acquire data from VMware vCenter.
 
 * *Playground (playground)*
 +
-Scheme that can you can directly populate with data.
+Scheme that can directly populate with data.
