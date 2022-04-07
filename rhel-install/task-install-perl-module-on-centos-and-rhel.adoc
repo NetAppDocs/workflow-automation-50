@@ -15,7 +15,7 @@ Some Perl modules are not included by default with the Perl package for Linux.
 
 During WFA installation, the WFA installer verifies that all of the Perl modules are available in the system, and then proceeds when this requirement is met. You must install the Perl modules before installing OnCommand Workflow Automation (WFA).
 
-NOTE: The WFA installer attempts to install the perl modules automatically if the perl-modules are available in the yum repositories configured on the system. If the perl modules are not available, the installer prompts the user to install the perl modules manually. The one exception is the "perl-core" module. This module is not installed on the system automatically even if it is available in the yum repositories configured on the system. This is a known issue.
+NOTE: The WFA installer attempts to install the Perl modules automatically if the Perl modules are available in the yum repositories configured on the system. If the Perl modules are not available, the installer prompts the user to install the Perl modules manually. The one exception is the "perl-core" module. This module is not installed on the system automatically even if it is available in the yum repositories configured on the system. This is a known issue.
 
 *Table 1: Required Perl modules for WFA*
 [cols="2*",options="header"]

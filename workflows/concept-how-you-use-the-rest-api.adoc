@@ -25,6 +25,6 @@ You can perform several actions through the WFA REST APIs, including the followi
 
 _REST documentation_ has more information about REST APIs:
 
-`+https://wfa_server_ip:port/rest/docs+``
+`+https://wfa_server_ip:port/rest/docs+`
 
 `wfa_server_ip` is the IP address of your WFA server and _port_ is the TCP port number you have used for the WFA server during installation.
