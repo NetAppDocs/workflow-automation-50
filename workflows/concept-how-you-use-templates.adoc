@@ -1,0 +1,16 @@
+---
+permalink: workflows/concept-how-you-use-templates.html
+sidebar: sidebar
+keywords: how, use, templates
+summary: "You can use WFA templates in your workflows as a reference or for adhering to usage policies."
+---
+= How you use templates
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use WFA templates in your workflows as a reference or for adhering to usage policies.
+
+A WFA template acts as a blueprint of an object definition. You can define a template by including the properties of an object and the values for the object's properties. Then, you can use the template for populating the properties of an object definition in your workflows.
+
+When you use a template, you cannot edit the fields that include the values that are obtained from the template. Therefore, you can use templates for setting up usage policies and creation of objects. If you remove the association of a template with the workflow after you have applied the template, the values populated from the template remain, but you can edit the fields.

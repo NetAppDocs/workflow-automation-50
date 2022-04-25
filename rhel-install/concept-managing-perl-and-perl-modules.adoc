@@ -1,0 +1,16 @@
+---
+permalink: rhel-install/concept-managing-perl-and-perl-modules.html
+sidebar: sidebar
+keywords: manage, perl, perl modules
+summary: "OnCommand Workflow Automation (WFA) supports Perl commands for workflow operations. You can install and configure your preferred Perl distribution and Perl modules."
+---
+= Managing Perl and Perl modules
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+OnCommand Workflow Automation (WFA) supports Perl commands for workflow operations. You can install and configure your preferred Perl distribution and Perl modules.
+
+The required Perl modules from the NetApp Manageability SDK are also installed when you install WFA. The NetApp Manageability SDK Perl modules are required for successful execution of Perl commands.
+
+You can install additional Perl modules, if required, from the Red Hat package repositories or from the CPAN repositories.

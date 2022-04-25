@@ -1,0 +1,32 @@
+---
+permalink: help/concept-what-conditional-execution-is.html
+sidebar: sidebar
+keywords: conditional execution
+summary: "Conditional execution helps you to design workflows that can execute commands when specified conditions are met."
+---
+= What conditional execution is
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Conditional execution helps you to design workflows that can execute commands when specified conditions are met.
+
+Execution of commands in a workflow can be dynamic. You can specify a condition for the execution of each command or a row of commands in your workflow. For example, you might want the "`Add volume to dataset`" command to be executed only when a specific dataset is found and you do not want the workflow to fail if the dataset is not found. In this case, you can enable the "`Add volume to dataset`" command to search for a specific dataset and if it is not found, you can disable the command in the workflow.
+
+Options for conditional execution of commands are available in the _Dictionary object_ tab and the Advanced tab of the Parameters for _commands_ dialog box.
+
+You can abort a workflow or disable a specific command in the workflow. In addition, you can set a command to be executed using one of the following options:
+
+* Without any condition
+* When the variables you have specified are found
+* When the variables you have specified are not found
+* When the expression you have specified is true
+
+You can also set a command to wait for a specific time interval.
+
+== Conditional execution examples in predefined workflows
+
+You can open the command details of the following predefined workflows in the Designer to understand how conditional execution of commands are used:
+
+* Create a basic Clustered Data ONTAP Volume
+* Create a Clustered Data ONTAP NFS Volume

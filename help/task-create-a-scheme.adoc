@@ -1,0 +1,32 @@
+---
+permalink: help/task-create-a-scheme.html
+sidebar: sidebar
+keywords: create, scheme
+summary: "You must create a scheme when data has to be cached from a new data source type or when data has to be stored by workflows directly in the database."
+---
+= Create a scheme
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You must create a scheme when data has to be cached from a new data source type or when data has to be stored by workflows directly in the database.
+
+.What you'll need
+
+* You must have installed WFA.
+* You must have administrator privileges or architect credentials for WFA.
+
+.About this task
+
+By default, WFA supports two types of schemes: Data Source Acquisition and Other.
+
+* Data Source Acquisition schemes: The tables in these schemes are cached by data sources defined to acquire data from remote systems.
+* Other schemes: The tables in these schemes are populated with data through workflows that are customized to solve specific problems.
+
+.Steps
+
+. Log in to WFA through a web browser as an administrator or architect.
+. Click *Designer* > *Schemes*.
+. Create a new scheme by clicking image:../media/new_wfa_icon.gif[New icon] on the toolbar.
+. Enter the required information such as the name, type, description, and entity version of the scheme in the New Schemes dialog box.
+. Click *Save*.

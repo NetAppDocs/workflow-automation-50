@@ -1,0 +1,275 @@
+section: help
+title: Online Help
+entries:
+  - title: Overview of OnCommand Workflow Automation
+    url: "/help/concept-overview-of-oncommand-workflow-automation.html"
+  - title: Create local users
+    url: "/help/task-create-local-users.html"
+  - title: Configuring OnCommand Workflow Automation
+    url: "/help/concept-advanced-configuring-oncommand-workflow-automation.html"
+    entries:
+    - title: Configure authentication settings
+      url: "/help/task-configure-authentication-settings.html"
+    - title: Configure email notifications
+      url: "/help/task-configure-mail.html"
+    - title: Configure SNMP
+      url: "/help/task-configure-snmp.html"
+    - title: Configure Syslog
+      url: "/help/task-configure-syslog.html"
+    - title: Configure AutoSupport
+      url: "/help/task-configure-autosupport.html"
+    - title: Configure email notifications for data source acquisition failures
+      url: "/help/task-configure-email-notifications-for-data-source-acquisition-failures.html"
+    - title: Configure resource reservation for workflows
+      url: "/help/task-configure-resource-reservation-for-workflows.html"
+  - title: Configure the credentials of a target system
+    url: "/help/task-configure-the-credentials-of-a-target-system.html"
+  - title: Configure protocols for connecting to remote systems
+    url: "/help/task-configure-protocols-for-connecting-to-remote-systems.html"
+  - title: OnCommand Workflow Automation Designer features
+    url: "/help/reference-oncommand-workflow-automation-designer-features.html"
+    entries:
+    - title: How repeat row works
+      url: "/help/concept-how-repeat-row-works.html"
+    - title: What approval points are
+      url: "/help/concept-what-approval-points-are.html"
+    - title: How continue on failure works
+      url: "/help/concept-what-continue-on-failure-is.html"
+    - title: How resource selection works
+      url: "/help/concept-how-resource-selection-works.html"
+    - title: How reservation works
+      url: "/help/concept-how-reservation-works.html"
+    - title: What incremental naming is
+      url: "/help/concept-what-incremental-naming-is.html"
+    - title: What conditional execution is
+      url: "/help/concept-what-conditional-execution-is.html"
+    - title: How return parameters work
+      url: "/help/concept-what-return-parameters-are.html"
+    - title: What schemes are
+      url: "/help/concept-what-schemes-are.html"
+    - title: What remote system types are
+      url: "/help/concept-what-remote-system-types-are.html"
+    - title: How entity versioning works
+      url: "/help/concept-how-entity-versioning-works.html"
+  - title: How you define workflows
+    url: "/help/concept-how-you-define-workflows.html"
+  - title: How you map command parameters
+    url: "/help/concept-how-you-map-command-parameters.html"
+  - title: How user inputs are defined
+    url: "/help/concept-how-you-define-user-input.html"
+  - title: How you define constants
+    url: "/help/concept-how-you-define-constants.html"
+  - title: How you use REST APIs
+    url: "/help/concept-how-you-use-the-rest-api.html"
+  - title: Set up a data source
+    url: "/help/task-set-up-a-data-source.html"
+    entries:
+    - title: Configure a database user by running ocsetup on Windows
+      url: "/help/task-configure-a-database-user-by-running-ocsetup-on-windows.html"
+    - title: Configure a database user by running ocsetup on Linux
+      url: "/help/task-configure-a-database-user-by-running-ocsetup-on-linux.html"
+  - title: Create workflow help content
+    url: "/help/task-create-workflow-help-content.html"
+  - title: Reserved words
+    url: "/help/reference-reserved-words.html"
+  - title: Where to find information about MVEL
+    url: "/help/reference-mvel-learning-material-reference.html"
+    entries:
+    - title: MVEL-enabled fields in OnCommand Workflow Automation
+      url: "/help/reference-mvel-enabled-fields-in-wfa.html"
+    - title: Examples of MVEL syntax
+      url: "/help/reference-mvel-examples.html"
+  - title: References to learning material
+    url: "/help/reference-references-to-learning-material.html"
+  - title: Supported workflows in ONTAP
+    url: "/help/reference-supported-workflows-in-clustered-data-ontap.html"
+  - title: Import OnCommand Workflow Automation content
+    url: "/help/task-import-oncommand-workflow-automation-content.html"
+  - title: Considerations while importing OnCommand Workflow Automation content
+    url: "/help/reference-considerations-of-importing-wfa-content.html"
+  - title: Export OnCommand Workflow Automation content
+    url: "/help/task-export-oncommand-workflow-automation-content.html"
+  - title: Disable cache acquisition for dictionary entries
+    url: "/help/task-disable-cache-acquisition-for-dictionary-entries.html"
+  - title: Create WFA workflow packs
+    url: "/help/task-create-a-workflow-automation-pack.html"
+  - title: Delete OnCommand Workflow Automation packs
+    url: "/help/task-delete-wfa-packs.html"
+  - title: Add approval points
+    url: "/help/task-add-approval-points.html"
+  - title: Define filter rules
+    url: "/help/task-define-filter-rules.html"
+  - title: Create a scheme
+    url: "/help/task-create-a-scheme.html"
+  - title: Edit a scheme
+    url: "/help/task-edit-a-scheme.html"
+  - title: Delete a scheme
+    url: "/help/task-delete-a-scheme.html"
+  - title: Add a new remote system type
+    url: "/help/task-add-a-new-remote-system-type.html"
+  - title: Log Viewer window
+    url: "/help/reference-log-viewer-directory-window.html"
+  - title: Backup and Restore window
+    url: "/help/reference-backup-restore-window.html"
+  - title: Users Window
+    url: "/help/reference-user-window.html"
+    entries:
+    - title: New User dialog box
+      url: "/help/reference-new-user-dialog-box.html"
+    - title: Edit User dialog box
+      url: "/help/reference-edit-user-dialog-box.html"
+  - title: Preferences window
+    url: "/help/reference-client-preferences-dialog-box.html"
+  - title: Active Directory Groups window
+    url: "/help/reference-active-directory-groups-window.html"
+    entries:
+    - title: New Active Directory Group dialog box
+      url: "/help/reference-new-active-directory-group-dialog-box.html"
+    - title: Edit Active Directory Group dialog box
+      url: "/help/reference-edit-active-directory-group-dialog-box.html"
+    - title: Approval Portal window
+      url: "/help/reference-approval-portal.html"
+  - title: Data Sources window
+    url: "/help/reference-data-sources-window.html"
+    entries:
+    - title: New Data Source dialog box
+      url: "/help/reference-new-data-source-dialog-box.html"
+    - title: Edit Data Source dialog box
+      url: "/help/reference-edit-data-source-dialog-box.html"
+  - title: Credentials window
+    url: "/help/reference-credentials-window.html"
+    entries:
+    - title: Test Connectivity dialog box
+      url: "/help/reference-test-connectivity-dialog-box.html"
+    - title: New Credentials dialog box
+      url: "/help/reference-new-credentials-dialog-box.html"
+    - title: Edit Credentials dialog box
+      url: "/help/reference-edit-credentials-dialog-box.html"
+  - title: About dialog box
+    url: "/help/reference-about-dialog-box.html"
+  - title: Portal window
+    url: "/help/reference-portal-workflow-window.html"
+  - title: Executions window
+    url: "/help/reference-execution-status-window.html"
+  - title: Recurring Executions window
+    url: "/help/reference-recurring-executions-window.html"
+  - title: Reservations window
+    url: "/help/reference-reservations-window.html"
+  - title: Schedules window
+    url: "/help/reference-schedules-window.html"
+    entries:
+    - title: New Schedule dialog box
+      url: "/help/reference-new-schedule-dialog-box.html"
+  - title: Workflows window
+    url: "/help/reference-workflows-window.html"
+    entries:
+    - title: New Workflow window
+      url: "/help/reference-new-workflow-window.html"
+      entries:
+      - title: Parameters for commands dialog box
+        url: "/help/reference-parameters-for-commands-dialog-box.html"
+      - title: Resource Selection dialog box
+        url: "/help/reference-resource-selection-dialog-box.html"
+      - title: Incremental Naming Wizard
+        url: "/help/reference-incremental-naming-wizard.html"
+      - title: Row Repetition Details dialog box
+        url: "/help/reference-row-repetition-details-dialog-box.html"
+    - title: Workflow &lt;workflow name&gt; window
+      url: "/help/reference-edit-workflow-window.html"
+    - title: Execute Workflow dialog box
+      url: "/help/reference-execute-workflow-dialog-box.html"
+    - title: Edit Variable dialog box
+      url: "/help/reference-edit-variable-dialog-box.html"
+    - title: Preview Workflow dialog box
+      url: "/help/reference-preview-workflow-dialog-box.html"
+    - title: Monitoring window
+      url: "/help/reference-monitoring-window.html"
+    - title: New Approval Point dialog box
+      url: "/help/reference-new-approval-point-dialog-box.html"
+    - title: Edit Approval Point dialog box
+      url: "/help/reference-edit-approval-point-dialog-box.html"
+  - title: Finders window
+    url: "/help/reference-finders-window.html"
+    entries:
+    - title: New Finder dialog box
+      url: "/help/reference-new-finder-dialog-box.html"
+    - title: Edit Finder dialog box
+      url: "/help/reference-edit-finder-dialog-box.html"
+    - title: Clone Finder dialog box
+      url: "/help/reference-clone-finder-dialog-box.html"
+  - title: Filters window
+    url: "/help/reference-filters-window.html"
+    entries:
+    - title: New Filter dialog box
+      url: "/help/reference-new-filter-dialog-box.html"
+    - title: Edit Filter dialog box
+      url: "/help/reference-edit-filter-dialog-box.html"
+    - title: Clone Filter dialog box
+      url: "/help/reference-clone-filter-dialog-box.html"
+  - title: Commands window
+    url: "/help/reference-commands-window.html"
+    entries:
+    - title: New Command Definition dialog box
+      url: "/help/reference-new-command-definition-dialog-box.html"
+    - title: Edit Command Definition dialog box
+      url: "/help/reference-edit-command-definition-dialog-box.html"
+    - title: Clone Command Definition dialog box
+      url: "/help/reference-clone-command-definition-dialog-box.html"
+  - title: Functions window
+    url: "/help/reference-functions-window.html"
+  - title: Templates window
+    url: "/help/reference-templates-window.html"
+    entries:
+    - title: New Template dialog box
+      url: "/help/reference-new-template-dialog-box.html"
+    - title: Edit Template dialog box
+      url: "/help/reference-edit-template-dialog-box.html"
+    - title: Clone Template dialog box
+      url: "/help/reference-clone-template-dialog-box.html"
+  - title: Schemes window
+    url: "/help/reference-schemes-window.html"
+  - title: Dictionary window
+    url: "/help/reference-dictionary-window.html"
+    entries:
+    - title: New Dictionary Entry dialog box
+      url: "/help/reference-new-dictionary-entry-dialog-box.html"
+    - title: Edit Dictionary Entry dialog box
+      url: "/help/reference-edit-dictionary-entry-dialog-box.html"
+    - title: Clone Dictionary Entry dialog box
+      url: "/help/reference-clone-dictionary-entry-dialog-box.html"
+  - title: Data Source Types window
+    url: "/help/reference-data-source-types-window.html"
+  - title: Remote System Types window
+    url: "/help/reference-remote-system-types-window.html"
+    entries:
+    - title: New Remote System Type dialog box
+      url: "/help/reference-new-remote-system-type-dialog-box.html"
+    - title: Edit Remote System Type dialog box
+      url: "/help/reference-edit-remote-system-type-dialog-box.html"
+  - title: Cache Queries window
+    url: "/help/reference-cache-queries-window.html"
+    entries:
+    - title: Add Cache Query dialog box
+      url: "/help/reference-add-cache-query-dialog-box.html"
+    - title: Edit Cache Query dialog box
+      url: "/help/reference-edit-cache-query-dialog-box.html"
+    - title: Clone Cache Query dialog box
+      url: "/help/reference-clone-cache-query-dialog-box.html"
+  - title: Packs window
+    url: "/help/reference-packs-window.html"
+    entries:
+    - title: New Pack dialog box
+      url: "/help/reference-new-pack-dialog-box.html"
+    - title: Edit Pack dialog box
+      url: "/help/reference-edit-pack-dialog-box.html"
+  - title: Categories window
+    url: "/help/reference-categories-window.html"
+    entries:
+    - title: New Category dialog box
+      url: "/help/reference-new-category-dialog-box.html"
+    - title: Edit Category dialog box
+      url: "/help/reference-edit-category-dialog-box.html"
+    - title: Clone Category dialog box
+      url: "/help/reference-clone-category-dialog-box.html"
+  - title: Storage Automation Store window
+    url: "/help/reference-wfa-store-window.html"

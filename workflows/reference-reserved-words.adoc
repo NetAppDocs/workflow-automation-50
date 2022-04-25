@@ -1,0 +1,92 @@
+---
+permalink: workflows/reference-reserved-words.html
+sidebar: sidebar
+keywords: reserved, words
+summary: "OnCommand Workflow Automation (WFA) includes some reserved words. You must not use the reserved words in workflows for any attribute or parameters such as variable names, user input, constants, and return parameters."
+---
+= Reserved words
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+OnCommand Workflow Automation (WFA) includes some reserved words. You must not use the reserved words in workflows for any attribute or parameters such as variable names, user input, constants, and return parameters.
+
+The following is a list of the reserved words in WFA:
+[cols="3*"]
+|===
+a|
+
+* and
+* Array
+* assert
+* Boolean
+* boolean
+* Byte
+* byte
+* char
+* Character
+* CharSequence
+* Class
+* ClassLoader
+* Compiler
+* contains
+* convertable_to
+* def
+* do
+* Double
+* double
+* else
+* empty
+* false
+
+a|
+
+* Float
+* float
+* for
+* foreach
+* function
+* if
+* import
+* import_static
+* in
+* instanceof
+* int
+* Integer
+* is
+* isdef
+* Long
+* long
+* Math
+* new
+* null
+* Number
+* Object
+* or
+
+a|
+
+* proto
+* return
+* Runtime
+* SecurityManager
+* Short
+* short
+* soundslike
+* StrictMath
+* String
+* StringBuffer
+* StringBuilder
+* strsim
+* switch
+* System
+* Thread
+* ThreadLocal
+* true
+* until
+* var
+* Void
+* while
+* with
+
+|===

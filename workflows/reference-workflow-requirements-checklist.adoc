@@ -1,0 +1,170 @@
+---
+permalink: workflows/reference-workflow-requirements-checklist.html
+sidebar: sidebar
+keywords: sample, workflow, requirements, checklist
+summary: "A workflow requirements checklist includes detailed requirements—such as commands, user input, and resources—for a planned workflow. You can use the checklist to plan your workflows and identify the gaps in the requirements."
+---
+= Sample workflow requirements checklist
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A workflow requirements checklist includes detailed requirements--such as commands, user input, and resources--for a planned workflow. You can use the checklist to plan your workflows and identify the gaps in the requirements.
+
+== Requirements checklist example
+
+The following sample workflow requirements checklist lists the requirements for the "`Create a Clustered Data ONTAP Volume`" workflow. You can use this sample checklist as a template to list your workflow requirements.
+
+*Workflow details*
+[cols="2*",options="header"]
+|===
+a|
+Requirement
+a|
+Description
+a|
+Workflow name
+a|
+Create a Clustered Data ONTAP Volume
+a|
+Category
+a|
+Storage provisioning
+a|
+Description
+a|
+The workflow creates a new volume in a specific SVM. This workflow is meant for a scenario where a volume is provisioned and delegated for later usage.
+a|
+High-level description of how the workflow works
+a|
+* The SVM that contains the volume is specified by the user (cluster, SVM names).
+* A volume is created based on the specified size.
+* The configuration of the volume is described in a template.
+a|
+Details
+a|
+* Use the *Create CM Volume* command
+* Command details for *Create CM Volume*:
+ ** Execution is set as always
+ ** Volume details are specified by filling in attributes for the volume
+ ** Use the *Space Guaranteed Settings* template for configuring the volume
+ ** Volume name and size are provided by user.
+
+The volume will be mounted in the SVM namespace as /volname (under the root namespace).
+
+ ** Use the *actualVolumeSize* function because the snap reserve will be 5%.
+ ** SVM reference is defined with the following resource selection logic:
+  *** CM SVM by key -- searches for SVM by name and the cluster, which is provided by the user
+  *** CM SVM by type -- only data SVMs (type = cluster)
+  *** SVM by state -- (state = running)
+ ** Aggregate reference is defined with the resource selection logic as a predefined finder (CM Aggregate by space thresholds and RAID Type):
+  *** CM Aggregate by available capacity (capacity = size of volume to be provisioned, cluster given by user)
+  *** CM Aggregate by delegation to SVM
+  *** CM Aggregate by RAID Type (RAID-DP)
+  *** CM Aggregate not aggr0
+  *** CM Aggregate by used size % (threshold = 90, spaceToBeProvisioned = size provided, since guarantee is volume)
+  *** CM Aggregate by over commitment (threshold = 300, spaceToBeAllocated = Size of volume being provisioned)
+  *** Select the aggregate with maximum free space
+|===
+
+*User inputs*
+[cols="25h,25h,~",options="header"]
+|===
+| Name| Type| Description (data values, validation, and so on)
+a|
+Cluster
+a|
+Locked query (tabular)
+a|
+
+* Cluster hosting the SVM
+* Query can be tabular display with primary address and name of the cluster
+* Sort alphabetically by name
+
+a|
+SVM
+a|
+Locked query
+a|
+
+* SVM in which the volume is provisioned
+* Query should only display SVM names belonging to the cluster chosen in the previous input
++
+Show only cluster type SVMs, not admin or node (type column of cm_storage.vserver)
+
+* Sort alphabetically
+
+a|
+Volume
+a|
+String
+a|
+
+* Name of the volume to be created
+
+a|
+Size in GB
+a|
+Integer
+a|
+
+* Size of the volume to be provisioned
+* Data size (snap reserve should be considered)
+
+|===
+*Commands*
+[cols="3*",options="header"]
+|===
+| Name| Description| Status
+a|
+Create CM Volume
+a|
+Creates a volume in the SVM
+a|
+Existing
+|===
+*Return parameters*
+[cols="2*",options="header"]
+|===
+| Name| Value
+a|
+Volume name
+a|
+Name of the provisioned volume
+a|
+Aggregate name
+a|
+Name of the selected aggregate
+a|
+Node name
+a|
+Name of the node
+a|
+Cluster name
+a|
+Name of the cluster
+|===
+*Gaps and issues*
+[cols="2*", cols="5, 25"]
+|===
+a|
+1.
+a|
+
+a|
+2.
+a|
+
+a|
+3.
+a|
+
+a|
+4.
+a|
+
+a|
+5.
+a|
+
+|===

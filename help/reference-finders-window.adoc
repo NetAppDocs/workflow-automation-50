@@ -1,0 +1,152 @@
+---
+permalink: help/reference-finders-window.html
+sidebar: sidebar
+keywords: finders window
+summary: "The Finders window displays the available finders in alphabetical order. You can access this window by selecting Designer > Finders."
+---
+= Finders window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Finders window displays the available finders in alphabetical order. You can access this window by selecting *Designer* > *Finders*.
+
+NOTE: Depending on your role and account privileges, this window might not be displayed.
+
+A finder is a search operation for locating resources. A finder consists of filtering rules that remove irrelevant resources. Finders search for information about WFA objects in the WFA-cached repositories.
+
+* Finders table
+* Toolbar
+
+== Finders table
+
+The Finders table lists the available finders.
+
+Each entry is identified as one of the following:
+
+* No icon - content created by users
+* image:../media/ps_certified_icon_wfa.gif[] - content developed by Professional Services (PS), which is available only on custom installations made by PS
+* image:../media/community_certification.gif[] - packs developed by users
+* image:../media/lock_icon_wfa.gif[] - content created by users that is locked
+* image:../media/netapp_certified.gif[] - NetApp-certified content
+
+You can customize the table display by using the filtering and sorting features available for each column, as well as by rearranging the column order.
+
+* image:../media/filter_icon_wfa.gif[Filter icon] enables or disables filtering for the entire table. A red "x" appears over the icon if filtering is disabled.
+* Double-clicking image:../media/filter_icon_wfa.gif[Filter icon] clears and resets the filtering selections.
+* image:../media/wfa_filter_icon.gif[Filter icon] on each column header enables you to filter based on the content of the columns. Clicking image:../media/wfa_filter_icon.gif[Filter icon] in a column allows you to filter on a specific item from the drop-down list or on all available items.
+* Clicking the column header toggles between ascending and descending order of sorting. You can identify the applied sort order by the sort arrows (image:../media/wfa_sortarrow_up_icon.gif[Sort up icon] for ascending and image:../media/wfa_sortarrow_down_icon.gif[Sort down icon] for descending).
+* To rearrange the location of columns, you can drag and drop columns to place them in any required order. However, you cannot hide or delete any of these columns.
+* Clicking the *Search* filter text box allows you to search for specific content. In addition, you can search using supported operators for the applicable column type, Alphabetic or Numeric.
+
+The Finders table contains the following columns:
+
+* *Certification*
++
+Indicates whether the finder is user-created (no icon, empty cell), PS (image:../media/ps_certified_icon_wfa.gif[]), community (image:../media/community_certification.gif[]), user-locked (image:../media/lock_icon_wfa.gif[]), or NetApp-certified (image:../media/netapp_certified.gif[]).
++
+You can search for finders by selecting the required check boxes from the filter list.
+
+* *Name*
++
+Displays the name of the finder.
++
+You can search for a finder by entering its name in the Search filter text box.
+
+* *Scheme*
++
+Displays the scheme associated with the finders. A scheme represents the data model for a system. For example, a vc scheme contains data relevant to your virtual environment, such as virtual machines, hosts, and datastores.
++
+You can search for a finder by entering its scheme in the Search filter text box.
+
+* *Type*
++
+Displays the dictionary object type of the finder (for example, aggregate array or CIFS).
++
+You can search for finders by entering the type in the Search filter text box.
+
+* *Entity Version*
++
+Displays the version number of the object in major.minor.revision format--for example, 1.0.0.
++
+You can search for a finder by entering the version number in the Search filter text box.
+
+* *Description*
++
+Displays the description of the finder.
++
+You can search for a finder by entering its description in the Search filter text box.
+
+* *Last Updated On*
++
+Displays the date and time when the finder was last updated.
++
+You can search for finders by selecting the time category from the filter drop-down list.
+
+* *Updated By*
++
+Displays the user who updated the finder.
++
+You can search for finders by entering the user name in the Search filter text box.
+
+* *Locked By*
++
+Displays the user who locked the finder.
++
+You can search for finders by entering the user name in the Search filter text box.
+
+== Toolbar
+
+The toolbar is located above the column header. You can use the icons in the toolbar to perform various actions. These actions can also be accessed from the right-click menu in the window.
+
+* *image:../media/new_wfa_icon.gif[New icon] (New)*
++
+Opens the New Finder window, which enables you to create a finder.
+
+* *image:../media/edit_wfa_icon.gif[Edit icon] (Edit)*
++
+Opens the Finder <finder_name> window for the selected finder, which enables you to edit the finder.
++
+You can also double-click the finder to open the Edit Finder window.
+
+* *image:../media/clone_wfa_icon.gif[Clone icon] (Clone)*
++
+Opens the New Finder <finder_name> - copy window, which enables you to create a copy of the selected finder.
+
+* *image:../media/lock_wfa_icon.gif[Lock icon] (Lock)*
++
+Opens the Lock Finder confirmation dialog box, which enables you to lock the selected finder.
+
+* *image:../media/unlock_wfa_icon.gif[Unlock icon] (Unlock)*
++
+Opens the Unlock Finder confirmation dialog box, which enables you to unlock the selected finder.
++
+This option is enabled only for the finders that you have locked. Administrators can unlock finders that were locked by other users.
+
+* *image:../media/delete_wfa_icon.gif[Delete icon] (Delete)*
++
+Opens the Delete Finder confirmation dialog box, which enables you to delete the selected user-created finder.
++
+NOTE: You cannot delete a WFA finder, PS finder, or sample finder.
+
+* *image:../media/export_wfa_icon.gif[Export icon] (Export)*
++
+Enables you to export the selected user-created finder.
++
+NOTE: You cannot export a WFA finder, PS finder, or sample finder.
+
+* *image:../media/test_wfa_icon.gif[test icon] (Test)*
++
+Opens the Test Finder dialog box, which enables you to test the selected finder.
+
+* *image:../media/add_to_pack.png[add to pack icon] (Add To Pack)*
++
+Opens the Add To Pack Finders dialog box, which enables you to add the finder and its dependable entities to a pack, which is editable.
++
+NOTE: The Add To Pack feature is enabled only for finders for which the certification is set to None.
+
+* *image:../media/remove_from_pack.png[remove from pack icon] (Remove From Pack)*
++
+Opens the Remove From Pack Finders dialog box for the selected finder, which enables you to delete or remove the finder from the pack.
++
+NOTE: The Remove From Pack feature is enabled only for finders for which the certification is set to None.

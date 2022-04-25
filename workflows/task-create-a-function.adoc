@@ -1,0 +1,63 @@
+---
+permalink: workflows/task-create-a-function.html
+sidebar: sidebar
+keywords: create, function
+summary: "You can create a WFA function that can be used as a utility, if there is no predefined WFA function that is suitable for your task."
+---
+= Create a function
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create a WFA function that can be used as a utility, if there is no predefined WFA function that is suitable for your task.
+
+.What you'll need
+
+You must know MVFLEX Expression Language (MVEL) syntaxes to create a function.
+
+.About this task
+
+You must include the following for the function definitions:
+
+* Name: name of the function
++
+You must not use a reserved word in MVEL syntax. Each function must have a unique name.
+
+* MVEL definition: a string specifying the MVEL syntax of the function definition
+
+.Steps
+. Click *Designer* > *Functions*.
+. Click image:../media/new_wfa_icon.gif[New icon] on the toolbar.
+. In the *New Function* dialog box, enter or select the required details in the *Function description* and *Function definition* fields.
++
+*Example*
++
+----
+def actualVolumeSize(data_size, snap_pct)
+{
+   if (snap_pct < 0 ) {
+        snap_pct = 0;
+   } else if (snap_pct > 99) {
+        snap_pct = 99;
+   }
+
+   div = 1 - (snap_pct/100);
+   return (int)(data_size/div);
+}
+----
++
+The *Function name* field is populated from the data that is used in the MVEL syntax.
+
+. *Optional:* Click *Test* to test the function:
+ .. In the *Expression* section of the *Test* dialog box, enter the required expression of function.
++
+*Example*
++
+`actualVolumeSize(600, 1)`
+
+ .. Click *Test*.
++
+The test result is displayed.
+
+ .. Close the dialog box.
+. Click *Save*.
