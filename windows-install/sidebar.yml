@@ -140,7 +140,7 @@ entries:
       - title: Back up (regular) the WFA database using the CLI
         url: "/windows-install/task-back-up-regular-the-wfa-database-using-perl-script-linux.html"
     - title: Backing up the WFA database using REST APIs
-      pdf-filename: Backing up the WFA database using REST APIs Linux
+      pdf-filename: Backing up the WFA database using REST APIs Windows
       url: "/windows-install/concept-backing-up-the-wfa-database-using-rest-apis.html"
       entries:
       - title: Perform a full backup of the WFA database using REST APIs
