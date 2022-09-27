@@ -23,13 +23,49 @@ homepage:
       links:
         - title: Release Notes
           url: reference-releasenotes.html
-    - title: Install and setup
+    - title: Install and setup on Linux systems
       links:
-        - title: Install OnCommand Workflow Automation on Linux systems
-          url: rhel-install/concept-oncommand-workflow-automation-installation-and-configuration-instructions.html
+        - title: System requirements for installing OnCommand Workflow Automation
+          url: rhel-install/reference-system-requirements-for-oncommand-workflow-automation-linux.html
+        - title: Manage high availability
+          url: rhel-install/concept-managing-high-availability.html
+        - title: Set up OnCommand Workflow Automation
+          url: rhel-install/concept-set-up-oncommand-workflow-automation.html
+        - title: Back up the OnCommand Workflow Automation database
+          url: rhel-install/reference-backing-up-of-the-oncommand-workflow-automation-database.html
+        - title: Restore the OnCommand Workflow Automation database
+          url: rhel-install/concept-restoring-the-wfa-database.html
+        - title: Uninstall OnCommand Workflow Automation
+          url: rhel-install/task-uninstall-oncommand-workflow-automation-linux.html
+        - title: Troubleshoot installation and configuration issues
+          url: rhel-install/reference-troubleshooting.html
+    - title: Install and setup on Windows systems
+      links:
+        - title: System requirements for installing OnCommand Workflow Automation
+          url: windows-install/reference-system-requirements-for-oncommand-workflow-automation-windows.html
         - title: Install OnCommand Workflow Automation on Windows
-          url: windows-install/concept-oncommand-workflow-automation-installation-and-configuration-instructions.html
+          url: windows-install/task-install-workflow-automation-on-windows.html
+        - title: Set up OnCommand Workflow Automation
+          url: windows-install/concept-setting-up-oncommand-workflow-automation.html
+        - title: Back up the OnCommand Workflow Automation database
+          url: windows-install/reference-backing-up-of-the-oncommand-workflow-automation-database.html
+        - title: Restore the OnCommand Workflow Automation database
+          url: windows-install/concept-restoring-the-wfa-database.html
+        - title: Uninstall OnCommand Workflow Automation
+          url: windows-install/task-uninstall-oncommand-workflow-automation.html
+        - title: Troubleshoot installation and configuration issues
+          url: windows-install/reference-troubleshooting.html
     - title: Build and manage workflows
       links:
         - title: Managing workflows
           url: workflows/concept-managing-workflows.html
+    - title: More resources
+      links:
+        - title:
+          url:
+        - title:
+          url:
+        - title:
+          url:
+        - title:
+          url: 
