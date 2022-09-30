@@ -61,11 +61,7 @@ homepage:
           url: workflows/concept-managing-workflows.html
     - title: More information
       links:
-        - title:
-          url:
-        - title:
-          url:
-        - title:
-          url:
-        - title:
-          url:
+        - title: NetApp community
+          url: http://community.netapp.com/t5/OnCommand-Storage-Management-Software-Articles-and-Resources/tkb-p/oncommand-storage-management-software-articles-and-resources/label-name/workflow%20automation%20%28wfa%29?labels=workflow+automation+%28wfa%29[^]
+        - title: Interoperability Matrix
+          url: http://mysupport.netapp.com/matrix/[^]
